@@ -1,0 +1,183 @@
+\documentclass[20pt,a4paper]{report}
+\usepackage[dvips]{graphicx}           
+\usepackage[portuges]{babel}           
+\usepackage{color}            
+\usepackage[latin1]{inputenc}           
+\usepackage[normalem]{ulem}
+\setlength{\textwidth}{160mm}
+\setlength{\textheight}{220mm}
+\setlength{\topmargin}{-8pt}
+\setlength{\oddsidemargin}{0mm}
+\usepackage{amsmath,amsfonts}
+\usepackage{enumitem}% http://ctan.org/pkg/enumitem
+
+\begin{document}
+
+  \begin{minipage}[b]{0.1 \linewidth}
+     \includegraphics[width=.9cm]{ufs_vertical_positiva.png}
+  \end{minipage}\hfill	
+  \begin{minipage}[b]{0.85 \linewidth}
+	       \textsc{\large Universidade Federal de Sergipe}\\
+	       \textsc{\large Departamento de Estatística e Ciências Atuariais}\\
+	       Disciplina: ESTAT0072 -- Probabilidade I\\
+	       Professor: Sadraque E. F. Lucena
+\end{minipage}
+
+\vspace{0.8cm}
+\begin{center} {\bf Lista de Exercícios 10} \end{center}
+\vspace{0.8cm}
+
+	\begin{enumerate}[label=10.\arabic*)]
+		\item Considere $X\sim\text{Binomial}(6; 0,25)$. Calcule
+		\begin{enumerate}
+			\item $P(X=4)$
+			\item $P(2\leq X\leq 3)$
+			\item $P(X\geq1)$
+		\end{enumerate}
+		
+		\item Considere $X\sim\text{Binomial}(10; 0,3)$. Calcule
+		\begin{enumerate}
+			\item $P(X=9)$
+			\item $P(X=0)$
+			\item $P(X\leq 5)$
+			\item $E(X)$
+			\item $Var(X)$
+		\end{enumerate}
+		
+		\item Uma moeda não viesada é lançada oito vezes. Qual a probabilidade de obter
+		\begin{enumerate}
+			\item menos de 4 caras.
+			\item mais de cinco caras?
+			\item Qual o número de caras esperado?
+		\end{enumerate}
+		
+		\item Um tetraedro regular tem três faces brancas e uma face vermelha. Ele é rolado quatro vezes e a cor da face inferior é anotada. Qual é o número mais provável de vezes que a face vermelha ficará voltada para baixo?
+		
+		\item Se a probabilidade de que João acerte o alvo com um arco e flecha é 0,2 e a probabilidade para Maria é 0,4, quem é mais provável de acertar o alvo 3 vezes se João faz dez tentativas e Maria faz cinco?
+		
+		% tirado do livro Walpole et al. Probabilidade & Estatística para Engenharia e Ciências. Exercício 5.31
+		%\item Uma dona de casa planta seis bulbos selecionados aleatoriamente de uma caixa com seis bulbos de tulipas e quatro bulbos de narcisos. Qual é a probabilidade de que ela tenha plantado dois narcisos e quatro tulipas?
+		
+		% tirado do livro Walpole et al. Probabilidade & Estatística para Engenharia e Ciências. Exemplo 5.33
+		%\item Um comitê aleatório de tamanho três é selecionado de quatro médicos e duas enfermeiras. Determine a probabilidade de que haja dois ou três médicos nesse comitê. 
+		
+		% tirado do livro Walpole et al. Probabilidade & Estatística para Engenharia e Ciências. Exercício 5.39
+		%\item Se uma pessoa recebe 13 cartas de um baralho comum com 52 cartas, quantas cartas de copas são esperadas?
+		
+		% tirado do livro Walpole et al. Probabilidade & Estatística para Engenharia e Ciências. Exercício 5.41
+		%\item Um processo de anexação contra uma subdivisão de um município com 1.200 moradores está sendo considerado por uma cidade vizinha. Se os ocupantes de metade das residências opõem-se a serem anexados, qual é a probabilidade de que, em uma amostra aleatória de dez, pelo menos três sejam a favor da anexação?
+		
+		% tirado do livro Walpole et al. Probabilidade & Estatística para Engenharia e Ciências. Exercício 5.43
+		%\item Uma pesquisa com 17.000 idosos dos Estados Unidos, realizada pela Universidade de Michigan, revelou que quase 70\% aprovam o uso diário de maconha. Se 18 desses idosos são selecionados aleatoriamente e são pedidas suas opiniões, qual é a probabilidade de que mais de nove e menos de 14 aprovem o uso de maconha?
+		
+		
+		\item Um agente vende apólices de seguro de vida para cinco pessoas de mesma idade e saudáveis. De acordo com dados recentes, a probabilidade de uma pessoa vivendo nessas condições por 30 anos ou mais é de 2/3. Calcule a probabilidade de que após 30 anos:
+		\begin{enumerate}
+			\item Todas as cinco pessoas ainda estejam vivas.
+			\item Pelo menos três pessoas ainda estejam vivas.
+			\item Exatamente duas pessoas ainda estejam vivas.
+		\end{enumerate}
+		
+		\item Um laboratório farmacêutico afirma que um medicamento causa efeitos colaterais negativos em 3 de cada 100 pacientes. Para confirmar essa afirmação, outro laboratório escolhe 5 pessoas aleatoriamente que consumiram o medicamento. Qual é a probabilidade dos seguintes eventos?
+		\begin{enumerate}
+			\item Nenhum dos cinco pacientes experimentar efeitos colaterais.
+			\item Pelo menos dois experimentarem efeitos colaterais.
+			\item Qual é o número médio de pacientes que o laboratório deve esperar experimentar efeitos colaterais se escolher 100 pacientes aleatoriamente?
+		\end{enumerate}
+		
+		\item 12\% de todos os carros na Brighton Expressway excedem o limite de velocidade. Se 10 veículos nesta estrada forem selecionados aleatoriamente e sua velocidade for registrada por radar, encontre a probabilidade de que:
+		\begin{enumerate}
+			\item Nenhum deles esteja excedendo o limite de velocidade.
+			\item 1 ou 2 estejam excedendo o limite de velocidade.
+			\item Qual o número esperado de carros que excedam o limite?
+		\end{enumerate}
+		
+		\item Suponha que 73\% de todas as pessoas que fazem um exame de certificação profissional passem no exame. Se 12 pessoas que fazem este exame forem selecionadas aleatoriamente, encontre a probabilidade de que:
+		\begin{enumerate}
+			\item Exatamente metade delas passe no exame.
+			\item Todas elas passem no exame.
+			\item 8 ou 9 delas passem no exame.
+			\item Espera-se que quantas pessoas passem no exame?
+		\end{enumerate}
+		
+		\item 30\% dos clientes do Atacadão pagam em dinheiro por suas compras. Suponha que 15 clientes sejam selecionados aleatoriamente. Encontre a probabilidade de que:
+		\begin{enumerate}
+			\item 5 ou 6 deles paguem em dinheiro.
+			\item No máximo 1 pague em dinheiro.
+			\item Espera-se que quantos clientes paguem em dinheiro?
+		\end{enumerate}
+	\end{enumerate}
+	
+	\newpage
+	
+	\noindent Respostas:
+	
+	\begin{enumerate}[label=10.\arabic*)]
+		
+		\item \begin{enumerate}
+			\item 0,0330
+			\item 0,4285
+			\item 0,8220
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 0,0001
+			\item 0,0282
+			\item 0,1502
+			\item 3
+			\item 2,1
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 0,3633
+			\item 0,1445
+			\item 4
+		\end{enumerate}
+		
+		\item 1
+		
+		\item Maria
+		
+		%\item 5/14
+		
+		%\item 4/5
+		
+		%\item 3,25
+		
+		%\item 0,9453
+		
+		%\item 0,6077
+		
+		\item \begin{enumerate}
+			\item 0,1317
+			\item 0,7901
+			\item 0,1646
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 0,8587
+			\item 0,0085
+			\item 3
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 0,2785
+			\item 0,6128
+			\item 1,2
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 0,0542
+			\item 0,0229
+			\item 0,4671
+			\item 8,76
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 0,3533
+			\item 0,0352
+			\item 4,5
+		\end{enumerate}
+	\end{enumerate}
+	
+\end{document}

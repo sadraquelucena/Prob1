@@ -1,0 +1,189 @@
+\documentclass[11pt,a4paper]{report}
+\usepackage[dvips]{graphicx}           
+\usepackage[portuges]{babel}           
+\usepackage{color}            
+\usepackage[latin1]{inputenc}           
+\usepackage[normalem]{ulem}
+\setlength{\textwidth}{160mm}
+\setlength{\textheight}{220mm}
+\setlength{\topmargin}{-8pt}
+\setlength{\oddsidemargin}{0mm}
+\usepackage{amsmath,amsfonts}
+\usepackage{enumitem}% http://ctan.org/pkg/enumitem
+
+\begin{document}
+
+  \begin{minipage}[b]{0.1 \linewidth}
+     \includegraphics[width=.9cm]{ufs_vertical_positiva.png}
+  \end{minipage}\hfill	
+  \begin{minipage}[b]{0.85 \linewidth}
+	       {\large U}NIVERSIDADE {\large F}EDERAL DE {\large S}ERGIPE\\
+	       {\large D}EPARTAMENTO DE {\large E}STATÍSTICA E {\large C}IÊNCIAS {\large A}TUARIAIS\\
+	       Disciplina: Probabilidade I\\
+	       Professor: Sadraque E.F. Lucena
+\end{minipage}
+
+\vspace{0.8cm}
+\begin{center} {\bf Lista de Exercícios 4} \end{center}
+\vspace{0.8cm}
+
+	\begin{enumerate}[label=4.\arabic*)]
+		
+		\item Verifique os resultados:
+		\begin{enumerate}
+			\item $P(A\cup B \cup C) = P(A) + P(B) + P(C) - P(A\cap B) - P(A\cap C) - P(B\cap C) + P(A\cap B\cap C)$.
+			\item $P[(A\cap B^c)\cup(B\cap A^c)] = P(A) + P(B) - 2P(A\cap B)$.
+		\end{enumerate}
+		
+		\item Se cada item codificado em um catálogo começa com três letras distintas, seguida de quatro dígitos distintos e diferentes de zero, determine a probabilidade de se selecionar,
+		aleatoriamente, um desses itens com a primeira letra sendo uma vogal e o último dígito sendo par.
+		
+		\item Um par de dados é lançado e somam-se os valores observados. Determine a probabilidade de se obter:
+		\begin{enumerate}
+			\item um total de 8.
+			\item no máximo um total de 5.
+		\end{enumerate}
+		
+		\item Duas cartas são retiradas, sucessivamente, de um baralho, sem ser repostas. Qual é a probabilidade de que as duas cartas sejam maiores que 2 e menores que 8?
+		
+		\item Se três livros são selecionados aleatoriamente de uma prateleira que tem cinco romances, três livros de poemas e um dicionário, qual é a probabilidade de que:
+		\begin{enumerate}
+			\item o dicionário seja selecionado?
+			\item dois romances e um livro de poemas sejam selecionados?
+		\end{enumerate}
+		
+		\item Em uma classe de 100 formandos do ensino médio, 54 estudaram matemática, 69 estudaram história e 35 estudaram ambas as matérias. Se um desses estudantes for selecionado 		aleatoriamente, determine a probabilidade de que:
+		\begin{enumerate}
+			\item o estudante tenha estudado matemática ou história.
+			\item o estudante não tenha estudado nenhuma dessas matérias.
+			\item o estudante tenha estudado história, mas não matemática.
+		\end{enumerate}
+		
+		\item Uma amostra aleatória de 200 adultos é classificada pelo gênero e nível de instrução.
+		\begin{center}
+			\begin{tabular}{lcc}
+				\hline
+				Nível de instrução & Masculino & Feminino\\
+				\hline
+				Elementar & 38 & 45\\
+				Secundário & 28 & 50\\
+				Universitário & 22 & 17\\
+				\hline
+			\end{tabular}
+		\end{center}
+		Se uma pessoa desse grupo for escolhida aleatoriamente, determine a probabilidade de que:
+		\begin{enumerate}
+			\item a pessoa é um homem, e recebeu educação secundária.
+			\item a pessoa não tem nível universitário, e é do sexo feminino.
+		\end{enumerate}
+		
+		\item Um certo tipo de motor elétrico falha se ocorrer uma das seguintes situações: emperramento dos mancais, queima dos enrolamentos, desgaste das escovas. Suponha que o emperramento seja duas vezes mais provável do que a queima, esta sendo quatro vezes mais provável do que o desgaste das escovas. Qual será a probabilidade de que a falha seja devida a cada uma dessas circunstâncias? % Meyer: 1.15
+		
+		\item Suponha que $A$ e $B$ sejam eventos tais que $P(A)=x$, $P(B)=y$ e $P(A\cap B)=z$. Exprima cada uma das seguintes probabilidades em termos de $x$, $y$ e $z$. % meyer 11.16
+		\begin{enumerate}
+			\item $P(A^c \cup B^c)$.
+			\item $P(A^c \cap B)$.
+			\item $P(A^c \cup B)$.
+			\item $P(A^c \cap B^c)$.
+		\end{enumerate}
+		
+		\item Uma instalação é constituída de duas caldeiras e uma máquina. Admita que o evento $A$ seja que a máquina esteja em boas condições de funcionamento, enquanto os eventos $B_1$ e $B_2$ são os eventos de que a cadeira 1 e a cadeira 2 esteja em boas condições, respectivamente. O evento $C$ é que a instalação possa funcionar. Se a instalação puder funcionar sempre que a máquina e pelo menos uma das cadeiras funcionar, expresse os eventos $C$ e $C^c$, em termos de $A$, $B_1$ e $B_2$. % meyer 1.18
+		
+		\item Um mecanismo tem dois tipos de unidades: I e II. Suponha que se disponha de duas unidades do tipo I e três unidades do tipo II. Defina os eventos
+		\begin{itemize}
+			\item[$A_1$:] a unidade 1 do tipo I está funcionando adequadamente;
+			\item[$A_2$:] a unidade 2 do tipo I está funcionando adequadamente;
+			\item[$B_1$:] a unidade 1 do tipo II está funcionando adequadamente;
+			\item[$B_2$:] a unidade 2 do tipo II está funcionando adequadamente;
+			\item[$B_3$:] a unidade 3 do tipo II está funcionando adequadamente.
+		\end{itemize}
+		Admita que $C$ represente o evento ``o mecanismo funciona''. Admita que o mecanismo funcione se ao menos uma unidade do tipo I e ao menos duas unidades do tipo II funcionarem; expresse o evento $C$ em termos de $A_1$, $A_2$, $B_1$, $B_2$ e $B_3$. % meyer 1.19
+		
+		\item O seguinte grupo de pessoas está numa sala: 5 homens maiores de 21 anos; 4 homens com menos de 21 anos de idade; 6 mulheres maiores de 21 anos, e 3 mulheres menores. Uma pessoa é escolhida ao acaso. Definem-se os seguintes eventos: $A$ = \{a pessoa pe maior de 21 anos\}; $B$ = \{a pessoa é menor de 21 anos\}; $C$ = \{a pessoa é homem\}; $D$ = \{a pessoa é mulher\}. Calcule:
+		\begin{enumerate}
+			\item $P(B\cup D)$
+			\item $P(A^c \cap C^c)$ % meyer  2.1
+		\end{enumerate}
+		
+		\item Uma remessa de 1.500 arruelas contém 400 peças defeituosas e 1.100 perfeitas. Duzentas arruelas são escolhidas ao acaso (sem reposição) e classificadas.
+		\begin{enumerate}
+			\item Qual a probabilidade de que sejam encontradas exatamente 90 peças defeituosas?
+			\item Qual a probabilidade de que se encontrem ao menos 2 peças defeituosas? % meyer 2.4
+		\end{enumerate}
+		
+		\item Um lote é formado por 10 artigos bons, 4 com defeitos menores e 2 com defeitos graves. Se dois artigos forem escolhidos sem reposição, ache a probabilidade de que
+		\begin{enumerate}
+			\item ambos sejam perfeitos.
+			\item ambos terem defeitos graves.
+			\item ao menos um seja perfeito.
+			\item no máximo um seja perfeito.
+			\item ao menos um seja perfeito.
+			\item nenhum deles tenha defeitos graves.
+			\item nenhum deles seja perfeito. % meyer 2.7
+		\end{enumerate}
+	\end{enumerate}
+	
+	\newpage
+	
+	\noindent Respostas:
+	
+	\begin{enumerate}[label=4.\arabic*), start = 2]
+		\item 10/117
+		
+		\item \begin{enumerate}
+			\item 5/36
+			\item 5/18
+		\end{enumerate}
+		
+		\item 95/663
+		
+		\item \begin{enumerate}
+			\item 1/3
+			\item 5/14
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 22/25
+			\item 3/25
+			\item 17/50
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 14/39
+			\item 95/112
+		\end{enumerate}
+		
+		\item  $\frac{1}{13}$, $\frac{4}{13}$, $\frac{8}{13}$% Meyer: 1.15
+		
+		\item \begin{enumerate}
+			\item 1-z
+			\item y-z
+		\end{enumerate} % Meyer 11.16
+		
+		\item $C = A\cap (B_1\cup B_2)$\\
+		      $C^c = A^c\cup (B_1^c \cap B_2^c)$
+		
+		\item $C = (A_1 \cup A_2) \cap [(B_1\cap B_2)\cup (B_1\cap B_3) \cup (B_2\cap B_3)]$
+		
+		\item \begin{enumerate} %meyer 2.1
+			\item $\frac{13}{18}$
+			\item $\frac{1}{6}$
+		\end{enumerate}
+		
+		\item \begin{enumerate} %meyer 2.4
+			\item $\frac{\binom{400}{90}\binom{1100}{110}}{\binom{1500}{200}}$
+			\item $1-\left[ \frac{\binom{400}{0}\binom{1100}{200} + \binom{400}{1}\binom{1100}{199}}{\binom{1500}{200}} \right]$
+		\end{enumerate}
+		
+		\item \begin{enumerate} %meyer 2.7
+			\item $\frac{3}{8}$
+			\item $\frac{1}{120}$
+			\item $\frac{7}{8}$
+			\item $\frac{5}{8}$
+			\item $\frac{1}{2}$
+			\item $\frac{91}{120}$
+			\item $\frac{1}{8}$
+		\end{enumerate}
+	\end{enumerate}
+	
+\end{document}

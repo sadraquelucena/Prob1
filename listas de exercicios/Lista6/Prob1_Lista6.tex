@@ -1,0 +1,122 @@
+\documentclass[20pt,a4paper]{report}
+\usepackage[dvips]{graphicx}           
+\usepackage[portuges]{babel}           
+\usepackage{color}            
+\usepackage[latin1]{inputenc}           
+\usepackage[normalem]{ulem}
+\setlength{\textwidth}{160mm}
+\setlength{\textheight}{220mm}
+\setlength{\topmargin}{-8pt}
+\setlength{\oddsidemargin}{0mm}
+\usepackage{amsmath,amsfonts}
+\usepackage{enumitem}% http://ctan.org/pkg/enumitem
+
+\begin{document}
+
+  \begin{minipage}[b]{0.1 \linewidth}
+     \includegraphics[width=.9cm]{ufs_vertical_positiva.png}
+  \end{minipage}\hfill	
+  \begin{minipage}[b]{0.85 \linewidth}
+	       \textsc{\large Universidade Federal de Sergipe}\\
+	       \textsc{\large Departamento de Estatística e Ciências Atuariais}\\
+	       Disciplina: ESTAT0072 -- Probabilidade I\\
+	       Professor: Sadraque E. F. Lucena
+\end{minipage}
+
+\vspace{0.8cm}
+\begin{center} {\bf Lista de Exercícios 6} \end{center}
+\vspace{0.8cm}
+
+	\begin{enumerate}[label=6.\arabic*)]
+		\item A urna I contém 2 bolas brancas e 4 bolas vermelhas, enquanto a urna II contém 1 bola branca e 1 bola vermelha. Uma bola é aleatoriamente escolhida da urna I e colocada na urna II, e então uma bola é selecionada aleatoriamente da urna II. Qual é a probabilidade de que a bola selecionada da urna II seja branca?
+		
+		\item Uma biblioteca tem duas estantes de livros. A Estante 1 contém $x$ livros de ficção e $y$ livros de não ficção. A Estante 2 contém $z$ livros de ficção e $\nu$ livros de não ficção. Um livro é escolhido aleatoriamente da Estante 1 e colocado na Estante 2. Em seguida, um livro é escolhido aleatoriamente da Estante 2. Qual é a probabilidade de que o livro escolhido seja de ficção? % meyer 3.1
+		
+		\item Uma empresa de marketing digital conduz campanhas publicitárias em três redes sociais: 50\% das campanhas são no Instagram, 30\% no TikTok, e 20\% no YouTube. A probabilidade de que uma campanha seja viral é 40\% no Instagram, 60\% no TikTok, e 35\% no YouTube.
+		\begin{enumerate}
+			\item Qual é a probabilidade de que uma campanha escolhida aleatoriamente entre as feitas pela empresa tenha se tornado viral?
+			\item Se uma campanha se tornou viral, qual a probabilidade de que tenha sido no TikTok?
+		\end{enumerate}
+		
+		\item Durante uma reunião com 7 participantes, todos precisam assinar vários documentos. O secretário possui um estojo com 6 canetas, sendo 4 azuis e 2 pretas. Ao notar que precisará de uma caneta extra, ele retira uma caneta de outro estojo, que contém 1 caneta azul e 3 pretas. Sem verificar a cor da caneta retirada do outro estojo, ele a coloca no estojo que estava em sua mão e o leva para a reunião.
+		\begin{enumerate}
+			\item Na hora de distribuir as canetas, qual a probabilidade de que a primeira caneta que o secretário entrega seja azul?
+			\item Se a primeira caneta entregue foi azul, qual é a probabilidade de que essa caneta tenha vindo do outro estojo?
+		\end{enumerate}
+		
+		\item Uma pessoa está em uma cidade com três opções de rotas para chegar ao trabalho: Rota A, Rota B e Rota C. As probabilidades de escolher cada rota são 0,4 para a Rota A, 0,3 para a Rota B e 0,3 para a Rota C. As probabilidades de encontrar trânsito intenso em cada rota são 0,2 para a Rota A, 0,4 para a Rota B e 0,3 para a Rota C. Qual é a probabilidade de que essa pessoa encontre trânsito intenso ao escolher uma das rotas para ir ao trabalho?
+		
+		\item Uma pesquisa foi realizada para entender a preferência de três sabores de sorvete: chocolate, baunilha e morango. A distribuição de preferência entre os participantes foi de 40\% para chocolate, 35\% para baunilha e 25\% para morango. A probabilidade de uma pessoa comprar um sorvete de chocolate novamente é de 60\%, para baunilha é de 50\% e para morango é de 70\%. Qual é a probabilidade de que uma pessoa comprando sorvete novamente opte por comprar o mesmo sabor?
+		
+		\item Em uma cidade, há três modos principais de transporte público: ônibus, metrô e trem. A probabilidade de uma pessoa usar o ônibus é 0,5, o metrô é 0,3 e o trem é 0,2. A probabilidade de um atraso ocorrer é 0,1 para o ônibus, 0,05 para o metrô e 0,08 para o trem. Qual é a probabilidade de uma pessoa enfrentar um atraso ao utilizar o transporte público?
+		
+		\item Determinado veículo pode ter problemas mecânicos ou elétricos. Se ele tiver problemas mecânicos, não para, mas se tiver problema elétrico tem de parar imediatamente. A chance de esse veículo ter	problemas mecânicos é de 0,2. Já a chance do mesmo veículo ter problemas elétricos é de 0,15 se não houve problema mecânico precedente, e de 0,25 se houve problema mecânico precedente. %https://jesuegraciliano.wordpress.com/wp-content/uploads/2018/10/aula03-resoluc3a7c3a3o-dos-quizzes-e-exercc3adcios.pdf
+		Agora, calcule:
+		\begin{enumerate}
+			\item Qual é a probabilidade de o veículo parar em determinado dia?
+			\item Se o veículo parou em certo dia, qual a chance de que tenha havido defeito mecânico?
+			\item Qual é a probabilidade de que tenha havido defeito mecânico em determinado dia se o veículo não parou nesse dia?
+		\end{enumerate}
+		
+		\item Quando lidamos com doenças graves, é comum que médicos solicitem aos pacientes com um diagnóstico positivo em determinado exame que repitam o teste em outro laboratório para confirmar o resultado. Considerando esse cenário, imagine dois laboratórios: o Laboratório A, que detecta corretamente 80\% dos casos em indivíduos doentes e dá falsos positivos em 10\% dos indivíduos saudáveis. Já o Laboratório B detecta corretamente 70\% dos casos em indivíduos doentes e dá falsos positivos em 5\% dos indivíduos saudáveis. Suponha que a probabilidade de um indivíduo ter a doença seja de 15\% e que os resultados dos dois laboratórios sejam independentes tanto para indivíduos doentes quanto para saudáveis. %https://jesuegraciliano.wordpress.com/wp-content/uploads/2018/10/aula03-resoluc3a7c3a3o-dos-quizzes-e-exercc3adcios.pdf
+		\begin{enumerate}
+			\item Qual é a chance de um indivíduo qualquer obter resultado positivo pelos dois laboratórios?
+			\item Se um indivíduo enfermo fizer teste em somente um laboratório (considere que a chance de ser o laboratório A é igual a chance de ser o B), qual é a chance de obter resultado negativo?
+			\item Qual é a chance de um indivíduo enfermo ter sua doença detectada se fizer os testes nos dois laboratórios?
+			\item Aqui a pergunta provável poderia ser: Se 2 doentes fizerem os testes nos 2 laboratórios, qual seria a chance de a doença ser detectada em pelo menos um dos 4 exames?
+		\end{enumerate}
+		
+		\item Em dias muito frios a chance de os funcionários de uma indústria faltarem ao trabalho é de 0,06. Já em dias normais, ela é igual a 0,01. Em 1/5 dos dias faz muito frio. Qual é a probabilidade de 1 funcionário não ter faltado em um dia qualquer? %https://jesuegraciliano.wordpress.com/wp-content/uploads/2018/10/aula03-resoluc3a7c3a3o-dos-quizzes-e-exercc3adcios.pdf
+		
+		\item Em um saco existem 4 dados, dos quais 2 são normais, um deles apresenta números pares em 75\% das jogadas, e o último tem somente números pares. Escolhendo aleatoriamente um dos dados e jogando-o 2 vezes obtém-se 2 números pares. Qual é a chance de ter sido escolhido um dado normal?? %https://jesuegraciliano.wordpress.com/wp-content/uploads/2018/10/aula03-resoluc3a7c3a3o-dos-quizzes-e-exercc3adcios.pdf
+		
+		\item A urna A contém 3 bolas vermelhas e duas pretas e a urna B contém duas bolas vermelhas e 8 pretas. Joga-se uma moeda honesta. Se a moeda der cara, extrai-se uma bola da urna A; se der coroa, extrai-se uma bola da urna B. Uma bola vermelha é extraída. Qual a probabilidade de ter saído cara? % https://files.cercomp.ufg.br/weby/up/335/o/l4prob.pdf?1409527803
+	\end{enumerate}
+	
+	\newpage
+	
+	\noindent Respostas:
+	
+	\begin{enumerate}[label=6.\arabic*)]
+		
+		\item 4/9
+		
+		\item $\frac{x}{x+y}\frac{z+1}{z+\nu+1}+\frac{y}{x+y}\frac{z}{z+\nu+1}$
+		
+		\item \begin{enumerate}
+			\item 0,45
+			\item 0,40
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 17/28
+			\item 5/17
+		\end{enumerate}
+		
+		\item 0,29
+		
+		\item 0,59
+		
+		\item 0,081
+		
+		\item \begin{enumerate}
+			\item 0,17
+			\item 0,294
+			\item 0,181
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 0,08825
+			\item 0,25
+			\item 0,94
+			\item 0,9964
+		\end{enumerate}
+		
+		\item 0,98
+		
+		\item 8/33
+		
+		\item 3/4
+	\end{enumerate}
+	
+\end{document}

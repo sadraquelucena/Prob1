@@ -1,0 +1,210 @@
+\documentclass[20pt,a4paper]{report}
+\usepackage[dvips]{graphicx}           
+\usepackage[portuges]{babel}           
+\usepackage{color}            
+\usepackage[latin1]{inputenc}           
+\usepackage[normalem]{ulem}
+\setlength{\textwidth}{160mm}
+\setlength{\textheight}{220mm}
+\setlength{\topmargin}{-8pt}
+\setlength{\oddsidemargin}{0mm}
+\usepackage{amsmath,amsfonts}
+\usepackage{enumitem}% http://ctan.org/pkg/enumitem
+
+\begin{document}
+
+  \begin{minipage}[b]{0.1 \linewidth}
+     \includegraphics[width=.9cm]{ufs_vertical_positiva.png}
+  \end{minipage}\hfill	
+  \begin{minipage}[b]{0.85 \linewidth}
+	       \textsc{\large Universidade Federal de Sergipe}\\
+	       \textsc{\large Departamento de Estatística e Ciências Atuariais}\\
+	       Disciplina: ESTAT0072 -- Probabilidade I\\
+	       Professor: Sadraque E. F. Lucena
+\end{minipage}
+
+\vspace{0.8cm}
+\begin{center} {\bf Lista de Exercícios 9} \end{center}
+\vspace{0.8cm}
+
+	\begin{enumerate}[label=9.\arabic*)]
+		\item Um empresário, investindo em um determinado empreendimento, espera ter os seguintes lucros em função dos cenários ``Bom'', ``Médio'' e ``Ruim'':
+		\begin{center}
+			\begin{tabular}{ccc}
+				\hline
+				Cenário & Lucro (R\$) & Probabilidade\\
+				\hline
+				Bom & 8.000,00 & 0,25\\
+				Médio & 5.000,00 & 0,60\\
+				Ruim & 2.000,00 & 0,15\\
+				\hline
+			\end{tabular}
+		\end{center}
+		Calcule a esperança e a variância do lucro.
+		
+		% Exemplo 4.8 do Walpole et al
+		\item Seja a variável $X$ o número de automóveis usados com propósitos comerciais durante um dia de trabalho. A distribuição de probabilidade para empresa $A$ é
+		\begin{center}
+			\begin{tabular}{c|ccc}
+				\hline
+				$x$ & 1 & 2 & 3\\
+				\hline
+				$P(X=x)$ & 0,3 & 0,4 & 0,3\\
+				\hline
+			\end{tabular}
+		\end{center}
+		e para empresa $B$ é
+		\begin{center}
+			\begin{tabular}{c|ccccc}
+				\hline
+				$x$ & 0 & 1 & 2 & 3 & 4\\
+				\hline
+				$P(X=x)$ & 0,2 & 0,1 & 0,3 & 0,3 & 0,1\\
+				\hline
+			\end{tabular}
+		\end{center}
+		\begin{enumerate}
+			\item Qual a variância de cada empresa?
+			\item Qual delas tem maior variabilidade?
+		\end{enumerate}
+		
+		% Exemplo 4.9 do Walpole et al
+		\item Seja a variável aleatória $X$, o número de partes defeituosas em uma máquina quando três partes são amostradas da linha de produção e testadas. A seguir, temos a distribuição de probabilidade de $X$.
+		\begin{center}
+			\begin{tabular}{c|cccc}
+				\hline
+				$x$ & 0 & 1 & 2 & 3 \\
+				\hline
+				$P(X=x)$ & 0,51 & 0,38 & 0,10 & 0,01 \\
+				\hline
+			\end{tabular}
+		\end{center}
+		\begin{enumerate}
+			\item Calcule a esperança de $X$.
+			\item Calcule a variância de $X$.
+		\end{enumerate}
+		
+		% Exemplo 4.11 do Walpole et al
+		\item Seja $X$ uma variável aleatória com distribuição de probabilidade
+		\begin{center}
+			\begin{tabular}{c|cccc}
+				\hline
+				$x$ & 0 & 1 & 2 & 3 \\
+				\hline
+				$P(X=x)$ & $\frac{1}{4}$ & $\frac{1}{8}$ & $\frac{1}{2}$ & $\frac{1}{8}$ \\
+				\hline
+			\end{tabular}
+		\end{center}
+		Considere $Y=2X+3$.
+		\begin{enumerate}
+			\item Calcule $E(Y)$.
+			\item Calcule o desvio-padrão de $Y$, $DP(Y)$.
+		\end{enumerate}
+		
+		\item Seja $X$ uma variável aleatória tal que $E(Y)=5$ e $V(Y)=16$.
+		\begin{enumerate}
+			\item Calcule $E(Y^2)$. {\it Dica:} use a equação para o cálculo da variância.
+			\item Calcule $E(4Y -2)$.
+			\item Calcule $V(6Y+3)$.
+		\end{enumerate}
+		
+		\item Seja $X$ uma variável aleatória discreta  com $E(X)=6$ e $DP(X)=3$. Se $Y=\frac{2}{3}X -9$, quanto é $V(X)$, $E(X^2)$, $E(Y)$ e $DP(Y)$?
+		
+		\item Seja $X$ uma variável aleatória tal que $E(Y)=2$ e $V(Y)=7$. Calcule $E(Y^2)$, $E(2Y^2 - 3Y -2)$ e $V(2Y+10)$.
+		
+		\item Uma máquina do tipo caça-niqueis é composta por três discos que giram de forma independente, cada qual contendo as seguintes figuras: laranja, banana, maçã e morango. O apostador deve pagar 50 reais para jogar. Se sair 3 laranjas, ele ganha 250 reais; se sair 3 bananas, ganha 200 reais; se sair 3 maçãs, ganha 150 reais e se sair 3 morangos, ganha 100 reais; em qualquer outra situação ele perde. Seja $X$ a variável aleatória que representa o quanto o apostador ganhou ou perdeu ao final da jogada.
+		\begin{enumerate}
+			\item Em cada uma das situações, quanto o apostador ganha ou perde?
+			\item Determine a função de probabilidade de $X$.
+			\item Qual o lucro esperado de um jogador em uma jogada?
+			\item E se o jogador fizer dez jogadas?
+		\end{enumerate}
+		
+		\item A Transportadora Sadraque possui uma frota de quatro caminhões de aluguel. Sabe-se que o aluguel é feito por dia e que a distribuição diária do número $X$ de caminhões alugados é a seguinte:
+		\begin{center}
+			\begin{tabular}{l|ccccc}
+				\hline
+				$x$ & 0 & 1 & 2 & 3 & 4\\
+				\hline
+				$P(X=x)$ & 0,10 & 0,20 & 0,30 & 0,30 & 0,10\\
+				\hline
+			\end{tabular}
+		\end{center}
+		Calcule:
+		\begin{enumerate}
+			\item o número médio diário de caminhões alugados, bem como o desvio padrão.
+			\item a média e o desvio padrão do lucro diário, sabendo-se que:
+			\begin{itemize}
+				\item o valor do aluguel por dia é de R\$300,00;
+				\item a despesa total diária com manutenção de cada veículo é de R\$140,00 quando este é alugado e de R\$15,00 quando o veículo não é alugado.
+			\end{itemize}
+		\end{enumerate}
+		
+		\item A loteria Sortudinha distribui prêmios entre seus clientes da seguinte forma:
+		\begin{itemize}
+			\item 400 prêmios de R\$ 100,00;
+			\item 50 prêmios de R\$ 200,00;
+			\item 10 prêmios de R\$ 400,00.
+		\end{itemize}
+		Admitindo-se que em um concurso sejam emitidos e vendidos 10.000 bilhetes, qual o preço justo a se pagar por um bilhete?
+		
+		\item Dois jogadores fazem uma aposta. O jogador A paga R\$100,00 para o jogador B e lança duas moedas viciadas não simultaneamente. A probabilidade de sair cara na primeira moeda é 0,3 e na segunda moeda é 0,2. Se sair cara na primeira moeda, o jogador A tem o direito de lançar a segunda moeda: se sair cara, ganha R\$ 200,00 e se sair coroa, ganha R\$ 100,00. Se sair coroa na primeira moeda, A perde. Seja $X$ o lucro do jogador A. Encontre a função de distribuição de probabilidade de $X$ e o lucro esperado de A neste jogo. Calcule também o desvio padrão.
+	\end{enumerate}
+	
+	\newpage
+	
+	\noindent Respostas:
+	
+	\begin{enumerate}[label=9.\arabic*)]
+		\item R\$ 5.300,00 e R\$$^2$ 3.510.000,00
+		
+		\item \begin{enumerate}
+			\item 0,6 e 1,6
+			\item Empresa $B$.
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 0,61
+			\item 0,4979
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 6
+			\item 2
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 41
+			\item 18
+			\item 576
+		\end{enumerate}
+		
+		\item 9, 34, $-5$ e 2
+		
+		\item 11, 14 e 28
+		
+		\item \begin{enumerate}
+			\item 200, 150, 100, 50, $-50$
+			\item 1/64, 1/64, 1/64, 1/64, 15/16
+			\item $-39,06$
+			\item $-390,60$
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 2,1 e 1,1358
+			\item R\$ 307,5 e R\$ 198,76
+		\end{enumerate}
+		
+		\item R\$ 5,40
+		
+		\item 
+		\begin{tabular}{l|ccc}
+			$x$ & $-100$ & 0 & 100\\
+			\hline
+			$P(X=x)$ & 0,06 & 0,24 & 0,70
+		\end{tabular}
+		
+		$E(X)= 64\text{ reais}$ e $V(X)=59,\!1946 \text{ reais}^2$
+	\end{enumerate}
+	
+\end{document}

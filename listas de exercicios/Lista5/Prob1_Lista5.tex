@@ -1,0 +1,192 @@
+\documentclass[20pt,a4paper]{report}
+\usepackage[dvips]{graphicx}           
+\usepackage[portuges]{babel}           
+\usepackage{color}            
+\usepackage[latin1]{inputenc}           
+\usepackage[normalem]{ulem}
+\setlength{\textwidth}{160mm}
+\setlength{\textheight}{220mm}
+\setlength{\topmargin}{-8pt}
+\setlength{\oddsidemargin}{0mm}
+\usepackage{amsmath,amsfonts}
+\usepackage{enumitem}% http://ctan.org/pkg/enumitem
+
+\begin{document}
+
+  \begin{minipage}[b]{0.1 \linewidth}
+     \includegraphics[width=.9cm]{ufs_vertical_positiva.png}
+  \end{minipage}\hfill	
+  \begin{minipage}[b]{0.85 \linewidth}
+	       \textsc{\large Universidade Federal de Sergipe}\\
+	       \textsc{\large Departamento de Estatística e Ciências Atuariais}\\
+	       Disciplina: ESTAT0072 -- Probabilidade I\\
+	       Professor: Sadraque E. F. Lucena
+\end{minipage}
+
+\vspace{0.8cm}
+\begin{center} {\bf Lista de Exercícios 5} \end{center}
+\vspace{0.8cm}
+
+	\begin{enumerate}[label=5.\arabic*)]
+		\item Em um experimento para estudar a relação entre a hipertensão e os hábitos de fumo, foram coletados os seguintes dados de 180 indivíduos:
+		\begin{center}
+			\begin{tabular}{lccc}
+				\hline
+				& Não fumantes & Fumantes moderados & Fumantes intensos\\
+				\hline
+				Hipertensos & 21 & 36 & 30\\
+				Não hipertensos & 48 & 26 & 19\\
+				\hline
+			\end{tabular}
+		\end{center}
+		Se um desses indivíduos for selecionado aleatoriamente, determine a probabilidade de que:
+		\begin{enumerate}
+			\item esteja sofrendo de hipertensão, dado que é fumante intenso.
+			\item seja um não-fumante, dado que não esteja sofrendo de hipertensão.
+		\end{enumerate}
+		
+		\item A probabilidade de que um automóvel sendo abastecido com gasolina também necessite de troca de óleo é de 0,25; a probabilidade de que ele precise de um novo filtro de óleo é de 0,40; e a probabilidade de que seja necessárias tanto a troca de óleo como de filtro é de 0,14.
+		\begin{enumerate}
+			\item Se o óleo tiver sido trocado, qual é a probabilidade de que o filtro também tenha de ser trocado?
+			\item Se for preciso um novo filtro, qual é a probabilidade de que o óleo também precise ser trocado?
+		\end{enumerate}
+		
+		\item A probabilidade de que um homem casado assista a certo programa de televisão é de 0,4 e de que uma mulher casada assista é de 0,5. A probabilidade de que um homem casado assista ao programa dado que sua esposa assiste, é de 0,7. Determine a probabilidade de que:
+		\begin{enumerate}
+			\item um casal assista ao programa.
+			\item uma esposa assista ao programa, dado que seu marido assiste.
+			\item pelo menos uma pessoa do casal assista ao programa.
+		\end{enumerate}
+		
+		\item Um dado honesto é lançado duas vezes. Qual é a probabilidade condicional de que pelo menos um deles caia no 6 se os dados caírem em números diferentes? % sheldon ross 3.1 p. 132
+		
+		\item Uma turma de estatística teve a seguinte distribuição das notas finais: 4 homens e 6 mulheres foram reprovados, 8 homens e 14 mulheres foram aprovados. Para uma pessoa sorteada dessa turma, denote por $H$ se a pessoa escolhida for homem e por $A$ se a pessoa foi aprovada. Calcule
+		\begin{enumerate}
+			\item $P(A\cup H^c)$
+			\item $P(A^c\cap H^c)$
+			\item $P(A|H)$
+			\item $P(H^c|A)$
+			\item $P(H|A)$
+		\end{enumerate}
+		
+		\item Em uma equipe de trabalho, a probabilidade de que uma pessoa participe de uma reunião é de 0,21, a probabilidade de que outra pessoa participe é de 0,28, e a probabilidade de que ambas participem é de 0,15. Qual é a probabilidade de que:
+		\begin{enumerate}
+			\item pelo menos uma das pessoas participe da reunião?
+			\item a segunda pessoa participe, dado que a primeira participará?
+			\item a primeira pessoa participe, dado que a segunda não participará?
+		\end{enumerate}
+		
+		\item Em uma assembleia legislativa, a probabilidade de que um(a) parlamentar vote a favor de um projeto de lei de combate às mudanças climáticas é de 0,35, a probabilidade de que outro(a) parlamentar vote a favor é de 0,42, e a probabilidade de que ambos(as) votem a favor é de 0,25. Qual é a probabilidade de que:
+		\begin{enumerate}
+			\item pelo menos um(a) dos(as) parlamentares vote a favor do projeto de lei de combate às mudanças climáticas?
+			\item o(a) primeiro(a) parlamentar vote a favor, dado que o(a) segundo(a) votará a favor?
+			\item o(a) primeiro(a) parlamentar não vote a favor, dado que o(a) segundo(a) não votará a favor?
+		\end{enumerate}
+		
+		\item Duas bolas vão ser retiradas de uma urna que contém 2 bolas brancas, 3 pretas e 4 verdes. Qual a probabilidade de que ambas
+		\begin{enumerate}
+			\item sejam verdes?
+			\item sejam da mesma cor?
+		\end{enumerate}
+		
+		\item Uma urna contém 5 bolas brancas, 4 vermelhas e 3 azuis. Extraem-se três bolas. Determine a probabilidade de que
+		\begin{enumerate}
+			\item nenhuma seja vermelha;
+			\item exatamente uma seja vermelha;
+			\item todas sejam da mesma cor.
+		\end{enumerate}
+		
+		\item Três cartas são extraídas sem reposição de um baralho com 52 cartas. Qual a probabilidade de que a primeira carta seja um três preto, a segunda seja um número maior que 7 e a terceira seja uma letra?
+		
+		\item Duas válvulas defeituosas se misturam com duas válvulas perfeitas. As válvulas são testadas, uma a uma, até que ambas as defeituosas sejam encontradas.
+		\begin{enumerate}
+			\item Qual é a probabilidade de que a última válvula defeituosa seja encontrada no segundo teste?
+			\item Qual é a probabilidade de que a última válvula defeituosa seja encontrada no terceiro teste?
+			\item Qual é a probabilidade de que a última válvula defeituosa seja encontrada no quarto teste?
+			\item Some os números obtidos em (a), (b) e (c) acima. O resultado é surpreendente?
+		\end{enumerate} % meyer 3.2
+		
+		\item Uma urna contém 6 bolas brancas e 9 bolas pretas. Se 4 bolas devem ser selecionadas aleatoriamente sem devolução, qual é a probabilidade de que as 2 primeiras
+		bolas selecionadas sejam brancas e as 2	últimas sejam pretas? % sheldon ross 3.5 p. 132
+		
+		\item Uma urna contém inicialmente 5 bolas brancas e 7 bolas pretas. Cada vez que uma bola é selecionada, sua cor é anotada e ela é recolocada na urna juntamente com 2 outras bolas da mesma cor. Calcule a probabilidade de que % sheldon ross 3.14 p.133
+		\begin{enumerate}
+			\item as primeiras 2 bolas selecionadas sejam pretas e as 2 bolas seguintes sejam brancas;
+			\item das 4 primeiras bolas selecionadas, exatamente 2 sejam pretas.
+		\end{enumerate}
+		
+	\end{enumerate}
+	
+	\newpage
+	
+	\noindent Respostas:
+	
+	\begin{enumerate}[label=5.\arabic*)]
+		
+		\item \begin{enumerate}
+			\item 30/49
+			\item 16/31
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 0,56
+			\item 0,35
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 0,35
+			\item 0,875
+			\item 0,55
+		\end{enumerate}
+		
+		\item 1/3
+		
+		\item \begin{enumerate}
+			\item 7/8
+			\item 3/4
+			\item 2/3
+			\item 7/11
+			\item 4/11
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 0,34
+			\item 0,7143
+			\item 0,0833
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 0,52
+			\item 0,5952
+			\item 0,8276
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 1/6
+			\item 5/18
+		\end{enumerate}
+		
+		\item \begin{enumerate}
+			\item 14/55
+			\item 28/55
+			\item 3/44
+		\end{enumerate}
+		
+		\item 1/221
+		
+		\item \begin{enumerate}
+			\item 1/6
+			\item 1/3
+			\item 1/2
+		\end{enumerate}
+		
+		\item 6/91
+		
+		\item \begin{enumerate}
+			\item 35/768
+			\item 210/768
+		\end{enumerate}
+		
+	\end{enumerate}
+	
+\end{document}

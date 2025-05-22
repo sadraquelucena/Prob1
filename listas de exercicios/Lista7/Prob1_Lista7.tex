@@ -1,0 +1,97 @@
+\documentclass[20pt,a4paper]{report}
+\usepackage[dvips]{graphicx}           
+\usepackage[portuges]{babel}           
+\usepackage{color}            
+\usepackage[latin1]{inputenc}           
+\usepackage[normalem]{ulem}
+\setlength{\textwidth}{160mm}
+\setlength{\textheight}{220mm}
+\setlength{\topmargin}{-8pt}
+\setlength{\oddsidemargin}{0mm}
+\usepackage{amsmath,amsfonts}
+\usepackage{enumitem}% http://ctan.org/pkg/enumitem
+
+\begin{document}
+
+  \begin{minipage}[b]{0.1 \linewidth}
+     \includegraphics[width=.9cm]{ufs_vertical_positiva.png}
+  \end{minipage}\hfill	
+  \begin{minipage}[b]{0.85 \linewidth}
+	       \textsc{\large Universidade Federal de Sergipe}\\
+	       \textsc{\large Departamento de Estatística e Ciências Atuariais}\\
+	       Disciplina: ESTAT0072 -- Probabilidade I\\
+	       Professor: Sadraque E. F. Lucena
+\end{minipage}
+
+\vspace{0.8cm}
+\begin{center} {\bf Lista de Exercícios 7} \end{center}
+\vspace{0.8cm}
+
+	\begin{enumerate}[label=7.\arabic*)]
+		\item Na tabela abaixo, os números que aparecem são probabilidades relacionadas com a ocorrência de $A$, $B$, $A \cap B$ etc. Assim, $P(A) = 0,\!10$, enquanto $P(A \cap B) = 0,\!04$.
+		
+		\begin{center}
+			\begin{tabular}{c|c|c|c}
+				\hline
+				& $B$ & $B^c$ & Total\\
+				\hline
+				$A$ & 0,04 & 0,06 & 0,10\\
+				$A^c$ & 0,08 & 0,82 & 0,90\\
+				\hline
+				Total & 0,12 & 0,88 & 1,00\\
+				\hline
+			\end{tabular}
+		\end{center}
+		Verifique se $A$ e $B$ são independentes.
+		
+		\item As probabilidades de três motoristas serem capazes de guiar até em casa com segurança, depois de beber, são de 1/3, 1/4 e 1/5, respectivamente. Se decidirem guiar até em casa, depois de beber numa festa,
+		\begin{enumerate}
+			\item qual a probabilidade de todos os três motoristas sofrerem acidentes?
+			\item Qual a probabilidade de pelo menos um dos motoristas guiar até em casa a salvo?
+		\end{enumerate}
+		
+		\item Lance uma moeda duas vezes e considere os eventos: A: cara no primeiro lançamento, B: cara no segundo lançamento e C: faces diferentes nos dois lançamentos. Mostre que A, B e C são mutuamente independentes, mas não totalmente independentes. % https://files.cercomp.ufg.br/weby/up/335/o/l4prob.pdf?1409527803
+		
+		\item Jogue um dado honesto duas vezes. Considere os eventos: A: o resultado do primeiro lançamento é par, B: o resultado do segundo lançamento é par e C: a soma dos resultados é par. % https://files.cercomp.ufg.br/weby/up/335/o/l4prob.pdf?1409527803
+		\begin{enumerate}
+			\item Os eventos são mutuamente independentes?
+			\item São totalmente independentes?
+		\end{enumerate}
+		
+		\item Sejam $A$ e $B$ eventos de um espaço amostral $\Omega$ tais que $P(A) = \frac{1}{5}$, $P(B) = p$ e $P(A \cup B) = \frac{1}{2}$. Determine o valor de $p$ para que $A$ e $B$ sejam independentes. % https://cesad.ufs.br/ORBI/public/uploadCatalago/10161010102012Probabilidade_e_Estatistica_aula_8.pdf
+		
+		\item Solicita-se a dois estudantes, Maria e Pedro, que resolvam determinado problema. Eles trabalham na solução do mesmo independentemente, e têm, respectivamente, probabilidade 0,8 e 0,7 de resolvê-lo. % https://cesad.ufs.br/ORBI/public/uploadCatalago/10161010102012Probabilidade_e_Estatistica_aula_8.pdf
+		\begin{enumerate}
+			\item Qual é a probabilidade de que nenhum deles resolva o problema?
+			\item Qual é a probabilidade de o problema ser resolvido?
+		\end{enumerate}
+	\end{enumerate}
+	
+	\newpage
+	
+	\noindent Respostas:
+	
+	\begin{enumerate}[label=7.\arabic*)]
+		\item Não são independentes.
+		
+		\item \begin{enumerate}
+			\item 0,40
+			\item 0,60
+		\end{enumerate}
+		
+		\setcounter{enumi}{3} % pula o item 7.3
+		
+		\item  \begin{enumerate}
+			\item Sim
+			\item Não
+		\end{enumerate}
+		
+		\item 3/8
+		
+		\item \begin{enumerate}
+			\item 0,06
+			\item 0,94
+		\end{enumerate}
+	\end{enumerate}
+	
+\end{document}

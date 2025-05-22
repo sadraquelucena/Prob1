@@ -1,0 +1,194 @@
+\documentclass[11pt,a4paper]{report}
+\usepackage[dvips]{graphicx}           
+\usepackage[brazil]{babel}           
+\usepackage{color}            
+\usepackage[latin1]{inputenc}           
+\usepackage[normalem]{ulem}
+\usepackage{enumitem}
+\usepackage{float}
+
+\usepackage[
+top    = 2.50cm,
+bottom = 2.50cm,
+left   = 2.60cm,
+right  = 2.50cm]{geometry}
+
+\usepackage{caption}
+\captionsetup[table]{name=Quadro}
+
+\usepackage[table]{xcolor} 
+\usepackage{booktabs} % para linhas na table colorida
+\setlength{\aboverulesep}{0pt}
+\setlength{\belowrulesep}{0pt}
+
+\usepackage{palatino} % fonte
+\usepackage{setspace} % espaçamento
+
+\begin{document}
+
+  \begin{minipage}[b]{0.1 \linewidth}
+     \includegraphics[width=1.25cm]{ufs_vertical_positiva.png}
+     \vspace{.2cm}
+  \end{minipage}\hfill	
+  \begin{minipage}[b]{0.85 \linewidth}
+     %\vspace{-1cm}
+     {\large U}NIVERSIDADE {\large F}EDERAL DE {\large S}ERGIPE\\
+	 {\large C}ENTRO DE {\large C}IÊNCIAS {\large E}XATAS E {\large T}ECNOLOGIA\\
+	 {\large D}EPARTAMENTO DE {\large E}STATÍSTICA E {\large C}IÊNCIAS {\large A}TUARIAIS\\
+\end{minipage}
+
+\onehalfspacing
+
+\begin{table*}[h!]
+	\rowcolors{1}{gray!20}{gray!20}
+	\renewcommand{\arraystretch}{1.5}
+	\begin{tabular}{|lp{3.5cm}p{5cm}l|}
+		\hline
+		\textbf{Componente Curricular}: & \multicolumn{3}{l|}{ESTAT0072 -- PROBABILIDADE I}\\
+		%\textbf{Carga horária:} & \multicolumn{3}{l|}{60 horas (4 créditos)}\\
+		\textbf{Carga horária:} & 60 horas (4 créditos) & \multicolumn{2}{l|}{\textbf{Horário:} \quad Terças - 20h45 às 22h15}\\
+		 & & \multicolumn{2}{l|}{\qquad\qquad\quad Quintas - 19h00 às 20h30}\\
+		\textbf{Unidade Responsável:} & \multicolumn{3}{l|}{Departamento de Estatística e Ciências Atuariais}\\
+		\textbf{Docente:} & \multicolumn{3}{l|}{Sadraque E. F. Lucena}\\
+		\textbf{Tipo de Componente:} & Disciplina & \textbf{Quantidade de Avaliações:} & 3\\
+		\textbf{Período Letivo:} & \multicolumn{3}{l|}{2025-1}\\
+		\hline
+	\end{tabular}
+\end{table*}
+
+
+\begin{itemize}[label={},itemindent=-2em,leftmargin=2em]
+\item {\bf Ementa:} Revisão básica de teoria dos conjuntos, técnicas de contagem, modelo probabilístico para um experimento aleatório, espaços de probabilidade, axiomas de Kolmogorov, probabilidade condicional e independência, função de distribuição de variáveis aleatórias discretas.
+
+\item {\bf Objetivos:} Capacitar o aluno na utilização e compreensão da teoria probabilística. Identificar e reconhecer os problemas que necessitam da utilização de distribuições de probabilidade, distribuições condicionadas, variáveis aleatórias e funções de variáveis aleatórias.
+
+\item {\bf Metodologia:} Serão ministradas aulas teóricas expositivas; utilizados recursos visuais; resolu\-ção de exercícios em sala de aula; solicitação de atividades extraclasse.
+
+\item {\bf Habilidades e Competências:} Ao final da disciplina o aluno estará apto a compreender e desenvolver a teoria relacionada às distribuições de probabilidade. O cronograma de aulas encontra-se no Quadro 1.
+
+\item {\bf Avaliação:} Serão realizadas três avaliações ao longo do semestre. Este plano de ensino permite a vinculação (ou até mesmo substituição) de uma destas avaliações por um trabalho e/ou seminário a critério do professor. Estudantes que perderem uma das provas e/ou trabalho(s), sem justificativa legal (comprovada), terá nota zero de acordo com as normas do sistema acadêmico. A avaliação substitutiva versará sobre todo o conteúdo da disciplina e qualquer estudante poderá fazê-la para substituir a nota da avaliação que faltou ou para substituir a menor nota.
+\end{itemize}
+
+\newpage
+\noindent {\bf Conteúdo:}
+\begin{enumerate}
+	\singlespacing
+	\item Modelo Probabilístico para um experimento aleatório
+	\begin{enumerate}[label*=\arabic*.]
+		\item Experimento Aleatório
+		\item Espaço Amostral
+		\item Evento
+	\end{enumerate}
+	\vspace{.3cm}
+	\item Revisão básica de teoria de conjuntos
+	\begin{enumerate}[label*=\arabic*.]
+		\item Conjuntos, elementos
+		\item Operações entre conjuntos
+	\end{enumerate}
+	\vspace{.3cm}
+	\item Técnicas de Contagem
+	\begin{enumerate}[label*=\arabic*.]
+		\item Permutação ou Arranjo simples e com repetição
+		\item Permutação Circular
+		\item Combinação simples e com repetição
+	\end{enumerate}
+	\vspace{.3cm}
+	\item Definições e espaços de Probabilidade
+	\begin{enumerate}[label*=\arabic*.]
+		\item Classes de Conjuntos: sigma-álgebra
+		\item Definições de Probabilidade
+		\item Definição frequentista
+		\item Definição Geométrica
+		\item Definição Clássica
+		\item Axiomas de Kolmogorov
+	\end{enumerate}
+	\vspace{.3cm}
+	\item Probabilidade Condicional e Independência
+	\begin{enumerate}[label*=\arabic*.]
+		\item Probabilidade condicional
+		\item Regra do Produto de Probabilidades
+		\item Lei da Probabilidade Total
+		\item Diagrama de árvore
+		\item Partição do espaço amostral
+		\item Teorema de Bayes
+		\item Independência de dois eventos
+		\item Independência de vários eventos
+	\end{enumerate}
+	\vspace{.3cm}
+	\item Variável aleatória discreta
+	\begin{enumerate}[label*=\arabic*.]
+		\item Função de distribuição de variáveis aleatórias discretas
+		\item Variável Aleatória Discreta
+		\item Função de Probabilidade e suas propriedades
+		\item Função de Distribuição ou Função Acumulada de probabilidade
+		\item Esperança e Variância de uma V.A.D.
+		\item Variável Aleatória Discreta: Bidimensional
+	\end{enumerate}
+\end{enumerate}
+
+\newpage
+\noindent {\bf Bibliografia:}\\
+
+{\it Básica:}
+\begin{itemize}
+	\item MEYER, Paul L. Probabilidade: Aplicações à Estatística. 2. ed. Livros Técnicos e Científicos Editora SA, 1983.
+	\item SPIEGEL, Murray R; SCHILLER, John J; SRINIVASAN, R. Alu. Probabilidade e estatística. 3. ed. Porto Alegre: Bookman, 2013.
+	\item DANTAS, Carlos A. B. Probabilidade: um curso introdutório. 3. ed. rev. São Paulo: EDUSP, 2008.
+	\item DEVORE, Jay L. Probabilidade e estatística: para engenharia e ciências. São Paulo, SP: Cengage Learning, 2006.
+\end{itemize}
+
+{\it Complementar:}
+\begin{itemize}
+	\item ROSS, Sheldon. Probabilidade: um curso moderno com aplicações. Bookman Editora, 2009.
+	\item WALPOLE, Ronald E.; MYERS, Raymond. H. Probabilidade e estatística para engenharia e ciências. 8. ed. São Paulo: Prentice Hall Brasil, 2009.
+\end{itemize}
+
+
+\begin{table}[H]
+	\caption{Cronograma de aulas de ESTAT0072 -- Probabilidade I para 2025-1.}
+	\rowcolors{1}{gray!20}{white}
+	\renewcommand{\arraystretch}{1.15}
+	\begin{tabular}{|c|c|c|p{10cm}|}
+		\toprule
+		\textbf{Data}	&	\textbf{Dia da Semana}	&	\textbf{Aula}	&	\textbf{Assunto Previsto}	\\
+		\midrule
+		13/05/25 & Terça & 1 & Seminário: Variabilidades na Saúde Suplementar e ferramentas de decisão \\
+		15/05/25 & Quinta & 2 & Seminário: Mecanismos de Solvência: Seguro e Resseguro \\
+		20/05/25 & Terça & 3 & Apresentação da disciplina. Introdução aos Conjuntos. \\
+		22/05/25 & Quinta & 4 & Técnicas de contagem (parte 1) \\
+		27/05/25 & Terça & 5 & Técnicas de contagem (parte 2) \\
+		29/05/25 & Quinta & 6 & Probabilidade (parte 1) \\
+		03/06/25 & Terça & 7 & Probabilidade (parte 2) \\
+		05/06/25 & Quinta & 8 & Exercícios \\
+		10/06/25 & Terça & 9 & Exercícios \\
+		12/06/25 & Quinta & 10 & Exercícios \\
+		17/06/25 & Terça & 11 & \textbf{Avaliação 1} \\
+		19/06/25 & Quinta & - & \textcolor{red}{Corpus Christi (ponto facultativo)} \\
+		24/06/25 & Terça & - & \textcolor{red}{São João (feriado municipal)} \\
+		26/06/25 & Quinta & 12 & Probabilidade Condicional \\
+		01/07/25 & Terça & 13 & Teorema da probabilidade Total \\
+		03/07/25 & Quinta & 14 & Teorema de Bayes \\
+		08/07/25 & Terça & - & \textcolor{red}{Independência de Sergipe (feriado estadual)} \\
+		10/07/25 & Quinta & 15 & Independência \\
+		15/07/25 & Terça & 16 & Exercícos \\
+		17/07/25 & Quinta & 17 & Exercícos \\
+		22/07/25 & Terça & 18 & Exercícos \\
+		24/07/25 & Quinta & 19 & \textbf{Avaliação 2} \\
+		29/07/25 & Terça & 20 & Variável Aleatória. Função de Distribuição. \\
+		31/07/25 & Quinta & 21 & Valor Esperado \\
+		05/08/25 & Terça & 22 & Variância \\
+		07/08/25 & Quinta & 23 & Distribuição de Bernoulli e Binomial \\
+		12/08/25 & Terça & 24 & Distribuição Hipergeométrica \\
+		14/08/25 & Quinta & 25 & Distribuições Geométrica e Binomial Negativa \\
+		19/08/25 & Terça & 26 & Distribuição de Poisson \\
+		21/08/25 & Quinta & 27 & Exercícos \\
+		26/08/25 & Terça & 28 & Exercícos \\
+		28/08/25 & Quinta & 29 & \textbf{Avaliação 3} \\
+		02/09/25 & Terça & 30 & \textbf{Avaliação Repositiva} \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\noindent {\bf Hora-trabalho:} Ao final de cada aula serão indicados exercícios para os alunos resolverem como forma de fixação do conteúdo exposto em sala de aula.
+
+\end{document}
