@@ -1,0 +1,15 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+# Bem-vindo(a)!
+
+Esta página foi criada pelo Prof. Dr. Sadraque E. F. Lucena para centralizar os conteúdos, atividades, cronograma e materiais da disciplina **ESTAT0072 — Probabilidade I**, ofertada pelo Departamento de Estatística e Ciências Atuariais da Universidade Federal de Sergipe. Ao longo do semestre, vamos construir uma base sólida em conceitos fundamentais de Probabilidade, como teoria dos conjuntos, técnicas de contagem, espaços de probabilidade, axiomas de Kolmogorov, probabilidade condicional, independência e variáveis aleatórias discretas.
+
+A disciplina será conduzida com uma abordagem prática e orientada por problemas, livremente inspirada no Problem-Based Learning (PBL), conectando os conteúdos à atuação profissional da Estatística. Serão propostas atividades semanais que estimulem o raciocínio probabilístico, a resolução colaborativa de desafios e o entendimento profundo das ideias centrais da teoria.
+
+Fique atento(a) às atualizações — este espaço será constantemente revisado com avisos, novos materiais e mudanças no cronograma.

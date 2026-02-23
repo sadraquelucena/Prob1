@@ -1,0 +1,33 @@
+---
+title: "Conteúdo 8"
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Eventos Independentes
+
+Este material apresenta a estrutura da disciplina Probabilidade I, com informações sobre carga horária, cronograma, datas importantes, metodologia e objetivos do curso. Também introduz os primeiros conceitos da teoria dos conjuntos, fundamentais para o estudo da probabilidade, incluindo definições formais, operações entre conjuntos e propriedades básicas.
+
+Slides:
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/slides/08-Eventos_Independentes/08-Eventos_Independentes.html" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide08_html.png)<br>Versão html
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/PDFs/slides/08-Eventos_Independentes.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide08_pdf.png)<br>Versão pdf
+</a>
+:::
+
+::::
+
+
+
+

@@ -1,0 +1,33 @@
+---
+title: "Conteúdo 6"
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Teorema da Probabilidade Total
+
+Nesta aula, apresentamos o Teorema da Probabilidade Total (TPT), uma ferramenta analítica poderosa para lidar com incertezas estruturadas em múltiplos cenários. Aprendemos a decompor o espaço amostral em uma partição, permitindo que a probabilidade de um evento 'final' seja calculada como a soma ponderada das probabilidades desse evento ocorrer em cada um dos cenários possíveis.
+
+Slides:
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide06_html.png)<br>Versão html
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/PDFs/slides/06-Teorema_da_probabilidade_total.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide06_pdf.png)<br>Versão pdf
+</a>
+:::
+
+::::
+
+
+
+

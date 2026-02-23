@@ -1,0 +1,33 @@
+---
+title: "Conteúdo 3"
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Técnicas de Contagem (Parte 2)
+
+Nesta segunda parte dedicada às Técnicas de Contagem, aprofundamos o estudo da análise combinatória focando na distinção fundamental entre Arranjos e Combinações. Discutimos como identificar problemas onde a ordem dos elementos altera o resultado (Arranjos) e situações onde apenas a composição do grupo é relevante (Combinações), abordando tanto os modelos simples quanto os modelos com repetição.
+
+Slides:
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide03_html.png)<br>Versão html
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/PDFs/slides/03-Tecnicas_de_contagem_parte2.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide03_pdf.png)<br>Versão pdf
+</a>
+:::
+
+::::
+
+
+
+

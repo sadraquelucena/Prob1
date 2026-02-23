@@ -1,0 +1,27 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Ementa
+
+Revisão básica de Teoria dos Conjuntos, técnicas de contagem, modelo probabilístico para um experimento aleatório, espaços de probabilidade, axiomas de Kolmogorov, probabilidade condicional e independência, função de distribuição de variáveis aleatórias discretas.
+
+
+## Objetivos
+
+Capacitar o aluno na utilização e compreensão da teoria probabilística. Identificar e reconhecer os problemas que necessitam da utilização de distribuições de probabilidade, distribuições condicionadas, variáveis aleatórias e funções de variáveis aleatórias.
+
+## Metodologia
+
+Serão ministradas aulas teóricas expositivas; utilizados recursos visuais; resolução de exercícios em sala de aula; solicitação de atividades extraclasse.
+
+## Habilidades e Competências
+
+Ao final da disciplina o aluno estará apto a compreender e desenvolver a teoria relacionada às distribuições de probabilidade.
+
+## Avaliação
+Serão realizadas três avaliações ao longo do semestre. As avaliações poderão ser provas, trabalhos ou outras atividades solicitadas pelo professor.

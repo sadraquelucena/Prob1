@@ -1,0 +1,22 @@
+---
+title: ""
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Bibliografia
+
+### Básica
+
+- MEYER, Paul L. Probabilidade: Aplicações à Estatística. 2. ed. Livros Técnicos e Científicos Editora SA, 1983.
+- SPIEGEL, Murray R; SCHILLER, John J; SRINIVASAN, R. Alu. Probabilidade e estatística. 3. ed. Porto Alegre: Bookman, 2013.
+- DANTAS, Carlos A. B. Probabilidade: um curso introdutório. 3. ed. rev. São Paulo: EDUSP, 2008.
+- DEVORE, Jay L. Probabilidade e estatística: para engenharia e ciências. São Paulo, SP: Cengage Learning, 2006.
+
+
+### Complementar
+
+- ROSS, Sheldon. Probabilidade: um curso moderno com aplicações. Bookman Editora, 2009.
+- WALPOLE, Ronald E.; MYERS, Raymond. H. Probabilidade e estatística para engenharia e ciências. 8. ed. São Paulo: Prentice Hall Brasil, 2009.

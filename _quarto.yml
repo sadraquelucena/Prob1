@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  bread-crumbs: false
+  page-navigation: true
+  title: "Probabliidade I"
+  sidebar:
+    style: "docked"
+    search: false
+    logo: img/ESTAT0090_logo_hex.png
+    background: "#BED5BE"
+    contents:
+    - section: "Informações da disciplina"
+      contents: 
+      - href: info/dados_gerais.qmd
+        text: "Dados gerais"
+      - href: info/ementa.qmd
+        text: "Ementa e objetivos"
+      - href: info/conteudo.qmd
+        text: "Conteúdo"
+      - href: info/bibliografia.qmd
+        text: "Bibliografia"
+      - href: info/cronograma.qmd
+        text: "Cronograma"
+    
+    - section: "Aulas"
+      contents: 
+      - section: "Parte 1: Introdução à Probabilidade"
+        contents:
+          - href: aulas/01-Incerteza_e_eventos.qmd
+            text: "1- Incerteza e Eventos"
+          - href: aulas/02-Tecnicas_de_contagem_parte1.qmd
+            text: "2- Técnicas de Contagem (Parte 1)"
+          - href: aulas/03-Tecnicas_de_contagem_parte2.qmd
+            text: "3- Técnicas de Contagem (Parte 2)"
+          - href: aulas/04-Probabilidade.qmd
+            text: "4- Probabilidade"
+          - href: aulas/05-Probabilidade_condicional.qmd
+            text: "5- Probabilidade Condicional e Teorema da Multiplicação"
+          - href: aulas/06-Teorema_da_probabilidade_total.qmd
+            text: "6- Teorema da Probabilidade Total"
+          - href: aulas/07-Teorema_de_Bayes.qmd
+            text: "7- Teorema de Bayes"
+          - href: aulas/08-Eventos_Independentes.qmd
+            text: "8- Eventos Independentes"
+            
+    - href: PDFs/listas/listas_de_exercicio.qmd
+      text: "Listas de Exercício"
+      
+
+format:
+  html:
+    theme: yeti
+    toc: true
+    grid:
+      sidebar-width: 400px
+resources:
+  - PDF_slides/**

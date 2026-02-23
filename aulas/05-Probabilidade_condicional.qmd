@@ -1,0 +1,33 @@
+---
+title: "Conteúdo 5"
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Probabilidade Condicional e Teorema da Multiplicação
+
+Nesta aula, avançamos para um dos conceitos mais dinâmicos da estatística: a Probabilidade Condicional. Discutimos como a atualização do nosso conhecimento sobre um fenômeno — o 'saber que um evento A já ocorreu' — nos obriga a restringir o espaço amostral para calcular a nova chance de um evento B. A partir dessa intuição, derivamos a Regra da Multiplicação, ferramenta fundamental para calcular a probabilidade da ocorrência conjunta de eventos sucessivos, especialmente em cenários de amostragem sem reposição.
+
+Slides:
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide05_html.png)<br>Versão html
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/PDFs/slides/05-Probabilidade_condicional.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide05_pdf.png)<br>Versão pdf
+</a>
+:::
+
+::::
+
+
+
+

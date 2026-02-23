@@ -1,0 +1,33 @@
+---
+title: "Conteúdo 4"
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Probabilidade
+
+Nesta aula, iniciamos formalmente o estudo da Probabilidade, definindo-a como a linguagem matemática para quantificar a incerteza. Exploramos os conceitos fundamentais de Experimento Aleatório, Espaço Amostral ($\Omega$) e Eventos, estabelecendo a base para a interpretação de fenômenos onde o resultado não pode ser previsto com certeza absoluta. Discutimos a definição clássica de probabilidade (razão entre casos favoráveis e totais) e consolidamos os Axiomas de Kolmogorov, que garantem a consistência de todos os cálculos estatísticos. 
+
+Slides:
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/slides/04-Probabilidade/04-Probabilidade.html" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide04_html.png)<br>Versão html
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/PDFs/slides/04-Probabilidade.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide04_pdf.png)<br>Versão pdf
+</a>
+:::
+
+::::
+
+
+
+

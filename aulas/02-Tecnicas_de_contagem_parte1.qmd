@@ -1,0 +1,33 @@
+---
+title: "Conteúdo 2"
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Técnicas de Contagem (Parte 1)
+
+Nesta aula, exploramos os fundamentos da análise combinatória, partindo do Princípio Aditivo e do Princípio Multiplicativo como ferramentas essenciais para a estruturação de problemas de contagem. Discutimos como decompor decisões complexas em etapas sucessivas e introduzimos o conceito de Fatorial e Permutação Simples, fundamentais para organizar conjuntos de objetos distintos. Este material serve como base indispensável para o cálculo de probabilidades em espaços amostrais finitos, permitindo que você quantifique possibilidades de forma sistemática e eficiente.
+
+Slides:
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide02_html.png)<br>Versão html
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/PDFs/slides/02-Tecnicas_de_contagem_parte1.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide02_pdf.png)<br>Versão pdf
+</a>
+:::
+
+::::
+
+
+
+

@@ -1,0 +1,231 @@
+---
+title: "Técnicas de Contagem (Parte 1)"
+subtitle: "ESTAT0072 -- Probabilidade I"
+author:
+  name: | # indica que o campo name terá múltiplas linhas
+    Prof. Dr. Sadraque E. F. Lucena<br>
+    <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span>
+  
+format:
+  revealjs:
+    theme: meutema.scss
+    width: 1024
+    height: 768
+    margin: 0.1         # margem em torno do conteúdo
+    min-scale: 0.2       # escala mínima permitida
+    max-scale: 2.0       # escala máxima permitida
+    slide-number: true
+    code-line-numbers: false # sem numero das linhas nos code chunks
+    subtitle-style: "font-size: 2em; font-weight: bold;"  # Aqui é onde aumentamos o subtítulo
+    logo: imagens/ufs_horizontal_positiva.png
+    transition: fade
+    transition-speed: fast
+    scss: meutema.scss
+
+lang: pt-BR
+---
+
+## Exemplo 2.1
+
+Maria quer ir da Praia da Cinelândia ao Shopping RioMar. Ela pode escolher entre as seguintes alternativas de transporte:
+
+- **Ônibus:** 3 opções de linha (partindo do Terminal Zona Sul).
+- **Mobilidade Elétrica:** 2 sistemas que oferecem patinetes e bicicletas.
+- **Carro de Aplicativo:** 2 opções de serviço (Uber e 99).
+
+Quantas opções distintas Maria tem para chegar ao seu destino?
+
+---
+
+## Exemplo 2.2
+
+Maria chegou no shopping e deciciu comer no Subway. Para isso ela precisa montar o lanche seguindo a sequência:
+
+1. **Tipo:** 13 opções (Vegetariano, presunto, frango, frango empanado, steak churrasco, teriyaki, etc.)
+
+2. **Pão:** 5 opções (3 queijos, 9 grãos, italiano branco, etc.)
+
+3. **Queijo:** 4 opções (cheddar, mussarela, suíço, sem queijo)
+
+4. **Temperos:** 5 opções (azeite, mix de pimentas, sal, vinagre, etc.)
+
+5. **Vegetais:** 7 opções (Alface, tomate, cebola roxa, etc.)
+
+6. **Molhos:** 9 opções de molhos (barbecue, supreme, etc.)
+
+Ela não quer extras e quer apenas uma opção de vegetal e uma de molho. Quantos sanduíches diferentes ela pode montar?
+
+---
+
+## Princípios Fundamentais da Contagem
+
+#### Definição 2.1: Princípio Aditivo (OU)
+
+Considere uma tarefa que pode ser realizada de $k$ maneiras distintas. Se a primeira maneira de realizar a tarefa pode ser feita de $n_1$ formas, a segunda de $n_2$ formas, ..., e a $k$-ésima de $n_k$ formas, sendo que essas $k$ maneiras não têm elementos em comum, então o número total de maneiras de realizar a tarefa é dado pela soma:
+$$
+  n_1 + n_2 + \cdots + n_k.
+$$
+
+- O Princípio Aditivo é usado quando a ocorrência de uma opção impede a ocorrência das outras. Pense em "**ou** isso, **ou** aquilo".
+
+---
+
+## Princípios Fundamentais da Contagem
+
+#### Definição 2.2: Princípio Multiplicativo (E)
+
+- Se um processo ou evento pode ser dividido em $k$ etapas sucessivas, e a primeira etapa pode ser realizada de $n_1$ maneiras, a segunda etapa de $n_2$ maneiras (independentemente da escolha na primeira etapa), e assim por diante, até a $k$-ésima etapa que pode ser realizada de $n_k$ maneiras, então o número total de maneiras de o processo ou evento completo ser realizado é dado pelo produto:
+$$
+  n_1 \times n_2 \times \cdots \times n_k.
+$$
+
+- O Princípio Multiplicativo é usado quando temos sequências de decisões em que a escolha em uma etapa não afeta as escolhas nas etapas seguintes. Pense em "**e** isso, **e** aquilo".
+
+---
+
+## Princípios Fundamentais da Contagem
+
+
+#### Regra prática
+
+- "OU" $\longrightarrow$ Soma
+
+- "E" $\longrightarrow$ Multiplicação
+
+---
+
+##
+
+### Exemplo 2.3
+
+De quantas maneiras diferentes você pode organizar 3 livros distintos (Matemática, História e Biologia) em uma prateleira?
+
+
+### Exemplo 2.4
+
+Você quer ouvir 4 músicas distintas (A, B, C, D) em sequência. Quantas playlists diferentes pode criar?
+
+
+### Exemplo 2.5
+
+Quantos anagramas possui a palavra AMORES?
+
+---
+
+## Definição 2.3: Permutação
+
+- Uma permutação é uma maneira de ordenar todos os elementos de um conjunto, onde a ordem dos elementos importa e não há repetição.
+- O número de maneiras de ordenar $n$ objetos distintos é
+$$
+	n! = n(n - 1) \cdots 3 \cdot 2\cdot 1
+$$
+
+---
+
+
+### Exemplo 2.6
+
+De quantas maneiras podemos organizar em fila indiana seis homens e seis mulheres em qualquer ordem?
+
+
+### Exemplo 2.7
+
+Um grupo de 6 pessoas — Ana (A), Bruno (B), Carlos (C), Daniela (D), Eduardo (E) e Fernanda (F) — deve se sentar em uma fila de 6 assentos. De quantas formas eles podem sentar se:
+
+(a) Carlos só pode sentar nas extremidades.
+
+(b) Ana e Bruno não podem sentar juntos.
+
+---
+
+## Definição 2.4: Permutação com Repetição
+
+- Permutação com repetição ocorre quando queremos ordenar todos os elementos de um conjunto, onde a ordem importa e há elementos repetidos nesse conjunto.
+- O número de divisões possíveis de $n$ objetos distintos em $r$ grupos distintos de tamanhos respectivos $n_1, n_2, \ldots, n_r$ ($n_1 + n_2 + \ldots + n_r = n$) é
+$$
+  \frac{n!}{n_1!n_2!\cdots n_r!}.
+$$
+
+---
+
+##
+
+### Exemplo 2.8
+
+Determine quantos são os anagramas da palavra:
+
+a. MISSISSIPI
+b. ARARAQUARA
+c. BISCOITO
+d. ARARAQUARA que começam e terminam com A.
+
+---
+
+##
+
+### Exemplo 2.9
+
+De quantas maneiras seis crianças podem se organizar para brincar de roda?
+
+### Exemplo 2.10
+
+Uma empresa de tecnologia está organizando um jantar de confraternização. Para promover a interação, eles decidiram que os 7 diretores sentarão em uma mesa redonda giratória. De quantas maneiras distintas esses 7 diretores podem se sentar à mesa?
+
+---
+
+## Definição 2.5: Permutação Circular
+
+- O número de maneiras de dispor $n$ objetos distintos em torno de um círculo é $$(n - 1)!$$
+
+    - Nessa contagem, fixamos um objeto como referência para "travar" a rotação do círculo, restando apenas os outros $(n - 1)$ objetos para permutarem entre si.
+
+---
+
+### Exemplo 2.11
+
+Uma joalheira artesanal está criando um colar único usando 9 contas de cores diferentes. Ela quer saber de quantas maneiras distintas ela pode organizar essas 9 contas em um fio circular para montar o colar?
+
+---
+
+## 
+
+### Exemplo 2.12
+
+Quantos subconjuntos podem ser formados a partir do conjunto $C = \{1, 2, 3\}$?
+
+### Exemplo 2.13
+
+Quantos conjuntos podem ser formados considerando o conjunto $D = \{\text{casa}, \text{pedra}, \text{bola}, \text{sapo}\}$?
+
+---
+
+## Número de subconjuntos
+
+O número de subconjuntos possíveis obtidos a partir de um conjunto com $n$ elementos é $2^n$.
+
+- **Explicação:**
+  - Para cada elemento, temos 2 escolhas: "Estar no subconjunto" ou "Não estar".
+  - Isso totaliza $2 \times 2 \times \ldots \times 2 = 2^n$
+
+---
+
+## Resumo
+
+| Técnica | Quando usar? | Equação |
+|:---|:---|:---:|
+| **Princípio Aditivo** | Quando as opções são exclusivas (Regra do "OU"). | $n_1 + n_2 + ... + n_k$ |
+| **Princípio Multiplicativo** | Quando o processo tem etapas sucessivas (Regra do "E"). | $n_1 \times n_2 \times ... \times n_k$ |
+| **Permutação Simples** | Para ordenar todos os $n$ objetos distintos em fila. | $n!$ |
+
+---
+
+## Resumo
+
+| Técnica | Quando usar? | Equação |
+|:---|:---|:---:|
+| **Permutação com Repetição** | Quando há objetos idênticos que não geram nova ordem se trocados. | $\frac{n!}{n_1! n_2! ...}$ |
+| **Permutação Circular** | Para dispor objetos em círculo. | $(n - 1)!$ |
+| **Número de Subconjuntos** | Para contar todas as combinações possíveis de grupos. | $2^n$ |
+
+
+# Fim

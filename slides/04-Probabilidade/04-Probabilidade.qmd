@@ -1,0 +1,377 @@
+---
+title: "Probabilidade"
+subtitle: "ESTAT0072 -- Probabilidade I"
+author:
+  name: | # indica que o campo name terá múltiplas linhas
+    Prof. Dr. Sadraque E. F. Lucena<br>
+    <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span>
+  
+format:
+  revealjs:
+    theme: meutema.scss
+    width: 1024
+    height: 768
+    margin: 0.1         # margem em torno do conteúdo
+    min-scale: 0.2       # escala mínima permitida
+    max-scale: 2.0       # escala máxima permitida
+    slide-number: true
+    code-line-numbers: false # sem numero das linhas nos code chunks
+    subtitle-style: "font-size: 2em; font-weight: bold;"  # Aqui é onde aumentamos o subtítulo
+    logo: imagens/ufs_horizontal_positiva.png
+    transition: fade
+    transition-speed: fast
+    scss: meutema.scss
+
+lang: pt-BR
+---
+
+## O que é Probabilidade?
+
+- A **Probabilidade é a linguagem da incerteza.** Em Estatística, estamos fundamentalmente interessados em **quantificar e modelar a incerteza** associada a fenômenos aleatórios.
+
+- Ela nos permite:
+    - Prever a frequência de ocorrência de eventos;
+    - Tomar decisões informadas sob condições de risco;
+    - Entender a variabilidade em dados e processos.
+
+
+
+
+## Mas, o que é um Fenômeno Aleatório?
+
+- É um experimento ou observação cujo resultado não pode ser previsto com certeza absoluta, mesmo que as condições iniciais sejam idênticas.
+
+**Exemplos:**
+
+*  Classificar itens que saem de uma linha de montagem como *defeituosos* ou *não defeituosos*. Qual a chance de um lote ter mais de X% de defeitos?
+* Estimar a probabilidade de um paciente responder a um novo tratamento médico.
+* Número de acidentes em uma cruzamento para justificar a instalação de um semáforo.
+
+
+
+
+## Definição 4.1: Experimento
+
+- Qualquer processo que gera um conjunto de dados ou resultados.
+- Pense nele como uma **ação** ou **observação** que podemos repetir (ou imaginar repetir) sob as mesmas condições.
+
+**Exemplos:**
+
+- Lançar uma moeda (observar face superior).
+- Sortear uma carta de um baralho.
+- Medir a altura de uma pessoa.
+- Observar o número de e-mails de spam recebidos em um dia.
+
+
+
+
+## Definição 4.2: Espaço Amostral ($\Omega$)
+
+* É o **conjunto de TODOS os resultados possíveis** de um experimento.
+* Representado pelo símbolo $\Omega$ (Ômega maiúscula).
+* Cada resultado individual dentro do espaço amostral é chamado de **elemento** ou **ponto amostral**.
+
+
+
+
+## Exemplos
+
+- **Experimento:** Lançar uma moeda.
+    - **Espaço Amostral ($\Omega$):** $\{Cara, Coroa\}$
+    - **Pontos Amostrais:** Cara, Coroa
+- **Experimento:** Classificar um produto (defeituoso/não defeituoso).
+    - **Espaço Amostral ($\Omega$):** $\{\text{Defeituoso}, \text{Não Defeituoso}\}$
+- **Experimento:** Contar o número de carros que passam por um cruzamento em 1 minuto.
+    - **Espaço Amostral ($\Omega$):** $\{0, 1, 2, 3, \ldots\}$ (Infinitos, mas enumeráveis!)
+
+
+
+
+## Outro Exemplo
+
+Considere o experimento de jogar um dado de seis faces e observar a face voltada para cima. O espaço amostral é
+$$
+	\Omega = \{1,2,3,4,5,6\}.
+$$
+
+**Atenção!** Mais de um espaço amostral pode ser usado para descrever o mesmo experimento.
+
+- Se estivermos interessados em saber se o número será par ou ímpar, o espaço amostral será simplesmente:
+$$
+	\Omega = \{\text{par, ímpar}\}.
+$$
+
+
+
+
+## Exemplo 4.1
+
+Peças que saem de uma linha de produção são marcadas como defeituosa (D) e não defeituosa (N). As peças são inspecionadas e sua condição é registrada. Isto é feito até que duas peças defeituosas consecutivas sejam fabricadas ou que quatro peças tenham sido inspecionadas, aquilo que ocorrer primeiro. Descreva um espaço amostral para este experimento.
+
+
+
+
+## Definição 4.3: Evento
+
+- Um **evento** é um **subconjunto** do espaço amostral ($\Omega$).
+    - Pense nele como uma coleção específica de um ou mais resultados de um experimento que nos interessa.
+- Denotamos um evento por uma letra maiúscula. Ex.: $A$, $B$, $C$, etc.
+
+### Exemplo
+Dado um espaço amostral $\Omega = \{t|t > 0\}$, onde t é o tempo em minutos que você espera o ônibus no ponto, então o evento A, em que o ônibus chega antes de 10 minutos é $$A = \{t|0 \leq t < 10\}.$$
+
+
+
+## 
+
+Como um evento é um subconjunto do espaço amostral, **operações sobre conjuntos** podem ser utilizadas:
+
+(a) $A\cup B$: ocorre $A$ ou $B$;
+(b) $A\cap B$: ocorre A e B (simultaneamente);
+(c) $A^c$ : não ocorre A;
+(d) $\bigcup\limits_{i=1}^{n}A_i$: ao menos um $A_i$ ocorre (vale para $\bigcup\limits_{i=1}^{\infty}A_i$);
+(e) $\bigcap\limits_{i=1}^{n}A_i$: todos os $A_i$ ocorrem (vale para $\bigcap\limits_{i=1}^{\infty}A_i$).
+
+
+
+
+## Definição 4.4: Eventos Mutuamente Excludentes
+
+- Dois eventos $A$ e $B$ são denominados **mutuamente excludentes** se eles não puderem ocorrer juntos.
+
+- Isto é, $A\cap B=\emptyset$.
+
+
+
+
+## Exemplo 4.3
+Quais desses eventos são mutuamente excludentes?
+
+(a) Um jogador de xadrez que dá um xeque-mate e perde o rei na mesma jogada.
+(b) Um jogador de pôquer que tem um flush (todas as cartas do mesmo naipe) e três de um tipo na mesma mão de cinco cartas.
+(c) Uma mãe que dá à luz uma menina e gêmeas no mesmo dia.
+(d) Um time de futebol que perde o último jogo e ganha o Brasileirão.
+(e) Um usuário tem sua conta bloqueada por tentativas de login e consegue acessar o sistema com sucesso no mesmo minuto.
+
+
+
+
+## Por que precisamos da Probabilidade?
+
+- Em experimentos aleatórios, a gente não sabe qual resultado específico vai acontecer quando o experimento é feito.
+- Ou seja, se $A$ é um evento ligado a um experimento, não podemos ter certeza se $A$ vai ocorrer ou não.
+- Por isso, fica muito importante tentar associar um número ao evento $A$, que vai medir, de alguma forma, o quão provável é a ocorrência de $A$.
+- Essa tarefa nos leva direto à teoria da probabilidade.
+
+
+
+
+## Definição 4.5: Frequência Relativa
+
+- Suponha que repetimos $n$ vezes um experimento e sejam $A$ e $B$ dois eventos. Admitamos que sejam, respectivamente, $n_A$ e $n_B$ o número de vezes que o evento $A$ e o evento $B$ ocorram nas $n$ repetições.
+
+- $f_A = n_A/n$ é denominada frequência relativa do evento $A$ nas $n$ repetições do experimento.
+
+
+
+
+## Propriedades da Frequência Relativa
+
+A frequência relativa $f_A$ apresenta as seguintes propriedades:
+
+1. $0\leq f_A \leq 1$: A frequência relativa de um evento sempre estará entre 0 e 1 (ou 0% e 100%).
+2. $f_A = 1$ se, e somente se, $A$ ocorrer em todas as $n$ repetições: Se o evento acontecer todas as vezes, sua frequência relativa será 1.
+3. $f_A = 0$ se, e somente se, $A$ nunca ocorrer nas $n$ repetições: Se o evento nunca acontecer, sua frequência relativa será 0.
+4. Se $A$ e $B$ forem mutuamente excludentes, $f_{A\cup B} = f_A + f_B$: Se dois eventos não podem acontecer juntos, a frequência de um ou outro é a soma das frequências individuais.
+
+
+
+
+## Propriedades da Frequência Relativa
+
+5. Com base em $n$ repetições do experimento, $f_A$ "converge" em certo sentido probabilístico para $P(A)$, quando $n\rightarrow\infty$: Esta é a Lei dos Grandes Números em essência. Significa que, quanto mais vezes você repetir um experimento, mais a frequência relativa de um evento se aproximará de sua verdadeira probabilidade.
+
+
+
+
+## Definição 4.6: Probabilidade
+
+Seja $E$ um experimento. Seja $\Omega$ o espaço amostral associado a $E$. A cada evento $A$ associaremos um número real representado por $P(A)$ e denominado probabilidade de $A$, que satisfaz às seguintes propriedades:
+
+- **P1.** $0\leq P(A)\leq1$: A probabilidade de qualquer evento está sempre entre 0 (impossível) e 1 (certo).
+
+- **P2.** $P(\Omega) = 1$: A probabilidade de que algum resultado do espaço amostral ocorra (ou seja, de que o experimento aconteça) é 1.
+
+- **P3.** Se $A$ e $B$ forem mutuamente excludentes, $P(A\cup B)=P(A)+P(B)$: Se dois eventos não podem acontecer ao mesmo tempo, a probabilidade de que um ou outro ocorra é a soma das suas probabilidades individuais.
+
+
+
+
+## 
+
+- De P3, temos que $P\left(\bigcup\limits_{i=1}^n A_i\right) = \sum\limits_{i=1}^n P(A_i).$ Esta é uma generalização importante da propriedade P3 para múltiplos eventos mutuamente excludentes.
+
+- **P4.** Se $A_1,A_2,A_3,\ldots$ forem, dois a dois, eventos mutuamente excludentes, então
+$$
+	P\left(\bigcup\limits_{i=1}^\infty A_i\right) = \sum\limits_{i=1}^\infty P(A_i).
+$$
+
+- A escolha das propriedades da probabilidade apresentadas é obviamente **sugerida pelas características da frequência relativa**. Isso reforça a ideia de que a teoria da probabilidade formaliza o que observamos empiricamente ao repetir experimentos muitas vezes.
+
+
+
+
+## Resultados Decorrentes da Definição de $P(A)$
+
+- **R1.** $P(\emptyset)=0$.
+
+- **R2.** $P(A^c) = 1-P(A)$.
+
+- **R3.** $P(A\cup B) = P(A)+P(B)-P(A\cap B)$.
+
+- **R4.** $P(A\cup B\cup C) = P(A)+P(B)+P(C)-P(A\cap B)$<br> $\qquad\qquad\qquad~~\,-P(A\cap C)-P(B\cap C)+P(A\cap B \cap C)$.
+
+- **R5.** $A\subset B \Rightarrow P(A)\leq P(B)$.
+
+
+
+
+## Exemplo 4.4
+
+Suponha que $A$, $B$ e $C$ sejam eventos tais que
+
+- $P(A) = P(B) = P(C) = 1/4$,
+- $P(A \cap B) = P(C \cap B) = 0$ e
+- $P(A \cap C) = 1/8$.
+
+Calcule a probabilidade de que ao menos um dos eventos $A$, $B$ ou $C$ ocorra.
+
+
+
+
+## Espaço Amostral Finito
+
+- Vamos caracterizar a probabilidade do evento $A$, $P(A)$.
+
+- Seja $A=\{a\}$ um evento simples ou elementar (um único resultado possível).
+
+- A cada evento simples $\{a_i\}$ associaremos um número $p_i$ que satisfaz as seguintes condições: 
+
+    a. $p_i>0, ~ i=1,2,\ldots,k$,
+    b. $p_1+p_2+\cdots+p_k=1$.
+
+- Supondo agora que $A$ é constituído por $r$ resultados, $1\leq r \leq k$ ($A = \{a_{j1}, a_{j2},\ldots, a_{jr}\}$, temos que:
+$$
+	P(A) = p_{j1} + p_{j2} + \cdots + p_{jr}.
+$$
+
+
+
+
+## Exemplo 4.5
+
+Um dado é lançado e todos os resultados se supõem igualmente verossímeis. O evento $A$ ocorrerá se, e somente se, um número maior do que 4 aparecer. Qual a probabilidade do evento $A$?
+
+
+
+
+## Exemplo 4.6
+
+Uma moeda equilibrada é atirada duas vezes. Seja $A$ o evento: "aparece uma cara". Qual a probabilidade do evento $A$?
+
+
+
+
+## Resultados Igualmente Verossímeis
+
+- Suponha que temos um espaço amostral $\Omega = \{a_1,a_2, \ldots, a_k\}$, com k resultados possíveis.
+
+- Se todos os resultados forem igualmente verossímeis (ou seja, têm a mesma chance de acontecer), então a probabilidade de cada resultado elementar $a_i$ será $p_i=1/k$.
+
+- Assim, para qualquer evento A formado por $r$ resultados (ou seja, $A$ tem $r$ "casos favoráveis"), teremos: 
+$$ P(A) = \frac{r}{k}.$$
+
+
+
+
+## Resultados Igualmente Verossímeis
+
+- Outra forma de expressar isso, e que é muito popular, é: $$P(A)=\frac{\text{número de casos favoráveis a }A}{\text{número total de casos}}.$$
+
+- **Observação:** Esta expressão só é válida se todos os resultados forem igualmente verossímeis. Se não forem, você deve usar a soma das probabilidades $p_i$ individuais que vimos antes.
+
+
+
+
+## Exemplo 4.7
+
+Imagine que, ao final de um evento na escola, 10 alunos com emblemas numerados de 1 a 10 são sorteados para receber prêmios. Três alunos são escolhidos ao acaso e convidados a se apresentar simultaneamente no palco. Os números de seus emblemas são anotados.
+
+a. Qual é a probabilidade de que o menor número de emblema sorteado seja 5?
+
+b. Qual é a probabilidade de que o maior número de emblema sorteado seja 5?
+
+
+
+
+## Exemplo 4.8
+
+Suponha que os três dígitos 1, 2 e 3 sejam escritos em ordem aleatória. Qual a probabilidade de que ao menos um dígito ocupe seu próprio lugar?
+
+
+
+
+## Exemplo 4.9
+
+Em um jogo de tabuleiro, você tem 10 fichas numeradas de 1 a 10 dentro de um saco. Você tira duas fichas, uma de cada vez e sem colocar a primeira de volta. Qual é a probabilidade de que a soma dos números das duas fichas seja exatamente 10?
+
+
+
+
+## Exemplo 4.10
+
+Um lote de lâmpadas elétricas foi fabricado, contendo 10 lâmpadas perfeitas, 4 com pequenos defeitos (que ainda funcionam) e 2 com defeitos graves (que não funcionam). Se uma lâmpada é escolhida ao acaso para teste, qual é a probabilidade de que:
+
+a. Ela não tenha defeitos?
+
+b. Ela não tenha defeitos graves?
+
+c. Ela seja perfeita OU tenha defeitos graves?
+
+
+
+
+## Exemplo 4.11
+
+Suponha que de $N$ objetos, $n$ sejam escolhidos ao acaso, com
+reposição. Qual será a probabilidade de que nenhum objeto
+seja escolhido mais do que uma vez? (Admita $n < N$)
+
+
+
+## Exemplo 4.12
+
+Você tem uma caixa cheia de etiquetas com números de 1 até n. Duas etiquetas são escolhidas ao acaso. Determine a probabilidade de que os números das etiquetas sejam inteiros consecutivos (como 3 e 4, ou 4 e 3) se:
+
+a. As etiquetas forem escolhidas uma após a outra, sem colocar a primeira de volta.
+
+b. As etiquetas forem escolhidas uma após a outra, colocando a primeira de volta.
+
+
+
+
+## Exemplo 4.13
+
+Em uma rifa, um número é escolhido ao acaso dentre os números de 1 a 50. Qual será a probabilidade de que o número escolhido seja divisível por 6 ou por 8?
+
+
+
+
+## Exemplo 4.14
+
+Dentre 6 números positivos e 8 negativos, escolhem-se ao acaso 4 números (sem reposição) e multiplicam-se esses números. Qual será a probabilidade de que o produto seja um número positivo?
+
+
+
+
+# Fim

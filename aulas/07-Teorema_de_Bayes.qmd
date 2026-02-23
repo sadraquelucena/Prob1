@@ -1,0 +1,33 @@
+---
+title: "Conteúdo 7"
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Teorema de Bayes
+
+Nesta aula, exploramos o Teorema de Bayes, uma poderosa ferramenta que nos permite atualizar probabilidades à medida que novas evidências tornam-se disponíveis. Diferente da probabilidade total, que olha para o futuro para prever um resultado, Bayes permite o caminho inverso: dado que um efeito foi observado, qual é a probabilidade de uma causa específica o ter gerado? Discutimos a aplicação deste teorema em áreas críticas como diagnósticos médicos, filtros de spam e tomada de decisão sob incerteza.
+
+Slides:
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/slides/07-Teorema_de_Bayes/07-Teorema_de_Bayes.html" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide07_html.png)<br>Versão html
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/PDFs/slides/07-Teorema_de_Bayes.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide07_pdf.png)<br>Versão pdf
+</a>
+:::
+
+::::
+
+
+
+

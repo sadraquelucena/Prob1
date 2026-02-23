@@ -1,0 +1,33 @@
+---
+title: "Conteúdo 1"
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## A Lógica da Incerteza e a Linguagem dos Eventos
+
+Este material apresenta a estrutura da disciplina Probabilidade I, com informações sobre carga horária, cronograma, datas importantes, metodologia e objetivos do curso. Também introduz os primeiros conceitos da teoria dos conjuntos, fundamentais para o estudo da probabilidade, incluindo definições formais, operações entre conjuntos e propriedades básicas.
+
+Slides:
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide01_html.png)<br>Versão html
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/PDFs/slides/01-Incerteza_e_eventos.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide01_pdf.png)<br>Versão pdf
+</a>
+:::
+
+::::
+
+
+
+

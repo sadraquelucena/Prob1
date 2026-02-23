@@ -1,0 +1,221 @@
+---
+title: "Eventos Independentes"
+subtitle: "ESTAT0072 -- Probabilidade I"
+author:
+  name: | # indica que o campo name terá múltiplas linhas
+    Prof. Dr. Sadraque E. F. Lucena<br>
+    <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span>
+  
+format:
+  revealjs:
+    theme: meutema.scss
+    width: 1024
+    height: 768
+    margin: 0.1         # margem em torno do conteúdo
+    min-scale: 0.2       # escala mínima permitida
+    max-scale: 2.0       # escala máxima permitida
+    slide-number: true
+    code-line-numbers: false # sem numero das linhas nos code chunks
+    subtitle-style: "font-size: 2em; font-weight: bold;"  # Aqui é onde aumentamos o subtítulo
+    logo: imagens/ufs_horizontal_positiva.png
+    transition: fade
+    transition-speed: fast
+    scss: meutema.scss
+
+lang: pt-BR
+---
+
+
+## Por que Eventos Independentes Importam?
+
+Imagine as seguintes situações:
+
+- Você joga uma moeda duas vezes. O resultado do primeiro lançamento influencia o segundo?
+- A disponibilidade de um caminhão de bombeiros afeta a disponibilidade de uma ambulância durante uma emergência?
+- O desempenho das ações da Petrobras hoje influencia o desempenho das ações da Vale amanhã?
+
+---
+
+## Por que Eventos Independentes Importam?
+
+- **Modelar problemas reais:** Seja na engenharia, medicina, finanças ou em jogos, saber se eventos são independentes simplifica o cálculo de probabilidades complexas.
+- **Tomar decisões melhores:** Se você sabe que a chuva não afeta o desempenho da sua equipe de futebol, pode focar em outras variáveis.
+- **Construir bases sólidas:** A independência é um pilar para muitos conceitos avançados em Estatística, como inferência e modelagem estatística.
+
+---
+
+## Exemplo 8.1
+
+Suponha que um dado equilibrado seja jogado duas vezes. Definimos os eventos:
+
+- **A:** o primeiro dado mostra um número par;
+- **B:** o segundo dado mostra um 5 ou 6.
+
+Qual a probabilidade de que esses dois eventos ocorram?
+
+---
+
+## Eventos Independentes
+
+- Sejam $A$ e $B$ eventos independentes.
+- Assim, a ocorrência do evento $A$ não influencia o evento $B$ e vice-versa.
+- Então, podemos dizer que
+$$
+  P(B|A) = P(B) \quad \text{e} \quad P(A|B) = P(A).
+$$
+- Além disso, existe uma definição adicional que também é válida e muito mais utilizada.
+
+---
+
+## Eventos Independentes
+
+- $A$ e $B$ são eventos independentes se, e somente se,
+$$
+	P(A\cap B) = P(A)P(B).
+$$
+
+Ou seja, 
+
+- Se os dois eventos forem independentes, a relação acima é válida.
+- Além disso, se a relação acima é válida, os dois eventos são independentes.
+
+---
+
+##
+
+### Eventos Mutuamente Excludentes vs. Eventos Independentes: Não confunda!
+
+#### Eventos Mutuamente Excludentes (ou Disjuntos)
+
+- Se um evento acontece, o outro não pode acontecer. Eles não têm resultados em comum.
+- A probabilidade da intersecção deles é zero: $$P(A\cap B)=0$$
+
+- **Exemplo:** Lançar um dado e obter um 2 (evento A) e obter um 5 (evento B). Se você tira 2, não pode ter tirado 5 no mesmo lançamento.
+
+---
+
+##
+
+### Eventos Mutuamente Excludentes vs. Eventos Independentes: Não confunda!
+
+#### Eventos Independentes
+
+- A ocorrência de um evento não afeta a probabilidade de o outro ocorrer. Eles não têm "influência" um sobre o outro.
+
+- A probabilidade da intersecção deles é o produto das suas probabilidades individuais: $$ P(A\cap B)=P(A)P(B).$$
+
+- **Exemplo:** Lançar uma moeda e obter cara e depois lançar a moeda novamente e obter coroa. O primeiro lançamento não muda as chances do segundo.
+
+---
+
+## Exemplo 8.2
+
+Uma pequena cidade possui um caminhão de bombeiros e uma ambulância para emergências. A probabilidade de que o caminhão de bombeiros esteja disponível quando necessário é de 0,98, e a probabilidade de que a ambulância esteja disponível é de 0,92. No caso de um ferimento causado por um incêndio em um prédio, qual é a probabilidade de que tanto a ambulância quanto o caminhão de bombeiros estejam disponíveis?
+
+---
+
+## Exemplo 8.3
+
+Uma carta é selecionada aleatoriamente de um baralho comum de 52 cartas. Sejam os eventos
+
+- **$A$:** a carta selecionada é um ás;
+- **$E$:** a carta selecionada é do naipe de espadas.
+
+Os eventos $A$ e $E$ são independentes?
+
+---
+
+## Exemplo 8.4
+
+Suponha que joguemos um dado honesto duas vezes. Sejam os eventos
+
+- **$A$:** a soma dos dados é igual a 6;
+- **$B$:** o resultado do primeiro lançamento é igual a 4.
+
+Pergunta-se:
+
+(a) $A$ e $B$ são independentes?
+(b) Se $C$ é o evento em que a soma dos dados é igual a 7, $B$ e $C$ são independentes?
+
+---
+
+## Proposição 8.1
+
+Se $A$ é independente de $B$, então $A$ é independente de $B^c$.
+		
+#### Demonstração
+
+> Temos que $A = (A\cap B)\cup(A\cap B^c)$. Como $A\cap B$ e $A\cap B^c$ são mutuamente excludentes e $A$ e $B$ são independentes,
+> $$\small
+    \begin{align*}
+				&P(A) = P(A\cap B) + P(A\cap B^c)\\
+				\Rightarrow &P(A) = P(A)P(B) + P(A\cap B^c)\\
+				\Rightarrow &P(A\cap B^c) = P(A)-P(A)P(B)\\
+				\Rightarrow &P(A\cap B^c) = P(A)[1-P(B)]\\
+				\Rightarrow &P(A\cap B^c) = P(A)P(B^c)\\
+		 \end{align*}
+	$$
+> Logo, $A$ e $B^c$ são independentes.
+
+---
+
+## Independência de Mais de Dois Eventos
+
+Três eventos $A$, $B$ e $C$ ditos independentes se
+
+- $P(A\cap B \cap C) = P(A)P(B)P(C)$;
+- $P(A\cap B) = P(A)P(B)$;
+- $P(A\cap C) = P(A)P(C)$;
+- $P(B\cap C) = P(B)P(C)$.
+
+---
+
+## Independência de Mais de Dois Eventos
+
+Dizemos que $n$ eventos $A_1,A_2,\ldots,A_n$ são independentes se, para cada subconjunto $A_1,A_2,\ldots,A_r$ desses eventos, $r\leq n$,
+$$
+	P(A_1\cap A_2 \cap\cdots\cap A_r) = P(A_1)P(A_2)\cdots P(A_r).
+$$
+		
+- Se tivermos um conjunto infinito de eventos, diremos que eles são independentes se cada subconjunto finito desses eventos for independente.
+
+---
+
+## Exemplo 8.5
+
+Uma moeda é adulterada para que a cara tenha duas vezes mais chances de ocorrer do que a coroa. Se a moeda for jogada três vezes, qual é a probabilidade de obter duas coroas e uma cara?
+
+---
+
+## Exemplo 8.6 
+
+No lançamento de um dado dodecaédrico (12 faces), considere os eventos:
+
+- **$A$:** "múltiplo de 3"
+- **$B$:** "menor ou igual a 6"
+- **$C$:** "par"
+
+Verifique se os eventos $A$, $B$ e $C$ são independentes.
+
+---
+
+## Exemplo 8.7
+
+Considere o lançamento de um dado de 4 faces. Sejam
+
+- **$A$:** "par"
+- **$B$:** "menor que 3" 
+- **$C$:**  "1 ou 4"
+
+Os eventos $A$, $B$ e $C$ são independentes?
+
+---
+
+## Resumo
+
+- Eventos independentes são aqueles em que a ocorrência de um **não afeta a probabilidade** de ocorrência do outro.
+- A forma mais direta de verificar ou usar a independência é através da probabilidade da intersecção: $P(A\cap B) = P(A)P(B)$.
+- Para eventos independentes, a informação da ocorrência de um evento não muda a probabilidade do outro: $P(B|A)=P(B)$ e $P(A|B)=P(B)$.
+- Lembre-se que independência dois a dois não garante independência simultânea de três ou mais eventos.
+
+# Fim

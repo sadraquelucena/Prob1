@@ -1,0 +1,1497 @@
+[
+  {
+    "objectID": "PDFs/listas/listas_de_exercicio.html",
+    "href": "PDFs/listas/listas_de_exercicio.html",
+    "title": "Listas de Exercício",
+    "section": "",
+    "text": "A prática é a chave para o domínio da Probabilidade. Aqui estão as listas de exercícios, organizadas para acompanhar o conteúdo da disciplina e ajudar você a consolidar o conhecimento. Utilize-as como sua principal ferramenta de estudo; elas são o melhor caminho para o sucesso nas avaliações.",
+    "crumbs": [
+      "Listas de Exercício"
+    ]
+  },
+  {
+    "objectID": "PDFs/listas/listas_de_exercicio.html#parte-1",
+    "href": "PDFs/listas/listas_de_exercicio.html#parte-1",
+    "title": "Listas de Exercício",
+    "section": "Parte 1",
+    "text": "Parte 1\n\n\n Lista 1 \n\n\n Lista 2 \n\n\n Lista 3 \n\n\n Lista 4 \n\n\n Lista 5 \n\n\n Lista 6 \n\n\n Lista 7",
+    "crumbs": [
+      "Listas de Exercício"
+    ]
+  },
+  {
+    "objectID": "info/bibliografia.html",
+    "href": "info/bibliografia.html",
+    "title": "Probabliidade I",
+    "section": "",
+    "text": "MEYER, Paul L. Probabilidade: Aplicações à Estatística. 2. ed. Livros Técnicos e Científicos Editora SA, 1983.\nSPIEGEL, Murray R; SCHILLER, John J; SRINIVASAN, R. Alu. Probabilidade e estatística. 3. ed. Porto Alegre: Bookman, 2013.\nDANTAS, Carlos A. B. Probabilidade: um curso introdutório. 3. ed. rev. São Paulo: EDUSP, 2008.\nDEVORE, Jay L. Probabilidade e estatística: para engenharia e ciências. São Paulo, SP: Cengage Learning, 2006.\n\n\n\n\n\nROSS, Sheldon. Probabilidade: um curso moderno com aplicações. Bookman Editora, 2009.\nWALPOLE, Ronald E.; MYERS, Raymond. H. Probabilidade e estatística para engenharia e ciências. 8. ed. São Paulo: Prentice Hall Brasil, 2009.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Bibliografia"
+    ]
+  },
+  {
+    "objectID": "info/bibliografia.html#bibliografia",
+    "href": "info/bibliografia.html#bibliografia",
+    "title": "Probabliidade I",
+    "section": "",
+    "text": "MEYER, Paul L. Probabilidade: Aplicações à Estatística. 2. ed. Livros Técnicos e Científicos Editora SA, 1983.\nSPIEGEL, Murray R; SCHILLER, John J; SRINIVASAN, R. Alu. Probabilidade e estatística. 3. ed. Porto Alegre: Bookman, 2013.\nDANTAS, Carlos A. B. Probabilidade: um curso introdutório. 3. ed. rev. São Paulo: EDUSP, 2008.\nDEVORE, Jay L. Probabilidade e estatística: para engenharia e ciências. São Paulo, SP: Cengage Learning, 2006.\n\n\n\n\n\nROSS, Sheldon. Probabilidade: um curso moderno com aplicações. Bookman Editora, 2009.\nWALPOLE, Ronald E.; MYERS, Raymond. H. Probabilidade e estatística para engenharia e ciências. 8. ed. São Paulo: Prentice Hall Brasil, 2009.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Bibliografia"
+    ]
+  },
+  {
+    "objectID": "info/conteudo.html",
+    "href": "info/conteudo.html",
+    "title": "Probabliidade I",
+    "section": "",
+    "text": "Modelo Probabilístico para um experimento aleatório\n1.1. Experimento Aleatório\n1.2. Espaço Amostral\n1.3. Evento\nRevisão básica de teoria de conjuntos\n2.1. Conjuntos, elementos\n2.2. Operações entre conjuntos\nTécnicas de Contagem\n3.1. Permutação ou Arranjo simples e com repetição\n3.2. Permutação Circular\n3.3. Combinação simples e com repetição\nDefinições e espaços de Probabilidade\n4.1. Classes de Conjuntos: sigma-álgebra\n4.2. Definições de Probabilidade\n4.3. Definição frequentista\n4.4. Definição Geométrica\n4.5. Definição Clássica\n4.6. Axiomas de Kolmogorov\nProbabilidade Condicional e Independência\n5.1. Probabilidade condicional\n5.2. Regra do Produto de Probabilidades\n5.3. Lei da Probabilidade Total\n5.4. Diagrama de árvore\n5.5. Partição do espaço amostral\n5.6. Teorema de Bayes\n5.7. Independência de dois eventos\n5.8. Independência de vários eventos\nVariável aleatória discreta\n6.1. Função de distribuição de variáveis aleatórias discretas\n6.2. Variável Aleatória Discreta\n6.3. Função de Probabilidade e suas propriedades\n6.4. Função de Distribuição ou Função Acumulada de probabilidade\n6.5. Esperança e Variância de uma V.A.D.\n6.6. Variável Aleatória Discreta: Bidimensional",
+    "crumbs": [
+      "Informações da disciplina",
+      "Conteúdo"
+    ]
+  },
+  {
+    "objectID": "info/conteudo.html#conteudo",
+    "href": "info/conteudo.html#conteudo",
+    "title": "Probabliidade I",
+    "section": "",
+    "text": "Modelo Probabilístico para um experimento aleatório\n1.1. Experimento Aleatório\n1.2. Espaço Amostral\n1.3. Evento\nRevisão básica de teoria de conjuntos\n2.1. Conjuntos, elementos\n2.2. Operações entre conjuntos\nTécnicas de Contagem\n3.1. Permutação ou Arranjo simples e com repetição\n3.2. Permutação Circular\n3.3. Combinação simples e com repetição\nDefinições e espaços de Probabilidade\n4.1. Classes de Conjuntos: sigma-álgebra\n4.2. Definições de Probabilidade\n4.3. Definição frequentista\n4.4. Definição Geométrica\n4.5. Definição Clássica\n4.6. Axiomas de Kolmogorov\nProbabilidade Condicional e Independência\n5.1. Probabilidade condicional\n5.2. Regra do Produto de Probabilidades\n5.3. Lei da Probabilidade Total\n5.4. Diagrama de árvore\n5.5. Partição do espaço amostral\n5.6. Teorema de Bayes\n5.7. Independência de dois eventos\n5.8. Independência de vários eventos\nVariável aleatória discreta\n6.1. Função de distribuição de variáveis aleatórias discretas\n6.2. Variável Aleatória Discreta\n6.3. Função de Probabilidade e suas propriedades\n6.4. Função de Distribuição ou Função Acumulada de probabilidade\n6.5. Esperança e Variância de uma V.A.D.\n6.6. Variável Aleatória Discreta: Bidimensional",
+    "crumbs": [
+      "Informações da disciplina",
+      "Conteúdo"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bem-vindo(a)!",
+    "section": "",
+    "text": "Bem-vindo(a)!\nEsta página foi criada pelo Prof. Dr. Sadraque E. F. Lucena para centralizar os conteúdos, atividades, cronograma e materiais da disciplina ESTAT0072 — Probabilidade I, ofertada pelo Departamento de Estatística e Ciências Atuariais da Universidade Federal de Sergipe. Ao longo do semestre, vamos construir uma base sólida em conceitos fundamentais de Probabilidade, como teoria dos conjuntos, técnicas de contagem, espaços de probabilidade, axiomas de Kolmogorov, probabilidade condicional, independência e variáveis aleatórias discretas.\nA disciplina será conduzida com uma abordagem prática e orientada por problemas, livremente inspirada no Problem-Based Learning (PBL), conectando os conteúdos à atuação profissional da Estatística. Serão propostas atividades semanais que estimulem o raciocínio probabilístico, a resolução colaborativa de desafios e o entendimento profundo das ideias centrais da teoria.\nFique atento(a) às atualizações — este espaço será constantemente revisado com avisos, novos materiais e mudanças no cronograma."
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#o-que-é-probabilidade",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#o-que-é-probabilidade",
+    "title": "Probabilidade",
+    "section": "O que é Probabilidade?",
+    "text": "O que é Probabilidade?\n\nA Probabilidade é a linguagem da incerteza. Em Estatística, estamos fundamentalmente interessados em quantificar e modelar a incerteza associada a fenômenos aleatórios.\nEla nos permite:\n\nPrever a frequência de ocorrência de eventos;\nTomar decisões informadas sob condições de risco;\nEntender a variabilidade em dados e processos."
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#mas-o-que-é-um-fenômeno-aleatório",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#mas-o-que-é-um-fenômeno-aleatório",
+    "title": "Probabilidade",
+    "section": "Mas, o que é um Fenômeno Aleatório?",
+    "text": "Mas, o que é um Fenômeno Aleatório?\n\nÉ um experimento ou observação cujo resultado não pode ser previsto com certeza absoluta, mesmo que as condições iniciais sejam idênticas.\n\nExemplos:\n\nClassificar itens que saem de uma linha de montagem como defeituosos ou não defeituosos. Qual a chance de um lote ter mais de X% de defeitos?\nEstimar a probabilidade de um paciente responder a um novo tratamento médico.\nNúmero de acidentes em uma cruzamento para justificar a instalação de um semáforo."
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#definição-4.1-experimento",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#definição-4.1-experimento",
+    "title": "Probabilidade",
+    "section": "Definição 4.1: Experimento",
+    "text": "Definição 4.1: Experimento\n\nQualquer processo que gera um conjunto de dados ou resultados.\nPense nele como uma ação ou observação que podemos repetir (ou imaginar repetir) sob as mesmas condições.\n\nExemplos:\n\nLançar uma moeda (observar face superior).\nSortear uma carta de um baralho.\nMedir a altura de uma pessoa.\nObservar o número de e-mails de spam recebidos em um dia."
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#definição-4.2-espaço-amostral-omega",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#definição-4.2-espaço-amostral-omega",
+    "title": "Probabilidade",
+    "section": "Definição 4.2: Espaço Amostral (\\(\\Omega\\))",
+    "text": "Definição 4.2: Espaço Amostral (\\(\\Omega\\))\n\nÉ o conjunto de TODOS os resultados possíveis de um experimento.\nRepresentado pelo símbolo \\(\\Omega\\) (Ômega maiúscula).\nCada resultado individual dentro do espaço amostral é chamado de elemento ou ponto amostral."
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#exemplos",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#exemplos",
+    "title": "Probabilidade",
+    "section": "Exemplos",
+    "text": "Exemplos\n\nExperimento: Lançar uma moeda.\n\nEspaço Amostral (\\(\\Omega\\)): \\(\\{Cara, Coroa\\}\\)\nPontos Amostrais: Cara, Coroa\n\nExperimento: Classificar um produto (defeituoso/não defeituoso).\n\nEspaço Amostral (\\(\\Omega\\)): \\(\\{\\text{Defeituoso}, \\text{Não Defeituoso}\\}\\)\n\nExperimento: Contar o número de carros que passam por um cruzamento em 1 minuto.\n\nEspaço Amostral (\\(\\Omega\\)): \\(\\{0, 1, 2, 3, \\ldots\\}\\) (Infinitos, mas enumeráveis!)"
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#outro-exemplo",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#outro-exemplo",
+    "title": "Probabilidade",
+    "section": "Outro Exemplo",
+    "text": "Outro Exemplo\nConsidere o experimento de jogar um dado de seis faces e observar a face voltada para cima. O espaço amostral é \\[\n    \\Omega = \\{1,2,3,4,5,6\\}.\n\\]\nAtenção! Mais de um espaço amostral pode ser usado para descrever o mesmo experimento.\n\nSe estivermos interessados em saber se o número será par ou ímpar, o espaço amostral será simplesmente: \\[\n  \\Omega = \\{\\text{par, ímpar}\\}.\n\\]"
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.1",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.1",
+    "title": "Probabilidade",
+    "section": "Exemplo 4.1",
+    "text": "Exemplo 4.1\nPeças que saem de uma linha de produção são marcadas como defeituosa (D) e não defeituosa (N). As peças são inspecionadas e sua condição é registrada. Isto é feito até que duas peças defeituosas consecutivas sejam fabricadas ou que quatro peças tenham sido inspecionadas, aquilo que ocorrer primeiro. Descreva um espaço amostral para este experimento."
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#definição-4.3-evento",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#definição-4.3-evento",
+    "title": "Probabilidade",
+    "section": "Definição 4.3: Evento",
+    "text": "Definição 4.3: Evento\n\nUm evento é um subconjunto do espaço amostral (\\(\\Omega\\)).\n\nPense nele como uma coleção específica de um ou mais resultados de um experimento que nos interessa.\n\nDenotamos um evento por uma letra maiúscula. Ex.: \\(A\\), \\(B\\), \\(C\\), etc.\n\nExemplo\nDado um espaço amostral \\(\\Omega = \\{t|t &gt; 0\\}\\), onde t é o tempo em minutos que você espera o ônibus no ponto, então o evento A, em que o ônibus chega antes de 10 minutos é \\[A = \\{t|0 \\leq t &lt; 10\\}.\\]"
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#section",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#section",
+    "title": "Probabilidade",
+    "section": "",
+    "text": "Como um evento é um subconjunto do espaço amostral, operações sobre conjuntos podem ser utilizadas:\n\n\\(A\\cup B\\): ocorre \\(A\\) ou \\(B\\);\n\\(A\\cap B\\): ocorre A e B (simultaneamente);\n\\(A^c\\) : não ocorre A;\n\\(\\bigcup\\limits_{i=1}^{n}A_i\\): ao menos um \\(A_i\\) ocorre (vale para \\(\\bigcup\\limits_{i=1}^{\\infty}A_i\\));\n\\(\\bigcap\\limits_{i=1}^{n}A_i\\): todos os \\(A_i\\) ocorrem (vale para \\(\\bigcap\\limits_{i=1}^{\\infty}A_i\\))."
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#definição-4.4-eventos-mutuamente-excludentes",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#definição-4.4-eventos-mutuamente-excludentes",
+    "title": "Probabilidade",
+    "section": "Definição 4.4: Eventos Mutuamente Excludentes",
+    "text": "Definição 4.4: Eventos Mutuamente Excludentes\n\nDois eventos \\(A\\) e \\(B\\) são denominados mutuamente excludentes se eles não puderem ocorrer juntos.\nIsto é, \\(A\\cap B=\\emptyset\\)."
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.3",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.3",
+    "title": "Probabilidade",
+    "section": "Exemplo 4.3",
+    "text": "Exemplo 4.3\nQuais desses eventos são mutuamente excludentes?\n\nUm jogador de xadrez que dá um xeque-mate e perde o rei na mesma jogada.\nUm jogador de pôquer que tem um flush (todas as cartas do mesmo naipe) e três de um tipo na mesma mão de cinco cartas.\nUma mãe que dá à luz uma menina e gêmeas no mesmo dia.\nUm time de futebol que perde o último jogo e ganha o Brasileirão.\nUm usuário tem sua conta bloqueada por tentativas de login e consegue acessar o sistema com sucesso no mesmo minuto."
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#por-que-precisamos-da-probabilidade",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#por-que-precisamos-da-probabilidade",
+    "title": "Probabilidade",
+    "section": "Por que precisamos da Probabilidade?",
+    "text": "Por que precisamos da Probabilidade?\n\nEm experimentos aleatórios, a gente não sabe qual resultado específico vai acontecer quando o experimento é feito.\nOu seja, se \\(A\\) é um evento ligado a um experimento, não podemos ter certeza se \\(A\\) vai ocorrer ou não.\nPor isso, fica muito importante tentar associar um número ao evento \\(A\\), que vai medir, de alguma forma, o quão provável é a ocorrência de \\(A\\).\nEssa tarefa nos leva direto à teoria da probabilidade."
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#definição-4.5-frequência-relativa",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#definição-4.5-frequência-relativa",
+    "title": "Probabilidade",
+    "section": "Definição 4.5: Frequência Relativa",
+    "text": "Definição 4.5: Frequência Relativa\n\nSuponha que repetimos \\(n\\) vezes um experimento e sejam \\(A\\) e \\(B\\) dois eventos. Admitamos que sejam, respectivamente, \\(n_A\\) e \\(n_B\\) o número de vezes que o evento \\(A\\) e o evento \\(B\\) ocorram nas \\(n\\) repetições.\n\\(f_A = n_A/n\\) é denominada frequência relativa do evento \\(A\\) nas \\(n\\) repetições do experimento."
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#propriedades-da-frequência-relativa",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#propriedades-da-frequência-relativa",
+    "title": "Probabilidade",
+    "section": "Propriedades da Frequência Relativa",
+    "text": "Propriedades da Frequência Relativa\nA frequência relativa \\(f_A\\) apresenta as seguintes propriedades:\n\n\\(0\\leq f_A \\leq 1\\): A frequência relativa de um evento sempre estará entre 0 e 1 (ou 0% e 100%).\n\\(f_A = 1\\) se, e somente se, \\(A\\) ocorrer em todas as \\(n\\) repetições: Se o evento acontecer todas as vezes, sua frequência relativa será 1.\n\\(f_A = 0\\) se, e somente se, \\(A\\) nunca ocorrer nas \\(n\\) repetições: Se o evento nunca acontecer, sua frequência relativa será 0.\nSe \\(A\\) e \\(B\\) forem mutuamente excludentes, \\(f_{A\\cup B} = f_A + f_B\\): Se dois eventos não podem acontecer juntos, a frequência de um ou outro é a soma das frequências individuais."
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#propriedades-da-frequência-relativa-1",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#propriedades-da-frequência-relativa-1",
+    "title": "Probabilidade",
+    "section": "Propriedades da Frequência Relativa",
+    "text": "Propriedades da Frequência Relativa\n\nCom base em \\(n\\) repetições do experimento, \\(f_A\\) “converge” em certo sentido probabilístico para \\(P(A)\\), quando \\(n\\rightarrow\\infty\\): Esta é a Lei dos Grandes Números em essência. Significa que, quanto mais vezes você repetir um experimento, mais a frequência relativa de um evento se aproximará de sua verdadeira probabilidade."
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#definição-4.6-probabilidade",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#definição-4.6-probabilidade",
+    "title": "Probabilidade",
+    "section": "Definição 4.6: Probabilidade",
+    "text": "Definição 4.6: Probabilidade\nSeja \\(E\\) um experimento. Seja \\(\\Omega\\) o espaço amostral associado a \\(E\\). A cada evento \\(A\\) associaremos um número real representado por \\(P(A)\\) e denominado probabilidade de \\(A\\), que satisfaz às seguintes propriedades:\n\nP1. \\(0\\leq P(A)\\leq1\\): A probabilidade de qualquer evento está sempre entre 0 (impossível) e 1 (certo).\nP2. \\(P(\\Omega) = 1\\): A probabilidade de que algum resultado do espaço amostral ocorra (ou seja, de que o experimento aconteça) é 1.\nP3. Se \\(A\\) e \\(B\\) forem mutuamente excludentes, \\(P(A\\cup B)=P(A)+P(B)\\): Se dois eventos não podem acontecer ao mesmo tempo, a probabilidade de que um ou outro ocorra é a soma das suas probabilidades individuais."
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#section-1",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#section-1",
+    "title": "Probabilidade",
+    "section": "",
+    "text": "De P3, temos que \\(P\\left(\\bigcup\\limits_{i=1}^n A_i\\right) = \\sum\\limits_{i=1}^n P(A_i).\\) Esta é uma generalização importante da propriedade P3 para múltiplos eventos mutuamente excludentes.\nP4. Se \\(A_1,A_2,A_3,\\ldots\\) forem, dois a dois, eventos mutuamente excludentes, então \\[\n  P\\left(\\bigcup\\limits_{i=1}^\\infty A_i\\right) = \\sum\\limits_{i=1}^\\infty P(A_i).\n\\]\nA escolha das propriedades da probabilidade apresentadas é obviamente sugerida pelas características da frequência relativa. Isso reforça a ideia de que a teoria da probabilidade formaliza o que observamos empiricamente ao repetir experimentos muitas vezes."
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#resultados-decorrentes-da-definição-de-pa",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#resultados-decorrentes-da-definição-de-pa",
+    "title": "Probabilidade",
+    "section": "Resultados Decorrentes da Definição de \\(P(A)\\)",
+    "text": "Resultados Decorrentes da Definição de \\(P(A)\\)\n\nR1. \\(P(\\emptyset)=0\\).\nR2. \\(P(A^c) = 1-P(A)\\).\nR3. \\(P(A\\cup B) = P(A)+P(B)-P(A\\cap B)\\).\nR4. \\(P(A\\cup B\\cup C) = P(A)+P(B)+P(C)-P(A\\cap B)\\) \\(\\qquad\\qquad\\qquad~~\\,-P(A\\cap C)-P(B\\cap C)+P(A\\cap B \\cap C)\\).\nR5. \\(A\\subset B \\Rightarrow P(A)\\leq P(B)\\)."
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.4",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.4",
+    "title": "Probabilidade",
+    "section": "Exemplo 4.4",
+    "text": "Exemplo 4.4\nSuponha que \\(A\\), \\(B\\) e \\(C\\) sejam eventos tais que\n\n\\(P(A) = P(B) = P(C) = 1/4\\),\n\\(P(A \\cap B) = P(C \\cap B) = 0\\) e\n\\(P(A \\cap C) = 1/8\\).\n\nCalcule a probabilidade de que ao menos um dos eventos \\(A\\), \\(B\\) ou \\(C\\) ocorra."
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#espaço-amostral-finito",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#espaço-amostral-finito",
+    "title": "Probabilidade",
+    "section": "Espaço Amostral Finito",
+    "text": "Espaço Amostral Finito\n\nVamos caracterizar a probabilidade do evento \\(A\\), \\(P(A)\\).\nSeja \\(A=\\{a\\}\\) um evento simples ou elementar (um único resultado possível).\nA cada evento simples \\(\\{a_i\\}\\) associaremos um número \\(p_i\\) que satisfaz as seguintes condições:\n\n\\(p_i&gt;0, ~ i=1,2,\\ldots,k\\),\n\\(p_1+p_2+\\cdots+p_k=1\\).\n\nSupondo agora que \\(A\\) é constituído por \\(r\\) resultados, \\(1\\leq r \\leq k\\) (\\(A = \\{a_{j1}, a_{j2},\\ldots, a_{jr}\\}\\), temos que: \\[\n  P(A) = p_{j1} + p_{j2} + \\cdots + p_{jr}.\n\\]"
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.5",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.5",
+    "title": "Probabilidade",
+    "section": "Exemplo 4.5",
+    "text": "Exemplo 4.5\nUm dado é lançado e todos os resultados se supõem igualmente verossímeis. O evento \\(A\\) ocorrerá se, e somente se, um número maior do que 4 aparecer. Qual a probabilidade do evento \\(A\\)?"
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.6",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.6",
+    "title": "Probabilidade",
+    "section": "Exemplo 4.6",
+    "text": "Exemplo 4.6\nUma moeda equilibrada é atirada duas vezes. Seja \\(A\\) o evento: “aparece uma cara”. Qual a probabilidade do evento \\(A\\)?"
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#resultados-igualmente-verossímeis",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#resultados-igualmente-verossímeis",
+    "title": "Probabilidade",
+    "section": "Resultados Igualmente Verossímeis",
+    "text": "Resultados Igualmente Verossímeis\n\nSuponha que temos um espaço amostral \\(\\Omega = \\{a_1,a_2, \\ldots, a_k\\}\\), com k resultados possíveis.\nSe todos os resultados forem igualmente verossímeis (ou seja, têm a mesma chance de acontecer), então a probabilidade de cada resultado elementar \\(a_i\\) será \\(p_i=1/k\\).\nAssim, para qualquer evento A formado por \\(r\\) resultados (ou seja, \\(A\\) tem \\(r\\) “casos favoráveis”), teremos: \\[ P(A) = \\frac{r}{k}.\\]"
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#resultados-igualmente-verossímeis-1",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#resultados-igualmente-verossímeis-1",
+    "title": "Probabilidade",
+    "section": "Resultados Igualmente Verossímeis",
+    "text": "Resultados Igualmente Verossímeis\n\nOutra forma de expressar isso, e que é muito popular, é: \\[P(A)=\\frac{\\text{número de casos favoráveis a }A}{\\text{número total de casos}}.\\]\nObservação: Esta expressão só é válida se todos os resultados forem igualmente verossímeis. Se não forem, você deve usar a soma das probabilidades \\(p_i\\) individuais que vimos antes."
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.7",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.7",
+    "title": "Probabilidade",
+    "section": "Exemplo 4.7",
+    "text": "Exemplo 4.7\nImagine que, ao final de um evento na escola, 10 alunos com emblemas numerados de 1 a 10 são sorteados para receber prêmios. Três alunos são escolhidos ao acaso e convidados a se apresentar simultaneamente no palco. Os números de seus emblemas são anotados.\n\nQual é a probabilidade de que o menor número de emblema sorteado seja 5?\nQual é a probabilidade de que o maior número de emblema sorteado seja 5?"
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.8",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.8",
+    "title": "Probabilidade",
+    "section": "Exemplo 4.8",
+    "text": "Exemplo 4.8\nSuponha que os três dígitos 1, 2 e 3 sejam escritos em ordem aleatória. Qual a probabilidade de que ao menos um dígito ocupe seu próprio lugar?"
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.9",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.9",
+    "title": "Probabilidade",
+    "section": "Exemplo 4.9",
+    "text": "Exemplo 4.9\nEm um jogo de tabuleiro, você tem 10 fichas numeradas de 1 a 10 dentro de um saco. Você tira duas fichas, uma de cada vez e sem colocar a primeira de volta. Qual é a probabilidade de que a soma dos números das duas fichas seja exatamente 10?"
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.10",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.10",
+    "title": "Probabilidade",
+    "section": "Exemplo 4.10",
+    "text": "Exemplo 4.10\nUm lote de lâmpadas elétricas foi fabricado, contendo 10 lâmpadas perfeitas, 4 com pequenos defeitos (que ainda funcionam) e 2 com defeitos graves (que não funcionam). Se uma lâmpada é escolhida ao acaso para teste, qual é a probabilidade de que:\n\nEla não tenha defeitos?\nEla não tenha defeitos graves?\nEla seja perfeita OU tenha defeitos graves?"
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.11",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.11",
+    "title": "Probabilidade",
+    "section": "Exemplo 4.11",
+    "text": "Exemplo 4.11\nSuponha que de \\(N\\) objetos, \\(n\\) sejam escolhidos ao acaso, com reposição. Qual será a probabilidade de que nenhum objeto seja escolhido mais do que uma vez? (Admita \\(n &lt; N\\))"
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.12",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.12",
+    "title": "Probabilidade",
+    "section": "Exemplo 4.12",
+    "text": "Exemplo 4.12\nVocê tem uma caixa cheia de etiquetas com números de 1 até n. Duas etiquetas são escolhidas ao acaso. Determine a probabilidade de que os números das etiquetas sejam inteiros consecutivos (como 3 e 4, ou 4 e 3) se:\n\nAs etiquetas forem escolhidas uma após a outra, sem colocar a primeira de volta.\nAs etiquetas forem escolhidas uma após a outra, colocando a primeira de volta."
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.13",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.13",
+    "title": "Probabilidade",
+    "section": "Exemplo 4.13",
+    "text": "Exemplo 4.13\nEm uma rifa, um número é escolhido ao acaso dentre os números de 1 a 50. Qual será a probabilidade de que o número escolhido seja divisível por 6 ou por 8?"
+  },
+  {
+    "objectID": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.14",
+    "href": "slides/04-Probabilidade/04-Probabilidade.html#exemplo-4.14",
+    "title": "Probabilidade",
+    "section": "Exemplo 4.14",
+    "text": "Exemplo 4.14\nDentre 6 números positivos e 8 negativos, escolhem-se ao acaso 4 números (sem reposição) e multiplicam-se esses números. Qual será a probabilidade de que o produto seja um número positivo?"
+  },
+  {
+    "objectID": "slides/07-Teorema_de_Bayes/07-Teorema_de_Bayes.html#teorema-de-bayes",
+    "href": "slides/07-Teorema_de_Bayes/07-Teorema_de_Bayes.html#teorema-de-bayes",
+    "title": "Teorema de Bayes",
+    "section": "Teorema de Bayes",
+    "text": "Teorema de Bayes\n\nO Teorema de Bayes permite calcular a probabilidade de uma causa, dado que um efeito específico foi observado.\nEm outras palavras, ele ajuda a determinar a chance de um evento específico ter ocorrido antes do evento final que foi observado.\nVejamos o teorema."
+  },
+  {
+    "objectID": "slides/07-Teorema_de_Bayes/07-Teorema_de_Bayes.html#teorema-de-bayes-1",
+    "href": "slides/07-Teorema_de_Bayes/07-Teorema_de_Bayes.html#teorema-de-bayes-1",
+    "title": "Teorema de Bayes",
+    "section": "Teorema de Bayes",
+    "text": "Teorema de Bayes\nA partir da Lei da Probabilidade Total de um evento \\(B\\) numa partição \\(A_1,A_2,\\ldots,A_k\\) de \\(\\Omega\\), as probabilidades condicionais reversas \\(P(A_i|B)\\) para \\(i=1,\\ldots,k\\), podem ser obtidas da seguinte forma: \\[\n  P(A_i|B) = \\frac{P(B|A_i)P(A_i)}{\\sum\\limits_{i=1}^k P(B|A_i)P(A_i)}, \\quad i=1,\\ldots,k.\n\\]"
+  },
+  {
+    "objectID": "slides/07-Teorema_de_Bayes/07-Teorema_de_Bayes.html#teorema-de-bayes-2",
+    "href": "slides/07-Teorema_de_Bayes/07-Teorema_de_Bayes.html#teorema-de-bayes-2",
+    "title": "Teorema de Bayes",
+    "section": "Teorema de Bayes",
+    "text": "Teorema de Bayes"
+  },
+  {
+    "objectID": "slides/07-Teorema_de_Bayes/07-Teorema_de_Bayes.html#exemplo-7.1",
+    "href": "slides/07-Teorema_de_Bayes/07-Teorema_de_Bayes.html#exemplo-7.1",
+    "title": "Teorema de Bayes",
+    "section": "Exemplo 7.1",
+    "text": "Exemplo 7.1\nSuponha que três máquinas (\\(M_1, M_2\\) e \\(M_3\\)) operem simultaneamente. Considere que essas máquinas são responsáveis por 35%, 40% e 25% da produção total, respectivamente. Além disso, 2%, 3% e 1% das peças produzidas pelas máquinas \\(M_1\\), \\(M_2\\) e \\(M_3\\), respectivamente, apresentam defeito. Ao final de um dia, uma peça é escolhida aleatoriamente da linha de produção e verificado que ela apresenta defeito. Qual é a probabilidade de que a peça escolhida tenha sido fabricada pela máquina \\(M_2\\)?"
+  },
+  {
+    "objectID": "slides/07-Teorema_de_Bayes/07-Teorema_de_Bayes.html#exemplo-7.2",
+    "href": "slides/07-Teorema_de_Bayes/07-Teorema_de_Bayes.html#exemplo-7.2",
+    "title": "Teorema de Bayes",
+    "section": "Exemplo 7.2",
+    "text": "Exemplo 7.2\nUm paciente recebeu o resultado de um exame de laboratório que detecta a doença com 98% de precisão quando a doença está presente, mas também fornece um “falso positivo” em 1% dos casos quando a doença não está presente. Sabendo que apenas 0,2% da população tem a doença e que o exame deu positivo, qual é a probabilidade de que o paciente tenha de fato a doença?"
+  },
+  {
+    "objectID": "slides/07-Teorema_de_Bayes/07-Teorema_de_Bayes.html#exemplo-7.3",
+    "href": "slides/07-Teorema_de_Bayes/07-Teorema_de_Bayes.html#exemplo-7.3",
+    "title": "Teorema de Bayes",
+    "section": "Exemplo 7.3",
+    "text": "Exemplo 7.3\nUma companhia de seguros classifica as pessoas em duas categorias: propensas ou não a acidentes. A estatística da companhia mostra que uma pessoa propensa a acidentes tem uma probabilidade de 0,4 de sofrer um acidente em um período de um ano, enquanto essa probabilidade é de 0,2 para uma pessoa não propensa a acidentes. Se 30% da população é classificada como propensa a acidentes,\n\nqual é a probabilidade de que um novo segurado sofra um acidente no primeiro ano de vigência de sua apólice?\nSuponha que um novo segurado sofra um acidente no primeiro ano de vigência de sua apólice. Qual é a probabilidade de que ele seja propenso a acidentes?"
+  },
+  {
+    "objectID": "slides/07-Teorema_de_Bayes/07-Teorema_de_Bayes.html#exemplo-7.4",
+    "href": "slides/07-Teorema_de_Bayes/07-Teorema_de_Bayes.html#exemplo-7.4",
+    "title": "Teorema de Bayes",
+    "section": "Exemplo 7.4",
+    "text": "Exemplo 7.4\nAo responder uma questão em uma prova de múltipla escolha, um estudante pode saber a resposta ou “chutar”. Suponha que a probabilidade de que o estudante saiba a resposta seja 1/2, e que, se ele chutar, a chance de acertar seja 1/5. Se o estudante respondeu corretamente à questão, qual é a probabilidade de que ele realmente soubesse a resposta?"
+  },
+  {
+    "objectID": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#section",
+    "href": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#section",
+    "title": "Teorema da Probabilidade Total",
+    "section": "",
+    "text": "Até aqui empregamos o conceito de probabilidade condicional a fim de avaliarmos a probabilidade de ocorrência conjunta de dois ou mais eventos.\nPoderemos aplicar esse conceito em outra maneira de calcular a probabilidade de um evento simples \\(B\\)."
+  },
+  {
+    "objectID": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#definição-6.1-partição-do-espaço-amostral",
+    "href": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#definição-6.1-partição-do-espaço-amostral",
+    "title": "Teorema da Probabilidade Total",
+    "section": "Definição 6.1: Partição do espaço amostral",
+    "text": "Definição 6.1: Partição do espaço amostral\nDizemos que os eventos \\(A_1, A_2, \\ldots, A_k\\) representam uma partição do espaço amostral quando\n\n\\(A_i \\cap A_j = \\emptyset, \\forall \\, i\\neq j\\)\n\\(\\bigcup\\limits_{i=1}^k A_i = \\Omega\\)"
+  },
+  {
+    "objectID": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#teorema-da-probabilidade-total",
+    "href": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#teorema-da-probabilidade-total",
+    "title": "Teorema da Probabilidade Total",
+    "section": "Teorema da Probabilidade Total",
+    "text": "Teorema da Probabilidade Total\n\nConsidere um evento \\(B\\subset \\Omega\\).\nPodemos dizer que \\(B\\) é formado pela união das partes de \\(B\\) que fazem interseção com os \\(A_i\\), \\(i=1,\\ldots,k\\), ou seja, \\[\nB = (B\\cap A_1)\\cup(B\\cap A_2)\\cup\\cdots\\cup(B\\cap A_k)\n\\]\n\n\n\nNote que algumas desas interseções podem ser vazias."
+  },
+  {
+    "objectID": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#teorema-da-probabilidade-total-1",
+    "href": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#teorema-da-probabilidade-total-1",
+    "title": "Teorema da Probabilidade Total",
+    "section": "Teorema da Probabilidade Total",
+    "text": "Teorema da Probabilidade Total\nAssim,\n\\[\n  \\begin{aligned}\n        P(B) &= P(B\\cap A_1)+P(B\\cap A_2)+\\cdots+P(B\\cap A_k)\\\\\n             &\\!\\!\\!= P(A_1)P(B|A_1)+P(A_2)P(B|A_2)+\\cdots+P(A_k)P(B|A_k)\\\\\n               &\\!\\!\\!= \\sum_{i=1}^{k} P(A_i)P(B|A_i)\n    \\end{aligned}\n\\]\n\nEsse resultado é conhecido como lei da probabilidade total ou teorema da probabilidade total.\nEle é útil quando não conseguimos calcular diretamente a probabilidade de \\(B\\), e precisamos considerar todas as maneiras diferentes pelas quais \\(B\\) pode ocorrer."
+  },
+  {
+    "objectID": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#exemplo-6.1",
+    "href": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#exemplo-6.1",
+    "title": "Teorema da Probabilidade Total",
+    "section": "Exemplo 6.1",
+    "text": "Exemplo 6.1\nUm aluno está resolvendo uma questão de um trabalho. A probabilidade de resolver a questão sem precisar de pesquisa é de 40%. Se ele optar por fazer a pesquisa, a probabilidade de resolver a questão é de 70%. A probabilidade de que o aluno decida fazer a pesquisa é de 80%. Calcule a probabilidade total de que o aluno consiga resolver a questão."
+  },
+  {
+    "objectID": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#exemplo-6.2",
+    "href": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#exemplo-6.2",
+    "title": "Teorema da Probabilidade Total",
+    "section": "Exemplo 6.2",
+    "text": "Exemplo 6.2\nSuponha que três máquinas (\\(M_1, M_2\\) e \\(M_3\\)) operem simultaneamente. Considere que essas máquinas são responsáveis por 35%, 40% e 25% da produção total, respectivamente. Além disso, 2%, 3% e 1% das peças produzidas pelas máquinas \\(M_1\\), \\(M_2\\) e \\(M_3\\), respectivamente, apresentam defeito. Ao final de um dia, uma peça é escolhida aleatoriamente da linha de produção. Qual é a probabilidade de que a peça escolhida esteja com defeito?"
+  },
+  {
+    "objectID": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#exemplo-6.3",
+    "href": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#exemplo-6.3",
+    "title": "Teorema da Probabilidade Total",
+    "section": "Exemplo 6.3",
+    "text": "Exemplo 6.3\nUm banco utiliza um algoritmo de Inteligência Artificial para identificar transações fraudulentas. Dados históricos mostram que a probabilidade de uma transação ser Fraude (\\(F\\)) é de 1%. A probabilidade de ser uma Transação Legítima (\\(L\\)) é de 99%. O algoritmo nem sempre é perfeito: se a transação é Fraude, o algoritmo emite um Alerta (\\(A\\)) com 95% de precisão, \\(P(A|F) = 0,95\\). Se a transação é Legítima, o algoritmo ainda pode emitir um Alerta (\\(A\\)) (falso positivo) com 2% de probabilidade, \\(P(A|L) = 0,02\\). Qual é a probabilidade total de o algoritmo emitir um alerta para uma transação escolhida ao acaso?"
+  },
+  {
+    "objectID": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#exemplo-6.4",
+    "href": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#exemplo-6.4",
+    "title": "Teorema da Probabilidade Total",
+    "section": "Exemplo 6.4",
+    "text": "Exemplo 6.4\nSuponha que quatro setores de uma biblioteca (\\(S_1\\), \\(S_2\\), \\(S_3\\), e \\(S_4\\)) são responsáveis por arquivar diferentes categorias de livros. O setor \\(S_1\\) é responsável por 40% dos livros, o setor \\(S_2\\) por 25%, o setor \\(S_3\\) por 20%, e o setor \\(S_4\\) por 15%. Sabe-se que 3%, 6%, 4% e 2% dos livros arquivados nos setores \\(S_1\\), \\(S_2\\), \\(S_3\\) e \\(S_4\\), respectivamente, estão com informações incorretas na catalogação. Ao final de um dia, um livro é escolhido aleatoriamente do acervo. Qual é a probabilidade de que o livro escolhido esteja com informações incorretas?"
+  },
+  {
+    "objectID": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#exemplo-6.5",
+    "href": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#exemplo-6.5",
+    "title": "Teorema da Probabilidade Total",
+    "section": "Exemplo 6.5",
+    "text": "Exemplo 6.5\nUm saco contém quatro bolas brancas e três pretas. Um segundo saco contém três bolas brancas e cinco pretas. Uma bola é retirada do primeiro saco e colocada no segundo. Qual é a probabilidade de que uma bola, selecionada em seguida do segundo saco, seja preta?"
+  },
+  {
+    "objectID": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#exemplo-6.6",
+    "href": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#exemplo-6.6",
+    "title": "Teorema da Probabilidade Total",
+    "section": "Exemplo 6.6",
+    "text": "Exemplo 6.6\nEm uma fábrica, há dois compartimentos de peças. O primeiro compartimento contém 6 peças originais e 4 peças falsificadas. O segundo compartimento contém 5 peças originais e 7 peças falsificadas. Uma peça é retirada aleatoriamente do primeiro compartimento e transferida para o segundo compartimento. Em seguida, uma peça é retirada aleatoriamente do segundo compartimento. Qual é a probabilidade de que a peça retirada do segundo compartimento seja original?"
+  },
+  {
+    "objectID": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#exemplo-5.1",
+    "href": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#exemplo-5.1",
+    "title": "Probabilidade Condicional e Regra da Multiplicação",
+    "section": "Exemplo 5.1",
+    "text": "Exemplo 5.1\nVocê lança um dado comum de 6 faces e observa o número que aparece na face voltada para cima.\nConsidere estes dois eventos:\n\n\\(A\\): “A face voltada para cima é um número par”\n\\(B\\): “A face voltada para cima é um número maior que 4”\n\nQual é a probabilidade de que a face voltada para cima seja maior que 4, dado que sabemos que ela é um número par?"
+  },
+  {
+    "objectID": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#definição-5.1-probabilidade-condicional",
+    "href": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#definição-5.1-probabilidade-condicional",
+    "title": "Probabilidade Condicional e Regra da Multiplicação",
+    "section": "Definição 5.1: Probabilidade Condicional",
+    "text": "Definição 5.1: Probabilidade Condicional\n\nA probabilidade de que um evento \\(B\\) ocorra, dado que o evento \\(A\\) já ocorreu, é definida como: \\[\nP(B|A) = \\frac{P(A\\cap B)}{P(A)},\n\\] desde que \\(P(A) &gt; 0\\).\n\\(P(B|A)\\) se lê como probabilidade de \\(B\\) dado \\(A\\)."
+  },
+  {
+    "objectID": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#section",
+    "href": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#section",
+    "title": "Probabilidade Condicional e Regra da Multiplicação",
+    "section": "",
+    "text": "O que estamos buscando ao calcular \\(P(B|A)\\)?\n\nEstamos tentando descobrir a probabilidade de estar em \\(B\\), sabendo que já estamos em \\(A\\).\n\nReduzindo o Espaço Amostral\n\nTradicionalmente, ao calcular probabilidades, consideramos todos os resultados possíveis no espaço amostral (\\(\\Omega\\)).\nNo entanto, com a probabilidade condicional, a informação de que o evento \\(A\\) já ocorreu muda nosso universo de possibilidades.\nAgora, nosso novo “espaço amostral” se torna o próprio evento \\(A\\). Não olhamos mais para \\(\\Omega\\) inteiro, mas apenas para os resultados que estão dentro de \\(A\\)."
+  },
+  {
+    "objectID": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#section-1",
+    "href": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#section-1",
+    "title": "Probabilidade Condicional e Regra da Multiplicação",
+    "section": "",
+    "text": "Fonte: http://clubes.obmep.org.br/blog/sala-de-estudo-probabilidades-sala-3/"
+  },
+  {
+    "objectID": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#pb-a-é-uma-probabilidade",
+    "href": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#pb-a-é-uma-probabilidade",
+    "title": "Probabilidade Condicional e Regra da Multiplicação",
+    "section": "\\(P(B | A)\\) é uma Probabilidade",
+    "text": "\\(P(B | A)\\) é uma Probabilidade\n\n\\(P(B | A)\\) também é uma medida de probabilidade que respeita todos os axiomas de Kolmogorov:\n\n\\(P(S | A) = 1\\)\n\\(P(B | A) \\geq 0\\)\nSe \\(B_1\\) e \\(B_2\\) são mutuamente excudentes, \\(P(B_1 \\cup B_2 | A) = P(B_1 | A) + P(B_2 | A)\\).\n\nTodas as regras que aprendemos na aula anterior (complementar, união, etc.) continuam valendo para probabilidade condicional."
+  },
+  {
+    "objectID": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#section-2",
+    "href": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#section-2",
+    "title": "Probabilidade Condicional e Regra da Multiplicação",
+    "section": "",
+    "text": "Temos duas maneiras principais de calcular a probabilidade condicional \\(P(B∣A)\\):\n\nAbordagem Direta (Espaço Amostral Reduzido):\n\nConsideramos diretamente a probabilidade de \\(B\\) dentro do novo e menor espaço amostral, que é o evento \\(A\\).\nPense: “Dos casos em que \\(A\\) acontece, quantos deles também fazem \\(B\\) acontecer?”\n\nAbordagem pela Definição (Fórmula):\n\nPara usar essa abordagem, precisamos conhecer (ou conseguir calcular) a probabilidade da interseção de \\(A\\) e \\(B\\), \\(P(A\\cap B)\\), e a probabilidade de \\(A\\), \\(P(A)\\)."
+  },
+  {
+    "objectID": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#exemplo-5.2",
+    "href": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#exemplo-5.2",
+    "title": "Probabilidade Condicional e Regra da Multiplicação",
+    "section": "Exemplo 5.2",
+    "text": "Exemplo 5.2\nEm uma pesquisa de opinião realizada com 800 indivíduos sobre a aceitação de uma nova política pública, os resultados foram tabulados por gênero da seguinte forma:\n\n\n\nCategoria\nMulheres\nHomens\nTotal\n\n\n\n\nAprovam\n250\n190\n440\n\n\nDesaprovam\n120\n240\n360\n\n\nTotal\n370\n430\n800\n\n\n\nSe uma pessoa é selecionada aleatoriamente dessa pesquisa e sabemos que ela aprovou a nova política pública, qual é a probabilidade de que essa pessoa seja um homem?"
+  },
+  {
+    "objectID": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#exemplo-5.3",
+    "href": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#exemplo-5.3",
+    "title": "Probabilidade Condicional e Regra da Multiplicação",
+    "section": "Exemplo 5.3",
+    "text": "Exemplo 5.3\nEm um estudo de mercado recente sobre os hábitos de consumo de conteúdo digital, observou-se que 40% dos participantes assinam serviços de streaming de filmes. Além disso, o estudo revelou que 25% dos participantes assinam serviços de streaming de filmes e também são consumidores frequentes de documentários. Se um participante é selecionado aleatoriamente e sabemos que ele assina serviços de streaming de filmes, qual é a probabilidade de que ele também seja um consumidor frequente de documentários?"
+  },
+  {
+    "objectID": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#exemplo-5.4",
+    "href": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#exemplo-5.4",
+    "title": "Probabilidade Condicional e Regra da Multiplicação",
+    "section": "Exemplo 5.4",
+    "text": "Exemplo 5.4\nEm uma pesquisa recente com estudantes universitários, foram levantados dados sobre o consumo de plataformas de streaming. Os resultados mostraram que 70% dos estudantes utilizam uma plataforma de streaming de vídeo, enquanto 50% utilizam uma plataforma de streaming de música. Além disso, verificou-se que 85% dos estudantes utilizam pelo menos uma dessas duas plataformas (seja de vídeo ou de música). Com base nessas informações, se um estudante é selecionado aleatoriamente e sabemos que ele utiliza uma plataforma de streaming de vídeo, qual é a probabilidade de que ele também utilize uma plataforma de streaming de música?"
+  },
+  {
+    "objectID": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#section-3",
+    "href": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#section-3",
+    "title": "Probabilidade Condicional e Regra da Multiplicação",
+    "section": "",
+    "text": "Agora vamos mudar um pouco…\n\nExemplo 5.5\nUm lote contém 20 peças defeituosas e 80 não-defeituosas. Qual a probabilidade de escolhermos duas peças defeituosas:\n\ncom reposição?\nsem reposição?"
+  },
+  {
+    "objectID": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#regra-da-multiplicação",
+    "href": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#regra-da-multiplicação",
+    "title": "Probabilidade Condicional e Regra da Multiplicação",
+    "section": "Regra da Multiplicação",
+    "text": "Regra da Multiplicação\n\nUma das consequências mais importantes da definição de probabilidade condicional é que podemos rearranjá-la: \\[\nP(B|A) = \\frac{P(A\\cap B)}{P(A)} \\Rightarrow P(A\\cap B) = P(A)P(B|A).\n\\]\nEste resultado é conhecido como Regra da Multiplicação ou Teorema da Multiplicação para eventos quaisquer.\nLembre-se: Use esta regra quando o evento \\(B\\) é influenciado ou depende da ocorrência do evento \\(A\\).\n\nNo exemplo das peças, a probabilidade da segunda peça ser defeituosa depende se a primeira foi reposta ou não!"
+  },
+  {
+    "objectID": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#exemplo-5.6",
+    "href": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#exemplo-5.6",
+    "title": "Probabilidade Condicional e Regra da Multiplicação",
+    "section": "Exemplo 5.6",
+    "text": "Exemplo 5.6\nEm uma sala com 15 pessoas, há 6 homens e 9 mulheres. Duas pessoas são escolhidas aleatoriamente, uma após a outra, para receber um brinde. Qual é a probabilidade de que as duas sejam mulheres?"
+  },
+  {
+    "objectID": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#regra-da-multiplicação-1",
+    "href": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#regra-da-multiplicação-1",
+    "title": "Probabilidade Condicional e Regra da Multiplicação",
+    "section": "Regra da Multiplicação",
+    "text": "Regra da Multiplicação\n\nA regra da multiplicação pode ser generalizada para mais de dois eventos da seguinte maneira: \\[\n\\begin{aligned}\n          &P(A_1\\cap A_2\\cap A_3\\cap\\cdots\\cap A_n) =\\\\ &P(A_1)P(A_2|A_1)P(A_3|A_1\\cap A_2)\\cdots P(A_n|A_1\\cap\\cdots\\cap A_{n-1}).\n      \\end{aligned}\n\\]"
+  },
+  {
+    "objectID": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#exemplo-5.7",
+    "href": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#exemplo-5.7",
+    "title": "Probabilidade Condicional e Regra da Multiplicação",
+    "section": "Exemplo 5.7",
+    "text": "Exemplo 5.7\nTrês cartas são escolhidas em sucessão, sem reposição, de um baralho comum de 52 cartas. Determine a probabilidade do evento \\(A_1 \\cap A_2 \\cap A_3\\), onde:\n\n\\(A_1\\): a primeira carta escolhida é um ás vermelho.\n\\(A_2\\): a segunda carta escolhida é um ás ou um valete.\n\\(A_3\\): a terceira carta escolhida é maior que 3, mas menor que 7 (ou seja, 4, 5 ou 6)."
+  },
+  {
+    "objectID": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#resumo",
+    "href": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#resumo",
+    "title": "Probabilidade Condicional e Regra da Multiplicação",
+    "section": "Resumo",
+    "text": "Resumo\n\n\n\n\n\n\n\n\nConceito\nIntuição\nFórmula\n\n\n\n\nProbabilidade Condicional\nProbabilidade de \\(B\\) ocorrer sabendo que \\(A\\) já aconteceu.\n\\(P(B|A) = \\frac{P(A \\cap B)}{P(A)}\\)\n\n\nRegra da Multiplicação\nProbabilidade da interseção (ocorrência sucessiva de eventos).\n\\(P(A \\cap B) = P(A) \\cdot P(B|A)\\)"
+  },
+  {
+    "objectID": "aulas/07-Teorema_de_Bayes.html",
+    "href": "aulas/07-Teorema_de_Bayes.html",
+    "title": "Conteúdo 7",
+    "section": "",
+    "text": "Nesta aula, exploramos o Teorema de Bayes, uma poderosa ferramenta que nos permite atualizar probabilidades à medida que novas evidências tornam-se disponíveis. Diferente da probabilidade total, que olha para o futuro para prever um resultado, Bayes permite o caminho inverso: dado que um efeito foi observado, qual é a probabilidade de uma causa específica o ter gerado? Discutimos a aplicação deste teorema em áreas críticas como diagnósticos médicos, filtros de spam e tomada de decisão sob incerteza.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "7- Teorema de Bayes"
+    ]
+  },
+  {
+    "objectID": "aulas/07-Teorema_de_Bayes.html#teorema-de-bayes",
+    "href": "aulas/07-Teorema_de_Bayes.html#teorema-de-bayes",
+    "title": "Conteúdo 7",
+    "section": "",
+    "text": "Nesta aula, exploramos o Teorema de Bayes, uma poderosa ferramenta que nos permite atualizar probabilidades à medida que novas evidências tornam-se disponíveis. Diferente da probabilidade total, que olha para o futuro para prever um resultado, Bayes permite o caminho inverso: dado que um efeito foi observado, qual é a probabilidade de uma causa específica o ter gerado? Discutimos a aplicação deste teorema em áreas críticas como diagnósticos médicos, filtros de spam e tomada de decisão sob incerteza.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "7- Teorema de Bayes"
+    ]
+  },
+  {
+    "objectID": "aulas/02-Tecnicas_de_contagem_parte1.html",
+    "href": "aulas/02-Tecnicas_de_contagem_parte1.html",
+    "title": "Conteúdo 2",
+    "section": "",
+    "text": "Nesta aula, exploramos os fundamentos da análise combinatória, partindo do Princípio Aditivo e do Princípio Multiplicativo como ferramentas essenciais para a estruturação de problemas de contagem. Discutimos como decompor decisões complexas em etapas sucessivas e introduzimos o conceito de Fatorial e Permutação Simples, fundamentais para organizar conjuntos de objetos distintos. Este material serve como base indispensável para o cálculo de probabilidades em espaços amostrais finitos, permitindo que você quantifique possibilidades de forma sistemática e eficiente.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "2- Técnicas de Contagem (Parte 1)"
+    ]
+  },
+  {
+    "objectID": "aulas/02-Tecnicas_de_contagem_parte1.html#técnicas-de-contagem-parte-1",
+    "href": "aulas/02-Tecnicas_de_contagem_parte1.html#técnicas-de-contagem-parte-1",
+    "title": "Conteúdo 2",
+    "section": "",
+    "text": "Nesta aula, exploramos os fundamentos da análise combinatória, partindo do Princípio Aditivo e do Princípio Multiplicativo como ferramentas essenciais para a estruturação de problemas de contagem. Discutimos como decompor decisões complexas em etapas sucessivas e introduzimos o conceito de Fatorial e Permutação Simples, fundamentais para organizar conjuntos de objetos distintos. Este material serve como base indispensável para o cálculo de probabilidades em espaços amostrais finitos, permitindo que você quantifique possibilidades de forma sistemática e eficiente.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "2- Técnicas de Contagem (Parte 1)"
+    ]
+  },
+  {
+    "objectID": "aulas/05-Probabilidade_condicional.html",
+    "href": "aulas/05-Probabilidade_condicional.html",
+    "title": "Conteúdo 5",
+    "section": "",
+    "text": "Nesta aula, avançamos para um dos conceitos mais dinâmicos da estatística: a Probabilidade Condicional. Discutimos como a atualização do nosso conhecimento sobre um fenômeno — o ‘saber que um evento A já ocorreu’ — nos obriga a restringir o espaço amostral para calcular a nova chance de um evento B. A partir dessa intuição, derivamos a Regra da Multiplicação, ferramenta fundamental para calcular a probabilidade da ocorrência conjunta de eventos sucessivos, especialmente em cenários de amostragem sem reposição.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "5- Probabilidade Condicional e Teorema da Multiplicação"
+    ]
+  },
+  {
+    "objectID": "aulas/05-Probabilidade_condicional.html#probabilidade-condicional-e-teorema-da-multiplicação",
+    "href": "aulas/05-Probabilidade_condicional.html#probabilidade-condicional-e-teorema-da-multiplicação",
+    "title": "Conteúdo 5",
+    "section": "",
+    "text": "Nesta aula, avançamos para um dos conceitos mais dinâmicos da estatística: a Probabilidade Condicional. Discutimos como a atualização do nosso conhecimento sobre um fenômeno — o ‘saber que um evento A já ocorreu’ — nos obriga a restringir o espaço amostral para calcular a nova chance de um evento B. A partir dessa intuição, derivamos a Regra da Multiplicação, ferramenta fundamental para calcular a probabilidade da ocorrência conjunta de eventos sucessivos, especialmente em cenários de amostragem sem reposição.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "5- Probabilidade Condicional e Teorema da Multiplicação"
+    ]
+  },
+  {
+    "objectID": "aulas/03-Tecnicas_de_contagem_parte2.html",
+    "href": "aulas/03-Tecnicas_de_contagem_parte2.html",
+    "title": "Conteúdo 3",
+    "section": "",
+    "text": "Nesta segunda parte dedicada às Técnicas de Contagem, aprofundamos o estudo da análise combinatória focando na distinção fundamental entre Arranjos e Combinações. Discutimos como identificar problemas onde a ordem dos elementos altera o resultado (Arranjos) e situações onde apenas a composição do grupo é relevante (Combinações), abordando tanto os modelos simples quanto os modelos com repetição.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "3- Técnicas de Contagem (Parte 2)"
+    ]
+  },
+  {
+    "objectID": "aulas/03-Tecnicas_de_contagem_parte2.html#técnicas-de-contagem-parte-2",
+    "href": "aulas/03-Tecnicas_de_contagem_parte2.html#técnicas-de-contagem-parte-2",
+    "title": "Conteúdo 3",
+    "section": "",
+    "text": "Nesta segunda parte dedicada às Técnicas de Contagem, aprofundamos o estudo da análise combinatória focando na distinção fundamental entre Arranjos e Combinações. Discutimos como identificar problemas onde a ordem dos elementos altera o resultado (Arranjos) e situações onde apenas a composição do grupo é relevante (Combinações), abordando tanto os modelos simples quanto os modelos com repetição.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "3- Técnicas de Contagem (Parte 2)"
+    ]
+  },
+  {
+    "objectID": "aulas/01-Incerteza_e_eventos.html",
+    "href": "aulas/01-Incerteza_e_eventos.html",
+    "title": "Conteúdo 1",
+    "section": "",
+    "text": "Este material apresenta a estrutura da disciplina Probabilidade I, com informações sobre carga horária, cronograma, datas importantes, metodologia e objetivos do curso. Também introduz os primeiros conceitos da teoria dos conjuntos, fundamentais para o estudo da probabilidade, incluindo definições formais, operações entre conjuntos e propriedades básicas.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "1- Incerteza e Eventos"
+    ]
+  },
+  {
+    "objectID": "aulas/01-Incerteza_e_eventos.html#a-lógica-da-incerteza-e-a-linguagem-dos-eventos",
+    "href": "aulas/01-Incerteza_e_eventos.html#a-lógica-da-incerteza-e-a-linguagem-dos-eventos",
+    "title": "Conteúdo 1",
+    "section": "",
+    "text": "Este material apresenta a estrutura da disciplina Probabilidade I, com informações sobre carga horária, cronograma, datas importantes, metodologia e objetivos do curso. Também introduz os primeiros conceitos da teoria dos conjuntos, fundamentais para o estudo da probabilidade, incluindo definições formais, operações entre conjuntos e propriedades básicas.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "1- Incerteza e Eventos"
+    ]
+  },
+  {
+    "objectID": "aulas/04-Probabilidade.html",
+    "href": "aulas/04-Probabilidade.html",
+    "title": "Conteúdo 4",
+    "section": "",
+    "text": "Nesta aula, iniciamos formalmente o estudo da Probabilidade, definindo-a como a linguagem matemática para quantificar a incerteza. Exploramos os conceitos fundamentais de Experimento Aleatório, Espaço Amostral (\\(\\Omega\\)) e Eventos, estabelecendo a base para a interpretação de fenômenos onde o resultado não pode ser previsto com certeza absoluta. Discutimos a definição clássica de probabilidade (razão entre casos favoráveis e totais) e consolidamos os Axiomas de Kolmogorov, que garantem a consistência de todos os cálculos estatísticos.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "4- Probabilidade"
+    ]
+  },
+  {
+    "objectID": "aulas/04-Probabilidade.html#probabilidade",
+    "href": "aulas/04-Probabilidade.html#probabilidade",
+    "title": "Conteúdo 4",
+    "section": "",
+    "text": "Nesta aula, iniciamos formalmente o estudo da Probabilidade, definindo-a como a linguagem matemática para quantificar a incerteza. Exploramos os conceitos fundamentais de Experimento Aleatório, Espaço Amostral (\\(\\Omega\\)) e Eventos, estabelecendo a base para a interpretação de fenômenos onde o resultado não pode ser previsto com certeza absoluta. Discutimos a definição clássica de probabilidade (razão entre casos favoráveis e totais) e consolidamos os Axiomas de Kolmogorov, que garantem a consistência de todos os cálculos estatísticos.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "4- Probabilidade"
+    ]
+  },
+  {
+    "objectID": "aulas/06-Teorema_da_probabilidade_total.html",
+    "href": "aulas/06-Teorema_da_probabilidade_total.html",
+    "title": "Conteúdo 6",
+    "section": "",
+    "text": "Nesta aula, apresentamos o Teorema da Probabilidade Total (TPT), uma ferramenta analítica poderosa para lidar com incertezas estruturadas em múltiplos cenários. Aprendemos a decompor o espaço amostral em uma partição, permitindo que a probabilidade de um evento ‘final’ seja calculada como a soma ponderada das probabilidades desse evento ocorrer em cada um dos cenários possíveis.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "6- Teorema da Probabilidade Total"
+    ]
+  },
+  {
+    "objectID": "aulas/06-Teorema_da_probabilidade_total.html#teorema-da-probabilidade-total",
+    "href": "aulas/06-Teorema_da_probabilidade_total.html#teorema-da-probabilidade-total",
+    "title": "Conteúdo 6",
+    "section": "",
+    "text": "Nesta aula, apresentamos o Teorema da Probabilidade Total (TPT), uma ferramenta analítica poderosa para lidar com incertezas estruturadas em múltiplos cenários. Aprendemos a decompor o espaço amostral em uma partição, permitindo que a probabilidade de um evento ‘final’ seja calculada como a soma ponderada das probabilidades desse evento ocorrer em cada um dos cenários possíveis.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "6- Teorema da Probabilidade Total"
+    ]
+  },
+  {
+    "objectID": "aulas/08-Eventos_Independentes.html",
+    "href": "aulas/08-Eventos_Independentes.html",
+    "title": "Conteúdo 8",
+    "section": "",
+    "text": "Este material apresenta a estrutura da disciplina Probabilidade I, com informações sobre carga horária, cronograma, datas importantes, metodologia e objetivos do curso. Também introduz os primeiros conceitos da teoria dos conjuntos, fundamentais para o estudo da probabilidade, incluindo definições formais, operações entre conjuntos e propriedades básicas.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "8- Eventos Independentes"
+    ]
+  },
+  {
+    "objectID": "aulas/08-Eventos_Independentes.html#eventos-independentes",
+    "href": "aulas/08-Eventos_Independentes.html#eventos-independentes",
+    "title": "Conteúdo 8",
+    "section": "",
+    "text": "Este material apresenta a estrutura da disciplina Probabilidade I, com informações sobre carga horária, cronograma, datas importantes, metodologia e objetivos do curso. Também introduz os primeiros conceitos da teoria dos conjuntos, fundamentais para o estudo da probabilidade, incluindo definições formais, operações entre conjuntos e propriedades básicas.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "8- Eventos Independentes"
+    ]
+  },
+  {
+    "objectID": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#por-que-eventos-independentes-importam",
+    "href": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#por-que-eventos-independentes-importam",
+    "title": "Eventos Independentes",
+    "section": "Por que Eventos Independentes Importam?",
+    "text": "Por que Eventos Independentes Importam?\nImagine as seguintes situações:\n\nVocê joga uma moeda duas vezes. O resultado do primeiro lançamento influencia o segundo?\nA disponibilidade de um caminhão de bombeiros afeta a disponibilidade de uma ambulância durante uma emergência?\nO desempenho das ações da Petrobras hoje influencia o desempenho das ações da Vale amanhã?"
+  },
+  {
+    "objectID": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#por-que-eventos-independentes-importam-1",
+    "href": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#por-que-eventos-independentes-importam-1",
+    "title": "Eventos Independentes",
+    "section": "Por que Eventos Independentes Importam?",
+    "text": "Por que Eventos Independentes Importam?\n\nModelar problemas reais: Seja na engenharia, medicina, finanças ou em jogos, saber se eventos são independentes simplifica o cálculo de probabilidades complexas.\nTomar decisões melhores: Se você sabe que a chuva não afeta o desempenho da sua equipe de futebol, pode focar em outras variáveis.\nConstruir bases sólidas: A independência é um pilar para muitos conceitos avançados em Estatística, como inferência e modelagem estatística."
+  },
+  {
+    "objectID": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#exemplo-8.1",
+    "href": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#exemplo-8.1",
+    "title": "Eventos Independentes",
+    "section": "Exemplo 8.1",
+    "text": "Exemplo 8.1\nSuponha que um dado equilibrado seja jogado duas vezes. Definimos os eventos:\n\nA: o primeiro dado mostra um número par;\nB: o segundo dado mostra um 5 ou 6.\n\nQual a probabilidade de que esses dois eventos ocorram?"
+  },
+  {
+    "objectID": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#eventos-independentes",
+    "href": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#eventos-independentes",
+    "title": "Eventos Independentes",
+    "section": "Eventos Independentes",
+    "text": "Eventos Independentes\n\nSejam \\(A\\) e \\(B\\) eventos independentes.\nAssim, a ocorrência do evento \\(A\\) não influencia o evento \\(B\\) e vice-versa.\nEntão, podemos dizer que \\[\nP(B|A) = P(B) \\quad \\text{e} \\quad P(A|B) = P(A).\n\\]\nAlém disso, existe uma definição adicional que também é válida e muito mais utilizada."
+  },
+  {
+    "objectID": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#eventos-independentes-1",
+    "href": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#eventos-independentes-1",
+    "title": "Eventos Independentes",
+    "section": "Eventos Independentes",
+    "text": "Eventos Independentes\n\n\\(A\\) e \\(B\\) são eventos independentes se, e somente se, \\[\n  P(A\\cap B) = P(A)P(B).\n\\]\n\nOu seja,\n\nSe os dois eventos forem independentes, a relação acima é válida.\nAlém disso, se a relação acima é válida, os dois eventos são independentes."
+  },
+  {
+    "objectID": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#section",
+    "href": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#section",
+    "title": "Eventos Independentes",
+    "section": "",
+    "text": "Eventos Mutuamente Excludentes vs. Eventos Independentes: Não confunda!\nEventos Mutuamente Excludentes (ou Disjuntos)\n\nSe um evento acontece, o outro não pode acontecer. Eles não têm resultados em comum.\nA probabilidade da intersecção deles é zero: \\[P(A\\cap B)=0\\]\nExemplo: Lançar um dado e obter um 2 (evento A) e obter um 5 (evento B). Se você tira 2, não pode ter tirado 5 no mesmo lançamento."
+  },
+  {
+    "objectID": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#section-1",
+    "href": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#section-1",
+    "title": "Eventos Independentes",
+    "section": "",
+    "text": "Eventos Mutuamente Excludentes vs. Eventos Independentes: Não confunda!\nEventos Independentes\n\nA ocorrência de um evento não afeta a probabilidade de o outro ocorrer. Eles não têm “influência” um sobre o outro.\nA probabilidade da intersecção deles é o produto das suas probabilidades individuais: \\[ P(A\\cap B)=P(A)P(B).\\]\nExemplo: Lançar uma moeda e obter cara e depois lançar a moeda novamente e obter coroa. O primeiro lançamento não muda as chances do segundo."
+  },
+  {
+    "objectID": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#exemplo-8.2",
+    "href": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#exemplo-8.2",
+    "title": "Eventos Independentes",
+    "section": "Exemplo 8.2",
+    "text": "Exemplo 8.2\nUma pequena cidade possui um caminhão de bombeiros e uma ambulância para emergências. A probabilidade de que o caminhão de bombeiros esteja disponível quando necessário é de 0,98, e a probabilidade de que a ambulância esteja disponível é de 0,92. No caso de um ferimento causado por um incêndio em um prédio, qual é a probabilidade de que tanto a ambulância quanto o caminhão de bombeiros estejam disponíveis?"
+  },
+  {
+    "objectID": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#exemplo-8.3",
+    "href": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#exemplo-8.3",
+    "title": "Eventos Independentes",
+    "section": "Exemplo 8.3",
+    "text": "Exemplo 8.3\nUma carta é selecionada aleatoriamente de um baralho comum de 52 cartas. Sejam os eventos\n\n\\(A\\): a carta selecionada é um ás;\n\\(E\\): a carta selecionada é do naipe de espadas.\n\nOs eventos \\(A\\) e \\(E\\) são independentes?"
+  },
+  {
+    "objectID": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#exemplo-8.4",
+    "href": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#exemplo-8.4",
+    "title": "Eventos Independentes",
+    "section": "Exemplo 8.4",
+    "text": "Exemplo 8.4\nSuponha que joguemos um dado honesto duas vezes. Sejam os eventos\n\n\\(A\\): a soma dos dados é igual a 6;\n\\(B\\): o resultado do primeiro lançamento é igual a 4.\n\nPergunta-se:\n\n\\(A\\) e \\(B\\) são independentes?\nSe \\(C\\) é o evento em que a soma dos dados é igual a 7, \\(B\\) e \\(C\\) são independentes?"
+  },
+  {
+    "objectID": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#proposição-8.1",
+    "href": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#proposição-8.1",
+    "title": "Eventos Independentes",
+    "section": "Proposição 8.1",
+    "text": "Proposição 8.1\nSe \\(A\\) é independente de \\(B\\), então \\(A\\) é independente de \\(B^c\\).\nDemonstração\n\nTemos que \\(A = (A\\cap B)\\cup(A\\cap B^c)\\). Como \\(A\\cap B\\) e \\(A\\cap B^c\\) são mutuamente excludentes e \\(A\\) e \\(B\\) são independentes, \\[\\small\n\\begin{align*}\n&P(A) = P(A\\cap B) + P(A\\cap B^c)\\\\\n\\Rightarrow &P(A) = P(A)P(B) + P(A\\cap B^c)\\\\\n\\Rightarrow &P(A\\cap B^c) = P(A)-P(A)P(B)\\\\\n\\Rightarrow &P(A\\cap B^c) = P(A)[1-P(B)]\\\\\n\\Rightarrow &P(A\\cap B^c) = P(A)P(B^c)\\\\\n\\end{align*}\n\\] Logo, \\(A\\) e \\(B^c\\) são independentes."
+  },
+  {
+    "objectID": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#independência-de-mais-de-dois-eventos",
+    "href": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#independência-de-mais-de-dois-eventos",
+    "title": "Eventos Independentes",
+    "section": "Independência de Mais de Dois Eventos",
+    "text": "Independência de Mais de Dois Eventos\nTrês eventos \\(A\\), \\(B\\) e \\(C\\) ditos independentes se\n\n\\(P(A\\cap B \\cap C) = P(A)P(B)P(C)\\);\n\\(P(A\\cap B) = P(A)P(B)\\);\n\\(P(A\\cap C) = P(A)P(C)\\);\n\\(P(B\\cap C) = P(B)P(C)\\)."
+  },
+  {
+    "objectID": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#independência-de-mais-de-dois-eventos-1",
+    "href": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#independência-de-mais-de-dois-eventos-1",
+    "title": "Eventos Independentes",
+    "section": "Independência de Mais de Dois Eventos",
+    "text": "Independência de Mais de Dois Eventos\nDizemos que \\(n\\) eventos \\(A_1,A_2,\\ldots,A_n\\) são independentes se, para cada subconjunto \\(A_1,A_2,\\ldots,A_r\\) desses eventos, \\(r\\leq n\\), \\[\n    P(A_1\\cap A_2 \\cap\\cdots\\cap A_r) = P(A_1)P(A_2)\\cdots P(A_r).\n\\]\n\nSe tivermos um conjunto infinito de eventos, diremos que eles são independentes se cada subconjunto finito desses eventos for independente."
+  },
+  {
+    "objectID": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#exemplo-8.5",
+    "href": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#exemplo-8.5",
+    "title": "Eventos Independentes",
+    "section": "Exemplo 8.5",
+    "text": "Exemplo 8.5\nUma moeda é adulterada para que a cara tenha duas vezes mais chances de ocorrer do que a coroa. Se a moeda for jogada três vezes, qual é a probabilidade de obter duas coroas e uma cara?"
+  },
+  {
+    "objectID": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#exemplo-8.6",
+    "href": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#exemplo-8.6",
+    "title": "Eventos Independentes",
+    "section": "Exemplo 8.6",
+    "text": "Exemplo 8.6\nNo lançamento de um dado dodecaédrico (12 faces), considere os eventos:\n\n\\(A\\): “múltiplo de 3”\n\\(B\\): “menor ou igual a 6”\n\\(C\\): “par”\n\nVerifique se os eventos \\(A\\), \\(B\\) e \\(C\\) são independentes."
+  },
+  {
+    "objectID": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#exemplo-8.7",
+    "href": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#exemplo-8.7",
+    "title": "Eventos Independentes",
+    "section": "Exemplo 8.7",
+    "text": "Exemplo 8.7\nConsidere o lançamento de um dado de 4 faces. Sejam\n\n\\(A\\): “par”\n\\(B\\): “menor que 3”\n\\(C\\): “1 ou 4”\n\nOs eventos \\(A\\), \\(B\\) e \\(C\\) são independentes?"
+  },
+  {
+    "objectID": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#resumo",
+    "href": "slides/08-Eventos_Independentes/08-Eventos_Independentes.html#resumo",
+    "title": "Eventos Independentes",
+    "section": "Resumo",
+    "text": "Resumo\n\nEventos independentes são aqueles em que a ocorrência de um não afeta a probabilidade de ocorrência do outro.\nA forma mais direta de verificar ou usar a independência é através da probabilidade da intersecção: \\(P(A\\cap B) = P(A)P(B)\\).\nPara eventos independentes, a informação da ocorrência de um evento não muda a probabilidade do outro: \\(P(B|A)=P(B)\\) e \\(P(A|B)=P(B)\\).\nLembre-se que independência dois a dois não garante independência simultânea de três ou mais eventos."
+  },
+  {
+    "objectID": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#exemplo-2.1",
+    "href": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#exemplo-2.1",
+    "title": "Técnicas de Contagem (Parte 1)",
+    "section": "Exemplo 2.1",
+    "text": "Exemplo 2.1\nMaria quer ir da Praia da Cinelândia ao Shopping RioMar. Ela pode escolher entre as seguintes alternativas de transporte:\n\nÔnibus: 3 opções de linha (partindo do Terminal Zona Sul).\nMobilidade Elétrica: 2 sistemas que oferecem patinetes e bicicletas.\nCarro de Aplicativo: 2 opções de serviço (Uber e 99).\n\nQuantas opções distintas Maria tem para chegar ao seu destino?"
+  },
+  {
+    "objectID": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#exemplo-2.2",
+    "href": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#exemplo-2.2",
+    "title": "Técnicas de Contagem (Parte 1)",
+    "section": "Exemplo 2.2",
+    "text": "Exemplo 2.2\nMaria chegou no shopping e deciciu comer no Subway. Para isso ela precisa montar o lanche seguindo a sequência:\n\nTipo: 13 opções (Vegetariano, presunto, frango, frango empanado, steak churrasco, teriyaki, etc.)\nPão: 5 opções (3 queijos, 9 grãos, italiano branco, etc.)\nQueijo: 4 opções (cheddar, mussarela, suíço, sem queijo)\nTemperos: 5 opções (azeite, mix de pimentas, sal, vinagre, etc.)\nVegetais: 7 opções (Alface, tomate, cebola roxa, etc.)\nMolhos: 9 opções de molhos (barbecue, supreme, etc.)\n\nEla não quer extras e quer apenas uma opção de vegetal e uma de molho. Quantos sanduíches diferentes ela pode montar?"
+  },
+  {
+    "objectID": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#princípios-fundamentais-da-contagem",
+    "href": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#princípios-fundamentais-da-contagem",
+    "title": "Técnicas de Contagem (Parte 1)",
+    "section": "Princípios Fundamentais da Contagem",
+    "text": "Princípios Fundamentais da Contagem\nDefinição 2.1: Princípio Aditivo (OU)\nConsidere uma tarefa que pode ser realizada de \\(k\\) maneiras distintas. Se a primeira maneira de realizar a tarefa pode ser feita de \\(n_1\\) formas, a segunda de \\(n_2\\) formas, …, e a \\(k\\)-ésima de \\(n_k\\) formas, sendo que essas \\(k\\) maneiras não têm elementos em comum, então o número total de maneiras de realizar a tarefa é dado pela soma: \\[\n  n_1 + n_2 + \\cdots + n_k.\n\\]\n\nO Princípio Aditivo é usado quando a ocorrência de uma opção impede a ocorrência das outras. Pense em “ou isso, ou aquilo”."
+  },
+  {
+    "objectID": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#princípios-fundamentais-da-contagem-1",
+    "href": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#princípios-fundamentais-da-contagem-1",
+    "title": "Técnicas de Contagem (Parte 1)",
+    "section": "Princípios Fundamentais da Contagem",
+    "text": "Princípios Fundamentais da Contagem\nDefinição 2.2: Princípio Multiplicativo (E)\n\nSe um processo ou evento pode ser dividido em \\(k\\) etapas sucessivas, e a primeira etapa pode ser realizada de \\(n_1\\) maneiras, a segunda etapa de \\(n_2\\) maneiras (independentemente da escolha na primeira etapa), e assim por diante, até a \\(k\\)-ésima etapa que pode ser realizada de \\(n_k\\) maneiras, então o número total de maneiras de o processo ou evento completo ser realizado é dado pelo produto: \\[\nn_1 \\times n_2 \\times \\cdots \\times n_k.\n\\]\nO Princípio Multiplicativo é usado quando temos sequências de decisões em que a escolha em uma etapa não afeta as escolhas nas etapas seguintes. Pense em “e isso, e aquilo”."
+  },
+  {
+    "objectID": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#princípios-fundamentais-da-contagem-2",
+    "href": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#princípios-fundamentais-da-contagem-2",
+    "title": "Técnicas de Contagem (Parte 1)",
+    "section": "Princípios Fundamentais da Contagem",
+    "text": "Princípios Fundamentais da Contagem\nRegra prática\n\n“OU” \\(\\longrightarrow\\) Soma\n“E” \\(\\longrightarrow\\) Multiplicação"
+  },
+  {
+    "objectID": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#section",
+    "href": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#section",
+    "title": "Técnicas de Contagem (Parte 1)",
+    "section": "",
+    "text": "Exemplo 2.3\nDe quantas maneiras diferentes você pode organizar 3 livros distintos (Matemática, História e Biologia) em uma prateleira?\nExemplo 2.4\nVocê quer ouvir 4 músicas distintas (A, B, C, D) em sequência. Quantas playlists diferentes pode criar?\nExemplo 2.5\nQuantos anagramas possui a palavra AMORES?"
+  },
+  {
+    "objectID": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#definição-2.3-permutação",
+    "href": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#definição-2.3-permutação",
+    "title": "Técnicas de Contagem (Parte 1)",
+    "section": "Definição 2.3: Permutação",
+    "text": "Definição 2.3: Permutação\n\nUma permutação é uma maneira de ordenar todos os elementos de um conjunto, onde a ordem dos elementos importa e não há repetição.\nO número de maneiras de ordenar \\(n\\) objetos distintos é \\[\n  n! = n(n - 1) \\cdots 3 \\cdot 2\\cdot 1\n\\]"
+  },
+  {
+    "objectID": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#definição-2.4-permutação-com-repetição",
+    "href": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#definição-2.4-permutação-com-repetição",
+    "title": "Técnicas de Contagem (Parte 1)",
+    "section": "Definição 2.4: Permutação com Repetição",
+    "text": "Definição 2.4: Permutação com Repetição\n\nPermutação com repetição ocorre quando queremos ordenar todos os elementos de um conjunto, onde a ordem importa e há elementos repetidos nesse conjunto.\nO número de divisões possíveis de \\(n\\) objetos distintos em \\(r\\) grupos distintos de tamanhos respectivos \\(n_1, n_2, \\ldots, n_r\\) (\\(n_1 + n_2 + \\ldots + n_r = n\\)) é \\[\n\\frac{n!}{n_1!n_2!\\cdots n_r!}.\n\\]"
+  },
+  {
+    "objectID": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#section-1",
+    "href": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#section-1",
+    "title": "Técnicas de Contagem (Parte 1)",
+    "section": "",
+    "text": "Exemplo 2.8\nDetermine quantos são os anagramas da palavra:\n\nMISSISSIPI\nARARAQUARA\nBISCOITO\nARARAQUARA que começam e terminam com A."
+  },
+  {
+    "objectID": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#section-2",
+    "href": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#section-2",
+    "title": "Técnicas de Contagem (Parte 1)",
+    "section": "",
+    "text": "Exemplo 2.9\nDe quantas maneiras seis crianças podem se organizar para brincar de roda?\nExemplo 2.10\nUma empresa de tecnologia está organizando um jantar de confraternização. Para promover a interação, eles decidiram que os 7 diretores sentarão em uma mesa redonda giratória. De quantas maneiras distintas esses 7 diretores podem se sentar à mesa?"
+  },
+  {
+    "objectID": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#definição-2.5-permutação-circular",
+    "href": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#definição-2.5-permutação-circular",
+    "title": "Técnicas de Contagem (Parte 1)",
+    "section": "Definição 2.5: Permutação Circular",
+    "text": "Definição 2.5: Permutação Circular\n\nO número de maneiras de dispor \\(n\\) objetos distintos em torno de um círculo é \\[(n - 1)!\\]\n\nNessa contagem, fixamos um objeto como referência para “travar” a rotação do círculo, restando apenas os outros \\((n - 1)\\) objetos para permutarem entre si."
+  },
+  {
+    "objectID": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#section-3",
+    "href": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#section-3",
+    "title": "Técnicas de Contagem (Parte 1)",
+    "section": "",
+    "text": "Exemplo 2.12\nQuantos subconjuntos podem ser formados a partir do conjunto \\(C = \\{1, 2, 3\\}\\)?\nExemplo 2.13\nQuantos conjuntos podem ser formados considerando o conjunto \\(D = \\{\\text{casa}, \\text{pedra}, \\text{bola}, \\text{sapo}\\}\\)?"
+  },
+  {
+    "objectID": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#número-de-subconjuntos",
+    "href": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#número-de-subconjuntos",
+    "title": "Técnicas de Contagem (Parte 1)",
+    "section": "Número de subconjuntos",
+    "text": "Número de subconjuntos\nO número de subconjuntos possíveis obtidos a partir de um conjunto com \\(n\\) elementos é \\(2^n\\).\n\nExplicação:\n\nPara cada elemento, temos 2 escolhas: “Estar no subconjunto” ou “Não estar”.\nIsso totaliza \\(2 \\times 2 \\times \\ldots \\times 2 = 2^n\\)"
+  },
+  {
+    "objectID": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#resumo",
+    "href": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#resumo",
+    "title": "Técnicas de Contagem (Parte 1)",
+    "section": "Resumo",
+    "text": "Resumo\n\n\n\n\n\n\n\n\nTécnica\nQuando usar?\nEquação\n\n\n\n\nPrincípio Aditivo\nQuando as opções são exclusivas (Regra do “OU”).\n\\(n_1 + n_2 + ... + n_k\\)\n\n\nPrincípio Multiplicativo\nQuando o processo tem etapas sucessivas (Regra do “E”).\n\\(n_1 \\times n_2 \\times ... \\times n_k\\)\n\n\nPermutação Simples\nPara ordenar todos os \\(n\\) objetos distintos em fila.\n\\(n!\\)"
+  },
+  {
+    "objectID": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#resumo-1",
+    "href": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#resumo-1",
+    "title": "Técnicas de Contagem (Parte 1)",
+    "section": "Resumo",
+    "text": "Resumo\n\n\n\n\n\n\n\n\nTécnica\nQuando usar?\nEquação\n\n\n\n\nPermutação com Repetição\nQuando há objetos idênticos que não geram nova ordem se trocados.\n\\(\\frac{n!}{n_1! n_2! ...}\\)\n\n\nPermutação Circular\nPara dispor objetos em círculo.\n\\((n - 1)!\\)\n\n\nNúmero de Subconjuntos\nPara contar todas as combinações possíveis de grupos.\n\\(2^n\\)"
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#canais-de-comunicação-e-materiais-da-disciplina",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#canais-de-comunicação-e-materiais-da-disciplina",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Canais de Comunicação e Materiais da Disciplina",
+    "text": "Canais de Comunicação e Materiais da Disciplina\n\nSite: http://sadraquelucena.github.io/prob1\nGrupo no WhatsApp: http://tiny.cc/prob1wpp"
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#informações-da-disciplina",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#informações-da-disciplina",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Informações da disciplina",
+    "text": "Informações da disciplina\n\nComponente curricular: ESTAT0072 – Probabilidade I\nVagas Reservadas: Estatística\nCarga horária: 60 horas (4 créditos)\nHorário:\n\nTerças – 20h45 às 22h15\nQuintas – 19h00 às 20h30\n\nDocente: Prof. Dr. Sadraque E. F. Lucena"
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#objetivos",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#objetivos",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Objetivos",
+    "text": "Objetivos\n\nCapacitar o aluno na utilização e compreensão da teoria probabilística.\nIdentificar e reconhecer os problemas que necessitam da utilização de\n\ndistribuições de probabilidade;\ndistribuições condicionadas;\nvariáveis aleatórias e funções de variáveis aleatórias."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#ementa",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#ementa",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Ementa",
+    "text": "Ementa\n\nRevisão básica de teoria dos conjuntos\nTécnicas de contagem\nModelo probabilístico para um experimento aleatório\nEspaços de probabilidade\nAxiomas de Kolmogorov\nProbabilidade condicional e independência\nFunção de distribuição de variáveis aleatórias discretas."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#conteúdo-programático",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#conteúdo-programático",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Conteúdo programático",
+    "text": "Conteúdo programático\n\nModelo Probabilístico para um experimento aleatório\n1.1. Experimento Aleatório\n1.2. Espaço Amostral\n1.3. Evento\nRevisão básica de teoria de conjuntos\n2.1. Conjuntos, elementos\n2.2. Operações entre conjuntos\nTécnicas de Contagem\n3.1. Permutação ou Arranjo simples e com repetição\n3.2. Permutação Circular\n3.3. Combinação simples e com repetição"
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#conteúdo-programático-1",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#conteúdo-programático-1",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Conteúdo programático",
+    "text": "Conteúdo programático\n\nDefinições e espaços de Probabilidade\n4.1. Classes de Conjuntos: sigma-álgebra\n4.2. Definições de Probabilidade\n4.3. Definição frequentista\n4.4. Definição Geométrica\n4.5. Definição Clássica\n4.6. Axiomas de Kolmogorov"
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#conteúdo-programático-2",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#conteúdo-programático-2",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Conteúdo programático",
+    "text": "Conteúdo programático\n\nProbabilidade Condicional e Independência\n5.1. Probabilidade condicional\n5.2. Regra do Produto de Probabilidades\n5.3. Lei da Probabilidade Total\n5.4. Diagrama de árvore\n5.5. Partição do espaço amostral\n5.6. Teorema de Bayes\n5.7. Independência de dois eventos\n5.8. Independência de vários eventos"
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#conteúdo-programático-3",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#conteúdo-programático-3",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Conteúdo programático",
+    "text": "Conteúdo programático\n\nVariável aleatória discreta\n6.1. Função de distribuição de variáveis aleatórias discretas\n6.2. Variável Aleatória Discreta\n6.3. Função de Probabilidade e suas propriedades\n6.4. Função de Distribuição ou Função Acumulada de probabilidade\n6.5. Esperança e Variância de uma V.A.D.\n6.6. Variável Aleatória Discreta: Bidimensional"
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#bibliografia-recomendada",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#bibliografia-recomendada",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Bibliografia Recomendada",
+    "text": "Bibliografia Recomendada"
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#metodologia",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#metodologia",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Metodologia",
+    "text": "Metodologia\n\n2 encontros semanais, com 90 minutos de aula presencial cada\n30 minutos de atividades extraclasse (hora-trabalho) para cada aula, indicadas pelo docente"
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#datas-importantes",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#datas-importantes",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Datas Importantes",
+    "text": "Datas Importantes\nAvaliações\n\nAvaliação 1: 05/05/2026 (terça)\nAvaliação 2: 09/06/2026 (terça)\nAvaliação 3: 21/07/2026 (terça)\nAvaliação Repositiva: 23/07/2026 (quinta)\n\nNão haverá aula\n\n21/04/2026: Tiradentes (feriado nacional)\n04/06/2026: Corpus Christi (recesso acadêmico)\n23/06/2026: Véspera de Sâo João (recesso acadêmico)"
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#a-arquitetura-da-incerteza",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#a-arquitetura-da-incerteza",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "A Arquitetura da Incerteza",
+    "text": "A Arquitetura da Incerteza\n\nO paradigma da matemática: \\(y = f(x)\\)\n\nVocê busca a resposta exata.\nExemplo: \\(y= 2x\\). Se \\(x=2\\), \\(y=4\\).\nÉ o mundo do “com certeza”.\n\nO mundo real não é assim:\n\nNão vem com funções prontas, há sempre ruído.\nSe você investe na bolsa, não há uma fórmula que garanta o lucro.\nSe você toma um remédio, não há 100% de certeza da cura."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#a-arquitetura-da-incerteza-1",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#a-arquitetura-da-incerteza-1",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "A Arquitetura da Incerteza",
+    "text": "A Arquitetura da Incerteza\n\nSe não há certeza do resultado, como tomar uma decisão?\n\nAtravés da Probabilidade.\n\nPapel do Estatístico e do Cientista de Dados:\n\nModelar a incerteza.\nAo invés de buscar o resultado certo, calcular o resultado “provável”.\nNo mercado de trabalho e na pesquisa de ponta, as grandes decisões não são tomadas por quem sabe resolver uma conta, mas por quem sabe medir o risco e prever o futuro no meio do caos."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#probabilidade-no-dia-a-dia",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#probabilidade-no-dia-a-dia",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Probabilidade no Dia-a-dia",
+    "text": "Probabilidade no Dia-a-dia\n\nA probabilidade deixou de ser apenas teoria para se tornar o “combustível” da tecnologia.\n\nAlgoritmos de Recomendação: Por que o TikTok “vicia”?\n\nPor que ele roda milhões de cálculos por segundo para calcular a probabilidade de você ter interesse em um vídeo, dado tudo o que você já assistiu.\n\nFinanças e Risco: Por que o banco bloqueia um cartão por suspeita de fraude?\n\nUm modelo probabilístico detectou que o gasto é um evento raro, de baixíssima probabilidade, a partir da modelagem do seu comportamento de gastos."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#definição-1.1-experimento-aleatório",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#definição-1.1-experimento-aleatório",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Definição 1.1: Experimento Aleatório",
+    "text": "Definição 1.1: Experimento Aleatório\n\nUm experimento aleatório é um processo que, mesmo repetido sob condições idênticas, produz resultados imprevisíveis.\nCaracterísticas:\n\nRepetibilidade: Pode ser realizado infinitamente sob as mesmas condições.\nVariabilidade: O resultado individual é incerto (não há determinismo).\nRegularidade Estatística: Em longo prazo, os resultados seguem um padrão (frequência).\n\nExemplos: Lançar um dado, tempo de resposta de um servidor, oscilação de uma ação na bolsa."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#definição-1.1-experimento-aleatório-1",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#definição-1.1-experimento-aleatório-1",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Definição 1.1: Experimento Aleatório",
+    "text": "Definição 1.1: Experimento Aleatório\n\nEmbora o resultado individual seja imprevisível, a proporção de vezes que um resultado ocorre em muitas repetições tende a se estabilizar. É essa estabilidade que permite a modelagem estatística."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#definição-1.2-espaço-amostral-omega",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#definição-1.2-espaço-amostral-omega",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Definição 1.2: Espaço Amostral (\\(\\Omega\\))",
+    "text": "Definição 1.2: Espaço Amostral (\\(\\Omega\\))\n\nConjunto de todos os resultados possíveis de um experimento aleatório.\nPropriedades:\n\nNão pode faltar nenhum resultado.\nOs resultados não podem se sobrepor (se um ocorre, o outro não).\n\nNotação:\n\n\\(\\Omega = \\{ \\omega_1, \\omega_2, \\dots, \\omega_n \\}\\) (Discreto)\n\\(\\Omega = \\{ x \\in \\mathbb{R} \\mid a \\le x \\le b \\}\\) (Contínuo)"
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#classificação-do-espaço-amostral-omega",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#classificação-do-espaço-amostral-omega",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Classificação do Espaço Amostral (\\(\\Omega\\))",
+    "text": "Classificação do Espaço Amostral (\\(\\Omega\\))\n\nFinito: O número de resultados é limitado e pode ser contado até o fim.\n\nExemplo: Resultados de um dado \\(\\{1, 2, 3, 4, 5, 6\\}\\).\n\nInfinito Enumerável: Os resultados nunca acabam, mas podem ser “listados” na ordem \\((1º, 2º, 3º...)\\). Existe uma correspondência biunívoca com os Números Naturais (\\(\\mathbb{N}\\)).\n\nExemplo: Número de tentativas até a primeira falha de um sistema.\n\nInfinito Não-Enumerável (Contínuo): Os resultados são tantos que é impossível listar. Representado por intervalos reais.\n\nExemplo: Tempo de espera, altura, pressão arterial."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#observação-sobre-espaço-amostral",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#observação-sobre-espaço-amostral",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Observação sobre Espaço Amostral",
+    "text": "Observação sobre Espaço Amostral\n\nO espaço amsotral de um fenômeno não é único, mas depende do que você está observando.\nExemplo: Se lançamos dois dados, nosso \\(\\Omega\\) pode ser\n\no conjunto de pares ordenados \\(\\{(1,1), (1,2), \\dots, (6,6)\\}\\) (36 elementos)\nou apenas a soma dos valores \\(\\{2, 3, \\dots, 12\\}\\)."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#definição-1.2-conjunto-fundamental",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#definição-1.2-conjunto-fundamental",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Definição 1.2: Conjunto Fundamental",
+    "text": "Definição 1.2: Conjunto Fundamental\n\nDefinimos o conjunto fundamental ou universo de todos os objetos que estejam sendo estudados.\nEste conjunto é, em geral, representado pela letra \\(U\\)."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#definição-1.3-conjunto-vazio",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#definição-1.3-conjunto-vazio",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Definição 1.3: Conjunto Vazio",
+    "text": "Definição 1.3: Conjunto Vazio\n\nDefinimos o conjunto vazio ou nulo como o conjunto que não contenha qualquer elemento.\nExemplo: o conjunto dos números reais \\(x\\) que satisfaçam à equação \\(x^2+1=0\\).\nGeralmente se representa o conjunto vazio por \\(\\emptyset\\)."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#definição-1.4-subconjunto",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#definição-1.4-subconjunto",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Definição 1.4: Subconjunto",
+    "text": "Definição 1.4: Subconjunto\n\nUm conjunto \\(A\\) é subconjunto de \\(B\\) se o conjunto \\(A\\) implica no conjunto \\(B\\).\nRepresentação: \\(A\\subset B\\).\nDizemos que \\(A \\subset B\\) se todo elemento de \\(A\\) também é elemento de B (\\(x \\in A \\implies x \\in B\\)). Na linguagem de dados, se o evento \\(A\\) ocorre, o evento \\(B\\) ocorre necessariamente.\nObservação: Dois conjuntos \\(A\\) e \\(B\\) são iguais se, e somente se, eles contiverem os mesmos elementos.\n\n\\(A=B \\Leftrightarrow A\\subset B\\) e \\(B\\subset A\\)."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#propriedades-imediatas",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#propriedades-imediatas",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Propriedades Imediatas",
+    "text": "Propriedades Imediatas\n\nPara todo conjunto \\(A\\), temos que \\(\\emptyset\\subset A\\).\nDesde que se tenha definido o conjunto fundamental, então, para todo conjunto \\(A\\), considerado composição de \\(U\\), teremos \\(A\\subset U\\).\n\nExemplo\nSuponha que \\(U=\\) todos os números reais, \\(A=\\{x|x^2+2x-3=0\\}\\), \\(B=\\{x|(x-2)(x^2+2x-3)=0\\}\\) e \\(C=\\{x|x=-3,1,2\\}\\).\n\nEntão, \\(A\\subset C\\) e \\(B=C\\)."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#section",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#section",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "",
+    "text": "Veremos agora operações sobre conjuntos."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#definição-1.5-união",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#definição-1.5-união",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Definição 1.5: União",
+    "text": "Definição 1.5: União\n\nSejam \\(A\\) e \\(B\\) dois conjuntos.\nDefinimos \\(C\\) como a união de \\(A\\) e \\(B\\) (algumas vezes denominada soma de \\(A\\) e \\(B\\)) da seguinte maneira: \\[\nC = \\{x\\, |\\, x\\in A \\text{ ou } x\\in B \\text{ (ou ambos)}\\}.\n\\]\nPortanto, \\(C\\) será formado de todos os elementos que estejam em \\(A\\), ou em \\(B\\), ou em ambos.\nNotação: \\(C=A\\cup B\\)."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#definição-1.6-interseção",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#definição-1.6-interseção",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Definição 1.6: Interseção",
+    "text": "Definição 1.6: Interseção\n\nSejam \\(A\\) e \\(B\\) dois conjuntos.\nDefinimos \\(D\\) como a interseção de \\(A\\) e \\(B\\) (algumas vezes denominada produto de \\(A\\) e \\(B\\)) da seguinte maneira: \\[\nD = \\{x|x\\in A \\text{ e } x\\in B\\}.\n\\]\nAssim, \\(D\\) será formado pelos elementos que estão em \\(A\\) e em \\(B\\).\nNotação: \\(D=A\\cap B\\)."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#definição-1.7-complementar",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#definição-1.7-complementar",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Definição 1.7: Complementar",
+    "text": "Definição 1.7: Complementar\n\nO complementar de um conjunto \\(A\\) é constituído por todos os elementos que não estejam em \\(A\\), mas estejam no conjunto fundamental \\(U\\), isto é, \\[\nA^{\\mathsf{c}} = \\{x|x\\notin A\\}.\n\\]\nNotação: \\(A^{\\mathsf{c}}\\).\nPode-se utilizar a notação \\(\\overline{A}\\) para definir o complementar de \\(A\\)."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#section-1",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#section-1",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "",
+    "text": "Uma forma de visualizarmos operações sobre conjuntos é por meio do Diagrama de Venn:\n\n\n\n\n\n\n\nUnião\n\n\n\n\n\n\nInterseção\n\n\n\n\n\n\nComplementar"
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#section-2",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#section-2",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "",
+    "text": "As operações de união e interseção podem ser estendidas, intuitivamente, para qualquer número finito de conjuntos.\nDefinimos \\(A\\cup B\\cup C\\) como \\(A\\cup (B\\cup C)\\) ou \\((A\\cup B)\\cup C\\).\nAnalogamente, definimos \\(A\\cap B\\cap C\\) como \\(A\\cap (B\\cap C)\\) ou \\((A\\cap B)\\cap C\\).\nPodemos continuar essas composições para qualquer número finito de conjuntos."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#exemplo-1.1",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#exemplo-1.1",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Exemplo 1.1",
+    "text": "Exemplo 1.1\nSuponha que \\(U=\\{1,2,3,4,5,6,7,8,9,10\\}\\), \\(A=\\{1,2,3,4\\}\\) e \\(B=\\{3,4,5,6\\}\\). Determine\n\n\\(A^{\\mathsf{c}}\\)\n\\(A\\cup B\\)\n\\(A\\cap B\\)"
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#section-3",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#section-3",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "",
+    "text": "Leis Comutativas\n\n\\(A\\cup B = B\\cup A\\)\n\\(A\\cup (B \\cup C) = (A\\cup B) \\cup C\\)\n\nLeis Associativas\n\n\\(A\\cap B = B\\cap A\\)\n\\(A\\cap (B \\cap C) = (A\\cap B) \\cap C\\)"
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#section-4",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#section-4",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "",
+    "text": "Outras identidades de Conjuntos\n\n\\(A\\cup (B\\cap C) = (A\\cup B) \\cap (A\\cup C)\\)\n\\(A\\cap (B\\cup C) = (A\\cap B) \\cup (A\\cap C)\\)\n\\(A\\cap \\emptyset = \\emptyset\\)\n\\(A\\cup \\emptyset = A\\)\n\\((A\\cap B)^{\\mathsf{c}} = A^{\\mathsf{c}} \\cup B^{\\mathsf{c}}\\) (Lei de Morgan)\n\\((A\\cup B)^{\\mathsf{c}} = A^{\\mathsf{c}} \\cap B^{\\mathsf{c}}\\) (Lei de Morgan)\n\\((A^{\\mathsf{c}})^{\\mathsf{c}} = A\\)\n\n\ng e h mostram que \\(\\emptyset\\) se comporta entre os conjuntos (relativamente às operações \\(\\cup\\) e \\(\\cap\\)) da maneira que o zero (com relação às operações de adição e multiplicação) o faz entre os números."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#produto-cartesiano",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#produto-cartesiano",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "Produto Cartesiano",
+    "text": "Produto Cartesiano\n\nSejam \\(A\\) e \\(B\\) dois conjuntos.\nO produto cartesiano de \\(A\\) e \\(B\\), denotado por \\(A\\times B\\), é o conjunto de todos os pares ordenados nos quais o primeiro elemento é tirado e \\(A\\) e o segundo, de \\(B\\). Ou seja, \\[\nA\\times B = \\{(a,b), a\\in A, b\\in B\\}.\n\\]\n\nExemplo\nSuponha que \\(A=\\{1,2,3\\}\\) e \\(B=\\{1,2,3,4\\}\\). Então, \\[\n  A\\times B = \\{(1,1),(1,2),\\ldots,(1,4),(2,1),\\ldots,(2,4),(3,1),\\ldots,(3,4)\\}.\n\\]"
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#section-5",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#section-5",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "",
+    "text": "Em geral, \\(A\\times B\\neq B\\times A\\).\nA notação pode ser estendida da seguinte maneira:\n\nSe \\(A_1,A_2,\\ldots,A_n\\) forem conjuntos, então, \\[A_1\\times A_2\\times \\cdots\\times A_n = \\{(a_1, a_2,\\ldots,a_n), a_i\\in A_i, i=1,\\ldots,n\\}.\\]\nOu seja, o conjunto de todas as ênuplas ordenadas."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#section-6",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#section-6",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "",
+    "text": "Se existir um número finito de elementos no conjunto \\(A\\), digamos \\(a_1, a_2,\\ldots,a_n\\), diremos que \\(A\\) é finito.\nSe existir um número infinito de elementos em \\(A\\) que possam ser postos em correspondência biunívoca com os inteiros positivos, diremos que \\(A\\) é numerável ou infinito enumerável.\nSe os elementos do conjunto \\(A\\) não puderem ser enumerados, ele é dito infinito não numerável."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#section-7",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#section-7",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "",
+    "text": "Exemplo 1.3\nSuponha que o conjunto fundamental seja formado pelos inteiros positivos de 1 a 10. Sejam \\(A = \\{2, 3, 4\\}\\), \\(B = \\{3, 4, 5\\}\\) e \\(C = \\{5, 6, 7\\}\\). Enumere os elementos do conjunto \\(A \\cap (B\\cup C)^c\\).\nExemplo 1.4\nSuponha que o conjunto fundamental \\(U\\) seja formado por \\(U = \\{x ~|~ 0 \\leq x \\leq 2\\}\\). Sejam os conjuntos \\(A\\) e \\(B\\) definidos da forma seguinte: \\(A = \\{x ~|~ 1/2 &lt; x \\leq 1\\}\\) e \\(B = \\{x ~| ~1/4 \\leq x &lt; 3/2\\}\\). Descreva o conjunto \\((A\\cup B)^c\\)."
+  },
+  {
+    "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#section-8",
+    "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#section-8",
+    "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
+    "section": "",
+    "text": "Exemplo 1.5\nA relação \\((A \\cup B) \\cap (A \\cup C) = A \\cup (B \\cap C)\\) é verdadeira?\nExemplo 1.6\nSuponha que o conjunto fundamental seja formado por todos os pontos \\((x, y)\\) de coordenadas ambas inteiras, e que estejam dentro ou sobre a fronteira do quadrado limitado pelas retas \\(x = 0\\), \\(y = 0\\), \\(x = 6\\) e \\(y = 6\\). Enumere os elementos do conjunto \\(A = \\{(x, y) ~|~ x^2 + y^2 \\leq 6\\}\\).\nExemplo 1.7\nEmpregue o diagrama de Venn para estabelecer a relação \\(A \\subset B\\) e \\(B \\subset C\\) implica que \\(A \\subset C\\)."
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.1",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.1",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Exemplo 3.1",
+    "text": "Exemplo 3.1\nA cantora Liniker foi convidada para um pocket show exclusivo para promover seu aclamado álbum Caju (2024), que contém 14 faixas. Devido ao tempo limitado, sua equipe artística definiu que apenas 5 músicas poderão ser executadas. Quantas possibilidades criativas diferentes existem para a cantora organizar esse setlist?"
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.2",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.2",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Exemplo 3.2",
+    "text": "Exemplo 3.2\nEm uma corrida com 10 atletas competindo, de quantos modos distintos podem ser conquistadas as medalhas de Ouro, Prata e Bronze?"
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#definição-3.1-arranjo",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#definição-3.1-arranjo",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Definição 3.1: Arranjo",
+    "text": "Definição 3.1: Arranjo\n\nUm arranjo é uma maneira de selecionar e ordenar uma parte específica de um conjunto de elementos, onde a ordem dos elementos importa e não há repetição.\nO número de \\(k\\) subconjuntos ordenados de um conjunto com \\(n\\) elementos é \\[\n\\begin{array}\n  \\,_nA_k &= \\frac{n!}{(n-k)!}\\\\\n        &= n(n-1)(n-2)\\cdots(n-k+2)(n-k+1)\n\\end{array}\n\\]"
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.3",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.3",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Exemplo 3.3",
+    "text": "Exemplo 3.3\nVocê foi contratado(a) como especialista em segurança digital para ajudar uma empresa a proteger seus dados. Eles precisam criar um código de acesso temporário para seus funcionários, com as seguintes regras:\n\nO código deve ter exatamente 4 caracteres distintos;\nPode usar apenas as letras A, B, C, D e os algarismos 1, 2 e 3;\nA ordem dos caracteres importa (A1B2 ≠ 2B1A).\n\nPergunta-se:\n\nQuantos códigos diferentes podem ser criados nessas condições?\nQuantos códigos tem uma letra na primeira posição?"
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.4",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.4",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Exemplo 3.4",
+    "text": "Exemplo 3.4\nUma rede de supermercados fornece a seus clientes um cartão de crédito cuja identificação é formada por 3 letras distintas (dentre 26), seguidas de 4 algarismos distintos. Uma determinada cidade receberá os cartões que têm L como terceira letra, o último algarismo é zero e o penúltimo é 1. Qual a quantidade total de cartões distintos oferecidos por tal rede de supermercados para essa cidade?"
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.5",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.5",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Exemplo 3.5",
+    "text": "Exemplo 3.5\nQuantos números de 3 e de 4 algarismos distintos e maiores do que 300 podem ser formados com os algarismos 0, 1, 3, 5 e 7?"
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.6",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.6",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Exemplo 3.6",
+    "text": "Exemplo 3.6\nConsidere os números de 3 algarismos formados com os dígitos 2, 3, 5, 8, e 9. Quantos são estes números? Quantos são ímpares?"
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.7",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.7",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Exemplo 3.7",
+    "text": "Exemplo 3.7\nVocê e seus amigos estão indo para uma praia e você ficou responsável por escolher a sequência de 4 músicas no rádio. Você tem 6 artistas salvos no seu “Favoritos” (A, B, C, D, E, F) e pode repetir o mesmo artista na sequência. Seus amigos impuseram uma regra: como o artista “D” é muito calmo (MPB de dormir) e o artista “B” é muito agitado (Pagodão Baiano), a transição direta de D para B é proibida porque “estraga o clima”. Quantas sequências de 4 músicas você pode montar sem que o artista B toque logo após o artista D?"
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#definição-3.2-arranjo-com-repetição",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#definição-3.2-arranjo-com-repetição",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Definição 3.2: Arranjo com Repetição",
+    "text": "Definição 3.2: Arranjo com Repetição\nSe temos um conjunto com \\(n\\) elementos distintos e queremos formar agrupamentos de \\(p\\) elementos com repetição, o número de arranjos possíveis é \\[\n  n^p.\n\\]"
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#combinação",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#combinação",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Combinação",
+    "text": "Combinação\n\nAs combinações são subconjuntos onde a ordem dos elementos não importa.\nO número de \\(k\\) subconjuntos de um conjunto com \\(n\\) elementos é \\[\n  _nC_k = \\binom{n}{k} = \\frac{n!}{k!(n-k)!}\n\\]\n\n\\(\\binom{n}{k}\\) é chamado coeficiente binomial.\nEstes números podem ser arrumados em uma disposição triangular, o famoso .\nPropriedade: \\(\\binom{n}{k}=\\binom{n}{n-k}\\)."
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.8",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.8",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Exemplo 3.8",
+    "text": "Exemplo 3.8\nUma pizzaria oferece 8 ingredientes diferentes para montagem de pizzas: calabresa, frango, milho, palmito, bacon, brócolis, tomate seco e azeitona. De quantas maneiras diferentes um cliente pode escolher 3 ingredientes para sua pizza?"
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.9",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.9",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Exemplo 3.9",
+    "text": "Exemplo 3.9\nNuma prova de 10 questões, o aluno deve resolver apenas 6. De quantas maneiras diferentes ele poderá escolher essas 6 questões?"
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.10",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.10",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Exemplo 3.10",
+    "text": "Exemplo 3.10\nUm grupo de oito amigos foi acampar e levou duas barracas distintas, uma com capacidade máxima para três pessoas e a outra para cinco pessoas. De quantas formas distintas eles podem se agrupar para passar a noite, ficando cinco em uma barraca e três na outra?"
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.11",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.11",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Exemplo 3.11",
+    "text": "Exemplo 3.11\nRodrigo está montando um aquário e adquiriu 4 troncos e 5 pedras para sua ornamentação. Considere que dentre os troncos ele deseja escolher um ou dois e dentre as pedras ele pretende escolher duas ou três. De quantas maneiras ele poderá fazer a escolha dos troncos e das pedras que irá utilizar?"
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exempo-3.12",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exempo-3.12",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Exempo 3.12",
+    "text": "Exempo 3.12\nUma urna contem 5 bolas azuis e 4 bolas vermelhas. De quantas maneiras podemos selecionar:\n\n3 bolas?\n3 bolas azuis e 2 vermelhas?\n3 bolas vermelhas e 2 azuis?"
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#combinação-com-repetição",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#combinação-com-repetição",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Combinação com Repetição",
+    "text": "Combinação com Repetição\n\nSe temos \\(n\\) elementos distintos, dos quais queremos selecionar \\(k\\) elementos, onde:\n\na ordem não importa;\na repetição é permitida; e\nnão há restrição de quantidade por elemento,\n\n\nentão temos uma combinação com repetição, que é calculada por: \\[\n  \\binom{n+k-1}{k} = \\frac{(n+k-1)!}{k!(n-1!)},\n\\]"
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.13",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.13",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Exemplo 3.13",
+    "text": "Exemplo 3.13\nUma sorveteria oferece 5 sabores de sorvete: baunilha, chocolate, coco, uva e morango. Você quer montar um copo com 3 bolas, podendo repetir sabores. De quantas maneiras diferentes você pode montar esse copo, sem se importar com a ordem das bolas de sorvete?"
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.14",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#exemplo-3.14",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Exemplo 3.14",
+    "text": "Exemplo 3.14\nVocê tem moedas de 4 valores diferentes (5¢, 10¢, 25¢, 50¢) e quer dar 3 moedas de troco. De quantas maneiras diferentes pode fazer isso, considerando que pode usar moedas repetidas (ex: três de 10¢) e a ordem das moedas não importa (ex: 5¢ + 10¢ + 25¢ é igual a 10¢ + 25¢ + 5¢)?"
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#resumo",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#resumo",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Resumo",
+    "text": "Resumo\n\n\n\n\n\n\n\n\nTécnica\nQuando usar?\nEquação\n\n\n\n\nArranjo Simples\nSeleção de \\(k\\) itens entre \\(n\\), onde a ordem importa e não há repetição.\n\\(A_{n,k} = \\frac{n!}{(n-k)!}\\)\n\n\nArranjo com Repetição\nSeleção de \\(k\\) itens entre \\(n\\), onde a ordem importa e os itens podem se repetir.\n\\(n^k\\)"
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#resumo-1",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#resumo-1",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Resumo",
+    "text": "Resumo\n\n\n\n\n\n\n\n\nTécnica\nQuando usar?\nEquação\n\n\n\n\nCombinação Simples\nEscolha de um subconjunto de \\(k\\) itens entre \\(n\\), onde a ordem NÃO importa.\n\\(\\binom{n}{k} = \\frac{n!}{k!(n-k)!}\\)\n\n\nCombinação com Repetição\nEscolha de \\(k\\) itens entre \\(n\\) tipos, a ordem NÃO importa e pode haver repetição.\n\\(\\binom{n+k-1}{k}\\)"
+  },
+  {
+    "objectID": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#guia-de-decisão-qual-técnica-utilizar",
+    "href": "slides/03-Tecnicas_de_contagem_parte2/03-Tecnicas_de_contagem_parte2.html#guia-de-decisão-qual-técnica-utilizar",
+    "title": "Técnicas de Contagem (Parte 2)",
+    "section": "Guia de Decisão: Qual técnica utilizar?",
+    "text": "Guia de Decisão: Qual técnica utilizar?\nPara decidir qual fórmula aplicar, faça duas perguntas:\n\nA ordem dos elementos importa?\n\nSim: É um problema de Arranjo (ou Sequência).\nNão: É um problema de Combinação (ou Grupo/Conjunto).\n\nPode haver repetição de elementos?\n\nSim: Use as fórmulas com repetição.\nNão: Use as fórmulas simples (fatoriais tradicionais)."
+  },
+  {
+    "objectID": "info/ementa.html",
+    "href": "info/ementa.html",
+    "title": "Probabliidade I",
+    "section": "",
+    "text": "Revisão básica de Teoria dos Conjuntos, técnicas de contagem, modelo probabilístico para um experimento aleatório, espaços de probabilidade, axiomas de Kolmogorov, probabilidade condicional e independência, função de distribuição de variáveis aleatórias discretas.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#ementa",
+    "href": "info/ementa.html#ementa",
+    "title": "Probabliidade I",
+    "section": "",
+    "text": "Revisão básica de Teoria dos Conjuntos, técnicas de contagem, modelo probabilístico para um experimento aleatório, espaços de probabilidade, axiomas de Kolmogorov, probabilidade condicional e independência, função de distribuição de variáveis aleatórias discretas.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#objetivos",
+    "href": "info/ementa.html#objetivos",
+    "title": "Probabliidade I",
+    "section": "Objetivos",
+    "text": "Objetivos\nCapacitar o aluno na utilização e compreensão da teoria probabilística. Identificar e reconhecer os problemas que necessitam da utilização de distribuições de probabilidade, distribuições condicionadas, variáveis aleatórias e funções de variáveis aleatórias.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#metodologia",
+    "href": "info/ementa.html#metodologia",
+    "title": "Probabliidade I",
+    "section": "Metodologia",
+    "text": "Metodologia\nSerão ministradas aulas teóricas expositivas; utilizados recursos visuais; resolução de exercícios em sala de aula; solicitação de atividades extraclasse.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#habilidades-e-competências",
+    "href": "info/ementa.html#habilidades-e-competências",
+    "title": "Probabliidade I",
+    "section": "Habilidades e Competências",
+    "text": "Habilidades e Competências\nAo final da disciplina o aluno estará apto a compreender e desenvolver a teoria relacionada às distribuições de probabilidade.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/ementa.html#avaliação",
+    "href": "info/ementa.html#avaliação",
+    "title": "Probabliidade I",
+    "section": "Avaliação",
+    "text": "Avaliação\nSerão realizadas três avaliações ao longo do semestre. As avaliações poderão ser provas, trabalhos ou outras atividades solicitadas pelo professor.",
+    "crumbs": [
+      "Informações da disciplina",
+      "Ementa e objetivos"
+    ]
+  },
+  {
+    "objectID": "info/cronograma.html",
+    "href": "info/cronograma.html",
+    "title": "Probabliidade I",
+    "section": "",
+    "text": "Cronograma de aulas de Probabilidade I seguindo o calendário acadêmico do período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nSeminário: Variabilidades na Saúde Suplementar e ferramentas de decisão\n\n\n2\nQuinta, 15 de maio de 2025\nSeminário: Mecanismos de Solvência: Seguro e Resseguro\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina. Introdução aos Conjuntos.\n\n\n4\nQuinta, 22 de maio de 2025\nTécnicas de contagem (parte 1)",
+    "crumbs": [
+      "Informações da disciplina",
+      "Cronograma"
+    ]
+  },
+  {
+    "objectID": "info/cronograma.html#cronograma-de-aulas",
+    "href": "info/cronograma.html#cronograma-de-aulas",
+    "title": "Probabliidade I",
+    "section": "",
+    "text": "Cronograma de aulas de Probabilidade I seguindo o calendário acadêmico do período 2025-1.\n\n\n\n\n\n\n\n\nAula\nData\nAssunto Previsto\n\n\n\n\n1\nTerça, 13 de maio de 2025\nSeminário: Variabilidades na Saúde Suplementar e ferramentas de decisão\n\n\n2\nQuinta, 15 de maio de 2025\nSeminário: Mecanismos de Solvência: Seguro e Resseguro\n\n\n3\nTerça, 20 de maio de 2025\nApresentação da disciplina. Introdução aos Conjuntos.\n\n\n4\nQuinta, 22 de maio de 2025\nTécnicas de contagem (parte 1)",
+    "crumbs": [
+      "Informações da disciplina",
+      "Cronograma"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html",
+    "href": "info/dados_gerais.html",
+    "title": "Probabliidade I",
+    "section": "",
+    "text": "Componente curricular:\nESTAT0072 - Probabilidade I\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#dados-gerais-da-disciplina",
+    "href": "info/dados_gerais.html#dados-gerais-da-disciplina",
+    "title": "Probabliidade I",
+    "section": "",
+    "text": "Componente curricular:\nESTAT0072 - Probabilidade I\nDisciplina obrigatória para o curso de Estatística da Universidade Federal de Sergipe",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#informações-da-disciplina",
+    "href": "info/dados_gerais.html#informações-da-disciplina",
+    "title": "Probabliidade I",
+    "section": "Informações da Disciplina",
+    "text": "Informações da Disciplina\n\nCarga Horária: 60 horas (4 créditos)\nUnidade Responsável: Departamento de Estatística e Ciências Atuariais (DECAT)\nDocente Responsável: Prof. Dr. Sadraque E. F. Lucena\nPeríodo Letivo: 2026-1\nPlano de Ensino da Disciplina: pdf",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#horários-das-aulas",
+    "href": "info/dados_gerais.html#horários-das-aulas",
+    "title": "Probabliidade I",
+    "section": "Horários das Aulas",
+    "text": "Horários das Aulas\nAs aulas ocorrerão nos seguintes horários:\n\nTerças: 20h45 às 22h15 (Local: Didática 6 - sala 002)\nQuintas: 19h00 às 20h30 (Local: Didática 6 - sala 013)",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#avaliações",
+    "href": "info/dados_gerais.html#avaliações",
+    "title": "Probabliidade I",
+    "section": "Avaliações",
+    "text": "Avaliações\nA disciplina contará com 3 avaliações distribuídas ao longo do semestre nas seguintes datas:\n\nAvaliação 1: 17/06/2025 (terça)\nAvaliação 2: 24/07/2025 (quinta)\nAvaliação 3: 28/08/2025 (quinta)\nAvaliação Repositiva: 02/09/2025 (terça)",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  },
+  {
+    "objectID": "info/dados_gerais.html#não-haverá-aula",
+    "href": "info/dados_gerais.html#não-haverá-aula",
+    "title": "Probabliidade I",
+    "section": "Não haverá aula",
+    "text": "Não haverá aula\n\n19/06/2025: Corpus Christi (ponto facultativo)\n24/06/2025: Sâo João (feriado municipal)\n08/07/2025: Independência de Sergipe (feriado estadual)",
+    "crumbs": [
+      "Informações da disciplina",
+      "Dados gerais"
+    ]
+  }
+]

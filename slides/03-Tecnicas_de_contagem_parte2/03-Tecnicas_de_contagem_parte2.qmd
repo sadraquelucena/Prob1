@@ -1,0 +1,212 @@
+---
+title: "Técnicas de Contagem (Parte 2)"
+subtitle: "ESTAT0072 -- Probabilidade I"
+author:
+  name: | # indica que o campo name terá múltiplas linhas
+    Prof. Dr. Sadraque E. F. Lucena<br>
+    <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span>
+  
+format:
+  revealjs:
+    theme: meutema.scss
+    width: 1024
+    height: 768
+    margin: 0.1         # margem em torno do conteúdo
+    min-scale: 0.2       # escala mínima permitida
+    max-scale: 2.0       # escala máxima permitida
+    slide-number: true
+    code-line-numbers: false # sem numero das linhas nos code chunks
+    subtitle-style: "font-size: 2em; font-weight: bold;"  # Aqui é onde aumentamos o subtítulo
+    logo: imagens/ufs_horizontal_positiva.png
+    transition: fade
+    transition-speed: fast
+    scss: meutema.scss
+
+lang: pt-BR
+---
+
+## Exemplo 3.1
+
+A cantora Liniker foi convidada para um *pocket show* exclusivo para promover seu aclamado álbum *Caju* (2024), que contém 14 faixas. Devido ao tempo limitado, sua equipe artística definiu que apenas 5 músicas poderão ser executadas. Quantas possibilidades criativas diferentes existem para a cantora organizar esse *setlist*?
+
+---
+
+## Exemplo 3.2
+
+Em uma corrida com 10 atletas competindo, de quantos modos distintos podem ser conquistadas as medalhas de Ouro, Prata e Bronze?
+
+---
+
+## Definição 3.1: Arranjo
+
+- Um arranjo é uma maneira de selecionar e ordenar uma parte específica de um conjunto de elementos, onde a ordem dos elementos importa e não há repetição.
+- O número de $k$ subconjuntos ordenados de um conjunto com $n$ elementos é
+$$
+  \begin{array}
+    \,_nA_k &= \frac{n!}{(n-k)!}\\
+          &= n(n-1)(n-2)\cdots(n-k+2)(n-k+1)
+  \end{array}
+$$
+
+---
+
+## Exemplo 3.3
+
+Você foi contratado(a) como especialista em segurança digital para ajudar uma empresa a proteger seus dados. Eles precisam criar um código de acesso temporário para seus funcionários, com as seguintes regras:
+
+- O código deve ter exatamente 4 caracteres distintos;
+- Pode usar apenas as letras A, B, C, D e os algarismos 1, 2 e 3;
+- A ordem dos caracteres importa (A1B2 ≠ 2B1A).
+
+Pergunta-se:
+
+a) Quantos códigos diferentes podem ser criados nessas condições?
+
+b) Quantos códigos tem uma letra na primeira posição?
+
+---
+
+## Exemplo 3.4
+
+Uma rede de supermercados fornece a seus clientes um cartão de crédito cuja identificação é formada por 3 letras distintas (dentre 26), seguidas de 4 algarismos distintos. Uma determinada cidade receberá os cartões que têm L como terceira letra, o último algarismo é zero e o penúltimo é 1. Qual a quantidade total de cartões distintos oferecidos por tal rede de supermercados para essa cidade?
+
+---
+
+## Exemplo 3.5
+
+Quantos números de 3 e de 4 algarismos distintos e maiores do que 300 podem ser formados com os algarismos 0, 1, 3, 5 e 7?
+
+---
+
+## Exemplo 3.6
+
+Considere os números de 3 algarismos formados com os dígitos 2, 3, 5, 8, e 9. Quantos são estes números? Quantos são ímpares?
+
+---
+
+## Exemplo 3.7
+
+Você e seus amigos estão indo para uma praia e você ficou responsável por escolher a sequência de 4 músicas no rádio. Você tem 6 artistas salvos no seu "Favoritos" (A, B, C, D, E, F) e pode repetir o mesmo artista na sequência. Seus amigos impuseram uma regra: como o artista "D" é muito calmo (MPB de dormir) e o artista "B" é muito agitado (Pagodão Baiano), a transição direta de D para B é proibida porque "estraga o clima". Quantas sequências de 4 músicas você pode montar sem que o artista B toque logo após o artista D?
+
+---
+
+## Definição 3.2: Arranjo com Repetição
+
+Se temos um conjunto com $n$ elementos distintos e queremos formar agrupamentos de $p$ elementos com repetição, o número de arranjos possíveis é
+$$
+  n^p.
+$$
+
+---
+
+## Combinação
+
+- As combinações são subconjuntos onde a ordem dos elementos não importa.
+- O número de $k$ subconjuntos de um conjunto com $n$ elementos é
+$$
+	_nC_k = \binom{n}{k} = \frac{n!}{k!(n-k)!}
+$$
+
+    - $\binom{n}{k}$ é chamado coeficiente binomial.
+		
+    - Estes números podem ser arrumados em uma disposição triangular, o famoso \textcolor{bluep}{Triângulo de Pascal}.
+
+    - Propriedade: $\binom{n}{k}=\binom{n}{n-k}$.
+
+---
+
+## Exemplo 3.8
+
+Uma pizzaria oferece 8 ingredientes diferentes para montagem de pizzas: calabresa, frango, milho, palmito, bacon, brócolis, tomate seco e azeitona. De quantas maneiras diferentes um cliente pode escolher 3 ingredientes para sua pizza?
+
+---
+
+## Exemplo 3.9
+
+Numa prova de 10 questões, o aluno deve resolver apenas 6. De quantas maneiras diferentes ele poderá escolher essas 6 questões?
+
+---
+
+## Exemplo 3.10
+
+Um grupo de oito amigos foi acampar e levou duas barracas distintas, uma com capacidade máxima para três pessoas e a outra para cinco pessoas. De quantas formas distintas eles podem se agrupar para passar a noite, ficando cinco em uma barraca e três na outra?
+
+---
+
+## Exemplo 3.11
+
+Rodrigo está montando um aquário e adquiriu 4 troncos e 5 pedras para sua ornamentação. Considere que dentre os troncos ele deseja escolher um ou dois e dentre as pedras ele pretende escolher duas ou três. De quantas maneiras ele poderá fazer a escolha dos troncos e das pedras que irá utilizar?
+
+---
+
+## Exempo 3.12
+
+Uma urna contem 5 bolas azuis e 4 bolas vermelhas. De quantas maneiras podemos selecionar:
+
+a) 3 bolas?
+b) 3 bolas azuis e 2 vermelhas?
+c) 3 bolas vermelhas e 2 azuis?
+
+---
+
+## Combinação com Repetição
+
+- Se temos $n$ elementos distintos, dos quais queremos selecionar $k$ elementos, onde:
+
+    - a ordem não importa;
+
+    - a repetição é permitida; e
+
+    - não há restrição de quantidade por elemento,
+
+então temos uma combinação com repetição, que é calculada por:
+$$
+  \binom{n+k-1}{k} = \frac{(n+k-1)!}{k!(n-1!)},
+$$
+
+---
+
+## Exemplo 3.13
+
+Uma sorveteria oferece 5 sabores de sorvete: baunilha, chocolate, coco, uva e morango. Você quer montar um copo com 3 bolas, podendo repetir sabores. De quantas maneiras diferentes você pode montar esse copo, sem se importar com a ordem das bolas de sorvete?
+
+---
+
+## Exemplo 3.14
+
+Você tem moedas de 4 valores diferentes (5¢, 10¢, 25¢, 50¢) e quer dar 3 moedas de troco. De quantas maneiras diferentes pode fazer isso, considerando que pode usar moedas repetidas (ex: três de 10¢) e a ordem das moedas não importa (ex: 5¢ + 10¢ + 25¢ é igual a 10¢ + 25¢ + 5¢)?
+
+---
+
+## Resumo
+
+| Técnica | Quando usar? | Equação |
+|:---|:---|:---:|
+| **Arranjo Simples** | Seleção de $k$ itens entre $n$, onde a **ordem importa** e não há repetição. | $A_{n,k} = \frac{n!}{(n-k)!}$ |
+| **Arranjo com Repetição** | Seleção de $k$ itens entre $n$, onde a **ordem importa** e os itens podem se repetir. | $n^k$ |
+
+---
+
+## Resumo
+
+| Técnica | Quando usar? | Equação |
+|:---|:---|:---:|
+| **Combinação Simples** | Escolha de um subconjunto de $k$ itens entre $n$, onde a **ordem NÃO importa**. | $\binom{n}{k} = \frac{n!}{k!(n-k)!}$ |
+| **Combinação com Repetição** | Escolha de $k$ itens entre $n$ tipos, a **ordem NÃO importa** e pode haver repetição. | $\binom{n+k-1}{k}$ |
+
+---
+
+## Guia de Decisão: Qual técnica utilizar?
+
+Para decidir qual fórmula aplicar, faça duas perguntas:
+
+1. **A ordem dos elementos importa?**
+   - **Sim:** É um problema de **Arranjo** (ou Sequência).
+   - **Não:** É um problema de **Combinação** (ou Grupo/Conjunto).
+
+2. **Pode haver repetição de elementos?**
+   - **Sim:** Use as fórmulas com repetição.
+   - **Não:** Use as fórmulas simples (fatoriais tradicionais).
+
+
+# Fim
