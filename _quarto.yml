@@ -10,7 +10,6 @@ website:
     style: "docked"
     search: false
     logo: img/ESTAT0090_logo_hex.png
-    background: "#BED5BE"
     contents:
     - section: "Informações da disciplina"
       contents: 
@@ -52,9 +51,9 @@ website:
 
 format:
   html:
-    theme: yeti
+    theme: styles.scss
     toc: true
     grid:
-      sidebar-width: 400px
+      sidebar-width: 300px
 resources:
   - PDF_slides/**
