@@ -1,0 +1,121 @@
+---
+title: "Valor Esperado de Uma Variável Aleatória Discreta"
+subtitle: "ESTAT0072 -- Probabilidade I"
+author:
+  name: | # indica que o campo name terá múltiplas linhas
+    Prof. Dr. Sadraque E. F. Lucena<br>
+    <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span>
+  
+format:
+  revealjs:
+    theme: meutema.scss
+    width: 1024
+    height: 768
+    margin: 0.1         # margem em torno do conteúdo
+    min-scale: 0.2       # escala mínima permitida
+    max-scale: 2.0       # escala máxima permitida
+    slide-number: true
+    code-line-numbers: false # sem numero das linhas nos code chunks
+    subtitle-style: "font-size: 2em; font-weight: bold;"  # Aqui é onde aumentamos o subtítulo
+    logo: imagens/ufs_horizontal_positiva.png
+    transition: fade
+    transition-speed: fast
+    scss: meutema.scss
+
+lang: pt-BR
+---
+
+
+## Definição 10.1: Valor Esperado de Uma Variável Aleatória Discreta
+
+- Se $X$ é uma variável aleatória com função de probabilidade $P(X=x)$, então a *esperança*, ou *valor esperado*, de $X$, representado por $E(X)$, é definida por
+$$
+  E(X) = \sum\limits_x x P(X=x).
+$$
+- Em palavras, o valor esperado de $X$ é uma média ponderada dos possíveis valores que $X$ pode assumir, onde cada valor é ponderado pela probabilidade de $X$ ser igual a esse valor.
+
+
+
+
+## Exemplo
+
+Considere a variável aleatória $X$ que assume apenas os valores 0 e 1, com $P(X=0)=\frac{1}{3}$ e $P(X=1)=\frac{2}{3}$. Então
+$$
+  E(X) = 0\left(\frac{1}{3}\right) + 1 \left(\frac{2}{3}\right) = \frac{2}{3}.
+$$
+
+
+
+
+## Exemplo 10.1
+
+Um fabricante produz peças tais que 10% delas são defeituosas e 90% são não-defeituosas. Se uma peça defeituosa for produzida, o fabricante perde R\$ 1, enquanto uma peça não-defeituosa lhe dá um lucro de R\$ 5. Se $X$ é o lucro líquido por peça, qual o lucro esperado com uma peça?
+
+
+
+
+## Exemplo 10.2
+		
+Em determinado setor de uma loja de departamentos, o número de produtos vendidos em um dia pelos funcionários é uma variável aleatória $P$ com a seguinte distribuição de probabilidades (esses números foram obtidos dos resultados de vários anos de estudo):
+
+| Número de produtos        | 0   | 1   | 2   | 3   | 4   | 5    | 6    |
+|---------------------------|-----|-----|-----|-----|-----|------|------|
+| Prob. de venda            | 0,1 | 0,4 | 0,2 | 0,1 | 0,1 | 0,05 | 0,05 |
+
+(a) Qual é o número médio de produtos vendidos por cada vendedor?
+(b) Se ele vende até 2 produtos em um dia, ele ganha uma comissão de R\$10,00 por produto vendido. A partir da terceira venda, a comissão passa para R\$50,00. Qual a comissão média de cada vendedor?
+
+
+
+
+## Definição 10.2: Esperança de uma Função de uma Variável Aleatória
+Seja $X$ uma variável aleatória discreta com função de distribuição de probabilidade $P(X=x)$. Se definimos uma nova v.a. $Y = g(X)$, então
+$$
+  E(Y) = E[g(X)] = \sum\limits_x g(x) P(X=x).
+$$
+
+
+
+
+## Exemplo 10.3
+Considere a v.a. $X$ com função de probabilidade
+
+| $x$            | $-2$  | $-1$  | $0$   | $1$   | $2$   | $3$   |
+|----------------|-----|-----|-----|-----|-----|-----|
+| $P(X = x)$     | $0,\!1$ | $0,\!2$ | $0,\!2$ | $0,\!3$ | $0,\!1$ | $0,\!1$ |
+
+Seja $Y=X^2$. Qual a esperança de $Y$?
+
+
+
+
+## Propriedades do Valor Esperado
+
+Sejam $X$ e $Y$ variáveis aleatórias discretas e $a$, $b$ e $c$ constantes. Então
+
+**PE1.** $E(X + b) = E(X) + b$
+
+**PE2.** $E(aX) = a E(X)$
+
+**PE3.** $E(aX + b) = aE(X) + b$
+
+**PE4.** $E(X + Y) = E(X) + E(Y)$
+
+**PE5.** $E(aX + bY + c) = aE(X) + bE(Y) + c$
+
+
+
+## Exemplo 10.4
+
+Se a esperança de $X$ é igual a 10 e a esperança de $Y$ é igual a 15. Calcule
+
+(a) $E(X+3)$
+(b) $E(2X)$
+(c) $E(2X+3)$
+(d) $E(X+Y)$
+(e) $E(2X+4Y-6)$
+
+
+
+
+# Fim

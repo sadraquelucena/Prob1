@@ -1,0 +1,33 @@
+---
+title: "Conteúdo 12"
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Variância de Uma Variável Aleatória Discreta
+
+Nesta aula, exploramos a Variância e o Desvio Padrão, as ferramentas essenciais para quantificar a dispersão e a volatilidade em variáveis aleatórias. Enquanto a esperança nos indica o centro da distribuição, a variância revela o quão 'espalhados' os dados estão em relação a esse centro. Discutimos as propriedades fundamentais que permitem calcular a variância de transformações lineares e analisamos casos práticos de otimização de processos e ganhos variáveis.
+
+Slides:
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/slides/12-Variancia/12-Variancia.html" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide12_html.png)<br>Versão html
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/PDFs/slides/12-Variancia.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide12_pdf.png)<br>Versão pdf
+</a>
+:::
+
+::::
+
+
+
+

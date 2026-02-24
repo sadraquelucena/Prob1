@@ -1,0 +1,33 @@
+---
+title: "Conteúdo 11"
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Valor Esperado de Uma Variável Aleatória Discreta
+
+Nesta aula, introduzimos o conceito de Valor Esperado, a medida de tendência central mais importante da teoria das probabilidades. Aprendemos que a esperança não representa necessariamente um valor que a variável assumirá em uma única observação, mas sim a média de longo prazo de um experimento repetido exaustivamente. Discutimos como calcular a esperança de transformações de variáveis aleatórias e exploramos as propriedades de linearidade que facilitam cálculos complexos em sistemas com múltiplos eventos.
+
+Slides:
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/slides/11-Valor_Esperado/11-Valor_Esperado.html" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide11_html.png)<br>Versão html
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/PDFs/slides/11-Valor_Esperado.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide11_pdf.png)<br>Versão pdf
+</a>
+:::
+
+::::
+
+
+
+

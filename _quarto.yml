@@ -44,7 +44,16 @@ website:
             text: "7- Teorema de Bayes"
           - href: aulas/08-Eventos_Independentes.qmd
             text: "8- Eventos Independentes"
-            
+      - section: "Parte 2: Variáveis Aleatórias"
+        contents:
+          - href: aulas/09-Variaveis_Aleatorias.qmd
+            text: "9- Variáveis Aleatórias"
+          - href: aulas/10-Funcao_Distribuicao_Acumulada.qmd
+            text: "10- Função de Distribuição Acumulada"
+          - href: aulas/11-Valor_Esperado.qmd
+            text: "11- Valor Esperado"
+          - href: aulas/12-Variancia.qmd
+            text: "12- Variância"
     - href: PDFs/listas/listas_de_exercicio.qmd
       text: "Listas de Exercício"
       

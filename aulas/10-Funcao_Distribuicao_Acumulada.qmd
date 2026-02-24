@@ -1,0 +1,33 @@
+---
+title: "Conteúdo 10"
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Função de Distribuião Acumulada
+
+Nesta aula, exploramos a Função de Distribuição Acumulada (FDA), o conceito que nos permite visualizar a probabilidade como uma grandeza que se acumula ao longo do suporte da variável aleatória. Enquanto a função de probabilidade foca em valores isolados, a FDA fornece uma visão panorâmica, permitindo calcular rapidamente a probabilidade de eventos em intervalos e entender o comportamento de 'estoque' da massa probabilística. Discutimos as propriedades fundamentais que garantem o rigor matemático do modelo — como a monotonicidade e os limites teóricos — e aprendemos a interpretar os gráficos em escada, fundamentais para a análise de variáveis discretas.
+
+Slides:
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/slides/10-Funcao_Distribuicao_Acumulada/10-Funcao_Distribuicao_Acumulada.html" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide10_html.png)<br>Versão html
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/PDFs/slides/10-Funcao_Distribuicao_Acumulada.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide10_pdf.png)<br>Versão pdf
+</a>
+:::
+
+::::
+
+
+
+

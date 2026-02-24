@@ -344,6 +344,41 @@
     "text": "Exemplo 7.4\nAo responder uma questão em uma prova de múltipla escolha, um estudante pode saber a resposta ou “chutar”. Suponha que a probabilidade de que o estudante saiba a resposta seja 1/2, e que, se ele chutar, a chance de acertar seja 1/5. Se o estudante respondeu corretamente à questão, qual é a probabilidade de que ele realmente soubesse a resposta?"
   },
   {
+    "objectID": "slides/12-Variancia/12-Variancia.html#definição-12.1-variância-de-uma-variável-aleatória-discreta",
+    "href": "slides/12-Variancia/12-Variancia.html#definição-12.1-variância-de-uma-variável-aleatória-discreta",
+    "title": "Variância de Uma Variável Aleatória Discreta",
+    "section": "Definição 12.1: Variância de Uma Variável Aleatória Discreta",
+    "text": "Definição 12.1: Variância de Uma Variável Aleatória Discreta\n\nA variância de uma variável aleatória discreta \\(X\\) é definida como \\[\n\\begin{aligned}\n    Var(X) &= E\\left[\\left(X-E[X]\\right)^2\\right]\\\\\n                 &= E[X^2] - \\left(E[X]\\right)^2\n  \\end{aligned}\n\\] em que\n\n\\(E[X] = \\sum\\limits_{i} x_i P(X=x_i)\\)\n\\(E[X^2] = \\sum\\limits_{i} x^2_i P(X=x_i)\\)\n\nO desvio padrão de é dado por \\(DP(X) = \\sqrt{Var(X)}\\)."
+  },
+  {
+    "objectID": "slides/12-Variancia/12-Variancia.html#exemplo-12.1",
+    "href": "slides/12-Variancia/12-Variancia.html#exemplo-12.1",
+    "title": "Variância de Uma Variável Aleatória Discreta",
+    "section": "Exemplo 12.1",
+    "text": "Exemplo 12.1\nUm lojista mantém extensos registros das vendas diárias de um certo aparelho. O quadro a seguir dá a distribuição de probabilidades do número de aparelhos vendidos em uma semana. Se é de R$500,00 o lucro por unidade vendida, qual o lucro esperado em uma semana? Qual é o desvio padrão do lucro?\n\n\n\n\\(x\\): número de aparelhos\n0\n1\n2\n3\n4\n5\n\n\n\n\n\\(P(X=x)\\)\n0,1\n0,1\n0,2\n0,3\n0,2\n0,1"
+  },
+  {
+    "objectID": "slides/12-Variancia/12-Variancia.html#exemplo-12.2",
+    "href": "slides/12-Variancia/12-Variancia.html#exemplo-12.2",
+    "title": "Variância de Uma Variável Aleatória Discreta",
+    "section": "Exemplo 12.2",
+    "text": "Exemplo 12.2\nO tempo, em minutos, necessário para um operário processar certa peça é uma variável aleatória com a seguinte distribuição de probabilidade:\n\n\n\nt\n2\n3\n4\n5\n6\n7\n\n\n\n\nP(T=t)\n0,1\n0,1\n0,3\n0,2\n0,2\n0,1\n\n\n\n\nCalcule o tempo médio de processamento e a variância.\nPara cada peça processada, o operário ganha um fixo de R$ 2,00 mas, se ele processa a peça em menos de seis minutos, ganha R$ 0,50 em cada minuto poupado. Por exemplo, se ele processa a peça em quatro minutos, ganha a quantia adicional de R$ 1,00. Encontre a distribuição, a média e a variância da variável aleatória."
+  },
+  {
+    "objectID": "slides/12-Variancia/12-Variancia.html#propriedades-da-variância",
+    "href": "slides/12-Variancia/12-Variancia.html#propriedades-da-variância",
+    "title": "Variância de Uma Variável Aleatória Discreta",
+    "section": "Propriedades da Variância",
+    "text": "Propriedades da Variância\nSeja \\(X\\) uma v.a. e \\(a\\) e \\(b\\) constantes. Então\nPV1. \\(Var(a)=0\\)\nPV2. \\(Var(X+b) = Var(X)\\)\nPV3. \\(Var(aX) = a^2Var(X)\\)\nPV4. \\(Var(aX+b) = a^2Var(X)\\)"
+  },
+  {
+    "objectID": "slides/12-Variancia/12-Variancia.html#exemplo-12.3",
+    "href": "slides/12-Variancia/12-Variancia.html#exemplo-12.3",
+    "title": "Variância de Uma Variável Aleatória Discreta",
+    "section": "Exemplo 12.3",
+    "text": "Exemplo 12.3\nSeja \\(X\\) o número de carros lavados num lava-rápido em 1 hora.\n\n\n\n\\(x\\)\n3\n4\n6\n7\n8\n9\n\n\n\n\n\\(P(X=x)\\)\n1/12\n1/12\n1/4\n1/4\n1/6\n1/6\n\n\n\nCalcule \\(E(2X-1)\\) e \\(Var(2X-1)\\)."
+  },
+  {
     "objectID": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#section",
     "href": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#section",
     "title": "Teorema da Probabilidade Total",
@@ -412,6 +447,62 @@
     "title": "Teorema da Probabilidade Total",
     "section": "Exemplo 6.6",
     "text": "Exemplo 6.6\nEm uma fábrica, há dois compartimentos de peças. O primeiro compartimento contém 6 peças originais e 4 peças falsificadas. O segundo compartimento contém 5 peças originais e 7 peças falsificadas. Uma peça é retirada aleatoriamente do primeiro compartimento e transferida para o segundo compartimento. Em seguida, uma peça é retirada aleatoriamente do segundo compartimento. Qual é a probabilidade de que a peça retirada do segundo compartimento seja original?"
+  },
+  {
+    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#definição-10.1-valor-esperado-de-uma-variável-aleatória-discreta",
+    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#definição-10.1-valor-esperado-de-uma-variável-aleatória-discreta",
+    "title": "Valor Esperado de Uma Variável Aleatória Discreta",
+    "section": "Definição 10.1: Valor Esperado de Uma Variável Aleatória Discreta",
+    "text": "Definição 10.1: Valor Esperado de Uma Variável Aleatória Discreta\n\nSe \\(X\\) é uma variável aleatória com função de probabilidade \\(P(X=x)\\), então a esperança, ou valor esperado, de \\(X\\), representado por \\(E(X)\\), é definida por \\[\nE(X) = \\sum\\limits_x x P(X=x).\n\\]\nEm palavras, o valor esperado de \\(X\\) é uma média ponderada dos possíveis valores que \\(X\\) pode assumir, onde cada valor é ponderado pela probabilidade de \\(X\\) ser igual a esse valor."
+  },
+  {
+    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo",
+    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo",
+    "title": "Valor Esperado de Uma Variável Aleatória Discreta",
+    "section": "Exemplo",
+    "text": "Exemplo\nConsidere a variável aleatória \\(X\\) que assume apenas os valores 0 e 1, com \\(P(X=0)=\\frac{1}{3}\\) e \\(P(X=1)=\\frac{2}{3}\\). Então \\[\n  E(X) = 0\\left(\\frac{1}{3}\\right) + 1 \\left(\\frac{2}{3}\\right) = \\frac{2}{3}.\n\\]"
+  },
+  {
+    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-10.1",
+    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-10.1",
+    "title": "Valor Esperado de Uma Variável Aleatória Discreta",
+    "section": "Exemplo 10.1",
+    "text": "Exemplo 10.1\nUm fabricante produz peças tais que 10% delas são defeituosas e 90% são não-defeituosas. Se uma peça defeituosa for produzida, o fabricante perde R$ 1, enquanto uma peça não-defeituosa lhe dá um lucro de R$ 5. Se \\(X\\) é o lucro líquido por peça, qual o lucro esperado com uma peça?"
+  },
+  {
+    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-10.2",
+    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-10.2",
+    "title": "Valor Esperado de Uma Variável Aleatória Discreta",
+    "section": "Exemplo 10.2",
+    "text": "Exemplo 10.2\nEm determinado setor de uma loja de departamentos, o número de produtos vendidos em um dia pelos funcionários é uma variável aleatória \\(P\\) com a seguinte distribuição de probabilidades (esses números foram obtidos dos resultados de vários anos de estudo):\n\n\n\n\n\n\n\n\n\n\n\n\n\nNúmero de produtos\n0\n1\n2\n3\n4\n5\n6\n\n\n\n\nProb. de venda\n0,1\n0,4\n0,2\n0,1\n0,1\n0,05\n0,05\n\n\n\n\nQual é o número médio de produtos vendidos por cada vendedor?\nSe ele vende até 2 produtos em um dia, ele ganha uma comissão de R$10,00 por produto vendido. A partir da terceira venda, a comissão passa para R$50,00. Qual a comissão média de cada vendedor?"
+  },
+  {
+    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#definição-10.2-esperança-de-uma-função-de-uma-variável-aleatória",
+    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#definição-10.2-esperança-de-uma-função-de-uma-variável-aleatória",
+    "title": "Valor Esperado de Uma Variável Aleatória Discreta",
+    "section": "Definição 10.2: Esperança de uma Função de uma Variável Aleatória",
+    "text": "Definição 10.2: Esperança de uma Função de uma Variável Aleatória\nSeja \\(X\\) uma variável aleatória discreta com função de distribuição de probabilidade \\(P(X=x)\\). Se definimos uma nova v.a. \\(Y = g(X)\\), então \\[\n  E(Y) = E[g(X)] = \\sum\\limits_x g(x) P(X=x).\n\\]"
+  },
+  {
+    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-10.3",
+    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-10.3",
+    "title": "Valor Esperado de Uma Variável Aleatória Discreta",
+    "section": "Exemplo 10.3",
+    "text": "Exemplo 10.3\nConsidere a v.a. \\(X\\) com função de probabilidade\n\n\n\n\n\n\n\n\n\n\n\n\n\\(x\\)\n\\(-2\\)\n\\(-1\\)\n\\(0\\)\n\\(1\\)\n\\(2\\)\n\\(3\\)\n\n\n\n\n\\(P(X = x)\\)\n\\(0,\\!1\\)\n\\(0,\\!2\\)\n\\(0,\\!2\\)\n\\(0,\\!3\\)\n\\(0,\\!1\\)\n\\(0,\\!1\\)\n\n\n\nSeja \\(Y=X^2\\). Qual a esperança de \\(Y\\)?"
+  },
+  {
+    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#propriedades-do-valor-esperado",
+    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#propriedades-do-valor-esperado",
+    "title": "Valor Esperado de Uma Variável Aleatória Discreta",
+    "section": "Propriedades do Valor Esperado",
+    "text": "Propriedades do Valor Esperado\nSejam \\(X\\) e \\(Y\\) variáveis aleatórias discretas e \\(a\\), \\(b\\) e \\(c\\) constantes. Então\nPE1. \\(E(X + b) = E(X) + b\\)\nPE2. \\(E(aX) = a E(X)\\)\nPE3. \\(E(aX + b) = aE(X) + b\\)\nPE4. \\(E(X + Y) = E(X) + E(Y)\\)\nPE5. \\(E(aX + bY + c) = aE(X) + bE(Y) + c\\)"
+  },
+  {
+    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-10.4",
+    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-10.4",
+    "title": "Valor Esperado de Uma Variável Aleatória Discreta",
+    "section": "Exemplo 10.4",
+    "text": "Exemplo 10.4\nSe a esperança de \\(X\\) é igual a 10 e a esperança de \\(Y\\) é igual a 15. Calcule\n\n\\(E(X+3)\\)\n\\(E(2X)\\)\n\\(E(2X+3)\\)\n\\(E(X+Y)\\)\n\\(E(2X+4Y-6)\\)"
   },
   {
     "objectID": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#exemplo-5.1",
@@ -543,99 +634,27 @@
     ]
   },
   {
-    "objectID": "aulas/02-Tecnicas_de_contagem_parte1.html",
-    "href": "aulas/02-Tecnicas_de_contagem_parte1.html",
-    "title": "Conteúdo 2",
+    "objectID": "aulas/06-Teorema_da_probabilidade_total.html",
+    "href": "aulas/06-Teorema_da_probabilidade_total.html",
+    "title": "Conteúdo 6",
     "section": "",
-    "text": "Nesta aula, exploramos os fundamentos da análise combinatória, partindo do Princípio Aditivo e do Princípio Multiplicativo como ferramentas essenciais para a estruturação de problemas de contagem. Discutimos como decompor decisões complexas em etapas sucessivas e introduzimos o conceito de Fatorial e Permutação Simples, fundamentais para organizar conjuntos de objetos distintos. Este material serve como base indispensável para o cálculo de probabilidades em espaços amostrais finitos, permitindo que você quantifique possibilidades de forma sistemática e eficiente.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "text": "Nesta aula, apresentamos o Teorema da Probabilidade Total (TPT), uma ferramenta analítica poderosa para lidar com incertezas estruturadas em múltiplos cenários. Aprendemos a decompor o espaço amostral em uma partição, permitindo que a probabilidade de um evento ‘final’ seja calculada como a soma ponderada das probabilidades desse evento ocorrer em cada um dos cenários possíveis.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
     "crumbs": [
       "Aulas",
       "Parte 1: Introdução à Probabilidade",
-      "2- Técnicas de Contagem (Parte 1)"
+      "6- Teorema da Probabilidade Total"
     ]
   },
   {
-    "objectID": "aulas/02-Tecnicas_de_contagem_parte1.html#técnicas-de-contagem-parte-1",
-    "href": "aulas/02-Tecnicas_de_contagem_parte1.html#técnicas-de-contagem-parte-1",
-    "title": "Conteúdo 2",
+    "objectID": "aulas/06-Teorema_da_probabilidade_total.html#teorema-da-probabilidade-total",
+    "href": "aulas/06-Teorema_da_probabilidade_total.html#teorema-da-probabilidade-total",
+    "title": "Conteúdo 6",
     "section": "",
-    "text": "Nesta aula, exploramos os fundamentos da análise combinatória, partindo do Princípio Aditivo e do Princípio Multiplicativo como ferramentas essenciais para a estruturação de problemas de contagem. Discutimos como decompor decisões complexas em etapas sucessivas e introduzimos o conceito de Fatorial e Permutação Simples, fundamentais para organizar conjuntos de objetos distintos. Este material serve como base indispensável para o cálculo de probabilidades em espaços amostrais finitos, permitindo que você quantifique possibilidades de forma sistemática e eficiente.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "text": "Nesta aula, apresentamos o Teorema da Probabilidade Total (TPT), uma ferramenta analítica poderosa para lidar com incertezas estruturadas em múltiplos cenários. Aprendemos a decompor o espaço amostral em uma partição, permitindo que a probabilidade de um evento ‘final’ seja calculada como a soma ponderada das probabilidades desse evento ocorrer em cada um dos cenários possíveis.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
     "crumbs": [
       "Aulas",
       "Parte 1: Introdução à Probabilidade",
-      "2- Técnicas de Contagem (Parte 1)"
-    ]
-  },
-  {
-    "objectID": "aulas/05-Probabilidade_condicional.html",
-    "href": "aulas/05-Probabilidade_condicional.html",
-    "title": "Conteúdo 5",
-    "section": "",
-    "text": "Nesta aula, avançamos para um dos conceitos mais dinâmicos da estatística: a Probabilidade Condicional. Discutimos como a atualização do nosso conhecimento sobre um fenômeno — o ‘saber que um evento A já ocorreu’ — nos obriga a restringir o espaço amostral para calcular a nova chance de um evento B. A partir dessa intuição, derivamos a Regra da Multiplicação, ferramenta fundamental para calcular a probabilidade da ocorrência conjunta de eventos sucessivos, especialmente em cenários de amostragem sem reposição.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
-    "crumbs": [
-      "Aulas",
-      "Parte 1: Introdução à Probabilidade",
-      "5- Probabilidade Condicional e Teorema da Multiplicação"
-    ]
-  },
-  {
-    "objectID": "aulas/05-Probabilidade_condicional.html#probabilidade-condicional-e-teorema-da-multiplicação",
-    "href": "aulas/05-Probabilidade_condicional.html#probabilidade-condicional-e-teorema-da-multiplicação",
-    "title": "Conteúdo 5",
-    "section": "",
-    "text": "Nesta aula, avançamos para um dos conceitos mais dinâmicos da estatística: a Probabilidade Condicional. Discutimos como a atualização do nosso conhecimento sobre um fenômeno — o ‘saber que um evento A já ocorreu’ — nos obriga a restringir o espaço amostral para calcular a nova chance de um evento B. A partir dessa intuição, derivamos a Regra da Multiplicação, ferramenta fundamental para calcular a probabilidade da ocorrência conjunta de eventos sucessivos, especialmente em cenários de amostragem sem reposição.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
-    "crumbs": [
-      "Aulas",
-      "Parte 1: Introdução à Probabilidade",
-      "5- Probabilidade Condicional e Teorema da Multiplicação"
-    ]
-  },
-  {
-    "objectID": "aulas/03-Tecnicas_de_contagem_parte2.html",
-    "href": "aulas/03-Tecnicas_de_contagem_parte2.html",
-    "title": "Conteúdo 3",
-    "section": "",
-    "text": "Nesta segunda parte dedicada às Técnicas de Contagem, aprofundamos o estudo da análise combinatória focando na distinção fundamental entre Arranjos e Combinações. Discutimos como identificar problemas onde a ordem dos elementos altera o resultado (Arranjos) e situações onde apenas a composição do grupo é relevante (Combinações), abordando tanto os modelos simples quanto os modelos com repetição.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
-    "crumbs": [
-      "Aulas",
-      "Parte 1: Introdução à Probabilidade",
-      "3- Técnicas de Contagem (Parte 2)"
-    ]
-  },
-  {
-    "objectID": "aulas/03-Tecnicas_de_contagem_parte2.html#técnicas-de-contagem-parte-2",
-    "href": "aulas/03-Tecnicas_de_contagem_parte2.html#técnicas-de-contagem-parte-2",
-    "title": "Conteúdo 3",
-    "section": "",
-    "text": "Nesta segunda parte dedicada às Técnicas de Contagem, aprofundamos o estudo da análise combinatória focando na distinção fundamental entre Arranjos e Combinações. Discutimos como identificar problemas onde a ordem dos elementos altera o resultado (Arranjos) e situações onde apenas a composição do grupo é relevante (Combinações), abordando tanto os modelos simples quanto os modelos com repetição.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
-    "crumbs": [
-      "Aulas",
-      "Parte 1: Introdução à Probabilidade",
-      "3- Técnicas de Contagem (Parte 2)"
-    ]
-  },
-  {
-    "objectID": "aulas/01-Incerteza_e_eventos.html",
-    "href": "aulas/01-Incerteza_e_eventos.html",
-    "title": "Conteúdo 1",
-    "section": "",
-    "text": "Este material apresenta a estrutura da disciplina Probabilidade I, com informações sobre carga horária, cronograma, datas importantes, metodologia e objetivos do curso. Também introduz os primeiros conceitos da teoria dos conjuntos, fundamentais para o estudo da probabilidade, incluindo definições formais, operações entre conjuntos e propriedades básicas.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
-    "crumbs": [
-      "Aulas",
-      "Parte 1: Introdução à Probabilidade",
-      "1- Incerteza e Eventos"
-    ]
-  },
-  {
-    "objectID": "aulas/01-Incerteza_e_eventos.html#a-lógica-da-incerteza-e-a-linguagem-dos-eventos",
-    "href": "aulas/01-Incerteza_e_eventos.html#a-lógica-da-incerteza-e-a-linguagem-dos-eventos",
-    "title": "Conteúdo 1",
-    "section": "",
-    "text": "Este material apresenta a estrutura da disciplina Probabilidade I, com informações sobre carga horária, cronograma, datas importantes, metodologia e objetivos do curso. Também introduz os primeiros conceitos da teoria dos conjuntos, fundamentais para o estudo da probabilidade, incluindo definições formais, operações entre conjuntos e propriedades básicas.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
-    "crumbs": [
-      "Aulas",
-      "Parte 1: Introdução à Probabilidade",
-      "1- Incerteza e Eventos"
+      "6- Teorema da Probabilidade Total"
     ]
   },
   {
@@ -663,27 +682,195 @@
     ]
   },
   {
-    "objectID": "aulas/06-Teorema_da_probabilidade_total.html",
-    "href": "aulas/06-Teorema_da_probabilidade_total.html",
-    "title": "Conteúdo 6",
+    "objectID": "aulas/01-Incerteza_e_eventos.html",
+    "href": "aulas/01-Incerteza_e_eventos.html",
+    "title": "Conteúdo 1",
     "section": "",
-    "text": "Nesta aula, apresentamos o Teorema da Probabilidade Total (TPT), uma ferramenta analítica poderosa para lidar com incertezas estruturadas em múltiplos cenários. Aprendemos a decompor o espaço amostral em uma partição, permitindo que a probabilidade de um evento ‘final’ seja calculada como a soma ponderada das probabilidades desse evento ocorrer em cada um dos cenários possíveis.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "text": "Este material apresenta a estrutura da disciplina Probabilidade I, com informações sobre carga horária, cronograma, datas importantes, metodologia e objetivos do curso. Também introduz os primeiros conceitos da teoria dos conjuntos, fundamentais para o estudo da probabilidade, incluindo definições formais, operações entre conjuntos e propriedades básicas.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
     "crumbs": [
       "Aulas",
       "Parte 1: Introdução à Probabilidade",
-      "6- Teorema da Probabilidade Total"
+      "1- Incerteza e Eventos"
     ]
   },
   {
-    "objectID": "aulas/06-Teorema_da_probabilidade_total.html#teorema-da-probabilidade-total",
-    "href": "aulas/06-Teorema_da_probabilidade_total.html#teorema-da-probabilidade-total",
-    "title": "Conteúdo 6",
+    "objectID": "aulas/01-Incerteza_e_eventos.html#a-lógica-da-incerteza-e-a-linguagem-dos-eventos",
+    "href": "aulas/01-Incerteza_e_eventos.html#a-lógica-da-incerteza-e-a-linguagem-dos-eventos",
+    "title": "Conteúdo 1",
     "section": "",
-    "text": "Nesta aula, apresentamos o Teorema da Probabilidade Total (TPT), uma ferramenta analítica poderosa para lidar com incertezas estruturadas em múltiplos cenários. Aprendemos a decompor o espaço amostral em uma partição, permitindo que a probabilidade de um evento ‘final’ seja calculada como a soma ponderada das probabilidades desse evento ocorrer em cada um dos cenários possíveis.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "text": "Este material apresenta a estrutura da disciplina Probabilidade I, com informações sobre carga horária, cronograma, datas importantes, metodologia e objetivos do curso. Também introduz os primeiros conceitos da teoria dos conjuntos, fundamentais para o estudo da probabilidade, incluindo definições formais, operações entre conjuntos e propriedades básicas.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
     "crumbs": [
       "Aulas",
       "Parte 1: Introdução à Probabilidade",
-      "6- Teorema da Probabilidade Total"
+      "1- Incerteza e Eventos"
+    ]
+  },
+  {
+    "objectID": "aulas/03-Tecnicas_de_contagem_parte2.html",
+    "href": "aulas/03-Tecnicas_de_contagem_parte2.html",
+    "title": "Conteúdo 3",
+    "section": "",
+    "text": "Nesta segunda parte dedicada às Técnicas de Contagem, aprofundamos o estudo da análise combinatória focando na distinção fundamental entre Arranjos e Combinações. Discutimos como identificar problemas onde a ordem dos elementos altera o resultado (Arranjos) e situações onde apenas a composição do grupo é relevante (Combinações), abordando tanto os modelos simples quanto os modelos com repetição.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "3- Técnicas de Contagem (Parte 2)"
+    ]
+  },
+  {
+    "objectID": "aulas/03-Tecnicas_de_contagem_parte2.html#técnicas-de-contagem-parte-2",
+    "href": "aulas/03-Tecnicas_de_contagem_parte2.html#técnicas-de-contagem-parte-2",
+    "title": "Conteúdo 3",
+    "section": "",
+    "text": "Nesta segunda parte dedicada às Técnicas de Contagem, aprofundamos o estudo da análise combinatória focando na distinção fundamental entre Arranjos e Combinações. Discutimos como identificar problemas onde a ordem dos elementos altera o resultado (Arranjos) e situações onde apenas a composição do grupo é relevante (Combinações), abordando tanto os modelos simples quanto os modelos com repetição.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "3- Técnicas de Contagem (Parte 2)"
+    ]
+  },
+  {
+    "objectID": "aulas/12-Variancia.html",
+    "href": "aulas/12-Variancia.html",
+    "title": "Conteúdo 12",
+    "section": "",
+    "text": "Nesta aula, exploramos a Variância e o Desvio Padrão, as ferramentas essenciais para quantificar a dispersão e a volatilidade em variáveis aleatórias. Enquanto a esperança nos indica o centro da distribuição, a variância revela o quão ‘espalhados’ os dados estão em relação a esse centro. Discutimos as propriedades fundamentais que permitem calcular a variância de transformações lineares e analisamos casos práticos de otimização de processos e ganhos variáveis.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 2: Variáveis Aleatórias",
+      "12- Variância"
+    ]
+  },
+  {
+    "objectID": "aulas/12-Variancia.html#variância-de-uma-variável-aleatória-discreta",
+    "href": "aulas/12-Variancia.html#variância-de-uma-variável-aleatória-discreta",
+    "title": "Conteúdo 12",
+    "section": "",
+    "text": "Nesta aula, exploramos a Variância e o Desvio Padrão, as ferramentas essenciais para quantificar a dispersão e a volatilidade em variáveis aleatórias. Enquanto a esperança nos indica o centro da distribuição, a variância revela o quão ‘espalhados’ os dados estão em relação a esse centro. Discutimos as propriedades fundamentais que permitem calcular a variância de transformações lineares e analisamos casos práticos de otimização de processos e ganhos variáveis.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 2: Variáveis Aleatórias",
+      "12- Variância"
+    ]
+  },
+  {
+    "objectID": "aulas/09-Variaveis_Aleatorias.html",
+    "href": "aulas/09-Variaveis_Aleatorias.html",
+    "title": "Conteúdo 9",
+    "section": "",
+    "text": "Nesta aula, damos um passo fundamental na formalização estatística ao introduzir o conceito de Variáveis Aleatórias Discretas. Aprendemos a mapear resultados de experimentos aleatórios em valores numéricos, permitindo o uso de ferramentas matemáticas mais sofisticadas para a análise de dados. Exploramos a construção da Função de Probabilidade (PMF), compreendendo como a ‘massa’ de probabilidade se distribui sobre o suporte da variável.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 2: Variáveis Aleatórias",
+      "9- Variáveis Aleatórias"
+    ]
+  },
+  {
+    "objectID": "aulas/09-Variaveis_Aleatorias.html#variáveis-aleatórias",
+    "href": "aulas/09-Variaveis_Aleatorias.html#variáveis-aleatórias",
+    "title": "Conteúdo 9",
+    "section": "",
+    "text": "Nesta aula, damos um passo fundamental na formalização estatística ao introduzir o conceito de Variáveis Aleatórias Discretas. Aprendemos a mapear resultados de experimentos aleatórios em valores numéricos, permitindo o uso de ferramentas matemáticas mais sofisticadas para a análise de dados. Exploramos a construção da Função de Probabilidade (PMF), compreendendo como a ‘massa’ de probabilidade se distribui sobre o suporte da variável.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 2: Variáveis Aleatórias",
+      "9- Variáveis Aleatórias"
+    ]
+  },
+  {
+    "objectID": "aulas/11-Valor_Esperado.html",
+    "href": "aulas/11-Valor_Esperado.html",
+    "title": "Conteúdo 11",
+    "section": "",
+    "text": "Nesta aula, introduzimos o conceito de Valor Esperado, a medida de tendência central mais importante da teoria das probabilidades. Aprendemos que a esperança não representa necessariamente um valor que a variável assumirá em uma única observação, mas sim a média de longo prazo de um experimento repetido exaustivamente. Discutimos como calcular a esperança de transformações de variáveis aleatórias e exploramos as propriedades de linearidade que facilitam cálculos complexos em sistemas com múltiplos eventos.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 2: Variáveis Aleatórias",
+      "11- Valor Esperado"
+    ]
+  },
+  {
+    "objectID": "aulas/11-Valor_Esperado.html#valor-esperado-de-uma-variável-aleatória-discreta",
+    "href": "aulas/11-Valor_Esperado.html#valor-esperado-de-uma-variável-aleatória-discreta",
+    "title": "Conteúdo 11",
+    "section": "",
+    "text": "Nesta aula, introduzimos o conceito de Valor Esperado, a medida de tendência central mais importante da teoria das probabilidades. Aprendemos que a esperança não representa necessariamente um valor que a variável assumirá em uma única observação, mas sim a média de longo prazo de um experimento repetido exaustivamente. Discutimos como calcular a esperança de transformações de variáveis aleatórias e exploramos as propriedades de linearidade que facilitam cálculos complexos em sistemas com múltiplos eventos.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 2: Variáveis Aleatórias",
+      "11- Valor Esperado"
+    ]
+  },
+  {
+    "objectID": "aulas/05-Probabilidade_condicional.html",
+    "href": "aulas/05-Probabilidade_condicional.html",
+    "title": "Conteúdo 5",
+    "section": "",
+    "text": "Nesta aula, avançamos para um dos conceitos mais dinâmicos da estatística: a Probabilidade Condicional. Discutimos como a atualização do nosso conhecimento sobre um fenômeno — o ‘saber que um evento A já ocorreu’ — nos obriga a restringir o espaço amostral para calcular a nova chance de um evento B. A partir dessa intuição, derivamos a Regra da Multiplicação, ferramenta fundamental para calcular a probabilidade da ocorrência conjunta de eventos sucessivos, especialmente em cenários de amostragem sem reposição.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "5- Probabilidade Condicional e Teorema da Multiplicação"
+    ]
+  },
+  {
+    "objectID": "aulas/05-Probabilidade_condicional.html#probabilidade-condicional-e-teorema-da-multiplicação",
+    "href": "aulas/05-Probabilidade_condicional.html#probabilidade-condicional-e-teorema-da-multiplicação",
+    "title": "Conteúdo 5",
+    "section": "",
+    "text": "Nesta aula, avançamos para um dos conceitos mais dinâmicos da estatística: a Probabilidade Condicional. Discutimos como a atualização do nosso conhecimento sobre um fenômeno — o ‘saber que um evento A já ocorreu’ — nos obriga a restringir o espaço amostral para calcular a nova chance de um evento B. A partir dessa intuição, derivamos a Regra da Multiplicação, ferramenta fundamental para calcular a probabilidade da ocorrência conjunta de eventos sucessivos, especialmente em cenários de amostragem sem reposição.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "5- Probabilidade Condicional e Teorema da Multiplicação"
+    ]
+  },
+  {
+    "objectID": "aulas/02-Tecnicas_de_contagem_parte1.html",
+    "href": "aulas/02-Tecnicas_de_contagem_parte1.html",
+    "title": "Conteúdo 2",
+    "section": "",
+    "text": "Nesta aula, exploramos os fundamentos da análise combinatória, partindo do Princípio Aditivo e do Princípio Multiplicativo como ferramentas essenciais para a estruturação de problemas de contagem. Discutimos como decompor decisões complexas em etapas sucessivas e introduzimos o conceito de Fatorial e Permutação Simples, fundamentais para organizar conjuntos de objetos distintos. Este material serve como base indispensável para o cálculo de probabilidades em espaços amostrais finitos, permitindo que você quantifique possibilidades de forma sistemática e eficiente.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "2- Técnicas de Contagem (Parte 1)"
+    ]
+  },
+  {
+    "objectID": "aulas/02-Tecnicas_de_contagem_parte1.html#técnicas-de-contagem-parte-1",
+    "href": "aulas/02-Tecnicas_de_contagem_parte1.html#técnicas-de-contagem-parte-1",
+    "title": "Conteúdo 2",
+    "section": "",
+    "text": "Nesta aula, exploramos os fundamentos da análise combinatória, partindo do Princípio Aditivo e do Princípio Multiplicativo como ferramentas essenciais para a estruturação de problemas de contagem. Discutimos como decompor decisões complexas em etapas sucessivas e introduzimos o conceito de Fatorial e Permutação Simples, fundamentais para organizar conjuntos de objetos distintos. Este material serve como base indispensável para o cálculo de probabilidades em espaços amostrais finitos, permitindo que você quantifique possibilidades de forma sistemática e eficiente.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "2- Técnicas de Contagem (Parte 1)"
+    ]
+  },
+  {
+    "objectID": "aulas/10-Funcao_Distribuicao_Acumulada.html",
+    "href": "aulas/10-Funcao_Distribuicao_Acumulada.html",
+    "title": "Conteúdo 10",
+    "section": "",
+    "text": "Nesta aula, exploramos a Função de Distribuição Acumulada (FDA), o conceito que nos permite visualizar a probabilidade como uma grandeza que se acumula ao longo do suporte da variável aleatória. Enquanto a função de probabilidade foca em valores isolados, a FDA fornece uma visão panorâmica, permitindo calcular rapidamente a probabilidade de eventos em intervalos e entender o comportamento de ‘estoque’ da massa probabilística. Discutimos as propriedades fundamentais que garantem o rigor matemático do modelo — como a monotonicidade e os limites teóricos — e aprendemos a interpretar os gráficos em escada, fundamentais para a análise de variáveis discretas.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 2: Variáveis Aleatórias",
+      "10- Função de Distribuição Acumulada"
+    ]
+  },
+  {
+    "objectID": "aulas/10-Funcao_Distribuicao_Acumulada.html#função-de-distribuião-acumulada",
+    "href": "aulas/10-Funcao_Distribuicao_Acumulada.html#função-de-distribuião-acumulada",
+    "title": "Conteúdo 10",
+    "section": "",
+    "text": "Nesta aula, exploramos a Função de Distribuição Acumulada (FDA), o conceito que nos permite visualizar a probabilidade como uma grandeza que se acumula ao longo do suporte da variável aleatória. Enquanto a função de probabilidade foca em valores isolados, a FDA fornece uma visão panorâmica, permitindo calcular rapidamente a probabilidade de eventos em intervalos e entender o comportamento de ‘estoque’ da massa probabilística. Discutimos as propriedades fundamentais que garantem o rigor matemático do modelo — como a monotonicidade e os limites teóricos — e aprendemos a interpretar os gráficos em escada, fundamentais para a análise de variáveis discretas.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 2: Variáveis Aleatórias",
+      "10- Função de Distribuição Acumulada"
     ]
   },
   {
@@ -830,6 +1017,97 @@
     "text": "Resumo\n\nEventos independentes são aqueles em que a ocorrência de um não afeta a probabilidade de ocorrência do outro.\nA forma mais direta de verificar ou usar a independência é através da probabilidade da intersecção: \\(P(A\\cap B) = P(A)P(B)\\).\nPara eventos independentes, a informação da ocorrência de um evento não muda a probabilidade do outro: \\(P(B|A)=P(B)\\) e \\(P(A|B)=P(B)\\).\nLembre-se que independência dois a dois não garante independência simultânea de três ou mais eventos."
   },
   {
+    "objectID": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#introdução",
+    "href": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#introdução",
+    "title": "Variáveis Aleatórias Discretas e Função de Probabilidade",
+    "section": "Introdução",
+    "text": "Introdução\n\nMuitas vezes é mais interessante associarmos um número a um evento aleatório e calcularmos a probabilidade da ocorrência desse número do que a probabilidade do evento.\nA variável aleatória fornece um meio de descrever resultados experimentais usando-se valores numéricos.\nExemplos:\n\nNúmero de pessoas que visitam um determinado site, num certo período de tempo;\nVolume de água perdido por dia, num sistema de abastecimento."
+  },
+  {
+    "objectID": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#definição-9.1-variável-aleatória",
+    "href": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#definição-9.1-variável-aleatória",
+    "title": "Variáveis Aleatórias Discretas e Função de Probabilidade",
+    "section": "Definição 9.1: Variável Aleatória",
+    "text": "Definição 9.1: Variável Aleatória\nSejam \\(E\\) um experimento e \\(\\Omega\\) uma espaço amostral associado a esse experimento. Chamamos de variável aleatória (v.a.) uma função \\(X\\) que associa cada elemento \\(\\omega\\in\\Omega\\) a um número real, \\(X(\\omega)\\).\n\n\nNote que, embora utilizamos o termo , \\(X\\) é uma função."
+  },
+  {
+    "objectID": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#exemplo",
+    "href": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#exemplo",
+    "title": "Variáveis Aleatórias Discretas e Função de Probabilidade",
+    "section": "Exemplo",
+    "text": "Exemplo\nLançam-se 3 vezes uma moeda. A v.a. \\(X\\) = “número de caras” associa (\\(C\\): cara, \\(K\\): coroa):\n\n\\(X(CCC) = 3\\)\n\\(X(KCK) = 1\\)\n\\(X(KKK) = 0\\)\n\n\n\nO contradomínio \\(R_X\\) é o conjunto de todos os valores que a v.a. pode assumir.\n\nNo exemplo, \\(R_X = \\{0,1,2,3\\}\\)."
+  },
+  {
+    "objectID": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#definição-9.2-variável-aleatória-discreta",
+    "href": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#definição-9.2-variável-aleatória-discreta",
+    "title": "Variáveis Aleatórias Discretas e Função de Probabilidade",
+    "section": "Definição 9.2: Variável Aleatória Discreta",
+    "text": "Definição 9.2: Variável Aleatória Discreta\nUma v.a. \\(X\\) é discreta se seu contradomínio \\(R_X\\) é finito ou infinito enumerável.\n\nUma v.a. discreta é geralmente associada a contagens.\nExemplos:\n\nNúmero de peças defeituosas em um lote (finito).\nNúmero de carros que passam por um pedágio em uma hora (infinito enumerável)."
+  },
+  {
+    "objectID": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#definição-9.3-função-de-probabilidade-f.p.",
+    "href": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#definição-9.3-função-de-probabilidade-f.p.",
+    "title": "Variáveis Aleatórias Discretas e Função de Probabilidade",
+    "section": "Definição 9.3: Função de Probabilidade (F.P.)",
+    "text": "Definição 9.3: Função de Probabilidade (F.P.)\nPara uma v.a. discreta \\(X\\), a função de probabilidade \\(p(x)=P(X=x)\\) nos dá a probabilidade de a v.a. assumir um valor específico \\(x\\).\n\nEsta função deve satisfazer duas condições fundamentais:\n\n\\(p(x)\\geq 0\\), para todo \\(x\\).\n\\(\\sum\\limits_{x\\in R_X} p(x)=1\\) (A soma de todas as probabilidades deve ser exatamente 1)."
+  },
+  {
+    "objectID": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#exemplo-1",
+    "href": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#exemplo-1",
+    "title": "Variáveis Aleatórias Discretas e Função de Probabilidade",
+    "section": "Exemplo:",
+    "text": "Exemplo:\nSeja a v.a. \\(X\\) = “número de caras” em 3 moedas honestas.\n\n\\(P(X=0)=P(\\{KKK\\})=\\frac{1}{8}\\)\n\\(P(X=1)=P(\\{CKK, KCK, KKC\\})=\\frac{3}{8}\\)\n\\(P(X=2)=P(\\{CCK, CKC, KCC\\})=\\frac{3}{8}\\)\n\\(P(X=3)=P(\\{CCC\\})=\\frac{1}{8}\\)\n\n\n\nA soma das probabilidades é \\(\\frac{1}{8}+\\frac{3}{8}+\\frac{3}{8}+\\frac{1}{8}=1\\)."
+  },
+  {
+    "objectID": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#visualização-gráfica",
+    "href": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#visualização-gráfica",
+    "title": "Variáveis Aleatórias Discretas e Função de Probabilidade",
+    "section": "Visualização Gráfica",
+    "text": "Visualização Gráfica\n\nAs probabilidades dos valores da v.a. \\(X\\) podem ser viualizadas por meio de gráficos de hastes.\nNo exemplo anterior, temos:\n\n\n\nPor que isso importa? Ajuda a visualizar onde a “massa” da probabilidade está concentrada."
+  },
+  {
+    "objectID": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#modelagem-matemática-funções",
+    "href": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#modelagem-matemática-funções",
+    "title": "Variáveis Aleatórias Discretas e Função de Probabilidade",
+    "section": "Modelagem Matemática (Funções)",
+    "text": "Modelagem Matemática (Funções)\n\nÀs vezes, \\(P(X=x)\\) é dada por uma fórmula.\nExemplo: \\(P(X=x) = \\frac{x}{10}\\) para \\(x \\in \\{1, 2, 3, 4\\}\\).\n\nVerificação: \\(\\frac{1}{10} + \\frac{2}{10} + \\frac{3}{10} + \\frac{4}{10} = \\frac{10}{10} = 1\\). (Válida!)"
+  },
+  {
+    "objectID": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#exemplo-9.1",
+    "href": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#exemplo-9.1",
+    "title": "Variáveis Aleatórias Discretas e Função de Probabilidade",
+    "section": "Exemplo 9.1",
+    "text": "Exemplo 9.1\nUm homem possui 4 chaves em seu bolso. Como está escuro, ele não consegue ver qual a chave correta para abrir a porta de sua casa. Ele testa cada uma das chaves até encontrar a correta.\n\nDefina um espaço amostral para esse experimento.\nConsidere a v.a. \\(X\\): número de chaves experimentadas até conseguir abrir a porta (inclusive a chave correta). Determine os possíveis valores que \\(X\\) pode assumir e suas respectivas probabilidades."
+  },
+  {
+    "objectID": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#exemplo-9.2",
+    "href": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#exemplo-9.2",
+    "title": "Variáveis Aleatórias Discretas e Função de Probabilidade",
+    "section": "Exemplo 9.2",
+    "text": "Exemplo 9.2\nSeja \\(X\\) uma V.A. discreta com função de probabilidade dada por \\[P(X=x) = k \\cdot x, \\quad \\text{para } x \\in \\{1, 2, 3, 4, 5\\}.\\]\n\nDetermine o valor da constante \\(k\\) para que esta seja uma função de probabilidade válida.\nCalcule \\(P(X &gt; 3)\\)."
+  },
+  {
+    "objectID": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#exemplo-9.3",
+    "href": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#exemplo-9.3",
+    "title": "Variáveis Aleatórias Discretas e Função de Probabilidade",
+    "section": "Exemplo 9.3",
+    "text": "Exemplo 9.3\nUm investidor comprou uma ação. Há 20% de chance de ele ganhar R$ 1.000, 50% de chance de ele empatar (R$ 0) e 30% de chance de ele perder R$ 500. Seja \\(X\\) o lucro do investidor. Represente \\(X\\) graficamente."
+  },
+  {
+    "objectID": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#exemplo-9.4",
+    "href": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#exemplo-9.4",
+    "title": "Variáveis Aleatórias Discretas e Função de Probabilidade",
+    "section": "Exemplo 9.4",
+    "text": "Exemplo 9.4\nUm jogador paga R$ 5,00 para participar num jogo onde lança um dado honesto de 6 faces. Se sair o número 6, ele ganha R$ 20,00. Se sair o número 5, ele ganha R$ 5,00 (recebe o que pagou de volta). Para qualquer outro resultado, ele não ganha nada. Seja \\(L\\) a variável aleatória que representa o lucro líquido do jogador por partida.\n\nDetermine o suporte \\(R_L\\) da variável aleatória.\nConstrua a tabela da função de probabilidade \\(P(L=l)\\).\nQual a probabilidade de o jogador não ter prejuízo numa rodada?"
+  },
+  {
+    "objectID": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#exemplo-9.5",
+    "href": "slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html#exemplo-9.5",
+    "title": "Variáveis Aleatórias Discretas e Função de Probabilidade",
+    "section": "Exemplo 9.5",
+    "text": "Exemplo 9.5\nUm lote de 10 componentes eletrónicos contém 3 componentes defeituosos. Um técnico seleciona aleatoriamente 2 componentes para teste, sem reposição. Seja \\(X\\) o número de componentes defeituosos encontrados na amostra.\n\nDetermine a função de probabilidade de \\(X\\) (apresente os valores em forma de tabela).\nEsboce o gráfico de hastes para esta distribuição.\nQual é a probabilidade de encontrar pelo menos um componente defeituoso?"
+  },
+  {
     "objectID": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#exemplo-2.1",
     "href": "slides/02-Tecnicas_de_contagem_parte1/02-Tecnicas_de_contagem_parte1.html#exemplo-2.1",
     "title": "Técnicas de Contagem (Parte 1)",
@@ -933,6 +1211,55 @@
     "title": "Técnicas de Contagem (Parte 1)",
     "section": "Resumo",
     "text": "Resumo\n\n\n\n\n\n\n\n\nTécnica\nQuando usar?\nEquação\n\n\n\n\nPermutação com Repetição\nQuando há objetos idênticos que não geram nova ordem se trocados.\n\\(\\frac{n!}{n_1! n_2! ...}\\)\n\n\nPermutação Circular\nPara dispor objetos em círculo.\n\\((n - 1)!\\)\n\n\nNúmero de Subconjuntos\nPara contar todas as combinações possíveis de grupos.\n\\(2^n\\)"
+  },
+  {
+    "objectID": "slides/10-Funcao_Distribuicao_Acumulada/10-Funcao_Distribuicao_Acumulada.html#definição-10.1-função-de-distribuição-acumulada-fda",
+    "href": "slides/10-Funcao_Distribuicao_Acumulada/10-Funcao_Distribuicao_Acumulada.html#definição-10.1-função-de-distribuição-acumulada-fda",
+    "title": "Função de Distribuição Acumulada",
+    "section": "Definição 10.1: Função de Distribuição Acumulada (FDA)",
+    "text": "Definição 10.1: Função de Distribuição Acumulada (FDA)\nA Função de Distribuição Acumulada, denotada por \\(F(x)\\), expressa a probabilidade de a variável aleatória \\(X\\) assumir um valor menor ou igual a um número real \\(x\\): \\[\nF(x)=P(X≤x) = \\sum\\limits_{x_j\\leq x} P(X=x_j).\n\\]\n\nIntuição: Enquanto a função de probabilidade (aula passada) foca em pontos isolados, a FDA foca no “passado” e no “presente” do valor \\(x\\)."
+  },
+  {
+    "objectID": "slides/10-Funcao_Distribuicao_Acumulada/10-Funcao_Distribuicao_Acumulada.html#propriedades-fundamentais",
+    "href": "slides/10-Funcao_Distribuicao_Acumulada/10-Funcao_Distribuicao_Acumulada.html#propriedades-fundamentais",
+    "title": "Função de Distribuição Acumulada",
+    "section": "Propriedades Fundamentais",
+    "text": "Propriedades Fundamentais\n\nLimites: \\(\\lim\\limits_{x \\to -\\infty} F(x) = 0\\) e \\(\\lim\\limits_{x \\to \\infty} F(x) = 1\\).\nMonotonicidade: \\(F(x)\\) é uma função não-decrescente (nunca diminui).\nContinuidade à Direita: Para variáveis discretas, a função dá um salto no ponto \\(x\\), mas o valor do ponto pertence ao degrau de cima.\nCálculo de Intervalos: \\(P(a &lt; X \\le b) = F(b) - F(a)\\)."
+  },
+  {
+    "objectID": "slides/10-Funcao_Distribuicao_Acumulada/10-Funcao_Distribuicao_Acumulada.html#gráfico-da-função-de-distribuição-acumulada",
+    "href": "slides/10-Funcao_Distribuicao_Acumulada/10-Funcao_Distribuicao_Acumulada.html#gráfico-da-função-de-distribuição-acumulada",
+    "title": "Função de Distribuição Acumulada",
+    "section": "Gráfico da Função de Distribuição Acumulada",
+    "text": "Gráfico da Função de Distribuição Acumulada\n\nO gráfio da função de distribuição acumulada tem forma de escada. Cada degrau ocorre exatamente nos valores de \\(x\\).\nO tamanho do salto no ponto \\(x\\) é exatamente a probabilidade pontual \\(P(X=x)\\).\nExemplo:"
+  },
+  {
+    "objectID": "slides/10-Funcao_Distribuicao_Acumulada/10-Funcao_Distribuicao_Acumulada.html#exemplo-10.1",
+    "href": "slides/10-Funcao_Distribuicao_Acumulada/10-Funcao_Distribuicao_Acumulada.html#exemplo-10.1",
+    "title": "Função de Distribuição Acumulada",
+    "section": "Exemplo 10.1",
+    "text": "Exemplo 10.1\nDada a função de distribuição acumulada abaixo: \\[\nF(x) = \\begin{cases}\n          0, & x &lt; 1 \\\\\n          0,\\!3, & 1 \\le x &lt; 3 \\\\\n          0,\\!7, & 3 \\le x &lt; 4 \\\\\n          1, & x \\ge 4\n          \\end{cases}\n\\]\n\nDetermine o suporte da variável aleatória \\(X\\).\nEncontre a função de probabilidade \\(P(X=x)\\) para cada valor do suporte.\nCalcule \\(P(X \\le 3)\\) e \\(P(X &gt; 3)\\)."
+  },
+  {
+    "objectID": "slides/10-Funcao_Distribuicao_Acumulada/10-Funcao_Distribuicao_Acumulada.html#exemplo-10.2",
+    "href": "slides/10-Funcao_Distribuicao_Acumulada/10-Funcao_Distribuicao_Acumulada.html#exemplo-10.2",
+    "title": "Função de Distribuição Acumulada",
+    "section": "Exemplo 10.2",
+    "text": "Exemplo 10.2\nConsidere a V.A. \\(X\\) com FDA dada por\n\n\\(F(0)=0,1\\);\n\\(F(1)=0,4\\);\n\\(F(2)=0,8\\);\n\\(F(3)=1,0\\).\n\nCalcule:\n\n\\(P(1 &lt; X \\le 3)\\)\n\\(P(X \\ge 2)\\) usando a regra do complementar via FDA.\n\\(P(0,\\!5 &lt; X &lt; 2,\\!5)\\)"
+  },
+  {
+    "objectID": "slides/10-Funcao_Distribuicao_Acumulada/10-Funcao_Distribuicao_Acumulada.html#exemplo-10.3",
+    "href": "slides/10-Funcao_Distribuicao_Acumulada/10-Funcao_Distribuicao_Acumulada.html#exemplo-10.3",
+    "title": "Função de Distribuição Acumulada",
+    "section": "Exemplo 10.3",
+    "text": "Exemplo 10.3\nUma moeda viciada tem probabilidade de cara igual a \\(0,6\\). Lança-se esta moeda 2 vezes. Seja \\(X\\) o número de caras obtido.\n\nDetermine a função de probabilidade de \\(X\\).\nEscreva a expressão analítica da FDA \\(F(x)\\) (usando a notação de chaves por intervalos).\nEsboce o gráfico da FDA."
+  },
+  {
+    "objectID": "slides/10-Funcao_Distribuicao_Acumulada/10-Funcao_Distribuicao_Acumulada.html#exemplo-10.4",
+    "href": "slides/10-Funcao_Distribuicao_Acumulada/10-Funcao_Distribuicao_Acumulada.html#exemplo-10.4",
+    "title": "Função de Distribuição Acumulada",
+    "section": "Exemplo 10.4",
+    "text": "Exemplo 10.4\nO número de falhas por hora em um servidor, \\(X\\), possui a seguinte FDA: \\[F(x) = 1 - (0,5)^{x+1} \\text{ para } x \\in \\{0, 1, 2, \\dots\\}\\]\n\nCalcule a probabilidade de ocorrerem no máximo 2 falhas em uma hora.\nCalcule a probabilidade de ocorrerem exatamente 3 falhas. (Lembre-se: \\(P(X=x) = F(x) - F(x-1)\\))."
   },
   {
     "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#canais-de-comunicação-e-materiais-da-disciplina",

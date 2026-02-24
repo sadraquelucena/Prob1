@@ -1,0 +1,95 @@
+---
+title: "Variância de Uma Variável Aleatória Discreta"
+subtitle: "ESTAT0072 -- Probabilidade I"
+author:
+  name: | # indica que o campo name terá múltiplas linhas
+    Prof. Dr. Sadraque E. F. Lucena<br>
+    <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span>
+  
+format:
+  revealjs:
+    theme: meutema.scss
+    width: 1024
+    height: 768
+    margin: 0.1         # margem em torno do conteúdo
+    min-scale: 0.2       # escala mínima permitida
+    max-scale: 2.0       # escala máxima permitida
+    slide-number: true
+    code-line-numbers: false # sem numero das linhas nos code chunks
+    subtitle-style: "font-size: 2em; font-weight: bold;"  # Aqui é onde aumentamos o subtítulo
+    logo: imagens/ufs_horizontal_positiva.png
+    transition: fade
+    transition-speed: fast
+    scss: meutema.scss
+
+lang: pt-BR
+---
+
+
+## Definição 12.1: Variância de Uma Variável Aleatória Discreta
+
+- A variância de uma variável aleatória discreta $X$ é definida como
+$$
+  \begin{aligned}
+ 	  Var(X) &= E\left[\left(X-E[X]\right)^2\right]\\
+ 				   &= E[X^2] - \left(E[X]\right)^2
+ 	\end{aligned}
+ $$
+em que
+  - $E[X] = \sum\limits_{i} x_i P(X=x_i)$
+  - $E[X^2] = \sum\limits_{i} x^2_i P(X=x_i)$
+
+- O desvio padrão de é dado por $DP(X) = \sqrt{Var(X)}$.
+
+---
+
+## Exemplo 12.1
+
+Um lojista mantém extensos registros das vendas diárias de um certo aparelho. O quadro a seguir dá a distribuição de probabilidades do número de aparelhos vendidos em uma semana. Se é de R\$500,00 o lucro por unidade vendida, qual o lucro esperado em uma semana? Qual é o desvio padrão do lucro?
+
+| $x$: número de aparelhos | 0   | 1   | 2   | 3   | 4   | 5   |
+| ----------------------- | --- | --- | --- | --- | --- | --- |
+| $P(X=x)$                  | 0,1 | 0,1 | 0,2 | 0,3 | 0,2 | 0,1 |
+
+
+---
+ 	
+## Exemplo 12.2
+
+O tempo, em minutos, necessário para um operário processar certa peça é uma variável aleatória com a seguinte distribuição de probabilidade:
+
+| t | 2 | 3 | 4 | 5 | 6 | 7 |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| P(T=t) | 0,1 | 0,1 | 0,3 | 0,2 | 0,2 | 0,1 |
+
+(a) Calcule o tempo médio de processamento e a variância.
+(b) Para cada peça processada, o operário ganha um fixo de R\$ 2,00 mas, se ele processa a peça em menos de seis minutos, ganha R\$ 0,50 em cada minuto poupado. Por exemplo, se ele processa a peça em quatro minutos, ganha a quantia adicional de R\$ 1,00. Encontre a distribuição, a média e a variância da variável aleatória.
+
+---
+
+## Propriedades da Variância
+
+Seja $X$ uma v.a. e $a$ e $b$ constantes. Então
+
+**PV1.** $Var(a)=0$
+
+**PV2.** $Var(X+b) = Var(X)$
+
+**PV3.** $Var(aX) = a^2Var(X)$
+
+**PV4.** $Var(aX+b) = a^2Var(X)$
+
+---
+ 	
+## Exemplo 12.3
+Seja $X$ o número de carros lavados num lava-rápido em 1 hora.
+
+| $x$ | 3 | 4 | 6 | 7 | 8 | 9 |
+| :-- | :-: | :-: | :-: | :-: | :-: | :-: |
+| $P(X=x)$ | 1/12 | 1/12 | 1/4 | 1/4 | 1/6 | 1/6 |
+
+Calcule $E(2X-1)$ e $Var(2X-1)$.
+
+
+
+# Fim

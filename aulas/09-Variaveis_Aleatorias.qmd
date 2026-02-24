@@ -1,0 +1,33 @@
+---
+title: "Conteúdo 9"
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Variáveis Aleatórias
+
+Nesta aula, damos um passo fundamental na formalização estatística ao introduzir o conceito de Variáveis Aleatórias Discretas. Aprendemos a mapear resultados de experimentos aleatórios em valores numéricos, permitindo o uso de ferramentas matemáticas mais sofisticadas para a análise de dados. Exploramos a construção da Função de Probabilidade (PMF), compreendendo como a 'massa' de probabilidade se distribui sobre o suporte da variável.
+
+Slides:
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/slides/09-Variaveis_Aleatorias/09-Variaveis_Aleatorias.html" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide09_html.png)<br>Versão html
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/PDFs/slides/09-Variaveis_Aleatorias.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide09_pdf.png)<br>Versão pdf
+</a>
+:::
+
+::::
+
+
+
+
