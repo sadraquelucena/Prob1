@@ -6,7 +6,7 @@ author:
     Prof. Dr. Sadraque E. F. Lucena<br>
     <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span>
     <br>
-    <a href="http://sadraquelucena.github.io/prob1" style="font-size:.8em;">http://sadraquelucena.github.io/prob1</a>
+    <a href="http://sadraquelucena.github.io/Prob1" style="font-size:.8em;">http://sadraquelucena.github.io/Prob1</a>
   
 format:
   revealjs:
@@ -29,7 +29,7 @@ lang: pt-BR
 
 ## Canais de Comunicação e Materiais da Disciplina
 
-- Site: <http://sadraquelucena.github.io/prob1>
+- Site: <http://sadraquelucena.github.io/Prob1>
 
 - Grupo no WhatsApp: <http://tiny.cc/prob1wpp>
 
@@ -194,15 +194,15 @@ lang: pt-BR
 
 ### Avaliações
 
-- **Avaliação 1:** 05/05/2026 (terça)
-- **Avaliação 2:** 09/06/2026 (terça)
-- **Avaliação 3:** 21/07/2026 (terça)
-- **Avaliação Repositiva:** 23/07/2026 (quinta)
+- **Avaliação 1:** 14/05/2026 (quinta)
+- **Avaliação 2:** 11/06/2026 (quinta)
+- **Avaliação 3:** 16/07/2026 (quinta)
+- **Avaliação Repositiva:** 21/07/2026 (terça)
 
 
 ### Não haverá aula
 
-- **21/04/2026:** Tiradentes (feriado nacional)
+- **02/04/2026:** Quinta-feira santa (recesso academico)
 - **04/06/2026:** Corpus Christi (recesso acadêmico)
 - **23/06/2026:** Véspera de Sâo João (recesso acadêmico)
 
