@@ -21,8 +21,6 @@ website:
         text: "Conteúdo"
       - href: info/bibliografia.qmd
         text: "Bibliografia"
-      - href: info/cronograma.qmd
-        text: "Cronograma"
     
     - section: "Aulas"
       contents: 
