@@ -57,3 +57,24 @@ A prática é a chave para o domínio da Probabilidade. Aqui estão as listas de
 
 
 :::
+
+
+## Parte 2
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="Prob1_Lista8.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](lista8.png)<br>Lista 8
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="Prob1_Lista9.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](lista9.png)<br>Lista 9
+</a>
+:::
+
+
+:::
+
