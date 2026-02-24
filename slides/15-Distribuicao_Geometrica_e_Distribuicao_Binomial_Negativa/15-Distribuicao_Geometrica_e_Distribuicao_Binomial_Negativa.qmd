@@ -1,0 +1,258 @@
+---
+title: "Distribuição Geométrica e Distribuição Binomial Negativa"
+subtitle: "ESTAT0072 -- Probabilidade I"
+author:
+  name: | # indica que o campo name terá múltiplas linhas
+    Prof. Dr. Sadraque E. F. Lucena<br>
+    <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span>
+  
+format:
+  revealjs:
+    theme: meutema.scss
+    width: 1024
+    height: 768
+    margin: 0.1         # margem em torno do conteúdo
+    min-scale: 0.2       # escala mínima permitida
+    max-scale: 2.0       # escala máxima permitida
+    slide-number: true
+    code-line-numbers: false # sem numero das linhas nos code chunks
+    subtitle-style: "font-size: 2em; font-weight: bold;"  # Aqui é onde aumentamos o subtítulo
+    logo: imagens/ufs_horizontal_positiva.png
+    transition: fade
+    transition-speed: fast
+    scss: meutema.scss
+
+lang: pt-BR
+---
+
+
+## Definição 15.1: Distribuição Geométrica
+
+- Considere que $p$ é a probabilidade de sucesso em um experimento e $1 - p$ é a probabilidade de fracasso.
+- Se $X$ é o número de repetições do experimento até obtermos o primeiro sucesso, dizemos que $X$ tem distribuição geométrica e calculamos a probabilidade usando
+$$
+  P(X=x) = (1-p)^{x-1}p, \quad x = 1, 2, \ldots
+$$
+- **Notação:** $X\sim \text{Geométrica}(p)$.
+
+---
+
+## Teorema 15.1
+Se $X\sim \text{Geométrica}(p)$, a esperança e a variância são
+$$
+	E(X) = \frac{1}{p}
+$$
+e
+$$
+	Var(X) = \frac{1-p}{p^2}.
+$$
+
+---
+ 	
+## Distribuição Geométrica
+Como identificar a distribuição geométrica:
+
+- O  experimento é realizado até ocorrer o primeiro sucesso.
+
+---
+
+## Exemplo 15.1
+$X\sim \text{Geométrica}(0,6)$. Calcule:
+
+(a) $P(X=5)$
+(b) $P(2<X\leq 5)$
+(c) $E(X)$
+(d) $Var(X)$
+
+---
+
+## Propriedade de Perda de Memória da Geométrica
+
+- Dizemos que a Distribuição Geométrica "não tem memória" porque a probabilidade de um sucesso ocorrer no futuro não depende de quantas tentativas de fracasso já ocorreram no passado.
+- Isto é, Se $X \sim \text{Geométrica}(p)$, então para quaisquer inteiros $s$ e $t$:
+$$P(X > s + t \mid X > s) = P(X > t)$$
+
+---
+
+## Propriedade de Perda de Memória da Geométrica
+
+### Exemplo Prático
+
+Suponha que você está tentando pescar um peixe raro (sucesso) e a probabilidade é a mesma em cada tentativa.
+
+- Se você já tentou 10 vezes e não pescou nada, a probabilidade de precisar de mais 5 tentativas é exatamente a mesma probabilidade de alguém que acabou de chegar e vai começar a pescar agora precisar de 5 tentativas.
+- O processo "esquece" que você já falhou 10 vezes.
+
+---
+
+
+## Distribuição Geométrica no R <img src="imagens/rcompiler.png" style="width: 100px; vertical-align: middle; margin-left: 10px; margin-top: 11px;" />
+
+Para calcular no R:
+
+- $P(X=x)$ use o comando `dgeom(x-1, p)`.
+- $P(X\leq x)$ use o comando `pgeom(x-1, p)`.
+
+Exemplo: $X\sim\text{Geométrica}(0,\!6)$.
+
+```{r}
+#| echo: true
+#| eval: true
+
+dgeom(5-1, 0.6) # P(X=5)
+pgeom(5-1, 0.6) # P(X≤3)
+```
+
+---
+
+## Distribuição Geométrica no R <img src="imagens/rcompiler.png" style="width: 100px; vertical-align: middle; margin-left: 10px; margin-top: 11px;" />
+
+Gráfico da distribuição Geométrica no R para $X\sim\text{Geométrica}(p=0,\!6)$.
+
+```{r}
+#| echo: true
+#| eval: false
+#| fig-height: 3
+#| fig-width: 6
+
+p <- 0.6
+barplot(dgeom(0:9, 0.6),
+        names.arg = 1:10,
+        xlab = "Número de tentativas",
+        ylab = "Probabilidade",
+        col = "blue",
+        border = "black")
+```
+
+---
+
+## Distribuição Geométrica no R <img src="imagens/rcompiler.png" style="width: 100px; vertical-align: middle; margin-left: 10px; margin-top: 11px;" />
+
+```{r}
+#| echo: false
+#| eval: true
+
+p <- 0.6
+barplot(dgeom(0:9, 0.6),
+        names.arg = 1:10,
+        xlab = "Número de tentativas",
+        ylab = "Probabilidade",
+        col = "blue",
+        border = "black")
+```
+
+---
+
+## Exemplo 15.2
+
+Uma pesquisa do instituto YouGov encomendada pela Google entre 27 de junho a 20 de julho de 2022 apontou que 44% dos brasileiros dizem ter contato com *fake news* diariamente^[https://www.techtudo.com.br/noticias/2022/08/44percent-dos-brasileiros-dizem-receber-fake-news-diariamente-veja-pesquisa.ghtml]. Se uma nova pesquisa for realizada, 
+ 
+(a) qual a probabilidade de que a terceira pessoa entrevistada seja a primeira a afirmar que tem contato com *fake news* diariamente?
+(b) qual a probabilidade de que a primeira pessoa a afirmar que tem contato com *fake news* diariamente seja a sétima ou oitava pessoa entrevistada?
+(c) qual o número esperado de pessoas a serem entrevistadas até que a primeira afirme receber *fake news* diariamente? Qual a variância?
+
+---
+
+## Definição 15.2: Distribuição Binomial Negativa
+
+- Considere que $p$ é a probabilidade de sucesso em um experimento e $1 - p$ é a probabilidade de fracasso.
+- Se $X$ é o número de repetições do experimento até obtermos o $r$-ésimo sucesso, dizemos que $X$ tem distribuição Binomial Negativa e calculamos a probabilidade usando
+$$
+	P(X=x) = \binom{x-1}{r-1}p^r(1-p)^{x-r}, \quad x = r, r+1, r+2, \ldots
+$$
+- **Notação:** $X\sim \text{Binomial Negativa}(r,p)$.
+- Esta distribuição também é conhecida como distribuição de Pascal.
+
+---
+
+## Teorema 15.2
+
+- Se $X\sim\text{Binomial Negativa}(r,p)$, a esperança e a variância são
+$$
+	E(X) = \frac{r}{p}
+$$
+e
+$$
+	Var(X) = \frac{r(1-p)}{p^2}.
+$$
+
+---
+
+## Exemplo 15.3
+$X\sim \text{Binomial Negativa}(4; 0,7)$. Determine
+
+(a) $P(X=8)$
+(b) $P(5\leq X < 7)$
+(c) $E(X)$
+(d) $Var(X)$
+
+---
+
+## Distribuição Binomial Negativa no R <img src="imagens/rcompiler.png" style="width: 100px; vertical-align: middle; margin-left: 10px; margin-top: 11px;" />
+
+Para calcular no R:
+
+- $P(X=x)$ use o comando `dnbinom(x-1, r, p)`.
+- $P(X\leq x)$ use o comando `pnbinom(x-1, r, p)`.
+
+Exemplo: $X\sim\text{Binomial Negativa}(4;0,\!7)$.
+
+```{r}
+#| echo: true
+#| eval: true
+
+dnbinom(8-1, 4, 0.7) # P(X=8)
+pnbinom(8-1, 4, 0.7) # P(X≤8)
+```
+
+---
+
+## Distribuição Binomial Negativa no R <img src="imagens/rcompiler.png" style="width: 100px; vertical-align: middle; margin-left: 10px; margin-top: 11px;" />
+
+Gráfico da distribuição Binomial Negativa no R para $X\sim\text{Binomial Negativa}(r=4; p=0,\!6)$.
+
+```{r}
+#| echo: true
+#| eval: false
+#| fig-height: 3
+#| fig-width: 6
+
+r <- 4; p <- 0.6
+barplot(dnbinom(0:14, r, p),
+        names.arg = 1:15,
+        xlab = "Número de tentativas",
+        ylab = "Probabilidade",
+        col = "blue",
+        border = "black")
+```
+
+---
+
+## Distribuição Binomial Negativa no R <img src="imagens/rcompiler.png" style="width: 100px; vertical-align: middle; margin-left: 10px; margin-top: 11px;" />
+
+```{r}
+#| echo: false
+#| eval: true
+
+r <- 4; p <- 0.6
+barplot(dnbinom(0:14, r, p),
+        names.arg = 1:15,
+        xlab = "Número de tentativas",
+        ylab = "Probabilidade",
+        col = "blue",
+        border = "black")
+```
+
+---
+
+## Exemplo 15.4
+
+Uma pesquisa do instituto YouGov encomendada pela Google entre 27 de junho a 20 de julho de 2022 apontou que 44% dos brasileiros dizem ter contato com *fake news* diariamente^[https://www.techtudo.com.br/noticias/2022/08/44percent-dos-brasileiros-dizem-receber-fake-news-diariamente-veja-pesquisa.ghtml]. Se uma nova pesquisa for realizada, 
+
+(a) qual a probabilidade de que a terceira pessoa entrevistada seja a segunda a afirmar que tem contato com *fake news* diariamente?
+(b) qual a probabilidade de que a quarta pessoa a afirmar que tem contato com *fake news* diariamente seja a sétima ou oitava pessoa entrevistada?
+(c) qual o número esperado de pessoas a serem entrevistadas até que a terceira afirme receber *fake news* diariamente? Qual a variância?
+
+
+
+# Fim

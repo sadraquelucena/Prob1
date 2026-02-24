@@ -1,0 +1,35 @@
+---
+title: "Conteúdo 14"
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Distribuição Hipergeométrica
+
+Nesta aula, exploramos a Distribuição Hipergeométrica, modelo probabilístico essencial para situações de amostragem sem reposição em populações finitas. Diferente da Binomial, onde as probabilidades permanecem constantes, a Hipergeométrica lida com a dependência entre ensaios, sendo amplamente aplicada em controle de qualidade, auditorias e estudos biológicos. Além de deduzirmos suas fórmulas de esperança e variância, discutimos a aproximação pela Binomial para grandes populações.
+
+Slides:
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide14_html.png)<br>Versão html
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/PDFs/slides/14-Distribuicao_Hipergeometrica.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide14_pdf.png)<br>Versão pdf
+</a>
+:::
+
+::::
+
+A demonstração do Teorema 14.1 pode ser baixada [aqui](/PDFs/demonstracoes/demonstracao_teorema14.1.pdf){target="_blank"}.
+
+
+
+

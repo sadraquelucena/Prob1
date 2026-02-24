@@ -1,0 +1,195 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amssymb,amsmath,amsfonts,amsthm}
+\usepackage{graphicx}
+\usepackage{fullpage}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{calligra}
+\usepackage{accents}
+\usepackage{cancel}
+
+% Definindo o estilo de numeração dos subteoremas
+\newtheorem{theorem}{Teorema}[section]
+
+% Definindo um novo estilo específico para subteoremas com a numeração desejada
+\newtheorem{subtheorem}{Teorema}[theorem]
+
+% Customizando o contador do subtheorem
+\renewcommand{\thesubtheorem}{\thesection.\arabic{theorem}(\alph{subtheorem})}
+
+\begin{document}
+	
+% Define a cor da linha de cancelamento como vermelha
+\renewcommand{\CancelColor}{\color{red}}
+
+\setcounter{section}{15}
+
+\setcounter{theorem}{1}
+
+\setcounter{subtheorem}{0}
+
+\begin{subtheorem}
+	Se $X\sim \text{Poisson}(\lambda)$, a média  é dada por $ E(X) = \lambda $.
+\end{subtheorem}
+
+\begin{proof}
+	Temos que
+	$$
+		\begin{aligned}
+			E(X) &= \sum\limits_{x=0}^\infty x P(X=x)\\
+			&= \sum\limits_{x=0}^\infty x \frac{e^{-\lambda}\lambda^x}{x!}\\
+			&= 0 + \sum\limits_{x=1}^\infty  \frac{x e^{-\lambda}\lambda^x}{x!}\\
+			&= \sum\limits_{x=1}^\infty  \frac{\cancel{x} e^{-\lambda}\lambda^x}{\cancel{x}(x-1)!}\\
+			&= e^{-\lambda} \sum\limits_{x=1}^\infty \frac{\lambda \lambda^{x-1}}{(x-1)!}\\
+			&= \lambda e^{-\lambda} \sum\limits_{x=1}^\infty \frac{\lambda^{x-1}}{(x-1)!}\\
+		\end{aligned}
+	$$
+	Fazendo $y=x-1$, temos
+	$$
+		\begin{aligned}
+			E(X) &= \lambda e^{-\lambda} \sum\limits_{y=1}^\infty \frac{\lambda^{y}}{y!}\\
+		\end{aligned}
+	$$
+	Como $\sum\limits_{y=1}^\infty \frac{\lambda^{y}}{y!} = e^{\lambda}$,
+	$$
+			E(X) = \lambda \cancel{e^{-\lambda}}\cancel{e^{\lambda}} = \lambda\\
+	$$
+\end{proof}
+
+\begin{subtheorem}
+	Se $X\sim \text{Poisson}(\lambda)$, a variância  é dada por $ Var(X) = \lambda $.
+\end{subtheorem}
+	
+\begin{proof}
+	Sabemos que a variância é definida como $Var(X) = E(X^2) - [E(X)]^2$. Vamos calcular primeiro $E(X^2)$.
+	$$
+	\begin{aligned}
+		E(X^2) &= \sum\limits_{x=0}^\infty x^2 P(X=x)\\
+		&= \sum\limits_{x=0}^\infty x^2 \frac{e^{-\lambda}\lambda^x}{x!}\\
+		&= 0 + \sum\limits_{x=1}^\infty x^2 \frac{e^{-\lambda}\lambda^x}{x!}\\
+		&= \sum\limits_{x=1}^\infty x^{\cancel{2}} \frac{ e^{-\lambda}\lambda^x}{\cancel{x}(x-1)!}\\
+		&= \sum\limits_{x=1}^\infty x \frac{ e^{-\lambda}\lambda \lambda^{x-1}}{(x-1)!}\\
+		&= \lambda \sum\limits_{x=1}^\infty x \frac{ e^{-\lambda} \lambda^{x-1}}{(x-1)!}\\
+	\end{aligned}
+	$$
+	Fazendo $y=x-1$, temos
+	$$
+		\begin{aligned}
+			E(X^2) &= \lambda \sum\limits_{y=0}^\infty (y+1) \frac{ e^{-\lambda} \lambda^{y}}{y!}\\
+			&= \lambda \left[ \sum\limits_{y=0}^\infty y \frac{ e^{-\lambda} \lambda^{y}}{y!} + \sum\limits_{y=0}^\infty \frac{ e^{-\lambda} \lambda^{y}}{y!} \right]\\
+			&= \lambda\left[ E(X) + \sum_{y=0}^{\infty} P(Y=y)\right]
+		\end{aligned}
+	$$
+	em que $Y\sim\text{Poisson}(\lambda)$, logo
+	$$
+	\begin{aligned}
+		E(X^2) &= \lambda\left[E(X) + 1\right]\\
+		&= \lambda\left[\lambda + 1\right].\\
+	\end{aligned}
+	$$
+	Daí,
+	$$
+		\begin{aligned}
+			Var(X) &= E(X^2) - [E(X)]^2\\
+			&= \lambda\left[\lambda + 1\right] - \lambda^2\\
+			&= \cancel{\lambda^2}+ \lambda - \cancel{\lambda^2}\\
+			&= \lambda
+		\end{aligned}
+	$$
+\end{proof}	
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+
+\setcounter{theorem}{2}
+
+\setcounter{subtheorem}{0}
+
+\begin{subtheorem}
+	Se $X\sim \text{Binomial Negativa}(r, p)$, a média  é dada por $ E(X) = \frac{r}{p} $.
+\end{subtheorem}
+
+\begin{proof}
+	Temos que
+	$$
+	\begin{aligned}
+		E(X) &= \sum\limits_{x=r}^\infty x P(X=x)\\
+		&= \sum\limits_{x=r}^\infty x \binom{x-1}{r-1}p^r(1-p)^{x-r}\\
+		&= \sum\limits_{x=r}^\infty x \frac{(x-1)!}{(x-r)!(r-1)!}p^r(1-p)^{x-r}\\
+		&= \sum\limits_{x=r}^\infty \frac{x!}{(x-r)!(r-1)!}\left[\frac{r}{r}\right]p^r(1-p)^{x-r}\\
+		&= \sum\limits_{x=r}^\infty \frac{x!}{(x-r)!\,r!}\,r \,p^r(1-p)^{x-r}\\
+		&= \sum\limits_{x=r}^\infty \binom{x}{r} r  \left[\frac{p}{p}\right] p^r(1-p)^{x-r}\\
+		&= \sum\limits_{x=r}^\infty \binom{x}{r} \frac{r}{p} \, p^{r+1}(1-p)^{x-r}\\
+		&= \frac{r}{p} \sum\limits_{x=r}^\infty \binom{x}{r}  p^{r+1}(1-p)^{x-r}\\
+	\end{aligned}
+	$$
+	Fazendo $x=y-1$, temos
+	$$
+	\begin{aligned}
+		E(X) &= \frac{r}{p} \sum\limits_{y=r+1}^\infty \binom{y-1}{r}  p^{r+1}(1-p)^{(y-1)-r}
+	\end{aligned}
+	$$
+	Agora fazendo $r=r+1$, temos
+	$$
+	\begin{aligned}
+		E(X) &= \frac{r}{p} \sum\limits_{y=s}^\infty \binom{y-1}{s-1}  p^{s}(1-p)^{(y-1)-(s-1)}\\
+		&= \frac{r}{p} \sum\limits_{y=s}^\infty \binom{y-1}{s-1}  p^{s}(1-p)^{y-s}\\
+		&= \frac{r}{p} \sum\limits_{y=s}^\infty P(Y=y), \text{ com } Y\sim \text{Binomial Negativa}(s, p)\\
+		&= \frac{r}{p}\cdot 1\\
+		&= \frac{r}{p}
+	\end{aligned}
+	$$
+\end{proof}
+
+\begin{subtheorem}
+	Se $X\sim \text{Binomial Negativa}(r, p)$, a variância  é dada por $ Var(X) = \frac{r(1-p)}{p^2} $.
+\end{subtheorem}
+
+\begin{proof}
+	Sabemos que a variância é definida como $Var(X) = E(X^2) - [E(X)]^2$. Vamos calcular primeiro $E(X^2)$.
+	$$
+	\begin{aligned}
+		E(X^2) &= \sum\limits_{x=1}^\infty x^2 P(X=x)\\
+		&= \sum\limits_{x=r}^\infty x^2 \binom{x-1}{r-1}p^r(1-p)^{x-r}\\
+		&= \sum\limits_{x=r}^\infty x^2 \frac{(x-1)!}{(x-r)!(r-1)!} p^r(1-p)^{x-r}\\
+		&= \sum\limits_{x=r}^\infty x^2 \frac{(x-1)!}{(x-r)!(r-1)!}\left[\frac{rp}{rp}\right] p^r(1-p)^{x-r}\\
+		&= \sum\limits_{x=r}^\infty x \frac{x(x-1)!}{(x-r)!\,r(r-1)!}\left[\frac{r}{p}\right] pp^r(1-p)^{x-r}\\
+		&= \frac{r}{p} \sum\limits_{x=r}^\infty x \frac{x!}{(x-r)!\,r!} p^{r+1}(1-p)^{x-r}\\
+		&= \frac{r}{p} \sum\limits_{x=r}^\infty x \binom{x}{r} p^{r+1}(1-p)^{x-r}\\
+	\end{aligned}
+	$$
+	Fazendo $x=y-1$, temos
+	$$
+	\begin{aligned}
+		E(X^2) &= \frac{r}{p} \sum\limits_{y=r+1}^\infty (y-1) \binom{y-1}{r} p^{r+1}(1-p)^{(y-1)-r}
+	\end{aligned}
+	$$
+	Fazendo agora $s=r+1$, obtemos
+	$$
+	\begin{aligned}
+		E(X^2) &= \frac{r}{p} \sum\limits_{y=s}^\infty (y-1) \binom{y-1}{s-1} p^{s}(1-p)^{(y-1)-(s-1)}\\
+		&= \frac{r}{p} \sum\limits_{y=s}^\infty (y-1) \binom{y-1}{s-1} p^{s}(1-p)^{y-s}\\
+		&= \frac{r}{p} \left[ \sum\limits_{y=s}^\infty y \binom{y-1}{s-1} p^{s}(1-p)^{y-s} - \sum\limits_{y=s}^\infty \binom{y-1}{s-1} p^{s}(1-p)^{y-s}\right]\\
+		&= \frac{r}{p} \left[E(Y) - \sum\limits_{y=s}^\infty P(Y=y) \right],
+	\end{aligned}
+	$$
+	em que $Y\sim \text{Binomial Negativa}(s, p)$. Logo, $E(Y) = \frac{s}{p} = \frac{r+1}{p}$ e $\sum\limits_{y=s}^\infty P(Y=y) =1$. Daí,
+	$$
+		E(X^2) = \frac{r}{p}\left[\frac{r+1}{p} - 1\right] = \frac{r}{p}\left[\frac{r+1-p}{p}\right] = \frac{r^2 + r -rp}{p^2}
+	$$
+	Portanto,
+	$$
+	\begin{aligned}
+		Var(X) &= E(X^2) - [E(X)]^2\\
+		&= \frac{r^2 + r -rp}{p^2} - \left[\frac{r}{p}\right]^2\\
+		&= \frac{\cancel{r^2}+r-rp -\cancel{r^2}}{p^2}\\
+		&=\frac{r(1-p)}{p^2}
+	\end{aligned}
+	$$
+\end{proof}
+
+
+\end{document}

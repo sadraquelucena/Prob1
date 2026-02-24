@@ -1,0 +1,208 @@
+---
+title: "Distribuições de Bernoulli e Binomial"
+subtitle: "ESTAT0072 -- Probabilidade I"
+author:
+  name: | # indica que o campo name terá múltiplas linhas
+    Prof. Dr. Sadraque E. F. Lucena<br>
+    <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span>
+  
+format:
+  revealjs:
+    theme: meutema.scss
+    width: 1024
+    height: 768
+    margin: 0.1         # margem em torno do conteúdo
+    min-scale: 0.2       # escala mínima permitida
+    max-scale: 2.0       # escala máxima permitida
+    slide-number: true
+    code-line-numbers: false # sem numero das linhas nos code chunks
+    subtitle-style: "font-size: 2em; font-weight: bold;"  # Aqui é onde aumentamos o subtítulo
+    logo: imagens/ufs_horizontal_positiva.png
+    transition: fade
+    transition-speed: fast
+    scss: meutema.scss
+
+lang: pt-BR
+---
+
+
+## Distribuição de Bernoulli
+
+- Podemos interpretar o resultado de um experimento como tendo dois resultados possíveis.
+  - Ocorre ou não um sinistro em uma apólice de seguro;
+  - Uma peça produzida apresenta defeito ou não;
+  - Uma aluna tira uma nota maior ou igual a 5 ou não;
+  - Uma pessoa apresenta uma doença ou não.
+
+<br>
+
+- Quando um experimento é realizado apenas uma vez e interpretamos o resultado como sucesso ou fracasso, temos um experimento de Bernoulli.
+
+---
+
+## Definição 13.1: Distribuição de Bernoulli
+
+- Um experimento de Bernoulli é um experimento aleatório que possui dois resultados possíveis:
+  - um é chamado **sucesso** ($X=1$)
+  - e o outro de **fracasso** ($X=0$).
+- A probabilidade de sucesso é **$P(X=1) = p$**.
+- A probabilidade de fracasso é **$P(X=0)=1-p$**.
+- Podemos então escrever o seguinte:
+  - Se $X$ é uma variável aleatória de Bernoulli, sua função de probabilidade é
+$$
+  P(X=x) = p^x (1-p)^{1-x}, \quad x = 0,1
+$$
+- **Notação:** $X\sim \text{Bernoulli}(p)$
+
+---
+ 	
+## Exemplo 13.1
+
+Um dado de seis faces é lançado. Seja $X$: a face voltada para cima é igual a 2. Indique a distribuição $X$ e explicite sua função de probabilidade.
+
+---
+
+## Teorema 13.1
+
+- Se $X\sim \text{Bernoulli}(p)$, a esperança e a variância são, respectivamente, iguais a
+$$
+  E(X) = p
+$$
+e
+$$
+  Var(X) = p(1-p).
+$$
+
+---
+ 	
+## Exemplo 13.2
+
+Um dado de seis faces é lançado. Seja $X$: a face voltada para cima é igual a 2. Qual o valor esperado de $X$ e sua variância?
+
+---
+
+## Definição 13.2: Distribuição Binomial
+
+- Considere que $p$ é a probabilidade de sucesso em um experimento e $1 - p$ é a probabilidade de fracasso.
+- Suponha que vamos repetir o experimento $n$ vezes em que cada repetição é independente da outra.
+- Se $X$ é o número de sucesso nas $n$ repetições do experimento, dizemos que $X$ tem distribuição binomial e calculamos a probabilidade usando
+$$
+  P(X=x) = \binom{n}{x} p^x (1-p)^{n-x}, \quad x = 0, 1, \ldots, n.
+$$
+- **Notação:** $X\sim \text{Binomial}(n,p)$.
+
+---
+
+## Distribuição Binomial
+
+- Note que a soma das probabilidades é igual a 1, pois
+$$
+  \begin{aligned}
+ 	  \sum\limits_{x=0}^n P(X=x) &= \sum\limits_{x=0}^n \binom{n}{x} p^x (1-p)^{n-x}\\
+ 		&= [p + (1-p)]^n\\
+ 		&= 1^n\\
+ 		&= 1
+ 	\end{aligned}
+$$
+
+- Note também que $X$ é a soma de $n$ realizações independentes de um experimento de Bernoulli($p$).
+
+---
+
+## Distribuição Binomial
+
+Como identificar a distribuição binomial:
+
+- O experimento é realizado um número fixo de vezes ($n$).
+- Cada tentativa é independente das demais.
+- A probabilidade de sucesso ($p$) é constante em cada tentativa.
+- A variável de interesse $X$ é o número de sucessos.
+
+---
+
+## Teorema 13.2
+
+- Se $X\sim \text{Binomial}(n,p)$, o valor esperado e a variância são dados da seguinte forma:
+$$
+  E(X) = np
+$$
+e
+$$
+  Var(X) = np(1-p).
+$$
+
+---
+
+## Exemplo 13.3
+A probabilidade de que um(a) eleitor(a) vote em uma candidata é 3/4.
+
+(a) Se 10 pessoas são entrevistadas em uma pesquisa eleitoral, determine a probabilidade de que exatamente duas votem na candidata.
+(b) Qual a probabilidade de que pelo menos 1 pessoa votem na candidata?
+(c) Qual o número esperado de eleitores da candidata entre essas 10 pessoas?
+(d) Qual a variância?
+
+---
+
+## Exemplo 13.4
+
+Uma carteira possui 20 automóveis segurados. A probabilidade de ocorrer um sinistro em um automóvel dessa carteira e acionar o seguro é de 10\%.
+
+(a) Qual o número esperado de carros que acionarão o seguro?
+(b) Qual a variância?
+(c) Qual a probabilidade de que 5 carros precisarem acionar o seguro por causa de um sinistro?
+(d) a probabilidade de que de 2 a 4 carros acionem o seguro?
+(e) Qual a probabilidade de que pelo menos 1 carro acione o seguro?
+
+---
+
+## Distribuição Binomial no R <img src="imagens/rcompiler.png" style="width: 100px; vertical-align: middle; margin-left: 10px; margin-top: 11px;" />
+
+Para calcular no R (você pode baixar o aplicativo **R Compiler** no seu smartphone)
+
+- $P(X=x)$ use o comando `dbinom(x, n, p)`.
+- $P(X\leq x)$ use o comando `pbinom(x, n, p)`.
+
+- Exemplo: $X\sim\text{Binomial}(n=27, p=0.65)$.
+
+```{r}
+#| echo: true
+#| eval: true
+
+dbinom(12, 27, 0.65) # P(X=12)
+pbinom(12, 27, 0.65) # P(X≤12)
+```
+
+---
+
+## Distribuição Binomial no R <img src="imagens/rcompiler.png" style="width: 100px; vertical-align: middle; margin-left: 250px; margin-top: 11px;" />
+
+Gráfico da dist. Binomial para $X\sim\text{Binomial}(n=10, p = 0.5)$.
+
+```{r}
+#| echo: true
+#| eval: true
+#| fig-height: 4
+#| fig-width: 7
+
+n <- 10; p <- 0.5
+barplot(dbinom(0:n, n, p), names.arg = 0:n,
+        xlab = "Número de Sucessos", ylab = "Probabilidade",
+        col = "blue", border = "blue", ylim = c(0,.25))
+```
+
+---
+
+## Resumo
+
+| Distribuição | Bernoulli ($p$) | Binomial ($n, p$) |
+|:---|:---:|:---:|
+| Contexto | Um único ensaio | $n$ ensaios independentes |
+| Suporte ($R_X$) | $\{0, 1\}$ | $\{0, 1, 2, \dots, n\}$ |
+| $P(X=x)$ | $p^x (1-p)^{1-x}$ | $\binom{n}{x} p^x (1-p)^{n-x}$ |
+| $E[X]$ | $p$ | $np$ |
+| $Var(X)$ | $p(1-p)$ | $np(1-p)$ |
+| Comando no R | `dbinom(x, 1, p)` | `dbinom(x, n, p)` |
+
+
+
+# Fim

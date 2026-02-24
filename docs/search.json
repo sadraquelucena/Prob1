@@ -10,21 +10,31 @@
     ]
   },
   {
-    "objectID": "PDFs/listas/listas_de_exercicio.html#parte-1",
-    "href": "PDFs/listas/listas_de_exercicio.html#parte-1",
+    "objectID": "PDFs/listas/listas_de_exercicio.html#parte-1-introdução-à-probabilidade",
+    "href": "PDFs/listas/listas_de_exercicio.html#parte-1-introdução-à-probabilidade",
     "title": "Listas de Exercício",
-    "section": "Parte 1",
-    "text": "Parte 1\n\n\n Lista 1 \n\n\n Lista 2 \n\n\n Lista 3 \n\n\n Lista 4 \n\n\n Lista 5 \n\n\n Lista 6 \n\n\n Lista 7",
+    "section": "Parte 1: Introdução à Probabilidade",
+    "text": "Parte 1: Introdução à Probabilidade\n\n\n Lista 1 \n\n\n Lista 2 \n\n\n Lista 3 \n\n\n Lista 4 \n\n\n Lista 5 \n\n\n Lista 6 \n\n\n Lista 7",
     "crumbs": [
       "Listas de Exercício"
     ]
   },
   {
-    "objectID": "PDFs/listas/listas_de_exercicio.html#parte-2",
-    "href": "PDFs/listas/listas_de_exercicio.html#parte-2",
+    "objectID": "PDFs/listas/listas_de_exercicio.html#parte-2-variáveis-aleatórias",
+    "href": "PDFs/listas/listas_de_exercicio.html#parte-2-variáveis-aleatórias",
     "title": "Listas de Exercício",
-    "section": "Parte 2",
-    "text": "Parte 2\n\n\n Lista 8 \n\n\n Lista 9",
+    "section": "Parte 2: Variáveis Aleatórias",
+    "text": "Parte 2: Variáveis Aleatórias\n\n\n Lista 8 \n\n\n Lista 9",
+    "crumbs": [
+      "Listas de Exercício"
+    ]
+  },
+  {
+    "objectID": "PDFs/listas/listas_de_exercicio.html#parte-3-distribuições-de-probabilidade",
+    "href": "PDFs/listas/listas_de_exercicio.html#parte-3-distribuições-de-probabilidade",
+    "title": "Listas de Exercício",
+    "section": "Parte 3: Distribuições de Probabilidade",
+    "text": "Parte 3: Distribuições de Probabilidade\n\n\n Lista 10 \n\n\n Lista 11 \n\n\n Lista 12 \n\n\n Lista 13",
     "crumbs": [
       "Listas de Exercício"
     ]
@@ -79,6 +89,104 @@
     "title": "Bem-vindo(a)!",
     "section": "",
     "text": "Bem-vindo(a)!\nEsta página foi criada pelo Prof. Dr. Sadraque E. F. Lucena para centralizar os conteúdos, atividades, cronograma e materiais da disciplina ESTAT0072 — Probabilidade I, ofertada pelo Departamento de Estatística e Ciências Atuariais da Universidade Federal de Sergipe. Ao longo do semestre, vamos construir uma base sólida em conceitos fundamentais de Probabilidade, como teoria dos conjuntos, técnicas de contagem, espaços de probabilidade, axiomas de Kolmogorov, probabilidade condicional, independência e variáveis aleatórias discretas.\nA disciplina será conduzida com uma abordagem prática e orientada por problemas, livremente inspirada no Problem-Based Learning (PBL), conectando os conteúdos à atuação profissional da Estatística. Serão propostas atividades semanais que estimulem o raciocínio probabilístico, a resolução colaborativa de desafios e o entendimento profundo das ideias centrais da teoria.\nFique atento(a) às atualizações — este espaço será constantemente revisado com avisos, novos materiais e mudanças no cronograma."
+  },
+  {
+    "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#distribuição-de-bernoulli",
+    "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#distribuição-de-bernoulli",
+    "title": "Distribuições de Bernoulli e Binomial",
+    "section": "Distribuição de Bernoulli",
+    "text": "Distribuição de Bernoulli\n\nPodemos interpretar o resultado de um experimento como tendo dois resultados possíveis.\n\nOcorre ou não um sinistro em uma apólice de seguro;\nUma peça produzida apresenta defeito ou não;\nUma aluna tira uma nota maior ou igual a 5 ou não;\nUma pessoa apresenta uma doença ou não.\n\n\n\n\nQuando um experimento é realizado apenas uma vez e interpretamos o resultado como sucesso ou fracasso, temos um experimento de Bernoulli."
+  },
+  {
+    "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#definição-13.1-distribuição-de-bernoulli",
+    "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#definição-13.1-distribuição-de-bernoulli",
+    "title": "Distribuições de Bernoulli e Binomial",
+    "section": "Definição 13.1: Distribuição de Bernoulli",
+    "text": "Definição 13.1: Distribuição de Bernoulli\n\nUm experimento de Bernoulli é um experimento aleatório que possui dois resultados possíveis:\n\num é chamado sucesso (\\(X=1\\))\ne o outro de fracasso (\\(X=0\\)).\n\nA probabilidade de sucesso é \\(P(X=1) = p\\).\nA probabilidade de fracasso é \\(P(X=0)=1-p\\).\nPodemos então escrever o seguinte:\n\nSe \\(X\\) é uma variável aleatória de Bernoulli, sua função de probabilidade é \\[\nP(X=x) = p^x (1-p)^{1-x}, \\quad x = 0,1\n\\]\n\nNotação: \\(X\\sim \\text{Bernoulli}(p)\\)"
+  },
+  {
+    "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#exemplo-13.1",
+    "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#exemplo-13.1",
+    "title": "Distribuições de Bernoulli e Binomial",
+    "section": "Exemplo 13.1",
+    "text": "Exemplo 13.1\nUm dado de seis faces é lançado. Seja \\(X\\): a face voltada para cima é igual a 2. Indique a distribuição \\(X\\) e explicite sua função de probabilidade."
+  },
+  {
+    "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#teorema-13.1",
+    "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#teorema-13.1",
+    "title": "Distribuições de Bernoulli e Binomial",
+    "section": "Teorema 13.1",
+    "text": "Teorema 13.1\n\nSe \\(X\\sim \\text{Bernoulli}(p)\\), a esperança e a variância são, respectivamente, iguais a \\[\nE(X) = p\n\\] e \\[\nVar(X) = p(1-p).\n\\]"
+  },
+  {
+    "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#exemplo-13.2",
+    "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#exemplo-13.2",
+    "title": "Distribuições de Bernoulli e Binomial",
+    "section": "Exemplo 13.2",
+    "text": "Exemplo 13.2\nUm dado de seis faces é lançado. Seja \\(X\\): a face voltada para cima é igual a 2. Qual o valor esperado de \\(X\\) e sua variância?"
+  },
+  {
+    "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#definição-13.2-distribuição-binomial",
+    "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#definição-13.2-distribuição-binomial",
+    "title": "Distribuições de Bernoulli e Binomial",
+    "section": "Definição 13.2: Distribuição Binomial",
+    "text": "Definição 13.2: Distribuição Binomial\n\nConsidere que \\(p\\) é a probabilidade de sucesso em um experimento e \\(1 - p\\) é a probabilidade de fracasso.\nSuponha que vamos repetir o experimento \\(n\\) vezes em que cada repetição é independente da outra.\nSe \\(X\\) é o número de sucesso nas \\(n\\) repetições do experimento, dizemos que \\(X\\) tem distribuição binomial e calculamos a probabilidade usando \\[\nP(X=x) = \\binom{n}{x} p^x (1-p)^{n-x}, \\quad x = 0, 1, \\ldots, n.\n\\]\nNotação: \\(X\\sim \\text{Binomial}(n,p)\\)."
+  },
+  {
+    "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#distribuição-binomial",
+    "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#distribuição-binomial",
+    "title": "Distribuições de Bernoulli e Binomial",
+    "section": "Distribuição Binomial",
+    "text": "Distribuição Binomial\n\nNote que a soma das probabilidades é igual a 1, pois \\[\n\\begin{aligned}\n    \\sum\\limits_{x=0}^n P(X=x) &= \\sum\\limits_{x=0}^n \\binom{n}{x} p^x (1-p)^{n-x}\\\\\n      &= [p + (1-p)]^n\\\\\n      &= 1^n\\\\\n      &= 1\n  \\end{aligned}\n\\]\nNote também que \\(X\\) é a soma de \\(n\\) realizações independentes de um experimento de Bernoulli(\\(p\\))."
+  },
+  {
+    "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#distribuição-binomial-1",
+    "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#distribuição-binomial-1",
+    "title": "Distribuições de Bernoulli e Binomial",
+    "section": "Distribuição Binomial",
+    "text": "Distribuição Binomial\nComo identificar a distribuição binomial:\n\nO experimento é realizado um número fixo de vezes (\\(n\\)).\nCada tentativa é independente das demais.\nA probabilidade de sucesso (\\(p\\)) é constante em cada tentativa.\nA variável de interesse \\(X\\) é o número de sucessos."
+  },
+  {
+    "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#teorema-13.2",
+    "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#teorema-13.2",
+    "title": "Distribuições de Bernoulli e Binomial",
+    "section": "Teorema 13.2",
+    "text": "Teorema 13.2\n\nSe \\(X\\sim \\text{Binomial}(n,p)\\), o valor esperado e a variância são dados da seguinte forma: \\[\nE(X) = np\n\\] e \\[\nVar(X) = np(1-p).\n\\]"
+  },
+  {
+    "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#exemplo-13.3",
+    "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#exemplo-13.3",
+    "title": "Distribuições de Bernoulli e Binomial",
+    "section": "Exemplo 13.3",
+    "text": "Exemplo 13.3\nA probabilidade de que um(a) eleitor(a) vote em uma candidata é 3/4.\n\nSe 10 pessoas são entrevistadas em uma pesquisa eleitoral, determine a probabilidade de que exatamente duas votem na candidata.\nQual a probabilidade de que pelo menos 1 pessoa votem na candidata?\nQual o número esperado de eleitores da candidata entre essas 10 pessoas?\nQual a variância?"
+  },
+  {
+    "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#exemplo-13.4",
+    "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#exemplo-13.4",
+    "title": "Distribuições de Bernoulli e Binomial",
+    "section": "Exemplo 13.4",
+    "text": "Exemplo 13.4\nUma carteira possui 20 automóveis segurados. A probabilidade de ocorrer um sinistro em um automóvel dessa carteira e acionar o seguro é de 10%.\n\nQual o número esperado de carros que acionarão o seguro?\nQual a variância?\nQual a probabilidade de que 5 carros precisarem acionar o seguro por causa de um sinistro?\na probabilidade de que de 2 a 4 carros acionem o seguro?\nQual a probabilidade de que pelo menos 1 carro acione o seguro?"
+  },
+  {
+    "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#distribuição-binomial-no-r",
+    "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#distribuição-binomial-no-r",
+    "title": "Distribuições de Bernoulli e Binomial",
+    "section": "Distribuição Binomial no R ",
+    "text": "Distribuição Binomial no R \nPara calcular no R (você pode baixar o aplicativo R Compiler no seu smartphone)\n\n\\(P(X=x)\\) use o comando dbinom(x, n, p).\n\\(P(X\\leq x)\\) use o comando pbinom(x, n, p).\nExemplo: \\(X\\sim\\text{Binomial}(n=27, p=0.65)\\).\n\n\ndbinom(12, 27, 0.65) # P(X=12)\n\n[1] 0.01432607\n\npbinom(12, 27, 0.65) # P(X≤12)\n\n[1] 0.02292425"
+  },
+  {
+    "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#distribuição-binomial-no-r-1",
+    "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#distribuição-binomial-no-r-1",
+    "title": "Distribuições de Bernoulli e Binomial",
+    "section": "Distribuição Binomial no R ",
+    "text": "Distribuição Binomial no R \nGráfico da dist. Binomial para \\(X\\sim\\text{Binomial}(n=10, p = 0.5)\\).\n\nn &lt;- 10; p &lt;- 0.5\nbarplot(dbinom(0:n, n, p), names.arg = 0:n,\n        xlab = \"Número de Sucessos\", ylab = \"Probabilidade\",\n        col = \"blue\", border = \"blue\", ylim = c(0,.25))"
+  },
+  {
+    "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#resumo",
+    "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#resumo",
+    "title": "Distribuições de Bernoulli e Binomial",
+    "section": "Resumo",
+    "text": "Resumo\n\n\n\nDistribuição\nBernoulli (\\(p\\))\nBinomial (\\(n, p\\))\n\n\n\n\nContexto\nUm único ensaio\n\\(n\\) ensaios independentes\n\n\nSuporte (\\(R_X\\))\n\\(\\{0, 1\\}\\)\n\\(\\{0, 1, 2, \\dots, n\\}\\)\n\n\n\\(P(X=x)\\)\n\\(p^x (1-p)^{1-x}\\)\n\\(\\binom{n}{x} p^x (1-p)^{n-x}\\)\n\n\n\\(E[X]\\)\n\\(p\\)\n\\(np\\)\n\n\n\\(Var(X)\\)\n\\(p(1-p)\\)\n\\(np(1-p)\\)\n\n\nComando no R\ndbinom(x, 1, p)\ndbinom(x, n, p)"
   },
   {
     "objectID": "slides/04-Probabilidade/04-Probabilidade.html#o-que-é-probabilidade",
@@ -354,39 +462,207 @@
     "text": "Exemplo 7.4\nAo responder uma questão em uma prova de múltipla escolha, um estudante pode saber a resposta ou “chutar”. Suponha que a probabilidade de que o estudante saiba a resposta seja 1/2, e que, se ele chutar, a chance de acertar seja 1/5. Se o estudante respondeu corretamente à questão, qual é a probabilidade de que ele realmente soubesse a resposta?"
   },
   {
-    "objectID": "slides/12-Variancia/12-Variancia.html#definição-12.1-variância-de-uma-variável-aleatória-discreta",
-    "href": "slides/12-Variancia/12-Variancia.html#definição-12.1-variância-de-uma-variável-aleatória-discreta",
-    "title": "Variância de Uma Variável Aleatória Discreta",
-    "section": "Definição 12.1: Variância de Uma Variável Aleatória Discreta",
-    "text": "Definição 12.1: Variância de Uma Variável Aleatória Discreta\n\nA variância de uma variável aleatória discreta \\(X\\) é definida como \\[\n\\begin{aligned}\n    Var(X) &= E\\left[\\left(X-E[X]\\right)^2\\right]\\\\\n                 &= E[X^2] - \\left(E[X]\\right)^2\n  \\end{aligned}\n\\] em que\n\n\\(E[X] = \\sum\\limits_{i} x_i P(X=x_i)\\)\n\\(E[X^2] = \\sum\\limits_{i} x^2_i P(X=x_i)\\)\n\nO desvio padrão de é dado por \\(DP(X) = \\sqrt{Var(X)}\\)."
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#definição-15.1-distribuição-geométrica",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#definição-15.1-distribuição-geométrica",
+    "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
+    "section": "Definição 15.1: Distribuição Geométrica",
+    "text": "Definição 15.1: Distribuição Geométrica\n\nConsidere que \\(p\\) é a probabilidade de sucesso em um experimento e \\(1 - p\\) é a probabilidade de fracasso.\nSe \\(X\\) é o número de repetições do experimento até obtermos o primeiro sucesso, dizemos que \\(X\\) tem distribuição geométrica e calculamos a probabilidade usando \\[\nP(X=x) = (1-p)^{x-1}p, \\quad x = 1, 2, \\ldots\n\\]\nNotação: \\(X\\sim \\text{Geométrica}(p)\\)."
   },
   {
-    "objectID": "slides/12-Variancia/12-Variancia.html#exemplo-12.1",
-    "href": "slides/12-Variancia/12-Variancia.html#exemplo-12.1",
-    "title": "Variância de Uma Variável Aleatória Discreta",
-    "section": "Exemplo 12.1",
-    "text": "Exemplo 12.1\nUm lojista mantém extensos registros das vendas diárias de um certo aparelho. O quadro a seguir dá a distribuição de probabilidades do número de aparelhos vendidos em uma semana. Se é de R$500,00 o lucro por unidade vendida, qual o lucro esperado em uma semana? Qual é o desvio padrão do lucro?\n\n\n\n\\(x\\): número de aparelhos\n0\n1\n2\n3\n4\n5\n\n\n\n\n\\(P(X=x)\\)\n0,1\n0,1\n0,2\n0,3\n0,2\n0,1"
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#teorema-15.1",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#teorema-15.1",
+    "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
+    "section": "Teorema 15.1",
+    "text": "Teorema 15.1\nSe \\(X\\sim \\text{Geométrica}(p)\\), a esperança e a variância são \\[\n    E(X) = \\frac{1}{p}\n\\] e \\[\n    Var(X) = \\frac{1-p}{p^2}.\n\\]"
   },
   {
-    "objectID": "slides/12-Variancia/12-Variancia.html#exemplo-12.2",
-    "href": "slides/12-Variancia/12-Variancia.html#exemplo-12.2",
-    "title": "Variância de Uma Variável Aleatória Discreta",
-    "section": "Exemplo 12.2",
-    "text": "Exemplo 12.2\nO tempo, em minutos, necessário para um operário processar certa peça é uma variável aleatória com a seguinte distribuição de probabilidade:\n\n\n\nt\n2\n3\n4\n5\n6\n7\n\n\n\n\nP(T=t)\n0,1\n0,1\n0,3\n0,2\n0,2\n0,1\n\n\n\n\nCalcule o tempo médio de processamento e a variância.\nPara cada peça processada, o operário ganha um fixo de R$ 2,00 mas, se ele processa a peça em menos de seis minutos, ganha R$ 0,50 em cada minuto poupado. Por exemplo, se ele processa a peça em quatro minutos, ganha a quantia adicional de R$ 1,00. Encontre a distribuição, a média e a variância da variável aleatória."
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-geométrica",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-geométrica",
+    "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
+    "section": "Distribuição Geométrica",
+    "text": "Distribuição Geométrica\nComo identificar a distribuição geométrica:\n\nO experimento é realizado até ocorrer o primeiro sucesso."
   },
   {
-    "objectID": "slides/12-Variancia/12-Variancia.html#propriedades-da-variância",
-    "href": "slides/12-Variancia/12-Variancia.html#propriedades-da-variância",
-    "title": "Variância de Uma Variável Aleatória Discreta",
-    "section": "Propriedades da Variância",
-    "text": "Propriedades da Variância\nSeja \\(X\\) uma v.a. e \\(a\\) e \\(b\\) constantes. Então\nPV1. \\(Var(a)=0\\)\nPV2. \\(Var(X+b) = Var(X)\\)\nPV3. \\(Var(aX) = a^2Var(X)\\)\nPV4. \\(Var(aX+b) = a^2Var(X)\\)"
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.1",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.1",
+    "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
+    "section": "Exemplo 15.1",
+    "text": "Exemplo 15.1\n\\(X\\sim \\text{Geométrica}(0,6)\\). Calcule:\n\n\\(P(X=5)\\)\n\\(P(2&lt;X\\leq 5)\\)\n\\(E(X)\\)\n\\(Var(X)\\)"
   },
   {
-    "objectID": "slides/12-Variancia/12-Variancia.html#exemplo-12.3",
-    "href": "slides/12-Variancia/12-Variancia.html#exemplo-12.3",
-    "title": "Variância de Uma Variável Aleatória Discreta",
-    "section": "Exemplo 12.3",
-    "text": "Exemplo 12.3\nSeja \\(X\\) o número de carros lavados num lava-rápido em 1 hora.\n\n\n\n\\(x\\)\n3\n4\n6\n7\n8\n9\n\n\n\n\n\\(P(X=x)\\)\n1/12\n1/12\n1/4\n1/4\n1/6\n1/6\n\n\n\nCalcule \\(E(2X-1)\\) e \\(Var(2X-1)\\)."
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#propriedade-de-perda-de-memória-da-geométrica",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#propriedade-de-perda-de-memória-da-geométrica",
+    "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
+    "section": "Propriedade de Perda de Memória da Geométrica",
+    "text": "Propriedade de Perda de Memória da Geométrica\n\nDizemos que a Distribuição Geométrica “não tem memória” porque a probabilidade de um sucesso ocorrer no futuro não depende de quantas tentativas de fracasso já ocorreram no passado.\nIsto é, Se \\(X \\sim \\text{Geométrica}(p)\\), então para quaisquer inteiros \\(s\\) e \\(t\\): \\[P(X &gt; s + t \\mid X &gt; s) = P(X &gt; t)\\]"
+  },
+  {
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#propriedade-de-perda-de-memória-da-geométrica-1",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#propriedade-de-perda-de-memória-da-geométrica-1",
+    "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
+    "section": "Propriedade de Perda de Memória da Geométrica",
+    "text": "Propriedade de Perda de Memória da Geométrica\nExemplo Prático\nSuponha que você está tentando pescar um peixe raro (sucesso) e a probabilidade é a mesma em cada tentativa.\n\nSe você já tentou 10 vezes e não pescou nada, a probabilidade de precisar de mais 5 tentativas é exatamente a mesma probabilidade de alguém que acabou de chegar e vai começar a pescar agora precisar de 5 tentativas.\nO processo “esquece” que você já falhou 10 vezes."
+  },
+  {
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-geométrica-no-r",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-geométrica-no-r",
+    "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
+    "section": "Distribuição Geométrica no R ",
+    "text": "Distribuição Geométrica no R \nPara calcular no R:\n\n\\(P(X=x)\\) use o comando dgeom(x-1, p).\n\\(P(X\\leq x)\\) use o comando pgeom(x-1, p).\n\nExemplo: \\(X\\sim\\text{Geométrica}(0,\\!6)\\).\n\ndgeom(5-1, 0.6) # P(X=5)\n\n[1] 0.01536\n\npgeom(5-1, 0.6) # P(X≤3)\n\n[1] 0.98976"
+  },
+  {
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-geométrica-no-r-1",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-geométrica-no-r-1",
+    "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
+    "section": "Distribuição Geométrica no R ",
+    "text": "Distribuição Geométrica no R \nGráfico da distribuição Geométrica no R para \\(X\\sim\\text{Geométrica}(p=0,\\!6)\\).\n\np &lt;- 0.6\nbarplot(dgeom(0:9, 0.6),\n        names.arg = 1:10,\n        xlab = \"Número de tentativas\",\n        ylab = \"Probabilidade\",\n        col = \"blue\",\n        border = \"black\")"
+  },
+  {
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-geométrica-no-r-2",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-geométrica-no-r-2",
+    "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
+    "section": "Distribuição Geométrica no R ",
+    "text": "Distribuição Geométrica no R"
+  },
+  {
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.2",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.2",
+    "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
+    "section": "Exemplo 15.2",
+    "text": "Exemplo 15.2\nUma pesquisa do instituto YouGov encomendada pela Google entre 27 de junho a 20 de julho de 2022 apontou que 44% dos brasileiros dizem ter contato com fake news diariamente1. Se uma nova pesquisa for realizada,\n\nqual a probabilidade de que a terceira pessoa entrevistada seja a primeira a afirmar que tem contato com fake news diariamente?\nqual a probabilidade de que a primeira pessoa a afirmar que tem contato com fake news diariamente seja a sétima ou oitava pessoa entrevistada?\nqual o número esperado de pessoas a serem entrevistadas até que a primeira afirme receber fake news diariamente? Qual a variância?\n\nhttps://www.techtudo.com.br/noticias/2022/08/44percent-dos-brasileiros-dizem-receber-fake-news-diariamente-veja-pesquisa.ghtml"
+  },
+  {
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#definição-15.2-distribuição-binomial-negativa",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#definição-15.2-distribuição-binomial-negativa",
+    "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
+    "section": "Definição 15.2: Distribuição Binomial Negativa",
+    "text": "Definição 15.2: Distribuição Binomial Negativa\n\nConsidere que \\(p\\) é a probabilidade de sucesso em um experimento e \\(1 - p\\) é a probabilidade de fracasso.\nSe \\(X\\) é o número de repetições do experimento até obtermos o \\(r\\)-ésimo sucesso, dizemos que \\(X\\) tem distribuição Binomial Negativa e calculamos a probabilidade usando \\[\n  P(X=x) = \\binom{x-1}{r-1}p^r(1-p)^{x-r}, \\quad x = r, r+1, r+2, \\ldots\n\\]\nNotação: \\(X\\sim \\text{Binomial Negativa}(r,p)\\).\nEsta distribuição também é conhecida como distribuição de Pascal."
+  },
+  {
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#teorema-15.2",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#teorema-15.2",
+    "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
+    "section": "Teorema 15.2",
+    "text": "Teorema 15.2\n\nSe \\(X\\sim\\text{Binomial Negativa}(r,p)\\), a esperança e a variância são \\[\n  E(X) = \\frac{r}{p}\n\\] e \\[\n  Var(X) = \\frac{r(1-p)}{p^2}.\n\\]"
+  },
+  {
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.3",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.3",
+    "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
+    "section": "Exemplo 15.3",
+    "text": "Exemplo 15.3\n\\(X\\sim \\text{Binomial Negativa}(4; 0,7)\\). Determine\n\n\\(P(X=8)\\)\n\\(P(5\\leq X &lt; 7)\\)\n\\(E(X)\\)\n\\(Var(X)\\)"
+  },
+  {
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-binomial-negativa-no-r",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-binomial-negativa-no-r",
+    "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
+    "section": "Distribuição Binomial Negativa no R ",
+    "text": "Distribuição Binomial Negativa no R \nPara calcular no R:\n\n\\(P(X=x)\\) use o comando dnbinom(x-1, r, p).\n\\(P(X\\leq x)\\) use o comando pnbinom(x-1, r, p).\n\nExemplo: \\(X\\sim\\text{Binomial Negativa}(4;0,\\!7)\\).\n\ndnbinom(8-1, 4, 0.7) # P(X=8)\n\n[1] 0.006301184\n\npnbinom(8-1, 4, 0.7) # P(X≤8)\n\n[1] 0.9957091"
+  },
+  {
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-binomial-negativa-no-r-1",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-binomial-negativa-no-r-1",
+    "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
+    "section": "Distribuição Binomial Negativa no R ",
+    "text": "Distribuição Binomial Negativa no R \nGráfico da distribuição Binomial Negativa no R para \\(X\\sim\\text{Binomial Negativa}(r=4; p=0,\\!6)\\).\n\nr &lt;- 4; p &lt;- 0.6\nbarplot(dnbinom(0:14, r, p),\n        names.arg = 1:15,\n        xlab = \"Número de tentativas\",\n        ylab = \"Probabilidade\",\n        col = \"blue\",\n        border = \"black\")"
+  },
+  {
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-binomial-negativa-no-r-2",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-binomial-negativa-no-r-2",
+    "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
+    "section": "Distribuição Binomial Negativa no R ",
+    "text": "Distribuição Binomial Negativa no R"
+  },
+  {
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.4",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.4",
+    "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
+    "section": "Exemplo 15.4",
+    "text": "Exemplo 15.4\nUma pesquisa do instituto YouGov encomendada pela Google entre 27 de junho a 20 de julho de 2022 apontou que 44% dos brasileiros dizem ter contato com fake news diariamente1. Se uma nova pesquisa for realizada,\n\nqual a probabilidade de que a terceira pessoa entrevistada seja a segunda a afirmar que tem contato com fake news diariamente?\nqual a probabilidade de que a quarta pessoa a afirmar que tem contato com fake news diariamente seja a sétima ou oitava pessoa entrevistada?\nqual o número esperado de pessoas a serem entrevistadas até que a terceira afirme receber fake news diariamente? Qual a variância?\n\nhttps://www.techtudo.com.br/noticias/2022/08/44percent-dos-brasileiros-dizem-receber-fake-news-diariamente-veja-pesquisa.ghtml"
+  },
+  {
+    "objectID": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#distribuição-hipergeométrica",
+    "href": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#distribuição-hipergeométrica",
+    "title": "Distribuição Hipergeométrica",
+    "section": "Distribuição Hipergeométrica",
+    "text": "Distribuição Hipergeométrica\n\nEsta distribuição se aplica em casos similares à distribuição binomial, mas há uma diferença básica:\n\nA distribuição Binomial precisa que a amostragem seja feita com reposição (para que haja independência e as probabilidades se mantenham as mesmas em cada realização do experimento).\nA distribuição Hipergeométrica é baseada na amostragem sem reposição."
+  },
+  {
+    "objectID": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#definição-14.1-distribuição-hipergeométrica",
+    "href": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#definição-14.1-distribuição-hipergeométrica",
+    "title": "Distribuição Hipergeométrica",
+    "section": "Definição 14.1: Distribuição Hipergeométrica",
+    "text": "Definição 14.1: Distribuição Hipergeométrica\n\nUma variável aleatória hipergeométrica \\(X\\) representa o número de sucessos em uma amostra aleatória sem reposição de tamanho \\(n\\).\nEssa amostra é extraída de uma população de \\(N\\) itens, dos quais \\(k\\) são classificados como sucessos e \\(N-k\\) como fracassos.\nA probabilidade de ocorrerem \\(x\\) sucessos nessa amostragem sem reposição é dada por \\[\n  P(X=x) = \\frac{\\binom{k}{x}\\binom{N-k}{n-x}}{\\binom{N}{n}}, x=0,1,2,\\ldots,n.\n\\]\nNotação: \\(X\\sim \\text{Hipergeométrica}(N,n,k)\\)"
+  },
+  {
+    "objectID": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#teorema-14.1",
+    "href": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#teorema-14.1",
+    "title": "Distribuição Hipergeométrica",
+    "section": "Teorema 14.1",
+    "text": "Teorema 14.1\n\nSe \\(X\\sim \\text{Hipergeométrica}(N,n,k)\\), a média e a variância são, respectivamente, \\[\n  E(X) = \\frac{nk}{N}\n\\] e \\[\n  Var(X) = n\\frac{k}{N} \\frac{(N-k)}{N} \\frac{N-n}{N-1}.\n\\]"
+  },
+  {
+    "objectID": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#distribuição-hipergeométrica-1",
+    "href": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#distribuição-hipergeométrica-1",
+    "title": "Distribuição Hipergeométrica",
+    "section": "Distribuição Hipergeométrica",
+    "text": "Distribuição Hipergeométrica\nComo identificar a distribuição hipergeométrica:\n\nO tamanho da população é conhecido, \\(N\\).\nA população é dividida em dois grupos distintos:\n\n\\(k\\) itens de interesse (sucessos)\n\\(N-k\\) itens não desejados (fracassos).\n\nA amostra de tamanho \\(n\\) é retirada sem reposição.\nA variável de interesse \\(X\\) é o número de sucessos na amostra."
+  },
+  {
+    "objectID": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#exemplo-14.1",
+    "href": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#exemplo-14.1",
+    "title": "Distribuição Hipergeométrica",
+    "section": "Exemplo 14.1",
+    "text": "Exemplo 14.1\nLotes de 40 componentes cada são chamados de inaceitáveis se contiverem três ou mais itens defeituosos. O procedimento para a amostragem do lote é selecionar cinco componentes aleatoriamente e rejeitar o lote se um item defeituoso for encontrado. Qual é a probabilidade de que exatamente um item defeituoso seja encontrado na amostra se há três defeituosos no lote inteiro?"
+  },
+  {
+    "objectID": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#exemplo-14.2",
+    "href": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#exemplo-14.2",
+    "title": "Distribuição Hipergeométrica",
+    "section": "Exemplo 14.2",
+    "text": "Exemplo 14.2\nEm cem apólices de uma empresa de seguros, 12 apresentam irregularidades. Qual é a probabilidade de que em uma amostra de dez dessas apólices,\n\ntrês apresentem irregularidade?\npelo menos uma apresente irregularidade?\nDetermine \\(E(X)\\) e \\(Var(X)\\)."
+  },
+  {
+    "objectID": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#distribuição-hipergeométrica-no-r",
+    "href": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#distribuição-hipergeométrica-no-r",
+    "title": "Distribuição Hipergeométrica",
+    "section": "Distribuição Hipergeométrica no R ",
+    "text": "Distribuição Hipergeométrica no R \nPara calcular no R:\n\n\\(P(X=x)\\) use o comando dhyper(x, n_sucessos, n_fracassos, n_amostra).\n\\(P(X\\leq x)\\) use o comando phyper(x, n_sucessos, n_fracassos, n_amostra)."
+  },
+  {
+    "objectID": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#distribuição-hipergeométrica-no-r-1",
+    "href": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#distribuição-hipergeométrica-no-r-1",
+    "title": "Distribuição Hipergeométrica",
+    "section": "Distribuição Hipergeométrica no R ",
+    "text": "Distribuição Hipergeométrica no R \nExemplo: \\(X\\sim\\text{Hipergeométrica}(N=100, n=12, k=10)\\).\n\nNesse caso, temos 10 sucessos, 90 fracassos e uma amostra de tamanho 12.\n\n\ndhyper(3, 10, 90, 12) # P(X=3)\n\n[1] 0.08068222\n\nphyper(3, 10, 90, 12) # P(X≤3)\n\n[1] 0.9825811"
+  },
+  {
+    "objectID": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#distribuição-hipergeométrica-no-r-2",
+    "href": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#distribuição-hipergeométrica-no-r-2",
+    "title": "Distribuição Hipergeométrica",
+    "section": "Distribuição Hipergeométrica no R ",
+    "text": "Distribuição Hipergeométrica no R \nGráfico da dist. Hipergeométrica no R para \\(X\\sim\\text{Hipergeométrica}(N=50, n=20, k=10)\\).\n\nAqui temos 20 sucessos, 30 fracassos e uma amostra de tamanho 10.\n\n\nn_sucessos &lt;- 20\nn_fracassos &lt;- 30\nn_amostra &lt;- 10\nbarplot(dhyper(0:n_amostra, n_sucessos, n_fracassos, n_amostra),\n        names.arg = 0:n_amostra,\n        xlab = \"Número de Sucessos\",\n        ylab = \"Probabilidade\",\n        main = \"Distribuição Hipergeométrica\",\n        col = \"blue\",\n        border = \"black\")"
+  },
+  {
+    "objectID": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#distribuição-hipergeométrica-no-r-3",
+    "href": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#distribuição-hipergeométrica-no-r-3",
+    "title": "Distribuição Hipergeométrica",
+    "section": "Distribuição Hipergeométrica no R ",
+    "text": "Distribuição Hipergeométrica no R"
+  },
+  {
+    "objectID": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#aproximação-da-hipergeométrica-pela-binomial",
+    "href": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#aproximação-da-hipergeométrica-pela-binomial",
+    "title": "Distribuição Hipergeométrica",
+    "section": "Aproximação da Hipergeométrica pela Binomial",
+    "text": "Aproximação da Hipergeométrica pela Binomial\n\nSe o tamanho da população \\(N\\) é muito grande em relação ao tamanho da amostra \\(n\\), a probabilidade de sucesso muda muito pouco a cada retirada.\n\nNesses casos, a Distribuição Binomial é uma excelente aproximação.\n\nRegra prática. A aproximação é considerada boa quando a amostra é menor que 5% da população:\\[\\frac{n}{N} \\le 0,\\!05\\]"
+  },
+  {
+    "objectID": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#aproximação-da-hipergeométrica-pela-binomial-1",
+    "href": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#aproximação-da-hipergeométrica-pela-binomial-1",
+    "title": "Distribuição Hipergeométrica",
+    "section": "Aproximação da Hipergeométrica pela Binomial",
+    "text": "Aproximação da Hipergeométrica pela Binomial\n\nSe \\(X \\sim \\text{Hipergeométrica}(N, n, k)\\), podemos dizer que \\(X\\) se comporta aproximadamente como uma \\(X \\sim \\text{Binomial}(n, p)\\), onde:\\[p = \\frac{k}{N}\\]\n\nExemplo\nSe temos 10.000 peças (\\(N\\)) com 500 defeituosas (\\(k\\)) e sorteamos 10 (\\(n\\)), a probabilidade de sucesso \\(p\\) é \\(5\\%\\). Como \\(\\frac{10}{10.000} = 0,\\!001 \\le 0,\\!05\\), o erro entre usar a fórmula complexa da Hipergeométrica ou a simples da Binomial é praticamente zero."
   },
   {
     "objectID": "slides/06-Teorema_da_probabilidade_total/06-Teorema_da_probabilidade_total.html#section",
@@ -459,11 +735,11 @@
     "text": "Exemplo 6.6\nEm uma fábrica, há dois compartimentos de peças. O primeiro compartimento contém 6 peças originais e 4 peças falsificadas. O segundo compartimento contém 5 peças originais e 7 peças falsificadas. Uma peça é retirada aleatoriamente do primeiro compartimento e transferida para o segundo compartimento. Em seguida, uma peça é retirada aleatoriamente do segundo compartimento. Qual é a probabilidade de que a peça retirada do segundo compartimento seja original?"
   },
   {
-    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#definição-10.1-valor-esperado-de-uma-variável-aleatória-discreta",
-    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#definição-10.1-valor-esperado-de-uma-variável-aleatória-discreta",
+    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#definição-11.1-valor-esperado-de-uma-variável-aleatória-discreta",
+    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#definição-11.1-valor-esperado-de-uma-variável-aleatória-discreta",
     "title": "Valor Esperado de Uma Variável Aleatória Discreta",
-    "section": "Definição 10.1: Valor Esperado de Uma Variável Aleatória Discreta",
-    "text": "Definição 10.1: Valor Esperado de Uma Variável Aleatória Discreta\n\nSe \\(X\\) é uma variável aleatória com função de probabilidade \\(P(X=x)\\), então a esperança, ou valor esperado, de \\(X\\), representado por \\(E(X)\\), é definida por \\[\nE(X) = \\sum\\limits_x x P(X=x).\n\\]\nEm palavras, o valor esperado de \\(X\\) é uma média ponderada dos possíveis valores que \\(X\\) pode assumir, onde cada valor é ponderado pela probabilidade de \\(X\\) ser igual a esse valor."
+    "section": "Definição 11.1: Valor Esperado de Uma Variável Aleatória Discreta",
+    "text": "Definição 11.1: Valor Esperado de Uma Variável Aleatória Discreta\n\nSe \\(X\\) é uma variável aleatória com função de probabilidade \\(P(X=x)\\), então a esperança, ou valor esperado, de \\(X\\), representado por \\(E(X)\\), é definida por \\[\nE(X) = \\sum\\limits_x x P(X=x).\n\\]\nEm palavras, o valor esperado de \\(X\\) é uma média ponderada dos possíveis valores que \\(X\\) pode assumir, onde cada valor é ponderado pela probabilidade de \\(X\\) ser igual a esse valor."
   },
   {
     "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo",
@@ -473,32 +749,32 @@
     "text": "Exemplo\nConsidere a variável aleatória \\(X\\) que assume apenas os valores 0 e 1, com \\(P(X=0)=\\frac{1}{3}\\) e \\(P(X=1)=\\frac{2}{3}\\). Então \\[\n  E(X) = 0\\left(\\frac{1}{3}\\right) + 1 \\left(\\frac{2}{3}\\right) = \\frac{2}{3}.\n\\]"
   },
   {
-    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-10.1",
-    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-10.1",
+    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-11.1",
+    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-11.1",
     "title": "Valor Esperado de Uma Variável Aleatória Discreta",
-    "section": "Exemplo 10.1",
-    "text": "Exemplo 10.1\nUm fabricante produz peças tais que 10% delas são defeituosas e 90% são não-defeituosas. Se uma peça defeituosa for produzida, o fabricante perde R$ 1, enquanto uma peça não-defeituosa lhe dá um lucro de R$ 5. Se \\(X\\) é o lucro líquido por peça, qual o lucro esperado com uma peça?"
+    "section": "Exemplo 11.1",
+    "text": "Exemplo 11.1\nUm fabricante produz peças tais que 10% delas são defeituosas e 90% são não-defeituosas. Se uma peça defeituosa for produzida, o fabricante perde R$ 1, enquanto uma peça não-defeituosa lhe dá um lucro de R$ 5. Se \\(X\\) é o lucro líquido por peça, qual o lucro esperado com uma peça?"
   },
   {
-    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-10.2",
-    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-10.2",
+    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-11.2",
+    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-11.2",
     "title": "Valor Esperado de Uma Variável Aleatória Discreta",
-    "section": "Exemplo 10.2",
-    "text": "Exemplo 10.2\nEm determinado setor de uma loja de departamentos, o número de produtos vendidos em um dia pelos funcionários é uma variável aleatória \\(P\\) com a seguinte distribuição de probabilidades (esses números foram obtidos dos resultados de vários anos de estudo):\n\n\n\n\n\n\n\n\n\n\n\n\n\nNúmero de produtos\n0\n1\n2\n3\n4\n5\n6\n\n\n\n\nProb. de venda\n0,1\n0,4\n0,2\n0,1\n0,1\n0,05\n0,05\n\n\n\n\nQual é o número médio de produtos vendidos por cada vendedor?\nSe ele vende até 2 produtos em um dia, ele ganha uma comissão de R$10,00 por produto vendido. A partir da terceira venda, a comissão passa para R$50,00. Qual a comissão média de cada vendedor?"
+    "section": "Exemplo 11.2",
+    "text": "Exemplo 11.2\nEm determinado setor de uma loja de departamentos, o número de produtos vendidos em um dia pelos funcionários é uma variável aleatória \\(P\\) com a seguinte distribuição de probabilidades (esses números foram obtidos dos resultados de vários anos de estudo):\n\n\n\n\n\n\n\n\n\n\n\n\n\nNúmero de produtos\n0\n1\n2\n3\n4\n5\n6\n\n\n\n\nProb. de venda\n0,1\n0,4\n0,2\n0,1\n0,1\n0,05\n0,05\n\n\n\n\nQual é o número médio de produtos vendidos por cada vendedor?\nSe ele vende até 2 produtos em um dia, ele ganha uma comissão de R$10,00 por produto vendido. A partir da terceira venda, a comissão passa para R$50,00. Qual a comissão média de cada vendedor?"
   },
   {
-    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#definição-10.2-esperança-de-uma-função-de-uma-variável-aleatória",
-    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#definição-10.2-esperança-de-uma-função-de-uma-variável-aleatória",
+    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#definição-11.2-esperança-de-uma-função-de-uma-variável-aleatória",
+    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#definição-11.2-esperança-de-uma-função-de-uma-variável-aleatória",
     "title": "Valor Esperado de Uma Variável Aleatória Discreta",
-    "section": "Definição 10.2: Esperança de uma Função de uma Variável Aleatória",
-    "text": "Definição 10.2: Esperança de uma Função de uma Variável Aleatória\nSeja \\(X\\) uma variável aleatória discreta com função de distribuição de probabilidade \\(P(X=x)\\). Se definimos uma nova v.a. \\(Y = g(X)\\), então \\[\n  E(Y) = E[g(X)] = \\sum\\limits_x g(x) P(X=x).\n\\]"
+    "section": "Definição 11.2: Esperança de uma Função de uma Variável Aleatória",
+    "text": "Definição 11.2: Esperança de uma Função de uma Variável Aleatória\nSeja \\(X\\) uma variável aleatória discreta com função de distribuição de probabilidade \\(P(X=x)\\). Se definimos uma nova v.a. \\(Y = g(X)\\), então \\[\n  E(Y) = E[g(X)] = \\sum\\limits_x g(x) P(X=x).\n\\]"
   },
   {
-    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-10.3",
-    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-10.3",
+    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-11.3",
+    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-11.3",
     "title": "Valor Esperado de Uma Variável Aleatória Discreta",
-    "section": "Exemplo 10.3",
-    "text": "Exemplo 10.3\nConsidere a v.a. \\(X\\) com função de probabilidade\n\n\n\n\n\n\n\n\n\n\n\n\n\\(x\\)\n\\(-2\\)\n\\(-1\\)\n\\(0\\)\n\\(1\\)\n\\(2\\)\n\\(3\\)\n\n\n\n\n\\(P(X = x)\\)\n\\(0,\\!1\\)\n\\(0,\\!2\\)\n\\(0,\\!2\\)\n\\(0,\\!3\\)\n\\(0,\\!1\\)\n\\(0,\\!1\\)\n\n\n\nSeja \\(Y=X^2\\). Qual a esperança de \\(Y\\)?"
+    "section": "Exemplo 11.3",
+    "text": "Exemplo 11.3\nConsidere a v.a. \\(X\\) com função de probabilidade\n\n\n\n\n\n\n\n\n\n\n\n\n\\(x\\)\n\\(-2\\)\n\\(-1\\)\n\\(0\\)\n\\(1\\)\n\\(2\\)\n\\(3\\)\n\n\n\n\n\\(P(X = x)\\)\n\\(0,\\!1\\)\n\\(0,\\!2\\)\n\\(0,\\!2\\)\n\\(0,\\!3\\)\n\\(0,\\!1\\)\n\\(0,\\!1\\)\n\n\n\nSeja \\(Y=X^2\\). Qual a esperança de \\(Y\\)?"
   },
   {
     "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#propriedades-do-valor-esperado",
@@ -508,11 +784,11 @@
     "text": "Propriedades do Valor Esperado\nSejam \\(X\\) e \\(Y\\) variáveis aleatórias discretas e \\(a\\), \\(b\\) e \\(c\\) constantes. Então\nPE1. \\(E(X + b) = E(X) + b\\)\nPE2. \\(E(aX) = a E(X)\\)\nPE3. \\(E(aX + b) = aE(X) + b\\)\nPE4. \\(E(X + Y) = E(X) + E(Y)\\)\nPE5. \\(E(aX + bY + c) = aE(X) + bE(Y) + c\\)"
   },
   {
-    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-10.4",
-    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-10.4",
+    "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-11.4",
+    "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-11.4",
     "title": "Valor Esperado de Uma Variável Aleatória Discreta",
-    "section": "Exemplo 10.4",
-    "text": "Exemplo 10.4\nSe a esperança de \\(X\\) é igual a 10 e a esperança de \\(Y\\) é igual a 15. Calcule\n\n\\(E(X+3)\\)\n\\(E(2X)\\)\n\\(E(2X+3)\\)\n\\(E(X+Y)\\)\n\\(E(2X+4Y-6)\\)"
+    "section": "Exemplo 11.4",
+    "text": "Exemplo 11.4\nSe a esperança de \\(X\\) é igual a 10 e a esperança de \\(Y\\) é igual a 15. Calcule\n\n\\(E(X+3)\\)\n\\(E(2X)\\)\n\\(E(2X+3)\\)\n\\(E(X+Y)\\)\n\\(E(2X+4Y-6)\\)"
   },
   {
     "objectID": "slides/05-Probabilidade_condicional/05-Probabilidade_condicional.html#exemplo-5.1",
@@ -620,27 +896,51 @@
     "text": "Resumo\n\n\n\n\n\n\n\n\nConceito\nIntuição\nFórmula\n\n\n\n\nProbabilidade Condicional\nProbabilidade de \\(B\\) ocorrer sabendo que \\(A\\) já aconteceu.\n\\(P(B|A) = \\frac{P(A \\cap B)}{P(A)}\\)\n\n\nRegra da Multiplicação\nProbabilidade da interseção (ocorrência sucessiva de eventos).\n\\(P(A \\cap B) = P(A) \\cdot P(B|A)\\)"
   },
   {
-    "objectID": "aulas/07-Teorema_de_Bayes.html",
-    "href": "aulas/07-Teorema_de_Bayes.html",
-    "title": "Conteúdo 7",
+    "objectID": "aulas/08-Eventos_Independentes.html",
+    "href": "aulas/08-Eventos_Independentes.html",
+    "title": "Conteúdo 8",
     "section": "",
-    "text": "Nesta aula, exploramos o Teorema de Bayes, uma poderosa ferramenta que nos permite atualizar probabilidades à medida que novas evidências tornam-se disponíveis. Diferente da probabilidade total, que olha para o futuro para prever um resultado, Bayes permite o caminho inverso: dado que um efeito foi observado, qual é a probabilidade de uma causa específica o ter gerado? Discutimos a aplicação deste teorema em áreas críticas como diagnósticos médicos, filtros de spam e tomada de decisão sob incerteza.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "text": "Este material apresenta a estrutura da disciplina Probabilidade I, com informações sobre carga horária, cronograma, datas importantes, metodologia e objetivos do curso. Também introduz os primeiros conceitos da teoria dos conjuntos, fundamentais para o estudo da probabilidade, incluindo definições formais, operações entre conjuntos e propriedades básicas.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
     "crumbs": [
       "Aulas",
       "Parte 1: Introdução à Probabilidade",
-      "7- Teorema de Bayes"
+      "8- Eventos Independentes"
     ]
   },
   {
-    "objectID": "aulas/07-Teorema_de_Bayes.html#teorema-de-bayes",
-    "href": "aulas/07-Teorema_de_Bayes.html#teorema-de-bayes",
-    "title": "Conteúdo 7",
+    "objectID": "aulas/08-Eventos_Independentes.html#eventos-independentes",
+    "href": "aulas/08-Eventos_Independentes.html#eventos-independentes",
+    "title": "Conteúdo 8",
     "section": "",
-    "text": "Nesta aula, exploramos o Teorema de Bayes, uma poderosa ferramenta que nos permite atualizar probabilidades à medida que novas evidências tornam-se disponíveis. Diferente da probabilidade total, que olha para o futuro para prever um resultado, Bayes permite o caminho inverso: dado que um efeito foi observado, qual é a probabilidade de uma causa específica o ter gerado? Discutimos a aplicação deste teorema em áreas críticas como diagnósticos médicos, filtros de spam e tomada de decisão sob incerteza.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "text": "Este material apresenta a estrutura da disciplina Probabilidade I, com informações sobre carga horária, cronograma, datas importantes, metodologia e objetivos do curso. Também introduz os primeiros conceitos da teoria dos conjuntos, fundamentais para o estudo da probabilidade, incluindo definições formais, operações entre conjuntos e propriedades básicas.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
     "crumbs": [
       "Aulas",
       "Parte 1: Introdução à Probabilidade",
-      "7- Teorema de Bayes"
+      "8- Eventos Independentes"
+    ]
+  },
+  {
+    "objectID": "aulas/16-Distribuicao_Poisson.html",
+    "href": "aulas/16-Distribuicao_Poisson.html",
+    "title": "Conteúdo 16",
+    "section": "",
+    "text": "Encerramos o semestre com o estudo da Distribuição de Poisson, o modelo fundamental para eventos que ocorrem de forma aleatória e independente em um intervalo contínuo (tempo, espaço ou volume). Aprendemos a identificar problemas de ‘taxa de ocorrência’ e a manipular o parâmetro \\(\\lambda\\) de acordo com a mudança do intervalo observado. Além disso, vimos como a Poisson simplifica o cálculo de probabilidades de eventos raros em grandes populações.\nSlides:\n\n\n Versão html \n\n\n Versão pdf \n\n\nA demonstração do Teorema 16.1 pode ser baixada aqui.",
+    "crumbs": [
+      "Aulas",
+      "Parte 3: Distribuições de Probabilidade",
+      "16- Poisson"
+    ]
+  },
+  {
+    "objectID": "aulas/16-Distribuicao_Poisson.html#distribuição-de-poisson",
+    "href": "aulas/16-Distribuicao_Poisson.html#distribuição-de-poisson",
+    "title": "Conteúdo 16",
+    "section": "",
+    "text": "Encerramos o semestre com o estudo da Distribuição de Poisson, o modelo fundamental para eventos que ocorrem de forma aleatória e independente em um intervalo contínuo (tempo, espaço ou volume). Aprendemos a identificar problemas de ‘taxa de ocorrência’ e a manipular o parâmetro \\(\\lambda\\) de acordo com a mudança do intervalo observado. Além disso, vimos como a Poisson simplifica o cálculo de probabilidades de eventos raros em grandes populações.\nSlides:\n\n\n Versão html \n\n\n Versão pdf \n\n\nA demonstração do Teorema 16.1 pode ser baixada aqui.",
+    "crumbs": [
+      "Aulas",
+      "Parte 3: Distribuições de Probabilidade",
+      "16- Poisson"
     ]
   },
   {
@@ -716,27 +1016,51 @@
     ]
   },
   {
-    "objectID": "aulas/03-Tecnicas_de_contagem_parte2.html",
-    "href": "aulas/03-Tecnicas_de_contagem_parte2.html",
-    "title": "Conteúdo 3",
+    "objectID": "aulas/14-Distribuicao_Hipergeometrica.html",
+    "href": "aulas/14-Distribuicao_Hipergeometrica.html",
+    "title": "Conteúdo 14",
     "section": "",
-    "text": "Nesta segunda parte dedicada às Técnicas de Contagem, aprofundamos o estudo da análise combinatória focando na distinção fundamental entre Arranjos e Combinações. Discutimos como identificar problemas onde a ordem dos elementos altera o resultado (Arranjos) e situações onde apenas a composição do grupo é relevante (Combinações), abordando tanto os modelos simples quanto os modelos com repetição.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "text": "Nesta aula, exploramos a Distribuição Hipergeométrica, modelo probabilístico essencial para situações de amostragem sem reposição em populações finitas. Diferente da Binomial, onde as probabilidades permanecem constantes, a Hipergeométrica lida com a dependência entre ensaios, sendo amplamente aplicada em controle de qualidade, auditorias e estudos biológicos. Além de deduzirmos suas fórmulas de esperança e variância, discutimos a aproximação pela Binomial para grandes populações.\nSlides:\n\n\n Versão html \n\n\n Versão pdf \n\n\nA demonstração do Teorema 14.1 pode ser baixada aqui.",
     "crumbs": [
       "Aulas",
-      "Parte 1: Introdução à Probabilidade",
-      "3- Técnicas de Contagem (Parte 2)"
+      "Parte 3: Distribuições de Probabilidade",
+      "14- Hipergeométrica"
     ]
   },
   {
-    "objectID": "aulas/03-Tecnicas_de_contagem_parte2.html#técnicas-de-contagem-parte-2",
-    "href": "aulas/03-Tecnicas_de_contagem_parte2.html#técnicas-de-contagem-parte-2",
-    "title": "Conteúdo 3",
+    "objectID": "aulas/14-Distribuicao_Hipergeometrica.html#distribuição-hipergeométrica",
+    "href": "aulas/14-Distribuicao_Hipergeometrica.html#distribuição-hipergeométrica",
+    "title": "Conteúdo 14",
     "section": "",
-    "text": "Nesta segunda parte dedicada às Técnicas de Contagem, aprofundamos o estudo da análise combinatória focando na distinção fundamental entre Arranjos e Combinações. Discutimos como identificar problemas onde a ordem dos elementos altera o resultado (Arranjos) e situações onde apenas a composição do grupo é relevante (Combinações), abordando tanto os modelos simples quanto os modelos com repetição.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "text": "Nesta aula, exploramos a Distribuição Hipergeométrica, modelo probabilístico essencial para situações de amostragem sem reposição em populações finitas. Diferente da Binomial, onde as probabilidades permanecem constantes, a Hipergeométrica lida com a dependência entre ensaios, sendo amplamente aplicada em controle de qualidade, auditorias e estudos biológicos. Além de deduzirmos suas fórmulas de esperança e variância, discutimos a aproximação pela Binomial para grandes populações.\nSlides:\n\n\n Versão html \n\n\n Versão pdf \n\n\nA demonstração do Teorema 14.1 pode ser baixada aqui.",
     "crumbs": [
       "Aulas",
-      "Parte 1: Introdução à Probabilidade",
-      "3- Técnicas de Contagem (Parte 2)"
+      "Parte 3: Distribuições de Probabilidade",
+      "14- Hipergeométrica"
+    ]
+  },
+  {
+    "objectID": "aulas/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html",
+    "href": "aulas/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html",
+    "title": "Conteúdo 15",
+    "section": "",
+    "text": "Nesta aula, exploramos as Distribuições Geométrica e Binomial Negativa, modelos fundamentais para descrever o tempo de espera ou o número de tentativas necessárias até a ocorrência de sucessos em ensaios de Bernoulli. Enquanto a Distribuição Geométrica foca na probabilidade de obter o primeiro sucesso, a Binomial Negativa generaliza este conceito para o \\(r\\)-ésimo sucesso. Discutimos as propriedades teóricas de esperança e variância, com destaque para a característica de ‘falta de memória’ da geométrica.\nSlides:\n\n\n Versão html \n\n\n Versão pdf \n\n\nA demonstração dos Teoremas 15.1 e 15.2 podem ser baixadas aqui.",
+    "crumbs": [
+      "Aulas",
+      "Parte 3: Distribuições de Probabilidade",
+      "15- Geométrica e Binomial Negativa"
+    ]
+  },
+  {
+    "objectID": "aulas/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-geométrica-e-distribuição-binomial-negativa",
+    "href": "aulas/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-geométrica-e-distribuição-binomial-negativa",
+    "title": "Conteúdo 15",
+    "section": "",
+    "text": "Nesta aula, exploramos as Distribuições Geométrica e Binomial Negativa, modelos fundamentais para descrever o tempo de espera ou o número de tentativas necessárias até a ocorrência de sucessos em ensaios de Bernoulli. Enquanto a Distribuição Geométrica foca na probabilidade de obter o primeiro sucesso, a Binomial Negativa generaliza este conceito para o \\(r\\)-ésimo sucesso. Discutimos as propriedades teóricas de esperança e variância, com destaque para a característica de ‘falta de memória’ da geométrica.\nSlides:\n\n\n Versão html \n\n\n Versão pdf \n\n\nA demonstração dos Teoremas 15.1 e 15.2 podem ser baixadas aqui.",
+    "crumbs": [
+      "Aulas",
+      "Parte 3: Distribuições de Probabilidade",
+      "15- Geométrica e Binomial Negativa"
     ]
   },
   {
@@ -785,6 +1109,30 @@
       "Aulas",
       "Parte 2: Variáveis Aleatórias",
       "9- Variáveis Aleatórias"
+    ]
+  },
+  {
+    "objectID": "aulas/03-Tecnicas_de_contagem_parte2.html",
+    "href": "aulas/03-Tecnicas_de_contagem_parte2.html",
+    "title": "Conteúdo 3",
+    "section": "",
+    "text": "Nesta segunda parte dedicada às Técnicas de Contagem, aprofundamos o estudo da análise combinatória focando na distinção fundamental entre Arranjos e Combinações. Discutimos como identificar problemas onde a ordem dos elementos altera o resultado (Arranjos) e situações onde apenas a composição do grupo é relevante (Combinações), abordando tanto os modelos simples quanto os modelos com repetição.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "3- Técnicas de Contagem (Parte 2)"
+    ]
+  },
+  {
+    "objectID": "aulas/03-Tecnicas_de_contagem_parte2.html#técnicas-de-contagem-parte-2",
+    "href": "aulas/03-Tecnicas_de_contagem_parte2.html#técnicas-de-contagem-parte-2",
+    "title": "Conteúdo 3",
+    "section": "",
+    "text": "Nesta segunda parte dedicada às Técnicas de Contagem, aprofundamos o estudo da análise combinatória focando na distinção fundamental entre Arranjos e Combinações. Discutimos como identificar problemas onde a ordem dos elementos altera o resultado (Arranjos) e situações onde apenas a composição do grupo é relevante (Combinações), abordando tanto os modelos simples quanto os modelos com repetição.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
+      "3- Técnicas de Contagem (Parte 2)"
     ]
   },
   {
@@ -884,27 +1232,51 @@
     ]
   },
   {
-    "objectID": "aulas/08-Eventos_Independentes.html",
-    "href": "aulas/08-Eventos_Independentes.html",
-    "title": "Conteúdo 8",
+    "objectID": "aulas/07-Teorema_de_Bayes.html",
+    "href": "aulas/07-Teorema_de_Bayes.html",
+    "title": "Conteúdo 7",
     "section": "",
-    "text": "Este material apresenta a estrutura da disciplina Probabilidade I, com informações sobre carga horária, cronograma, datas importantes, metodologia e objetivos do curso. Também introduz os primeiros conceitos da teoria dos conjuntos, fundamentais para o estudo da probabilidade, incluindo definições formais, operações entre conjuntos e propriedades básicas.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "text": "Nesta aula, exploramos o Teorema de Bayes, uma poderosa ferramenta que nos permite atualizar probabilidades à medida que novas evidências tornam-se disponíveis. Diferente da probabilidade total, que olha para o futuro para prever um resultado, Bayes permite o caminho inverso: dado que um efeito foi observado, qual é a probabilidade de uma causa específica o ter gerado? Discutimos a aplicação deste teorema em áreas críticas como diagnósticos médicos, filtros de spam e tomada de decisão sob incerteza.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
     "crumbs": [
       "Aulas",
       "Parte 1: Introdução à Probabilidade",
-      "8- Eventos Independentes"
+      "7- Teorema de Bayes"
     ]
   },
   {
-    "objectID": "aulas/08-Eventos_Independentes.html#eventos-independentes",
-    "href": "aulas/08-Eventos_Independentes.html#eventos-independentes",
-    "title": "Conteúdo 8",
+    "objectID": "aulas/07-Teorema_de_Bayes.html#teorema-de-bayes",
+    "href": "aulas/07-Teorema_de_Bayes.html#teorema-de-bayes",
+    "title": "Conteúdo 7",
     "section": "",
-    "text": "Este material apresenta a estrutura da disciplina Probabilidade I, com informações sobre carga horária, cronograma, datas importantes, metodologia e objetivos do curso. Também introduz os primeiros conceitos da teoria dos conjuntos, fundamentais para o estudo da probabilidade, incluindo definições formais, operações entre conjuntos e propriedades básicas.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "text": "Nesta aula, exploramos o Teorema de Bayes, uma poderosa ferramenta que nos permite atualizar probabilidades à medida que novas evidências tornam-se disponíveis. Diferente da probabilidade total, que olha para o futuro para prever um resultado, Bayes permite o caminho inverso: dado que um efeito foi observado, qual é a probabilidade de uma causa específica o ter gerado? Discutimos a aplicação deste teorema em áreas críticas como diagnósticos médicos, filtros de spam e tomada de decisão sob incerteza.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
     "crumbs": [
       "Aulas",
       "Parte 1: Introdução à Probabilidade",
-      "8- Eventos Independentes"
+      "7- Teorema de Bayes"
+    ]
+  },
+  {
+    "objectID": "aulas/13-Distribuições_de_Bernoulli_e_Binomial.html",
+    "href": "aulas/13-Distribuições_de_Bernoulli_e_Binomial.html",
+    "title": "Conteúdo 13",
+    "section": "",
+    "text": "Nesta aula, exploramos as Distribuições de Bernoulli e Binomial, os modelos fundamentais para experimentos com resultados binários (sucesso ou fracasso). Partindo do ensaio de Bernoulli, evoluímos para a Distribuição Binomial, que permite calcular a probabilidade de um número específico de sucessos em múltiplas tentativas independentes.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 3: Distribuições de Probabilidade",
+      "13- Bernoulli e Binomial"
+    ]
+  },
+  {
+    "objectID": "aulas/13-Distribuições_de_Bernoulli_e_Binomial.html#distribuições-de-bernoulli-e-binomial",
+    "href": "aulas/13-Distribuições_de_Bernoulli_e_Binomial.html#distribuições-de-bernoulli-e-binomial",
+    "title": "Conteúdo 13",
+    "section": "",
+    "text": "Nesta aula, exploramos as Distribuições de Bernoulli e Binomial, os modelos fundamentais para experimentos com resultados binários (sucesso ou fracasso). Partindo do ensaio de Bernoulli, evoluímos para a Distribuição Binomial, que permite calcular a probabilidade de um número específico de sucessos em múltiplas tentativas independentes.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "crumbs": [
+      "Aulas",
+      "Parte 3: Distribuições de Probabilidade",
+      "13- Bernoulli e Binomial"
     ]
   },
   {
@@ -1221,6 +1593,41 @@
     "title": "Técnicas de Contagem (Parte 1)",
     "section": "Resumo",
     "text": "Resumo\n\n\n\n\n\n\n\n\nTécnica\nQuando usar?\nEquação\n\n\n\n\nPermutação com Repetição\nQuando há objetos idênticos que não geram nova ordem se trocados.\n\\(\\frac{n!}{n_1! n_2! ...}\\)\n\n\nPermutação Circular\nPara dispor objetos em círculo.\n\\((n - 1)!\\)\n\n\nNúmero de Subconjuntos\nPara contar todas as combinações possíveis de grupos.\n\\(2^n\\)"
+  },
+  {
+    "objectID": "slides/12-Variancia/12-Variancia.html#definição-12.1-variância-de-uma-variável-aleatória-discreta",
+    "href": "slides/12-Variancia/12-Variancia.html#definição-12.1-variância-de-uma-variável-aleatória-discreta",
+    "title": "Variância de Uma Variável Aleatória Discreta",
+    "section": "Definição 12.1: Variância de Uma Variável Aleatória Discreta",
+    "text": "Definição 12.1: Variância de Uma Variável Aleatória Discreta\n\nA variância de uma variável aleatória discreta \\(X\\) é definida como \\[\n\\begin{aligned}\n    Var(X) &= E\\left[\\left(X-E[X]\\right)^2\\right]\\\\\n                 &= E[X^2] - \\left(E[X]\\right)^2\n  \\end{aligned}\n\\] em que\n\n\\(E[X] = \\sum\\limits_{i} x_i P(X=x_i)\\)\n\\(E[X^2] = \\sum\\limits_{i} x^2_i P(X=x_i)\\)\n\nO desvio padrão de é dado por \\(DP(X) = \\sqrt{Var(X)}\\)."
+  },
+  {
+    "objectID": "slides/12-Variancia/12-Variancia.html#exemplo-12.1",
+    "href": "slides/12-Variancia/12-Variancia.html#exemplo-12.1",
+    "title": "Variância de Uma Variável Aleatória Discreta",
+    "section": "Exemplo 12.1",
+    "text": "Exemplo 12.1\nUm lojista mantém extensos registros das vendas diárias de um certo aparelho. O quadro a seguir dá a distribuição de probabilidades do número de aparelhos vendidos em uma semana. Se é de R$500,00 o lucro por unidade vendida, qual o lucro esperado em uma semana? Qual é o desvio padrão do lucro?\n\n\n\n\\(x\\): número de aparelhos\n0\n1\n2\n3\n4\n5\n\n\n\n\n\\(P(X=x)\\)\n0,1\n0,1\n0,2\n0,3\n0,2\n0,1"
+  },
+  {
+    "objectID": "slides/12-Variancia/12-Variancia.html#exemplo-12.2",
+    "href": "slides/12-Variancia/12-Variancia.html#exemplo-12.2",
+    "title": "Variância de Uma Variável Aleatória Discreta",
+    "section": "Exemplo 12.2",
+    "text": "Exemplo 12.2\nO tempo, em minutos, necessário para um operário processar certa peça é uma variável aleatória com a seguinte distribuição de probabilidade:\n\n\n\nt\n2\n3\n4\n5\n6\n7\n\n\n\n\nP(T=t)\n0,1\n0,1\n0,3\n0,2\n0,2\n0,1\n\n\n\n\nCalcule o tempo médio de processamento e a variância.\nPara cada peça processada, o operário ganha um fixo de R$ 2,00 mas, se ele processa a peça em menos de seis minutos, ganha R$ 0,50 em cada minuto poupado. Por exemplo, se ele processa a peça em quatro minutos, ganha a quantia adicional de R$ 1,00. Encontre a distribuição, a média e a variância da variável aleatória."
+  },
+  {
+    "objectID": "slides/12-Variancia/12-Variancia.html#propriedades-da-variância",
+    "href": "slides/12-Variancia/12-Variancia.html#propriedades-da-variância",
+    "title": "Variância de Uma Variável Aleatória Discreta",
+    "section": "Propriedades da Variância",
+    "text": "Propriedades da Variância\nSeja \\(X\\) uma v.a. e \\(a\\) e \\(b\\) constantes. Então\nPV1. \\(Var(a)=0\\)\nPV2. \\(Var(X+b) = Var(X)\\)\nPV3. \\(Var(aX) = a^2Var(X)\\)\nPV4. \\(Var(aX+b) = a^2Var(X)\\)"
+  },
+  {
+    "objectID": "slides/12-Variancia/12-Variancia.html#exemplo-12.3",
+    "href": "slides/12-Variancia/12-Variancia.html#exemplo-12.3",
+    "title": "Variância de Uma Variável Aleatória Discreta",
+    "section": "Exemplo 12.3",
+    "text": "Exemplo 12.3\nSeja \\(X\\) o número de carros lavados num lava-rápido em 1 hora.\n\n\n\n\\(x\\)\n3\n4\n6\n7\n8\n9\n\n\n\n\n\\(P(X=x)\\)\n1/12\n1/12\n1/4\n1/4\n1/6\n1/6\n\n\n\nCalcule \\(E(2X-1)\\) e \\(Var(2X-1)\\)."
   },
   {
     "objectID": "slides/10-Funcao_Distribuicao_Acumulada/10-Funcao_Distribuicao_Acumulada.html#definição-10.1-função-de-distribuição-acumulada-fda",
@@ -1676,6 +2083,97 @@
     "title": "Técnicas de Contagem (Parte 2)",
     "section": "Guia de Decisão: Qual técnica utilizar?",
     "text": "Guia de Decisão: Qual técnica utilizar?\nPara decidir qual fórmula aplicar, faça duas perguntas:\n\nA ordem dos elementos importa?\n\nSim: É um problema de Arranjo (ou Sequência).\nNão: É um problema de Combinação (ou Grupo/Conjunto).\n\nPode haver repetição de elementos?\n\nSim: Use as fórmulas com repetição.\nNão: Use as fórmulas simples (fatoriais tradicionais)."
+  },
+  {
+    "objectID": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#definição-16.1-distribuição-de-poisson",
+    "href": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#definição-16.1-distribuição-de-poisson",
+    "title": "Distribuição de Poisson",
+    "section": "Definição 16.1: Distribuição de Poisson",
+    "text": "Definição 16.1: Distribuição de Poisson\n\nSeja \\(X\\) uma variável aleatória com distribuição de Poisson de parâmetro \\(\\lambda\\). Sua função de probabilidade é dada por \\[\n  P(X=x) = \\frac{e^{-\\lambda}\\lambda^x}{x!}, \\quad x = 0, 1, 2, \\ldots,\n\\] em que\n\n\\(\\lambda\\) é o número médio de resultados por unidade de tempo, distância, área ou volume e\n\\(e=2,\\!71828\\ldots\\)\n\nNotação: \\(X\\sim \\text{Poisson}(\\lambda)\\)."
+  },
+  {
+    "objectID": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#teorema-16.1",
+    "href": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#teorema-16.1",
+    "title": "Distribuição de Poisson",
+    "section": "Teorema 16.1",
+    "text": "Teorema 16.1\nSe \\(X\\sim \\text{Poisson}(\\lambda)\\), a esperança e a variância são \\[\n  E(X) = \\lambda\n\\] e \\[\n    Var(X) = \\lambda.\n\\]"
+  },
+  {
+    "objectID": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#distribuição-de-poisson",
+    "href": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#distribuição-de-poisson",
+    "title": "Distribuição de Poisson",
+    "section": "Distribuição de Poisson",
+    "text": "Distribuição de Poisson\nComo identificar a distribuição de Poisson:\n\n\\(X\\) representa o número de resultados que ocorrem em certo intervalo de tempo ou espaço.\nSempre será dada a média com que ocorre o fenômeno no tempo ou no espaço."
+  },
+  {
+    "objectID": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#distribuição-de-poisson-1",
+    "href": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#distribuição-de-poisson-1",
+    "title": "Distribuição de Poisson",
+    "section": "Distribuição de Poisson",
+    "text": "Distribuição de Poisson\nExemplos de variáveis aleatórias com distribuição de Poisson:\n\nErros tipográficos por página, em um material impresso;\nCarros que passam por um cruzamento, por minuto, num intervalo de 1 hora;\nDefeitos por unidade (m, m\\(^2\\), m\\(^3\\), etc.) por peça fabricada;\nMortes por ataque do coração por ano, numa cidade."
+  },
+  {
+    "objectID": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#exemplo-16.1",
+    "href": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#exemplo-16.1",
+    "title": "Distribuição de Poisson",
+    "section": "Exemplo 16.1",
+    "text": "Exemplo 16.1\nSeja \\(X\\sim \\text{Poisson}(2)\\). Calcule\n\n\\(P(X = 3)\\)\n\\(P(X \\geq 2)\\)"
+  },
+  {
+    "objectID": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#distribuição-de-poisson-no-r",
+    "href": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#distribuição-de-poisson-no-r",
+    "title": "Distribuição de Poisson",
+    "section": "Distribuição de Poisson no R ",
+    "text": "Distribuição de Poisson no R \nPara calcular no R:\n\n\\(P(X=x)\\) use o comando dpois(x, $\\lambda$).\n\\(P(X\\leq x)\\) use o comando ppois(x, $\\lambda$).\n\nExemplo: \\(X\\sim\\text{Poisson}(2)\\).\n\ndpois(3, 2) # P(X=3)\n\n[1] 0.180447\n\nppois(3, 2) # P(X≤3)\n\n[1] 0.8571235"
+  },
+  {
+    "objectID": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#distribuição-de-poisson-no-r-1",
+    "href": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#distribuição-de-poisson-no-r-1",
+    "title": "Distribuição de Poisson",
+    "section": "Distribuição de Poisson no R ",
+    "text": "Distribuição de Poisson no R \nGráfico da distribuição de Poisson no R para \\(X\\sim\\text{Poisson}(\\lambda=2)\\).\n\nlambda &lt;- 2\nbarplot(dpois(0:10, lambda),\n        names.arg = 0:10,\n        xlab = \"Número de resultados\",\n        ylab = \"Probabilidade\",\n        col = \"blue\",\n        border = \"black\")"
+  },
+  {
+    "objectID": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#distribuição-de-poisson-no-r-2",
+    "href": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#distribuição-de-poisson-no-r-2",
+    "title": "Distribuição de Poisson",
+    "section": "Distribuição de Poisson no R ",
+    "text": "Distribuição de Poisson no R"
+  },
+  {
+    "objectID": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#exemplo-16.2",
+    "href": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#exemplo-16.2",
+    "title": "Distribuição de Poisson",
+    "section": "Exemplo 16.2",
+    "text": "Exemplo 16.2\nUma central telefônica recebe uma média de 5 chamadas por minuto. Qual é a probabilidade da central receber\n\nnenhuma chamada em um minuto?\nno máximo duas chamadas em um minuto?\nmais de três chamadas em um minuto?"
+  },
+  {
+    "objectID": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#exemplo-16.3",
+    "href": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#exemplo-16.3",
+    "title": "Distribuição de Poisson",
+    "section": "Exemplo 16.3",
+    "text": "Exemplo 16.3\nUm corretor vende em média 4 seguros por semana.\n\nQual é a probabilidade de que ele venda seis seguros naquela semana?\nQual é a probabilidade de que ele venda menos de três seguros naquela semana?\nQual a probabilidade de que ele venda seis seguros em duas semanas?\nQual a probabilidade de que ele venda menos de três seguros em duas semanas?"
+  },
+  {
+    "objectID": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#exemplo-16.4",
+    "href": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#exemplo-16.4",
+    "title": "Distribuição de Poisson",
+    "section": "Exemplo 16.4",
+    "text": "Exemplo 16.4\nNum livro de 800 páginas há 800 erros de impressão. Qual a probabilidade de que uma página contenha\n\npelo menos 3 erros?\nno máximo 1 erro?"
+  },
+  {
+    "objectID": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#aproximação-da-binomial-pela-poisson",
+    "href": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#aproximação-da-binomial-pela-poisson",
+    "title": "Distribuição de Poisson",
+    "section": "Aproximação da Binomial pela Poisson",
+    "text": "Aproximação da Binomial pela Poisson\n\nQuando o número de ensaios \\(n\\) é muito grande e a probabilidade de sucesso \\(p\\) é muito pequena, a distribuição Binomial se aproxima de uma distribuição de Poisson com parâmetro \\(\\lambda = np\\).\nA aproximação é considerada excelente quando: \\[n \\ge 100 \\quad \\text{e}\\quad np \\le 10 \\text{ (ou } p \\le 0,1)\\]\nPor que utilizar?\n\nCalcular \\(\\frac{e^{-\\lambda}\\lambda^x}{x!}\\) é muito mais rápido do que lidar com combinações de grandes números \\(\\binom{n}{x}\\).\nEvita erros de arredondamento em calculadoras e softwares ao processar fatoriais imensos."
+  },
+  {
+    "objectID": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#aproximação-da-binomial-pela-poisson-1",
+    "href": "slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html#aproximação-da-binomial-pela-poisson-1",
+    "title": "Distribuição de Poisson",
+    "section": "Aproximação da Binomial pela Poisson",
+    "text": "Aproximação da Binomial pela Poisson\n\nExemplo: Se uma fábrica produz 2.000 lâmpadas e a chance de defeito é de 0,2% (\\(p=0,002\\)):\n\nPela Binomial: \\(X \\sim \\text{Binomial}(2000; 0,002)\\)\nPela Poisson: \\(X \\sim \\text{Poisson}(\\lambda = 2000 \\cdot 0,002 = 4)\\)"
   },
   {
     "objectID": "info/ementa.html",

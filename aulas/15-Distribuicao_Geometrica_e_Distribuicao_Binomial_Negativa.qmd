@@ -1,0 +1,33 @@
+---
+title: "Conteúdo 15"
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Distribuição Geométrica e Distribuição Binomial Negativa
+
+Nesta aula, exploramos as Distribuições Geométrica e Binomial Negativa, modelos fundamentais para descrever o tempo de espera ou o número de tentativas necessárias até a ocorrência de sucessos em ensaios de Bernoulli. Enquanto a Distribuição Geométrica foca na probabilidade de obter o primeiro sucesso, a Binomial Negativa generaliza este conceito para o $r$-ésimo sucesso. Discutimos as propriedades teóricas de esperança e variância, com destaque para a característica de 'falta de memória' da geométrica.
+
+Slides:
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide15_html.png)<br>Versão html
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/PDFs/slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide15_pdf.png)<br>Versão pdf
+</a>
+:::
+
+::::
+
+A demonstração dos Teoremas 15.1 e 15.2 podem ser baixadas [aqui](/PDFs/demonstracoes/demonstracao_teorema15.1_e_15.2.pdf){target="_blank"}.
+
+

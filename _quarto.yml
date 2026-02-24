@@ -54,6 +54,16 @@ website:
             text: "11- Valor Esperado"
           - href: aulas/12-Variancia.qmd
             text: "12- Variância"
+      - section: "Parte 3: Distribuições de Probabilidade"
+        contents:
+          - href: aulas/13-Distribuições_de_Bernoulli_e_Binomial.qmd
+            text: "13- Bernoulli e Binomial"
+          - href: aulas/14-Distribuicao_Hipergeometrica.qmd
+            text: "14- Hipergeométrica"
+          - href: aulas/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.qmd
+            text: "15- Geométrica e Binomial Negativa"
+          - href: aulas/16-Distribuicao_Poisson.qmd
+            text: "16- Poisson"
     - href: PDFs/listas/listas_de_exercicio.qmd
       text: "Listas de Exercício"
       

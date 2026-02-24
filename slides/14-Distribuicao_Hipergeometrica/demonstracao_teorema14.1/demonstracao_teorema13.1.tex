@@ -1,0 +1,124 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{amssymb,amsmath,amsfonts,amsthm}
+\usepackage{graphicx}
+\usepackage{fullpage}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{calligra}
+\usepackage{accents}
+\usepackage{cancel}
+
+% Definindo o estilo de numeração dos subteoremas
+\newtheorem{theorem}{Teorema}[section]
+
+% Definindo um novo estilo específico para subteoremas com a numeração desejada
+\newtheorem{subtheorem}{Teorema}[theorem]
+
+% Customizando o contador do subtheorem
+\renewcommand{\thesubtheorem}{\thesection.\arabic{theorem}(\alph{subtheorem})}
+
+\begin{document}
+	
+% Define a cor da linha de cancelamento como vermelha
+\renewcommand{\CancelColor}{\color{red}}
+
+\setcounter{section}{13}
+
+\setcounter{theorem}{1}
+
+\setcounter{subtheorem}{0}
+
+\begin{subtheorem}
+	Se $X\sim \text{Hipergeométrica}(N,n,k)$, a média  é dada por $ E(X) = \frac{nk}{N} $.
+\end{subtheorem}
+
+\begin{proof}
+	Temos que
+	$$
+		\begin{aligned}
+			E(X) &= \sum\limits_{x=0}^n x P(X=x)\\
+			&= \sum\limits_{x=0}^n x \frac{\binom{k}{x}\binom{N-k}{n-x}}{\binom{N}{n}}\\
+			&= 0 + \sum\limits_{x=1}^n x \frac{\binom{k}{x}\binom{N-k}{n-x}}{\binom{N}{n}}\\
+			&= \sum\limits_{x=1}^n x \frac{ \frac{k!}{x!(k-x)!} \binom{N-k}{n-x} }{ \frac{N!}{n!(N-n)!} }\\
+			&= \sum\limits_{x=1}^n x \frac{ \frac{k(k-1)!}{x(x-1)!(k-x)!} \binom{N-k}{n-x} }{ \frac{N(N-1)!}{n(n-1)!(N-n)!} }\\
+			&= \sum\limits_{x=1}^n x \frac{\frac{k}{x}}{\frac{N}{n}} \frac{ \frac{(k-1)!}{(x-1)!(k-x)!} \binom{N-k}{n-x} }{ \frac{(N-1)!}{(n-1)!(N-n)!} }\\
+			&= \sum\limits_{x=1}^n \cancel{x} \frac{k n}{\cancel{x} N} \frac{ \binom{k-1}{x-1} \binom{N-k}{n-x} }{ \binom{N-1}{n-1} }\\
+			&= \frac{k n}{N} \sum\limits_{x=1}^n \frac{ \binom{k-1}{x-1} \binom{N-k}{n-x} }{ \binom{N-1}{n-1} }.
+		\end{aligned}
+	$$
+	Fazendo $y=x-1$, temos
+	$$
+		E(X) = \frac{k n}{N} \sum\limits_{y=0}^{n-1} \frac{ \binom{k-1}{y} \binom{N-k}{n-(y+1)} }{ \binom{N-1}{n-1} }.
+	$$
+	Agora fazendo $M = N-1$, $m = n-1$ e $c = k-1$ no somatório, temos
+	$$
+		E(X) = \frac{k n}{N} \sum\limits_{y=0}^m \frac{ \binom{c}{y} \binom{M-c}{m-y} }{ \binom{M}{m} } = \frac{k n}{N} \sum\limits_{y=0}^m P(Y=y),
+	$$
+	em que $Y\sim \text{Hipergeométrica}(M,m,c)$. Logo, $\sum\limits_{y=0}^m P(Y=y) = 1$ e
+	$$
+		E(X) = \frac{k n}{N}.
+	$$
+\end{proof}
+
+\begin{subtheorem}
+	Se $X\sim \text{Hipergeométrica}(N,n,k)$, a variância  é dada por $$ Var(X) = n\frac{k}{N} \frac{(N-k)}{N} \frac{N-n}{N-1} $$.
+\end{subtheorem}
+	
+\begin{proof}
+	Sabemos que a variância é definida como $Var(X) = E(X^2) - [E(X)]^2$. Vamos calcular primeiro $E(X^2)$.
+	$$
+	\begin{aligned}
+		E(X^2) &= \sum\limits_{x=0}^n x^2 P(X=x)\\
+		&= \sum\limits_{x=0}^n x^2 \frac{\binom{k}{x}\binom{N-k}{n-x}}{\binom{N}{n}}\\
+		&= 0 + \sum\limits_{x=1}^n x^2 \frac{\binom{k}{x}\binom{N-k}{n-x}}{\binom{N}{n}}\\
+		&= \sum\limits_{x=1}^n x\left[ x \frac{\binom{k}{x}\binom{N-k}{n-x}}{\binom{N}{n}} \right]\\
+		&= \sum\limits_{x=1}^n x \left[ \frac{kn}{N} \frac{ \binom{k-1}{x-1} \binom{N-k}{n-x} }{ \binom{N-1}{n-1} } \right]\\
+		&= \frac{kn}{N} \sum\limits_{x=1}^n x \frac{ \binom{k-1}{x-1} \binom{N-k}{n-x} }{ \binom{N-1}{n-1} }\\
+	\end{aligned}
+	$$
+	Fazendo $y=x-1$, temos
+	$$
+		E(X^2) = \frac{kn}{N} \sum\limits_{y=0}^{n-1} (y+1) \frac{ \binom{k-1}{y} \binom{N-k}{n-(y+1)} }{ \binom{N-1}{n-1} }.
+	$$
+	Fazendo agora $M = N-1$, $m = n-1$ e $c = k-1$ no somatório, temos
+	$$
+	\begin{aligned}
+		E(X^2) &= \frac{kn}{N} \sum\limits_{y=0}^{m} (y+1) \frac{ \binom{c}{y} \binom{M-c}{m-y} }{ \binom{M}{m} }\\
+		&= \frac{kn}{N} \sum\limits_{y=0}^{m} \left[ y \frac{ \binom{c}{y} \binom{M-c}{m-y} }{ \binom{M}{m} } + \frac{ \binom{c}{y} \binom{M-c}{m-y} }{ \binom{M}{m} } \right]\\
+		&= \frac{kn}{N} \left[ \sum\limits_{y=0}^{m} y \frac{ \binom{c}{y} \binom{M-c}{m-y} }{ \binom{M}{m} } + \sum\limits_{y=0}^{m} \frac{ \binom{c}{y} \binom{M-c}{m-y} }{ \binom{M}{m} } \right]\\
+		&= \frac{kn}{N} \left[ \sum\limits_{y=0}^{m} y P(Y=y) + \sum\limits_{y=0}^{m} P(Y=y) \right],
+	\end{aligned}
+	$$
+	em que $Y\sim \text{Hipergeométrica}(M,m,c)$. Logo, $$\sum\limits_{y=0}^{m} y P(Y=y) = E(Y) = \frac{cm}{M} \quad \text{e} \quad \sum\limits_{y=0}^n P(Y=y) = 1.$$
+	Portanto,
+	$$
+		\begin{aligned}
+			E(X^2) &= \frac{kn}{N} \left[ \frac{cm}{M} + 1 \right]\\
+			&= \frac{kn}{N} \left[ \frac{(k-1)(n-1)}{N-1} + 1 \right]
+		\end{aligned}
+	$$
+	Assim,
+	$$
+		\begin{aligned}
+			Var(X) &= E(X^2) - [E(X)]^2\\
+			&= \frac{kn}{N} \left[ \frac{(k-1)(n-1)}{N-1} + 1 \right] - \left[ \frac{k n}{N} \right]^2\\
+			&= \frac{kn}{N} \left[ \frac{kn-k-n+1}{N-1} + 1 - \frac{k n}{N}\right]\\
+			&= \frac{kn}{N} \left[ \frac{N(kn-k-n+1) + N(N-1) - kn(N-1)}{N(N-1)} \right]\\
+			&= \frac{kn}{N} \left[ \frac{\cancel{Nkn} -Nk -Nn +\bcancel{N} + N^2 -\bcancel{N} - \cancel{Nkn} + kn)}{N(N-1)} \right]\\
+			&= \frac{kn}{N} \left[ \frac{N^2 -Nn -Nk +kn}{N(N-1)} \right]\\
+			&= \frac{kn}{N} \frac{(N-k)(N-n)}{N(N-1)}\\
+			&= n\frac{k}{N} \frac{(N-k)}{N} \frac{N-n}{N-1}
+		\end{aligned}
+	$$
+\end{proof}	
+	
+	
+	
+	
+	
+
+
+\end{document}

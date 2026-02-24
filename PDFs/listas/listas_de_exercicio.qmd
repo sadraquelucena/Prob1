@@ -8,7 +8,7 @@ format:
 
 A prática é a chave para o domínio da Probabilidade. Aqui estão as listas de exercícios, organizadas para acompanhar o conteúdo da disciplina e ajudar você a consolidar o conhecimento. Utilize-as como sua principal ferramenta de estudo; elas são o melhor caminho para o sucesso nas avaliações.
 
-## Parte 1
+## Parte 1: Introdução à Probabilidade
 
 ::: {.grid}
 
@@ -59,7 +59,7 @@ A prática é a chave para o domínio da Probabilidade. Aqui estão as listas de
 :::
 
 
-## Parte 2
+## Parte 2: Variáveis Aleatórias
 
 ::: {.grid}
 
@@ -75,6 +75,36 @@ A prática é a chave para o domínio da Probabilidade. Aqui estão as listas de
 </a>
 :::
 
+
+:::
+
+## Parte 3: Distribuições de Probabilidade
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="Prob1_Lista10.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](lista10.png)<br>Lista 10
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="Prob1_Lista11.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](lista11.png)<br>Lista 11
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="Prob1_Lista12.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](lista12.png)<br>Lista 12
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="Prob1_Lista13.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](lista13.png)<br>Lista 13
+</a>
+:::
 
 :::
 

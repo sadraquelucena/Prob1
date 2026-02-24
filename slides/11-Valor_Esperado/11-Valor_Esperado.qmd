@@ -26,7 +26,7 @@ lang: pt-BR
 ---
 
 
-## Definição 10.1: Valor Esperado de Uma Variável Aleatória Discreta
+## Definição 11.1: Valor Esperado de Uma Variável Aleatória Discreta
 
 - Se $X$ é uma variável aleatória com função de probabilidade $P(X=x)$, então a *esperança*, ou *valor esperado*, de $X$, representado por $E(X)$, é definida por
 $$
@@ -34,8 +34,7 @@ $$
 $$
 - Em palavras, o valor esperado de $X$ é uma média ponderada dos possíveis valores que $X$ pode assumir, onde cada valor é ponderado pela probabilidade de $X$ ser igual a esse valor.
 
-
-
+---
 
 ## Exemplo
 
@@ -44,17 +43,15 @@ $$
   E(X) = 0\left(\frac{1}{3}\right) + 1 \left(\frac{2}{3}\right) = \frac{2}{3}.
 $$
 
+---
 
-
-
-## Exemplo 10.1
+## Exemplo 11.1
 
 Um fabricante produz peças tais que 10% delas são defeituosas e 90% são não-defeituosas. Se uma peça defeituosa for produzida, o fabricante perde R\$ 1, enquanto uma peça não-defeituosa lhe dá um lucro de R\$ 5. Se $X$ é o lucro líquido por peça, qual o lucro esperado com uma peça?
 
+---
 
-
-
-## Exemplo 10.2
+## Exemplo 11.2
 		
 Em determinado setor de uma loja de departamentos, o número de produtos vendidos em um dia pelos funcionários é uma variável aleatória $P$ com a seguinte distribuição de probabilidades (esses números foram obtidos dos resultados de vários anos de estudo):
 
@@ -65,19 +62,17 @@ Em determinado setor de uma loja de departamentos, o número de produtos vendido
 (a) Qual é o número médio de produtos vendidos por cada vendedor?
 (b) Se ele vende até 2 produtos em um dia, ele ganha uma comissão de R\$10,00 por produto vendido. A partir da terceira venda, a comissão passa para R\$50,00. Qual a comissão média de cada vendedor?
 
+---
 
-
-
-## Definição 10.2: Esperança de uma Função de uma Variável Aleatória
+## Definição 11.2: Esperança de uma Função de uma Variável Aleatória
 Seja $X$ uma variável aleatória discreta com função de distribuição de probabilidade $P(X=x)$. Se definimos uma nova v.a. $Y = g(X)$, então
 $$
   E(Y) = E[g(X)] = \sum\limits_x g(x) P(X=x).
 $$
 
+---
 
-
-
-## Exemplo 10.3
+## Exemplo 11.3
 Considere a v.a. $X$ com função de probabilidade
 
 | $x$            | $-2$  | $-1$  | $0$   | $1$   | $2$   | $3$   |
@@ -86,8 +81,7 @@ Considere a v.a. $X$ com função de probabilidade
 
 Seja $Y=X^2$. Qual a esperança de $Y$?
 
-
-
+---
 
 ## Propriedades do Valor Esperado
 
@@ -103,9 +97,9 @@ Sejam $X$ e $Y$ variáveis aleatórias discretas e $a$, $b$ e $c$ constantes. En
 
 **PE5.** $E(aX + bY + c) = aE(X) + bE(Y) + c$
 
+---
 
-
-## Exemplo 10.4
+## Exemplo 11.4
 
 Se a esperança de $X$ é igual a 10 e a esperança de $Y$ é igual a 15. Calcule
 

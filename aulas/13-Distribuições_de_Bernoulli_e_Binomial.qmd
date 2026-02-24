@@ -1,0 +1,33 @@
+---
+title: "Conteúdo 13"
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Distribuições de Bernoulli e Binomial
+
+Nesta aula, exploramos as Distribuições de Bernoulli e Binomial, os modelos fundamentais para experimentos com resultados binários (sucesso ou fracasso). Partindo do ensaio de Bernoulli, evoluímos para a Distribuição Binomial, que permite calcular a probabilidade de um número específico de sucessos em múltiplas tentativas independentes.
+
+Slides:
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide13_html.png)<br>Versão html
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/PDFs/slides/13-Distribuições_de_Bernoulli_e_Binomial.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide13_pdf.png)<br>Versão pdf
+</a>
+:::
+
+::::
+
+
+
+

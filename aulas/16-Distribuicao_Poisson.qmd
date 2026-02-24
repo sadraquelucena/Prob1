@@ -1,0 +1,33 @@
+---
+title: "Conteúdo 16"
+format:
+  html:
+    toc: false
+    anchor-sections: false
+---
+
+## Distribuição de Poisson
+
+Encerramos o semestre com o estudo da Distribuição de Poisson, o modelo fundamental para eventos que ocorrem de forma aleatória e independente em um intervalo contínuo (tempo, espaço ou volume). Aprendemos a identificar problemas de 'taxa de ocorrência' e a manipular o parâmetro $\lambda$ de acordo com a mudança do intervalo observado. Além disso, vimos como a Poisson simplifica o cálculo de probabilidades de eventos raros em grandes populações.
+
+Slides:
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/slides/16-Distribuicao_Poisson/16-Distribuicao_Poisson.html" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide16_html.png)<br>Versão html
+</a>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/PDFs/slides/16-Distribuicao_Poisson.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/slides/slide16_pdf.png)<br>Versão pdf
+</a>
+:::
+
+::::
+
+A demonstração do Teorema 16.1 pode ser baixada [aqui](/PDFs/demonstracoes/demonstracao_teorema16.1.pdf){target="_blank"}.
+
+

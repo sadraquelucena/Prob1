@@ -1,0 +1,181 @@
+---
+title: "Distribuição de Poisson"
+subtitle: "ESTAT0072 -- Probabilidade I"
+author:
+  name: | # indica que o campo name terá múltiplas linhas
+    Prof. Dr. Sadraque E. F. Lucena<br>
+    <span style="font-size:.8em;">sadraquelucena@academico.ufs.br</span>
+  
+format:
+  revealjs:
+    theme: meutema.scss
+    width: 1024
+    height: 768
+    margin: 0.1         # margem em torno do conteúdo
+    min-scale: 0.2       # escala mínima permitida
+    max-scale: 2.0       # escala máxima permitida
+    slide-number: true
+    code-line-numbers: false # sem numero das linhas nos code chunks
+    subtitle-style: "font-size: 2em; font-weight: bold;"  # Aqui é onde aumentamos o subtítulo
+    logo: imagens/ufs_horizontal_positiva.png
+    transition: fade
+    transition-speed: fast
+    scss: meutema.scss
+
+lang: pt-BR
+---
+
+
+## Definição 16.1: Distribuição de Poisson
+
+- Seja $X$ uma variável aleatória com distribuição de Poisson de parâmetro $\lambda$. Sua função de probabilidade é dada por
+$$
+	P(X=x) = \frac{e^{-\lambda}\lambda^x}{x!}, \quad x = 0, 1, 2, \ldots,
+$$
+em que 
+  - $\lambda$ é o número médio de resultados por unidade de tempo, distância, área ou volume e
+  - $e=2,\!71828\ldots$
+- **Notação:** $X\sim \text{Poisson}(\lambda)$.
+
+---
+
+## Teorema 16.1
+Se $X\sim \text{Poisson}(\lambda)$, a esperança e a variância são
+$$
+  E(X) = \lambda
+$$
+e
+$$
+	Var(X) = \lambda.
+$$
+
+---
+
+## Distribuição de Poisson
+Como identificar a distribuição de Poisson:
+
+- $X$ representa o número de resultados que ocorrem em certo intervalo de tempo ou espaço.
+- Sempre será dada a média com que ocorre o fenômeno no tempo ou no espaço.
+
+---
+ 	
+## Distribuição de Poisson
+Exemplos de variáveis aleatórias com distribuição de Poisson:
+
+- Erros tipográficos por página, em um material impresso;
+- Carros que passam por um cruzamento, por minuto, num intervalo de 1 hora;
+- Defeitos por unidade (m, m$^2$, m$^3$, etc.) por peça fabricada;
+- Mortes por ataque do coração por ano, numa cidade.
+
+---
+
+## Exemplo 16.1
+Seja $X\sim \text{Poisson}(2)$. Calcule
+
+a. $P(X = 3)$
+b. $P(X \geq 2)$
+
+---
+
+## Distribuição de Poisson no R <img src="imagens/rcompiler.png" style="width: 100px; vertical-align: middle; margin-left: 10px; margin-top: 11px;" />
+
+Para calcular no R:
+
+- $P(X=x)$ use o comando `dpois(x, $\lambda$)`.
+- $P(X\leq x)$ use o comando `ppois(x, $\lambda$)`.
+
+Exemplo: $X\sim\text{Poisson}(2)$.
+
+```{r}
+#| echo: true
+#| eval: true
+
+dpois(3, 2) # P(X=3)
+ppois(3, 2) # P(X≤3)
+```
+
+---
+
+## Distribuição de Poisson no R <img src="imagens/rcompiler.png" style="width: 100px; vertical-align: middle; margin-left: 10px; margin-top: 11px;" />
+
+Gráfico da distribuição de Poisson no R para $X\sim\text{Poisson}(\lambda=2)$.
+
+```{r}
+#| echo: true
+#| eval: false
+#| fig-height: 3.5
+#| fig-width: 6
+
+lambda <- 2
+barplot(dpois(0:10, lambda),
+        names.arg = 0:10,
+        xlab = "Número de resultados",
+        ylab = "Probabilidade",
+        col = "blue",
+        border = "black")
+```
+
+---
+
+## Distribuição de Poisson no R <img src="imagens/rcompiler.png" style="width: 100px; vertical-align: middle; margin-left: 10px; margin-top: 11px;" />
+
+```{r}
+#| echo: false
+#| eval: true
+
+lambda <- 2
+barplot(dpois(0:10, lambda),
+        names.arg = 0:10,
+        xlab = "Número de resultados",
+        ylab = "Probabilidade",
+        col = "blue",
+        border = "black")
+```
+
+---
+
+## Exemplo 16.2
+Uma central telefônica recebe uma média de 5 chamadas por minuto. Qual é a probabilidade da central receber
+
+a. nenhuma chamada em um minuto?
+b. no máximo duas chamadas em um minuto?
+c. mais de três chamadas em um minuto?
+
+---
+
+## Exemplo 16.3
+Um corretor vende em média 4 seguros por semana.
+
+a. Qual é a probabilidade de que ele venda seis seguros naquela semana?
+b. Qual é a probabilidade de que ele venda menos de três seguros naquela semana?
+c. Qual a probabilidade de que ele venda seis seguros em duas semanas?
+d. Qual a probabilidade de que ele venda menos de três seguros em duas semanas?
+
+---
+
+## Exemplo 16.4
+Num livro de 800 páginas há 800 erros de impressão. Qual a probabilidade de que uma página contenha
+
+a. pelo menos 3 erros?
+b. no máximo 1 erro?
+
+---
+
+## Aproximação da Binomial pela Poisson
+
+- Quando o número de ensaios $n$ é muito grande e a probabilidade de sucesso $p$ é muito pequena, a distribuição Binomial se aproxima de uma distribuição de Poisson com parâmetro $\lambda = np$.
+- A aproximação é considerada excelente quando:
+$$n \ge 100 \quad \text{e}\quad np \le 10 \text{ (ou } p \le 0,1)$$
+- Por que utilizar?
+  - Calcular $\frac{e^{-\lambda}\lambda^x}{x!}$ é muito mais rápido do que lidar com combinações de grandes números $\binom{n}{x}$.
+  - Evita erros de arredondamento em calculadoras e softwares ao processar fatoriais imensos.
+  
+---
+  
+## Aproximação da Binomial pela Poisson
+  
+- **Exemplo:** Se uma fábrica produz 2.000 lâmpadas e a chance de defeito é de 0,2% ($p=0,002$):
+  - Pela Binomial: $X \sim \text{Binomial}(2000; 0,002)$
+  - Pela Poisson: $X \sim \text{Poisson}(\lambda = 2000 \cdot 0,002 = 4)$
+
+# Fim
