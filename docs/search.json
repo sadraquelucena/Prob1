@@ -73,8 +73,8 @@
     ]
   },
   {
-    "objectID": "info/conteudo.html#conteudo",
-    "href": "info/conteudo.html#conteudo",
+    "objectID": "info/conteudo.html#conteúdo",
+    "href": "info/conteudo.html#conteúdo",
     "title": "Probabliidade I",
     "section": "",
     "text": "Modelo Probabilístico para um experimento aleatório\n1.1. Experimento Aleatório\n1.2. Espaço Amostral\n1.3. Evento\nRevisão básica de teoria de conjuntos\n2.1. Conjuntos, elementos\n2.2. Operações entre conjuntos\nTécnicas de Contagem\n3.1. Permutação ou Arranjo simples e com repetição\n3.2. Permutação Circular\n3.3. Combinação simples e com repetição\nDefinições e espaços de Probabilidade\n4.1. Classes de Conjuntos: sigma-álgebra\n4.2. Definições de Probabilidade\n4.3. Definição frequentista\n4.4. Definição Geométrica\n4.5. Definição Clássica\n4.6. Axiomas de Kolmogorov\nProbabilidade Condicional e Independência\n5.1. Probabilidade condicional\n5.2. Regra do Produto de Probabilidades\n5.3. Lei da Probabilidade Total\n5.4. Diagrama de árvore\n5.5. Partição do espaço amostral\n5.6. Teorema de Bayes\n5.7. Independência de dois eventos\n5.8. Independência de vários eventos\nVariável aleatória discreta\n6.1. Função de distribuição de variáveis aleatórias discretas\n6.2. Variável Aleatória Discreta\n6.3. Função de Probabilidade e suas propriedades\n6.4. Função de Distribuição ou Função Acumulada de probabilidade\n6.5. Esperança e Variância de uma V.A.D.\n6.6. Variável Aleatória Discreta: Bidimensional",

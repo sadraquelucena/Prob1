@@ -6,7 +6,7 @@ format:
     anchor-sections: false
 ---
 
-## Conteudo
+## Conteúdo
 
 1. Modelo Probabilístico para um experimento aleatório
 
