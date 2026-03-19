@@ -203,6 +203,7 @@ lang: pt-BR
 ### Não haverá aula
 
 - **02/04/2026:** Quinta-feira santa (recesso academico)
+- **21/04/2026:** Tiradentes (feriado nacional)
 - **04/06/2026:** Corpus Christi (recesso acadêmico)
 - **23/06/2026:** Véspera de Sâo João (recesso acadêmico)
 
