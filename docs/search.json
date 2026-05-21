@@ -20,26 +20,6 @@
     ]
   },
   {
-    "objectID": "PDFs/listas/listas_de_exercicio.html#parte-2-variáveis-aleatórias",
-    "href": "PDFs/listas/listas_de_exercicio.html#parte-2-variáveis-aleatórias",
-    "title": "Listas de Exercício",
-    "section": "Parte 2: Variáveis Aleatórias",
-    "text": "Parte 2: Variáveis Aleatórias\n\n\n Lista 8 \n\n\n Lista 9",
-    "crumbs": [
-      "Listas de Exercício"
-    ]
-  },
-  {
-    "objectID": "PDFs/listas/listas_de_exercicio.html#parte-3-distribuições-de-probabilidade",
-    "href": "PDFs/listas/listas_de_exercicio.html#parte-3-distribuições-de-probabilidade",
-    "title": "Listas de Exercício",
-    "section": "Parte 3: Distribuições de Probabilidade",
-    "text": "Parte 3: Distribuições de Probabilidade\n\n\n Lista 10 \n\n\n Lista 11 \n\n\n Lista 12 \n\n\n Lista 13",
-    "crumbs": [
-      "Listas de Exercício"
-    ]
-  },
-  {
     "objectID": "info/bibliografia.html",
     "href": "info/bibliografia.html",
     "title": "Probabliidade I",
@@ -1092,7 +1072,7 @@
     "href": "aulas/09-Variaveis_Aleatorias.html",
     "title": "Conteúdo 9",
     "section": "",
-    "text": "Nesta aula, damos um passo fundamental na formalização estatística ao introduzir o conceito de Variáveis Aleatórias Discretas. Aprendemos a mapear resultados de experimentos aleatórios em valores numéricos, permitindo o uso de ferramentas matemáticas mais sofisticadas para a análise de dados. Exploramos a construção da Função de Probabilidade (PMF), compreendendo como a ‘massa’ de probabilidade se distribui sobre o suporte da variável.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "text": "Nesta aula, damos um passo fundamental na formalização estatística ao introduzir o conceito de Variáveis Aleatórias Discretas. Aprendemos a mapear resultados de experimentos aleatórios em valores numéricos, permitindo o uso de ferramentas matemáticas mais sofisticadas para a análise de dados. Exploramos a construção da Função de Probabilidade (PMF), compreendendo como a ‘massa’ de probabilidade se distribui sobre o suporte da variável.\nSlides:\n\n\n Versão html \n\n\n Versão pdf \n\n\nLista de Exercícios:\n\n\n Lista 9",
     "crumbs": [
       "Aulas",
       "Parte 2: Variáveis Aleatórias",
@@ -1104,7 +1084,7 @@
     "href": "aulas/09-Variaveis_Aleatorias.html#variáveis-aleatórias",
     "title": "Conteúdo 9",
     "section": "",
-    "text": "Nesta aula, damos um passo fundamental na formalização estatística ao introduzir o conceito de Variáveis Aleatórias Discretas. Aprendemos a mapear resultados de experimentos aleatórios em valores numéricos, permitindo o uso de ferramentas matemáticas mais sofisticadas para a análise de dados. Exploramos a construção da Função de Probabilidade (PMF), compreendendo como a ‘massa’ de probabilidade se distribui sobre o suporte da variável.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "text": "Nesta aula, damos um passo fundamental na formalização estatística ao introduzir o conceito de Variáveis Aleatórias Discretas. Aprendemos a mapear resultados de experimentos aleatórios em valores numéricos, permitindo o uso de ferramentas matemáticas mais sofisticadas para a análise de dados. Exploramos a construção da Função de Probabilidade (PMF), compreendendo como a ‘massa’ de probabilidade se distribui sobre o suporte da variável.\nSlides:\n\n\n Versão html \n\n\n Versão pdf \n\n\nLista de Exercícios:\n\n\n Lista 9",
     "crumbs": [
       "Aulas",
       "Parte 2: Variáveis Aleatórias",
@@ -1212,7 +1192,7 @@
     "href": "aulas/10-Funcao_Distribuicao_Acumulada.html",
     "title": "Conteúdo 10",
     "section": "",
-    "text": "Nesta aula, exploramos a Função de Distribuição Acumulada (FDA), o conceito que nos permite visualizar a probabilidade como uma grandeza que se acumula ao longo do suporte da variável aleatória. Enquanto a função de probabilidade foca em valores isolados, a FDA fornece uma visão panorâmica, permitindo calcular rapidamente a probabilidade de eventos em intervalos e entender o comportamento de ‘estoque’ da massa probabilística. Discutimos as propriedades fundamentais que garantem o rigor matemático do modelo — como a monotonicidade e os limites teóricos — e aprendemos a interpretar os gráficos em escada, fundamentais para a análise de variáveis discretas.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "text": "Nesta aula, exploramos a Função de Distribuição Acumulada (FDA), o conceito que nos permite visualizar a probabilidade como uma grandeza que se acumula ao longo do suporte da variável aleatória. Enquanto a função de probabilidade foca em valores isolados, a FDA fornece uma visão panorâmica, permitindo calcular rapidamente a probabilidade de eventos em intervalos e entender o comportamento de ‘estoque’ da massa probabilística. Discutimos as propriedades fundamentais que garantem o rigor matemático do modelo — como a monotonicidade e os limites teóricos — e aprendemos a interpretar os gráficos em escada, fundamentais para a análise de variáveis discretas.\nSlides:\n\n\n Versão html \n\n\n Versão pdf \n\n\nLista de Exercícios:\n\n\n Lista 10",
     "crumbs": [
       "Aulas",
       "Parte 2: Variáveis Aleatórias",
@@ -1224,7 +1204,7 @@
     "href": "aulas/10-Funcao_Distribuicao_Acumulada.html#função-de-distribuião-acumulada",
     "title": "Conteúdo 10",
     "section": "",
-    "text": "Nesta aula, exploramos a Função de Distribuição Acumulada (FDA), o conceito que nos permite visualizar a probabilidade como uma grandeza que se acumula ao longo do suporte da variável aleatória. Enquanto a função de probabilidade foca em valores isolados, a FDA fornece uma visão panorâmica, permitindo calcular rapidamente a probabilidade de eventos em intervalos e entender o comportamento de ‘estoque’ da massa probabilística. Discutimos as propriedades fundamentais que garantem o rigor matemático do modelo — como a monotonicidade e os limites teóricos — e aprendemos a interpretar os gráficos em escada, fundamentais para a análise de variáveis discretas.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "text": "Nesta aula, exploramos a Função de Distribuição Acumulada (FDA), o conceito que nos permite visualizar a probabilidade como uma grandeza que se acumula ao longo do suporte da variável aleatória. Enquanto a função de probabilidade foca em valores isolados, a FDA fornece uma visão panorâmica, permitindo calcular rapidamente a probabilidade de eventos em intervalos e entender o comportamento de ‘estoque’ da massa probabilística. Discutimos as propriedades fundamentais que garantem o rigor matemático do modelo — como a monotonicidade e os limites teóricos — e aprendemos a interpretar os gráficos em escada, fundamentais para a análise de variáveis discretas.\nSlides:\n\n\n Versão html \n\n\n Versão pdf \n\n\nLista de Exercícios:\n\n\n Lista 10",
     "crumbs": [
       "Aulas",
       "Parte 2: Variáveis Aleatórias",
@@ -1753,7 +1733,7 @@
     "href": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#datas-importantes",
     "title": "A Lógica da Incerteza e a Linguagem dos Eventos",
     "section": "Datas Importantes",
-    "text": "Datas Importantes\nAvaliações\n\nAvaliação 1: 14/05/2026 (quinta)\nAvaliação 2: 11/06/2026 (quinta)\nAvaliação 3: 16/07/2026 (quinta)\nAvaliação Repositiva: 21/07/2026 (terça)\n\nNão haverá aula\n\n02/04/2026: Quinta-feira santa (recesso academico)\n04/06/2026: Corpus Christi (recesso acadêmico)\n23/06/2026: Véspera de Sâo João (recesso acadêmico)"
+    "text": "Datas Importantes\nAvaliações\n\nAvaliação 1: 14/05/2026 (quinta)\nAvaliação 2: 11/06/2026 (quinta)\nAvaliação 3: 16/07/2026 (quinta)\nAvaliação Repositiva: 21/07/2026 (terça)\n\nNão haverá aula\n\n02/04/2026: Quinta-feira santa (recesso academico)\n21/04/2026: Tiradentes (feriado nacional)\n04/06/2026: Corpus Christi (recesso acadêmico)\n23/06/2026: Véspera de Sâo João (recesso acadêmico)"
   },
   {
     "objectID": "slides/01-Incerteza_e_eventos/01-Incerteza_e_eventos.html#a-arquitetura-da-incerteza",
