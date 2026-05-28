@@ -42,6 +42,8 @@ website:
             text: "7- Teorema de Bayes"
           - href: aulas/08-Eventos_Independentes.qmd
             text: "8- Eventos Independentes"
+          - href: PDFs/listas/listas_de_exercicio.qmd
+            text: "Listas de Exercício"
       - section: "Parte 2: Variáveis Aleatórias"
         contents:
           - href: aulas/09-Variaveis_Aleatorias.qmd
@@ -62,8 +64,6 @@ website:
             text: "15- Geométrica e Binomial Negativa"
           - href: aulas/16-Distribuicao_Poisson.qmd
             text: "16- Poisson"
-    - href: PDFs/listas/listas_de_exercicio.qmd
-      text: "Listas de Exercício"
       
 
 format:

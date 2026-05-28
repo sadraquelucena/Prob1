@@ -6,6 +6,8 @@
     "section": "",
     "text": "A prática é a chave para o domínio da Probabilidade. Aqui estão as listas de exercícios, organizadas para acompanhar o conteúdo da disciplina e ajudar você a consolidar o conhecimento. Utilize-as como sua principal ferramenta de estudo; elas são o melhor caminho para o sucesso nas avaliações.",
     "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
       "Listas de Exercício"
     ]
   },
@@ -16,6 +18,8 @@
     "section": "Parte 1: Introdução à Probabilidade",
     "text": "Parte 1: Introdução à Probabilidade\n\n\n Lista 1 \n\n\n Lista 2 \n\n\n Lista 3 \n\n\n Lista 4 \n\n\n Lista 5 \n\n\n Lista 6 \n\n\n Lista 7",
     "crumbs": [
+      "Aulas",
+      "Parte 1: Introdução à Probabilidade",
       "Listas de Exercício"
     ]
   },
@@ -1120,7 +1124,7 @@
     "href": "aulas/11-Valor_Esperado.html",
     "title": "Conteúdo 11",
     "section": "",
-    "text": "Nesta aula, introduzimos o conceito de Valor Esperado, a medida de tendência central mais importante da teoria das probabilidades. Aprendemos que a esperança não representa necessariamente um valor que a variável assumirá em uma única observação, mas sim a média de longo prazo de um experimento repetido exaustivamente. Discutimos como calcular a esperança de transformações de variáveis aleatórias e exploramos as propriedades de linearidade que facilitam cálculos complexos em sistemas com múltiplos eventos.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "text": "Nesta aula, introduzimos o conceito de Valor Esperado, a medida de tendência central mais importante da teoria das probabilidades. Aprendemos que a esperança não representa necessariamente um valor que a variável assumirá em uma única observação, mas sim a média de longo prazo de um experimento repetido exaustivamente. Discutimos como calcular a esperança de transformações de variáveis aleatórias e exploramos as propriedades de linearidade que facilitam cálculos complexos em sistemas com múltiplos eventos.\nSlides:\n\n\n Versão html \n\n\n Versão pdf \n\n\nLista de Exercícios:\n\n\n Lista 11",
     "crumbs": [
       "Aulas",
       "Parte 2: Variáveis Aleatórias",
@@ -1132,7 +1136,7 @@
     "href": "aulas/11-Valor_Esperado.html#valor-esperado-de-uma-variável-aleatória-discreta",
     "title": "Conteúdo 11",
     "section": "",
-    "text": "Nesta aula, introduzimos o conceito de Valor Esperado, a medida de tendência central mais importante da teoria das probabilidades. Aprendemos que a esperança não representa necessariamente um valor que a variável assumirá em uma única observação, mas sim a média de longo prazo de um experimento repetido exaustivamente. Discutimos como calcular a esperança de transformações de variáveis aleatórias e exploramos as propriedades de linearidade que facilitam cálculos complexos em sistemas com múltiplos eventos.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "text": "Nesta aula, introduzimos o conceito de Valor Esperado, a medida de tendência central mais importante da teoria das probabilidades. Aprendemos que a esperança não representa necessariamente um valor que a variável assumirá em uma única observação, mas sim a média de longo prazo de um experimento repetido exaustivamente. Discutimos como calcular a esperança de transformações de variáveis aleatórias e exploramos as propriedades de linearidade que facilitam cálculos complexos em sistemas com múltiplos eventos.\nSlides:\n\n\n Versão html \n\n\n Versão pdf \n\n\nLista de Exercícios:\n\n\n Lista 11",
     "crumbs": [
       "Aulas",
       "Parte 2: Variáveis Aleatórias",
