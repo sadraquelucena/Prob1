@@ -733,7 +733,7 @@
     "href": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-11.1",
     "title": "Valor Esperado de Uma Variável Aleatória Discreta",
     "section": "Exemplo 11.1",
-    "text": "Exemplo 11.1\nUm fabricante produz peças tais que 10% delas são defeituosas e 90% são não-defeituosas. Se uma peça defeituosa for produzida, o fabricante perde R$ 1, enquanto uma peça não-defeituosa lhe dá um lucro de R$ 5. Se \\(X\\) é o lucro líquido por peça, qual o lucro esperado com uma peça?"
+    "text": "Exemplo 11.1\nUma pessoa decide apostar R$ 10,00 em uma rodada de um jogo de cassino online (“Tigrinho”). Suponha que o algoritmo do jogo defina as seguintes probabilidades reais de retorno líquido (lucro ou prejuízo) em uma única rodada:\n\n“Mega Ganho” (Lucro de R$ 50,00): 5% de chance.\n“Ganho Normal” (Lucro de R$ 10,00): 15% de chance.\n“Derrota” (Perda de R$ 10,00): 80% de chance.\n\nSe \\(X\\) é o lucro líquido por rodada, qual é o lucro esperado \\(E(X)\\) do jogador? O que esse resultado significa a longo prazo?"
   },
   {
     "objectID": "slides/11-Valor_Esperado/11-Valor_Esperado.html#exemplo-11.2",

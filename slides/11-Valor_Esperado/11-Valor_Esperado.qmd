@@ -47,7 +47,13 @@ $$
 
 ## Exemplo 11.1
 
-Um fabricante produz peças tais que 10% delas são defeituosas e 90% são não-defeituosas. Se uma peça defeituosa for produzida, o fabricante perde R\$ 1, enquanto uma peça não-defeituosa lhe dá um lucro de R\$ 5. Se $X$ é o lucro líquido por peça, qual o lucro esperado com uma peça?
+Uma pessoa decide apostar R$ 10,00 em uma rodada de um jogo de cassino online ("Tigrinho"). Suponha que o algoritmo do jogo defina as seguintes probabilidades reais de retorno líquido (lucro ou prejuízo) em uma única rodada:
+
+* **"Mega Ganho" (Lucro de R$ 50,00):** 5% de chance.
+* **"Ganho Normal" (Lucro de R$ 10,00):** 15% de chance.
+* **"Derrota" (Perda de R$ 10,00):** 80% de chance.
+
+Se $X$ é o lucro líquido por rodada, qual é o lucro esperado $E(X)$ do jogador? O que esse resultado significa a longo prazo?
 
 ---
 
