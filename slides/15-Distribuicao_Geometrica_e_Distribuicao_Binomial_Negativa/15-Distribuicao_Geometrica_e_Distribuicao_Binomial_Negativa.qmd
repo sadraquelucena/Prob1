@@ -25,6 +25,10 @@ format:
 lang: pt-BR
 ---
 
+## Exemplo 15.1
+
+Um estudante está se candidatando a vagas de estágio. Com base em experiências anteriores, estima-se que a probabilidade de ser aprovado em uma candidatura seja igual a 0,3. O estudante continua se candidatando até receber sua primeira aprovação. Qual a probabilidade de que ele seja aprovado extamente na quarta tentativa?
+
 
 ## Definição 15.1: Distribuição Geométrica
 
@@ -34,6 +38,17 @@ $$
   P(X=x) = (1-p)^{x-1}p, \quad x = 1, 2, \ldots
 $$
 - **Notação:** $X\sim \text{Geométrica}(p)$.
+
+
+
+## Outra Convenção para a Distribuição Geométrica
+
+- Alguns autores definem X como o número de **fracassos antes do primeiro sucesso**.
+- Nesse caso,
+$$ P(X=x)=(1−p)^x p, \quad x=0,1,2,\ldots $$
+- **Exemplo:** $X=0$ (sucesso na 1ª tentativa), $X=1$ (1 fracasso e 1 sucesso), $X=2$ (2 fracassos e 1 sucesso).
+
+- Nesta disciplina, adotaremos a definição do slide anterior, em que X representa o número de tentativas até o primeiro sucesso.
 
 ---
 
@@ -56,7 +71,7 @@ Como identificar a distribuição geométrica:
 
 ---
 
-## Exemplo 15.1
+## Exemplo 15.2
 $X\sim \text{Geométrica}(0,6)$. Calcule:
 
 (a) $P(X=5)$
@@ -143,7 +158,7 @@ barplot(dgeom(0:9, 0.6),
 
 ---
 
-## Exemplo 15.2
+## Exemplo 15.3
 
 Uma pesquisa do instituto YouGov encomendada pela Google entre 27 de junho a 20 de julho de 2022 apontou que 44% dos brasileiros dizem ter contato com *fake news* diariamente^[https://www.techtudo.com.br/noticias/2022/08/44percent-dos-brasileiros-dizem-receber-fake-news-diariamente-veja-pesquisa.ghtml]. Se uma nova pesquisa for realizada, 
  
@@ -178,7 +193,7 @@ $$
 
 ---
 
-## Exemplo 15.3
+## Exemplo 15.4
 $X\sim \text{Binomial Negativa}(4; 0,7)$. Determine
 
 (a) $P(X=8)$
@@ -245,7 +260,7 @@ barplot(dnbinom(0:14, r, p),
 
 ---
 
-## Exemplo 15.4
+## Exemplo 15.5
 
 Uma pesquisa do instituto YouGov encomendada pela Google entre 27 de junho a 20 de julho de 2022 apontou que 44% dos brasileiros dizem ter contato com *fake news* diariamente^[https://www.techtudo.com.br/noticias/2022/08/44percent-dos-brasileiros-dizem-receber-fake-news-diariamente-veja-pesquisa.ghtml]. Se uma nova pesquisa for realizada, 
 

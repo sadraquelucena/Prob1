@@ -460,11 +460,25 @@
     "text": "Exemplo 7.4\nAo responder uma questão em uma prova de múltipla escolha, um estudante pode saber a resposta ou “chutar”. Suponha que a probabilidade de que o estudante saiba a resposta seja 1/2, e que, se ele chutar, a chance de acertar seja 1/5. Se o estudante respondeu corretamente à questão, qual é a probabilidade de que ele realmente soubesse a resposta?"
   },
   {
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.1",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.1",
+    "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
+    "section": "Exemplo 15.1",
+    "text": "Exemplo 15.1\nUm estudante está se candidatando a vagas de estágio. Com base em experiências anteriores, estima-se que a probabilidade de ser aprovado em uma candidatura seja igual a 0,3. O estudante continua se candidatando até receber sua primeira aprovação. Qual a probabilidade de que ele seja aprovado extamente na quarta tentativa?"
+  },
+  {
     "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#definição-15.1-distribuição-geométrica",
     "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#definição-15.1-distribuição-geométrica",
     "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
     "section": "Definição 15.1: Distribuição Geométrica",
     "text": "Definição 15.1: Distribuição Geométrica\n\nConsidere que \\(p\\) é a probabilidade de sucesso em um experimento e \\(1 - p\\) é a probabilidade de fracasso.\nSe \\(X\\) é o número de repetições do experimento até obtermos o primeiro sucesso, dizemos que \\(X\\) tem distribuição geométrica e calculamos a probabilidade usando \\[\nP(X=x) = (1-p)^{x-1}p, \\quad x = 1, 2, \\ldots\n\\]\nNotação: \\(X\\sim \\text{Geométrica}(p)\\)."
+  },
+  {
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#outra-convenção-para-a-distribuição-geométrica",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#outra-convenção-para-a-distribuição-geométrica",
+    "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
+    "section": "Outra Convenção para a Distribuição Geométrica",
+    "text": "Outra Convenção para a Distribuição Geométrica\n\nAlguns autores definem X como o número de fracassos antes do primeiro sucesso.\nNesse caso, \\[ P(X=x)=(1−p)^x p, \\quad x=0,1,2,\\ldots \\]\nExemplo: \\(X=0\\) (sucesso na 1ª tentativa), \\(X=1\\) (1 fracasso e 1 sucesso), \\(X=2\\) (2 fracassos e 1 sucesso).\nNesta disciplina, adotaremos a definição do slide anterior, em que X representa o número de tentativas até o primeiro sucesso."
   },
   {
     "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#teorema-15.1",
@@ -481,11 +495,11 @@
     "text": "Distribuição Geométrica\nComo identificar a distribuição geométrica:\n\nO experimento é realizado até ocorrer o primeiro sucesso."
   },
   {
-    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.1",
-    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.1",
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.2",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.2",
     "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
-    "section": "Exemplo 15.1",
-    "text": "Exemplo 15.1\n\\(X\\sim \\text{Geométrica}(0,6)\\). Calcule:\n\n\\(P(X=5)\\)\n\\(P(2&lt;X\\leq 5)\\)\n\\(E(X)\\)\n\\(Var(X)\\)"
+    "section": "Exemplo 15.2",
+    "text": "Exemplo 15.2\n\\(X\\sim \\text{Geométrica}(0,6)\\). Calcule:\n\n\\(P(X=5)\\)\n\\(P(2&lt;X\\leq 5)\\)\n\\(E(X)\\)\n\\(Var(X)\\)"
   },
   {
     "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#propriedade-de-perda-de-memória-da-geométrica",
@@ -523,11 +537,11 @@
     "text": "Distribuição Geométrica no R"
   },
   {
-    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.2",
-    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.2",
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.3",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.3",
     "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
-    "section": "Exemplo 15.2",
-    "text": "Exemplo 15.2\nUma pesquisa do instituto YouGov encomendada pela Google entre 27 de junho a 20 de julho de 2022 apontou que 44% dos brasileiros dizem ter contato com fake news diariamente1. Se uma nova pesquisa for realizada,\n\nqual a probabilidade de que a terceira pessoa entrevistada seja a primeira a afirmar que tem contato com fake news diariamente?\nqual a probabilidade de que a primeira pessoa a afirmar que tem contato com fake news diariamente seja a sétima ou oitava pessoa entrevistada?\nqual o número esperado de pessoas a serem entrevistadas até que a primeira afirme receber fake news diariamente? Qual a variância?\n\nhttps://www.techtudo.com.br/noticias/2022/08/44percent-dos-brasileiros-dizem-receber-fake-news-diariamente-veja-pesquisa.ghtml"
+    "section": "Exemplo 15.3",
+    "text": "Exemplo 15.3\nUma pesquisa do instituto YouGov encomendada pela Google entre 27 de junho a 20 de julho de 2022 apontou que 44% dos brasileiros dizem ter contato com fake news diariamente1. Se uma nova pesquisa for realizada,\n\nqual a probabilidade de que a terceira pessoa entrevistada seja a primeira a afirmar que tem contato com fake news diariamente?\nqual a probabilidade de que a primeira pessoa a afirmar que tem contato com fake news diariamente seja a sétima ou oitava pessoa entrevistada?\nqual o número esperado de pessoas a serem entrevistadas até que a primeira afirme receber fake news diariamente? Qual a variância?\n\nhttps://www.techtudo.com.br/noticias/2022/08/44percent-dos-brasileiros-dizem-receber-fake-news-diariamente-veja-pesquisa.ghtml"
   },
   {
     "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#definição-15.2-distribuição-binomial-negativa",
@@ -544,11 +558,11 @@
     "text": "Teorema 15.2\n\nSe \\(X\\sim\\text{Binomial Negativa}(r,p)\\), a esperança e a variância são \\[\n  E(X) = \\frac{r}{p}\n\\] e \\[\n  Var(X) = \\frac{r(1-p)}{p^2}.\n\\]"
   },
   {
-    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.3",
-    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.3",
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.4",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.4",
     "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
-    "section": "Exemplo 15.3",
-    "text": "Exemplo 15.3\n\\(X\\sim \\text{Binomial Negativa}(4; 0,7)\\). Determine\n\n\\(P(X=8)\\)\n\\(P(5\\leq X &lt; 7)\\)\n\\(E(X)\\)\n\\(Var(X)\\)"
+    "section": "Exemplo 15.4",
+    "text": "Exemplo 15.4\n\\(X\\sim \\text{Binomial Negativa}(4; 0,7)\\). Determine\n\n\\(P(X=8)\\)\n\\(P(5\\leq X &lt; 7)\\)\n\\(E(X)\\)\n\\(Var(X)\\)"
   },
   {
     "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-binomial-negativa-no-r",
@@ -572,11 +586,11 @@
     "text": "Distribuição Binomial Negativa no R"
   },
   {
-    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.4",
-    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.4",
+    "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.5",
+    "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#exemplo-15.5",
     "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
-    "section": "Exemplo 15.4",
-    "text": "Exemplo 15.4\nUma pesquisa do instituto YouGov encomendada pela Google entre 27 de junho a 20 de julho de 2022 apontou que 44% dos brasileiros dizem ter contato com fake news diariamente1. Se uma nova pesquisa for realizada,\n\nqual a probabilidade de que a terceira pessoa entrevistada seja a segunda a afirmar que tem contato com fake news diariamente?\nqual a probabilidade de que a quarta pessoa a afirmar que tem contato com fake news diariamente seja a sétima ou oitava pessoa entrevistada?\nqual o número esperado de pessoas a serem entrevistadas até que a terceira afirme receber fake news diariamente? Qual a variância?\n\nhttps://www.techtudo.com.br/noticias/2022/08/44percent-dos-brasileiros-dizem-receber-fake-news-diariamente-veja-pesquisa.ghtml"
+    "section": "Exemplo 15.5",
+    "text": "Exemplo 15.5\nUma pesquisa do instituto YouGov encomendada pela Google entre 27 de junho a 20 de julho de 2022 apontou que 44% dos brasileiros dizem ter contato com fake news diariamente1. Se uma nova pesquisa for realizada,\n\nqual a probabilidade de que a terceira pessoa entrevistada seja a segunda a afirmar que tem contato com fake news diariamente?\nqual a probabilidade de que a quarta pessoa a afirmar que tem contato com fake news diariamente seja a sétima ou oitava pessoa entrevistada?\nqual o número esperado de pessoas a serem entrevistadas até que a terceira afirme receber fake news diariamente? Qual a variância?\n\nhttps://www.techtudo.com.br/noticias/2022/08/44percent-dos-brasileiros-dizem-receber-fake-news-diariamente-veja-pesquisa.ghtml"
   },
   {
     "objectID": "slides/14-Distribuicao_Hipergeometrica/14-Distribuicao_Hipergeometrica.html#distribuição-hipergeométrica",
@@ -1042,7 +1056,7 @@
     "href": "aulas/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html",
     "title": "Conteúdo 15",
     "section": "",
-    "text": "Nesta aula, exploramos as Distribuições Geométrica e Binomial Negativa, modelos fundamentais para descrever o tempo de espera ou o número de tentativas necessárias até a ocorrência de sucessos em ensaios de Bernoulli. Enquanto a Distribuição Geométrica foca na probabilidade de obter o primeiro sucesso, a Binomial Negativa generaliza este conceito para o \\(r\\)-ésimo sucesso. Discutimos as propriedades teóricas de esperança e variância, com destaque para a característica de ‘falta de memória’ da geométrica.\nSlides:\n\n\n Versão html \n\n\n Versão pdf \n\n\nA demonstração dos Teoremas 15.1 e 15.2 podem ser baixadas aqui.",
+    "text": "Nesta aula, exploramos as Distribuições Geométrica e Binomial Negativa, modelos fundamentais para descrever o tempo de espera ou o número de tentativas necessárias até a ocorrência de sucessos em ensaios de Bernoulli. Enquanto a Distribuição Geométrica foca na probabilidade de obter o primeiro sucesso, a Binomial Negativa generaliza este conceito para o \\(r\\)-ésimo sucesso. Discutimos as propriedades teóricas de esperança e variância, com destaque para a característica de ‘falta de memória’ da geométrica.\nSlides:\n\n\n Versão html \n\n\n Versão pdf \n\n\nA demonstração dos Teoremas 15.1 e 15.2 podem ser baixadas aqui.\nLista de Exercícios:\n\n\n Lista 15",
     "crumbs": [
       "Aulas",
       "Parte 3: Distribuições de Probabilidade",
@@ -1054,7 +1068,7 @@
     "href": "aulas/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-geométrica-e-distribuição-binomial-negativa",
     "title": "Conteúdo 15",
     "section": "",
-    "text": "Nesta aula, exploramos as Distribuições Geométrica e Binomial Negativa, modelos fundamentais para descrever o tempo de espera ou o número de tentativas necessárias até a ocorrência de sucessos em ensaios de Bernoulli. Enquanto a Distribuição Geométrica foca na probabilidade de obter o primeiro sucesso, a Binomial Negativa generaliza este conceito para o \\(r\\)-ésimo sucesso. Discutimos as propriedades teóricas de esperança e variância, com destaque para a característica de ‘falta de memória’ da geométrica.\nSlides:\n\n\n Versão html \n\n\n Versão pdf \n\n\nA demonstração dos Teoremas 15.1 e 15.2 podem ser baixadas aqui.",
+    "text": "Nesta aula, exploramos as Distribuições Geométrica e Binomial Negativa, modelos fundamentais para descrever o tempo de espera ou o número de tentativas necessárias até a ocorrência de sucessos em ensaios de Bernoulli. Enquanto a Distribuição Geométrica foca na probabilidade de obter o primeiro sucesso, a Binomial Negativa generaliza este conceito para o \\(r\\)-ésimo sucesso. Discutimos as propriedades teóricas de esperança e variância, com destaque para a característica de ‘falta de memória’ da geométrica.\nSlides:\n\n\n Versão html \n\n\n Versão pdf \n\n\nA demonstração dos Teoremas 15.1 e 15.2 podem ser baixadas aqui.\nLista de Exercícios:\n\n\n Lista 15",
     "crumbs": [
       "Aulas",
       "Parte 3: Distribuições de Probabilidade",
