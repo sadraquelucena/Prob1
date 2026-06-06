@@ -245,7 +245,7 @@ P(X=x) = p^x (1-p)^{1-x}, \quad x = 0,1
 </section>
 <section id="exemplo-13.1" class="slide level2">
 <h2>Exemplo 13.1</h2>
-<p>Um dado de seis faces é lançado. Seja <span class="math inline">\(X\)</span>: a face voltada para cima é igual a 2. Indique a distribuição <span class="math inline">\(X\)</span> e explicite sua função de probabilidade.</p>
+<p>Um dado de seis faces é lançado. Seja <span class="math inline">\(X\)</span>: “a face voltada para cima é igual a 2”. Indique a distribuição <span class="math inline">\(X\)</span> e explicite sua função de probabilidade.</p>
 </section>
 <section id="teorema-13.1" class="slide level2">
 <h2>Teorema 13.1</h2>
@@ -259,14 +259,21 @@ Var(X) = p(1-p).
 </section>
 <section id="exemplo-13.2" class="slide level2">
 <h2>Exemplo 13.2</h2>
-<p>Um dado de seis faces é lançado. Seja <span class="math inline">\(X\)</span>: a face voltada para cima é igual a 2. Qual o valor esperado de <span class="math inline">\(X\)</span> e sua variância?</p>
+<p>Um dado de seis faces é lançado. Seja <span class="math inline">\(X\)</span>: “a face voltada para cima é igual a 2”. Qual o valor esperado de <span class="math inline">\(X\)</span> e sua variância?</p>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+<p>Agora vejamos este exemplo…</p>
+<p><br><br></p>
+<h3 id="exemplo-13.3">Exemplo 13.3</h3>
+<p>Um dado honesto é lançado três vezes. Considere como sucesso a ocorrência da face 2. Seja <span class="math inline">\(X\)</span> o número de vezes que a face 2 aparece nos três lançamentos. Qual a probabilidade de ocorrer exatamente dois sucessos?</p>
 </section>
 <section id="definição-13.2-distribuição-binomial" class="slide level2">
 <h2>Definição 13.2: Distribuição Binomial</h2>
 <ul>
 <li>Considere que <span class="math inline">\(p\)</span> é a probabilidade de sucesso em um experimento e <span class="math inline">\(1 - p\)</span> é a probabilidade de fracasso.</li>
-<li>Suponha que vamos repetir o experimento <span class="math inline">\(n\)</span> vezes em que cada repetição é independente da outra.</li>
-<li>Se <span class="math inline">\(X\)</span> é o número de sucesso nas <span class="math inline">\(n\)</span> repetições do experimento, dizemos que <span class="math inline">\(X\)</span> tem distribuição binomial e calculamos a probabilidade usando <span class="math display">\[
+<li>Suponha que vamos repetir o experimento <span class="math inline">\(n\)</span> vezes em que cada repetição é <strong>independente</strong> da outra.</li>
+<li>Se <span class="math inline">\(X\)</span> é o número de sucessos nas <span class="math inline">\(n\)</span> repetições do experimento, dizemos que <span class="math inline">\(X\)</span> tem distribuição binomial e calculamos a probabilidade usando <span class="math display">\[
 P(X=x) = \binom{n}{x} p^x (1-p)^{n-x}, \quad x = 0, 1, \ldots, n.
 \]</span></li>
 <li><strong>Notação:</strong> <span class="math inline">\(X\sim \text{Binomial}(n,p)\)</span>.</li>
@@ -306,25 +313,36 @@ Var(X) = np(1-p).
 \]</span></li>
 </ul>
 </section>
-<section id="exemplo-13.3" class="slide level2">
-<h2>Exemplo 13.3</h2>
-<p>A probabilidade de que um(a) eleitor(a) vote em uma candidata é 3/4.</p>
+<section id="exemplo-13.4" class="slide level2">
+<h2>Exemplo 13.4</h2>
+<p>Seja <span class="math inline">\(X \sim\)</span> Binomial(<span class="math inline">\(n=8; p=0,5\)</span>). Detmerine:</p>
 <ol type="a">
-<li>Se 10 pessoas são entrevistadas em uma pesquisa eleitoral, determine a probabilidade de que exatamente duas votem na candidata.</li>
+<li><span class="math inline">\(P(X=3)\)</span></li>
+<li><span class="math inline">\(P(X&gt;5)\)</span></li>
+<li><span class="math inline">\(P(2\leq X\leq 4)\)</span></li>
+<li><span class="math inline">\(E(X)\)</span></li>
+<li><span class="math inline">\(Var(X)\)</span></li>
+</ol>
+</section>
+<section id="exemplo-13.5" class="slide level2">
+<h2>Exemplo 13.5</h2>
+<p>A probabilidade de que um(a) eleitor(a) vote em uma candidata é 3/4. Dez pessoas são entrevistadas em uma pesquisa eleitoral.</p>
+<ol type="a">
+<li>Qual a probabilidade de que exatamente duas votem na candidata?</li>
 <li>Qual a probabilidade de que pelo menos 1 pessoa votem na candidata?</li>
 <li>Qual o número esperado de eleitores da candidata entre essas 10 pessoas?</li>
 <li>Qual a variância?</li>
 </ol>
 </section>
-<section id="exemplo-13.4" class="slide level2">
-<h2>Exemplo 13.4</h2>
-<p>Uma carteira possui 20 automóveis segurados. A probabilidade de ocorrer um sinistro em um automóvel dessa carteira e acionar o seguro é de 10%.</p>
+<section id="exemplo-13.6" class="slide level2">
+<h2>Exemplo 13.6</h2>
+<p>Uma carteira possui 20 automóveis segurados. A probabilidade de ocorrer um sinistro em um automóvel dessa carteira e o seguro ser acionado é de 10%.</p>
 <ol type="a">
 <li>Qual o número esperado de carros que acionarão o seguro?</li>
 <li>Qual a variância?</li>
 <li>Qual a probabilidade de que 5 carros precisarem acionar o seguro por causa de um sinistro?</li>
-<li>a probabilidade de que de 2 a 4 carros acionem o seguro?</li>
-<li>Qual a probabilidade de que pelo menos 1 carro acione o seguro?</li>
+<li>Qual a probabilidade de que de 2 a 3 carros acionem o seguro?</li>
+<li>Qual a probabilidade de que ate 19 carros acionem o seguro?</li>
 </ol>
 </section>
 <section id="distribuição-binomial-no-r" class="slide level2">

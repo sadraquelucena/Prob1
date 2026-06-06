@@ -93,7 +93,7 @@
     "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#exemplo-13.1",
     "title": "Distribuições de Bernoulli e Binomial",
     "section": "Exemplo 13.1",
-    "text": "Exemplo 13.1\nUm dado de seis faces é lançado. Seja \\(X\\): a face voltada para cima é igual a 2. Indique a distribuição \\(X\\) e explicite sua função de probabilidade."
+    "text": "Exemplo 13.1\nUm dado de seis faces é lançado. Seja \\(X\\): “a face voltada para cima é igual a 2”. Indique a distribuição \\(X\\) e explicite sua função de probabilidade."
   },
   {
     "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#teorema-13.1",
@@ -107,14 +107,21 @@
     "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#exemplo-13.2",
     "title": "Distribuições de Bernoulli e Binomial",
     "section": "Exemplo 13.2",
-    "text": "Exemplo 13.2\nUm dado de seis faces é lançado. Seja \\(X\\): a face voltada para cima é igual a 2. Qual o valor esperado de \\(X\\) e sua variância?"
+    "text": "Exemplo 13.2\nUm dado de seis faces é lançado. Seja \\(X\\): “a face voltada para cima é igual a 2”. Qual o valor esperado de \\(X\\) e sua variância?"
+  },
+  {
+    "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#section",
+    "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#section",
+    "title": "Distribuições de Bernoulli e Binomial",
+    "section": "",
+    "text": "Agora vejamos este exemplo…\n\nExemplo 13.3\nUm dado honesto é lançado três vezes. Considere como sucesso a ocorrência da face 2. Seja \\(X\\) o número de vezes que a face 2 aparece nos três lançamentos. Qual a probabilidade de ocorrer exatamente dois sucessos?"
   },
   {
     "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#definição-13.2-distribuição-binomial",
     "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#definição-13.2-distribuição-binomial",
     "title": "Distribuições de Bernoulli e Binomial",
     "section": "Definição 13.2: Distribuição Binomial",
-    "text": "Definição 13.2: Distribuição Binomial\n\nConsidere que \\(p\\) é a probabilidade de sucesso em um experimento e \\(1 - p\\) é a probabilidade de fracasso.\nSuponha que vamos repetir o experimento \\(n\\) vezes em que cada repetição é independente da outra.\nSe \\(X\\) é o número de sucesso nas \\(n\\) repetições do experimento, dizemos que \\(X\\) tem distribuição binomial e calculamos a probabilidade usando \\[\nP(X=x) = \\binom{n}{x} p^x (1-p)^{n-x}, \\quad x = 0, 1, \\ldots, n.\n\\]\nNotação: \\(X\\sim \\text{Binomial}(n,p)\\)."
+    "text": "Definição 13.2: Distribuição Binomial\n\nConsidere que \\(p\\) é a probabilidade de sucesso em um experimento e \\(1 - p\\) é a probabilidade de fracasso.\nSuponha que vamos repetir o experimento \\(n\\) vezes em que cada repetição é independente da outra.\nSe \\(X\\) é o número de sucessos nas \\(n\\) repetições do experimento, dizemos que \\(X\\) tem distribuição binomial e calculamos a probabilidade usando \\[\nP(X=x) = \\binom{n}{x} p^x (1-p)^{n-x}, \\quad x = 0, 1, \\ldots, n.\n\\]\nNotação: \\(X\\sim \\text{Binomial}(n,p)\\)."
   },
   {
     "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#distribuição-binomial",
@@ -138,18 +145,25 @@
     "text": "Teorema 13.2\n\nSe \\(X\\sim \\text{Binomial}(n,p)\\), o valor esperado e a variância são dados da seguinte forma: \\[\nE(X) = np\n\\] e \\[\nVar(X) = np(1-p).\n\\]"
   },
   {
-    "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#exemplo-13.3",
-    "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#exemplo-13.3",
-    "title": "Distribuições de Bernoulli e Binomial",
-    "section": "Exemplo 13.3",
-    "text": "Exemplo 13.3\nA probabilidade de que um(a) eleitor(a) vote em uma candidata é 3/4.\n\nSe 10 pessoas são entrevistadas em uma pesquisa eleitoral, determine a probabilidade de que exatamente duas votem na candidata.\nQual a probabilidade de que pelo menos 1 pessoa votem na candidata?\nQual o número esperado de eleitores da candidata entre essas 10 pessoas?\nQual a variância?"
-  },
-  {
     "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#exemplo-13.4",
     "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#exemplo-13.4",
     "title": "Distribuições de Bernoulli e Binomial",
     "section": "Exemplo 13.4",
-    "text": "Exemplo 13.4\nUma carteira possui 20 automóveis segurados. A probabilidade de ocorrer um sinistro em um automóvel dessa carteira e acionar o seguro é de 10%.\n\nQual o número esperado de carros que acionarão o seguro?\nQual a variância?\nQual a probabilidade de que 5 carros precisarem acionar o seguro por causa de um sinistro?\na probabilidade de que de 2 a 4 carros acionem o seguro?\nQual a probabilidade de que pelo menos 1 carro acione o seguro?"
+    "text": "Exemplo 13.4\nSeja \\(X \\sim\\) Binomial(\\(n=8; p=0,5\\)). Detmerine:\n\n\\(P(X=3)\\)\n\\(P(X&gt;5)\\)\n\\(P(2\\leq X\\leq 4)\\)\n\\(E(X)\\)\n\\(Var(X)\\)"
+  },
+  {
+    "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#exemplo-13.5",
+    "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#exemplo-13.5",
+    "title": "Distribuições de Bernoulli e Binomial",
+    "section": "Exemplo 13.5",
+    "text": "Exemplo 13.5\nA probabilidade de que um(a) eleitor(a) vote em uma candidata é 3/4. Dez pessoas são entrevistadas em uma pesquisa eleitoral.\n\nQual a probabilidade de que exatamente duas votem na candidata?\nQual a probabilidade de que pelo menos 1 pessoa votem na candidata?\nQual o número esperado de eleitores da candidata entre essas 10 pessoas?\nQual a variância?"
+  },
+  {
+    "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#exemplo-13.6",
+    "href": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#exemplo-13.6",
+    "title": "Distribuições de Bernoulli e Binomial",
+    "section": "Exemplo 13.6",
+    "text": "Exemplo 13.6\nUma carteira possui 20 automóveis segurados. A probabilidade de ocorrer um sinistro em um automóvel dessa carteira e o seguro ser acionado é de 10%.\n\nQual o número esperado de carros que acionarão o seguro?\nQual a variância?\nQual a probabilidade de que 5 carros precisarem acionar o seguro por causa de um sinistro?\nQual a probabilidade de que de 2 a 3 carros acionem o seguro?\nQual a probabilidade de que ate 19 carros acionem o seguro?"
   },
   {
     "objectID": "slides/13-Distribuições_de_Bernoulli_e_Binomial/13-Distribuições_de_Bernoulli_e_Binomial.html#distribuição-binomial-no-r",
@@ -1244,7 +1258,7 @@
     "href": "aulas/13-Distribuições_de_Bernoulli_e_Binomial.html",
     "title": "Conteúdo 13",
     "section": "",
-    "text": "Nesta aula, exploramos as Distribuições de Bernoulli e Binomial, os modelos fundamentais para experimentos com resultados binários (sucesso ou fracasso). Partindo do ensaio de Bernoulli, evoluímos para a Distribuição Binomial, que permite calcular a probabilidade de um número específico de sucessos em múltiplas tentativas independentes.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "text": "Nesta aula, exploramos as Distribuições de Bernoulli e Binomial, os modelos fundamentais para experimentos com resultados binários (sucesso ou fracasso). Partindo do ensaio de Bernoulli, evoluímos para a Distribuição Binomial, que permite calcular a probabilidade de um número específico de sucessos em múltiplas tentativas independentes.\nSlides:\n\n\n Versão html \n\n\n Versão pdf \n\n\nA demonstração dos Teoremas 13.1 e 13.2 podem ser baixadas aqui.\nLista de Exercícios:\n\n\n Lista 13",
     "crumbs": [
       "Aulas",
       "Parte 3: Distribuições de Probabilidade",
@@ -1256,7 +1270,7 @@
     "href": "aulas/13-Distribuições_de_Bernoulli_e_Binomial.html#distribuições-de-bernoulli-e-binomial",
     "title": "Conteúdo 13",
     "section": "",
-    "text": "Nesta aula, exploramos as Distribuições de Bernoulli e Binomial, os modelos fundamentais para experimentos com resultados binários (sucesso ou fracasso). Partindo do ensaio de Bernoulli, evoluímos para a Distribuição Binomial, que permite calcular a probabilidade de um número específico de sucessos em múltiplas tentativas independentes.\nSlides:\n\n\n Versão html \n\n\n Versão pdf",
+    "text": "Nesta aula, exploramos as Distribuições de Bernoulli e Binomial, os modelos fundamentais para experimentos com resultados binários (sucesso ou fracasso). Partindo do ensaio de Bernoulli, evoluímos para a Distribuição Binomial, que permite calcular a probabilidade de um número específico de sucessos em múltiplas tentativas independentes.\nSlides:\n\n\n Versão html \n\n\n Versão pdf \n\n\nA demonstração dos Teoremas 13.1 e 13.2 podem ser baixadas aqui.\nLista de Exercícios:\n\n\n Lista 13",
     "crumbs": [
       "Aulas",
       "Parte 3: Distribuições de Probabilidade",

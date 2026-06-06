@@ -58,7 +58,7 @@ $$
  	
 ## Exemplo 13.1
 
-Um dado de seis faces é lançado. Seja $X$: a face voltada para cima é igual a 2. Indique a distribuição $X$ e explicite sua função de probabilidade.
+Um dado de seis faces é lançado. Seja $X$: "a face voltada para cima é igual a 2". Indique a distribuição $X$ e explicite sua função de probabilidade.
 
 ---
 
@@ -77,15 +77,27 @@ $$
  	
 ## Exemplo 13.2
 
-Um dado de seis faces é lançado. Seja $X$: a face voltada para cima é igual a 2. Qual o valor esperado de $X$ e sua variância?
+Um dado de seis faces é lançado. Seja $X$: "a face voltada para cima é igual a 2". Qual o valor esperado de $X$ e sua variância?
 
 ---
+
+##
+
+Agora vejamos este exemplo...
+
+<br><br>
+
+### Exemplo 13.3
+
+Um dado honesto é lançado três vezes. Considere como sucesso a ocorrência da face 2. Seja $X$ o número de vezes que a face 2 aparece nos três lançamentos. Qual a probabilidade de ocorrer exatamente dois sucessos?
+
+
 
 ## Definição 13.2: Distribuição Binomial
 
 - Considere que $p$ é a probabilidade de sucesso em um experimento e $1 - p$ é a probabilidade de fracasso.
-- Suponha que vamos repetir o experimento $n$ vezes em que cada repetição é independente da outra.
-- Se $X$ é o número de sucesso nas $n$ repetições do experimento, dizemos que $X$ tem distribuição binomial e calculamos a probabilidade usando
+- Suponha que vamos repetir o experimento $n$ vezes em que cada repetição é **independente** da outra.
+- Se $X$ é o número de sucessos nas $n$ repetições do experimento, dizemos que $X$ tem distribuição binomial e calculamos a probabilidade usando
 $$
   P(X=x) = \binom{n}{x} p^x (1-p)^{n-x}, \quad x = 0, 1, \ldots, n.
 $$
@@ -133,25 +145,35 @@ $$
 
 ---
 
-## Exemplo 13.3
-A probabilidade de que um(a) eleitor(a) vote em uma candidata é 3/4.
+## Exemplo 13.4
+Seja $X \sim$ Binomial($n=8; p=0,5$). Detmerine:
 
-(a) Se 10 pessoas são entrevistadas em uma pesquisa eleitoral, determine a probabilidade de que exatamente duas votem na candidata.
+(a) $P(X=3)$
+(b) $P(X>5)$
+(c) $P(2\leq X\leq 4)$
+(d) $E(X)$
+(e) $Var(X)$
+
+
+## Exemplo 13.5
+A probabilidade de que um(a) eleitor(a) vote em uma candidata é 3/4. Dez pessoas são entrevistadas em uma pesquisa eleitoral.
+
+(a) Qual a probabilidade de que exatamente duas votem na candidata?
 (b) Qual a probabilidade de que pelo menos 1 pessoa votem na candidata?
 (c) Qual o número esperado de eleitores da candidata entre essas 10 pessoas?
 (d) Qual a variância?
 
 ---
 
-## Exemplo 13.4
+## Exemplo 13.6
 
-Uma carteira possui 20 automóveis segurados. A probabilidade de ocorrer um sinistro em um automóvel dessa carteira e acionar o seguro é de 10\%.
+Uma carteira possui 20 automóveis segurados. A probabilidade de ocorrer um sinistro em um automóvel dessa carteira e o seguro ser acionado é de 10\%.
 
 (a) Qual o número esperado de carros que acionarão o seguro?
 (b) Qual a variância?
 (c) Qual a probabilidade de que 5 carros precisarem acionar o seguro por causa de um sinistro?
-(d) a probabilidade de que de 2 a 4 carros acionem o seguro?
-(e) Qual a probabilidade de que pelo menos 1 carro acione o seguro?
+(d) Qual a probabilidade de que de 2 a 3 carros acionem o seguro?
+(e) Qual a probabilidade de que ate 19 carros acionem o seguro?
 
 ---
 

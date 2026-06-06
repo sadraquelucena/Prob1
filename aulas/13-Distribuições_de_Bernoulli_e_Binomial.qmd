@@ -28,6 +28,19 @@ Slides:
 
 ::::
 
+A demonstração dos Teoremas 13.1 e 13.2 podem ser baixadas [aqui](/PDFs/demonstracoes/demonstracao_teorema13.1_e_13.2.pdf){target="_blank"}.
+
+Lista de Exercícios:
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/PDFs/listas/Prob1_Lista13.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/listas/lista13.png){width=80%}<br>Lista 13
+</a>
+:::
+
+::::
 
 
 
