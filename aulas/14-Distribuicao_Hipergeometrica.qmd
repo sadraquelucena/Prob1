@@ -30,6 +30,18 @@ Slides:
 
 A demonstração do Teorema 14.1 pode ser baixada [aqui](/PDFs/demonstracoes/demonstracao_teorema14.1.pdf){target="_blank"}.
 
+Lista de Exercícios:
+
+:::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<a href="/PDFs/listas/Prob1_Lista14.pdf" target="_blank" style="text-decoration: none; color: inherit;">
+![](/PDFs/listas/lista14.png){width=80%}<br>Lista 14
+</a>
+:::
+
+::::
+
 
 
 
