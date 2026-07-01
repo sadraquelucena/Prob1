@@ -569,7 +569,7 @@
     "href": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-binomial-negativa-no-r",
     "title": "Distribuição Geométrica e Distribuição Binomial Negativa",
     "section": "Distribuição Binomial Negativa no R ",
-    "text": "Distribuição Binomial Negativa no R \nPara calcular no R:\n\n\\(P(X=x)\\) use o comando dnbinom(x-1, r, p).\n\\(P(X\\leq x)\\) use o comando pnbinom(x-1, r, p).\n\nExemplo: \\(X\\sim\\text{Binomial Negativa}(4;0,\\!7)\\).\n\ndnbinom(8-1, 4, 0.7) # P(X=8)\n\n[1] 0.006301184\n\npnbinom(8-1, 4, 0.7) # P(X≤8)\n\n[1] 0.9957091"
+    "text": "Distribuição Binomial Negativa no R \nPara calcular no R:\n\n\\(P(X=x)\\) use o comando dnbinom(x-r, r, p).\n\\(P(X\\leq x)\\) use o comando pnbinom(x-r, r, p).\n\nExemplo: \\(X\\sim\\text{Binomial Negativa}(4;0,\\!7)\\).\n\ndnbinom(8-4, 4, 0.7) # P(X=8)\n\n[1] 0.06806835\n\npnbinom(8-4, 4, 0.7) # P(X≤8)\n\n[1] 0.9420323"
   },
   {
     "objectID": "slides/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa/15-Distribuicao_Geometrica_e_Distribuicao_Binomial_Negativa.html#distribuição-binomial-negativa-no-r-1",

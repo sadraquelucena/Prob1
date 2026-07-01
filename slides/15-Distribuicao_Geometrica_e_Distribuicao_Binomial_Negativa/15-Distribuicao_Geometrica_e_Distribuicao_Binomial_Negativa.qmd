@@ -207,8 +207,8 @@ $X\sim \text{Binomial Negativa}(4; 0,7)$. Determine
 
 Para calcular no R:
 
-- $P(X=x)$ use o comando `dnbinom(x-1, r, p)`.
-- $P(X\leq x)$ use o comando `pnbinom(x-1, r, p)`.
+- $P(X=x)$ use o comando `dnbinom(x-r, r, p)`.
+- $P(X\leq x)$ use o comando `pnbinom(x-r, r, p)`.
 
 Exemplo: $X\sim\text{Binomial Negativa}(4;0,\!7)$.
 
@@ -216,8 +216,8 @@ Exemplo: $X\sim\text{Binomial Negativa}(4;0,\!7)$.
 #| echo: true
 #| eval: true
 
-dnbinom(8-1, 4, 0.7) # P(X=8)
-pnbinom(8-1, 4, 0.7) # P(X≤8)
+dnbinom(8-4, 4, 0.7) # P(X=8)
+pnbinom(8-4, 4, 0.7) # P(X≤8)
 ```
 
 ---

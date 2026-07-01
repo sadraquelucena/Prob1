@@ -360,18 +360,18 @@ P(X=x) = (1-p)^{x-1}p, \quad x = 1, 2, \ldots
 <h2>Distribuição Binomial Negativa no R <img src="imagens/rcompiler.png" style="width: 100px; vertical-align: middle; margin-left: 10px; margin-top: 11px;"></h2>
 <p>Para calcular no R:</p>
 <ul>
-<li><span class="math inline">\(P(X=x)\)</span> use o comando <code>dnbinom(x-1, r, p)</code>.</li>
-<li><span class="math inline">\(P(X\leq x)\)</span> use o comando <code>pnbinom(x-1, r, p)</code>.</li>
+<li><span class="math inline">\(P(X=x)\)</span> use o comando <code>dnbinom(x-r, r, p)</code>.</li>
+<li><span class="math inline">\(P(X\leq x)\)</span> use o comando <code>pnbinom(x-r, r, p)</code>.</li>
 </ul>
 <p>Exemplo: <span class="math inline">\(X\sim\text{Binomial Negativa}(4;0,\!7)\)</span>.</p>
 <div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">dnbinom</span>(<span class="dv">8-1</span>, <span class="dv">4</span>, <span class="fl">0.7</span>) <span class="co"># P(X=8)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">dnbinom</span>(<span class="dv">8-4</span>, <span class="dv">4</span>, <span class="fl">0.7</span>) <span class="co"># P(X=8)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 0.006301184</code></pre>
+<pre><code>[1] 0.06806835</code></pre>
 </div>
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">pnbinom</span>(<span class="dv">8-1</span>, <span class="dv">4</span>, <span class="fl">0.7</span>) <span class="co"># P(X≤8)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a aria-hidden="true" tabindex="-1"></a><span class="fu">pnbinom</span>(<span class="dv">8-4</span>, <span class="dv">4</span>, <span class="fl">0.7</span>) <span class="co"># P(X≤8)</span></span></code></pre></div><button title="Copiar para a área de transferência" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
-<pre><code>[1] 0.9957091</code></pre>
+<pre><code>[1] 0.9420323</code></pre>
 </div>
 </div>
 </section>
